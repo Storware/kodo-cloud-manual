@@ -12,8 +12,6 @@ KODO does not store your O365 administrative id or password
 
 Follow instruction to register KODO4Cloud application and add O365 organization to KODO:
 
-
-
 1. Go to the Office 365 welcome page and sign in to your Microsoft account by using your Office 365 administrative user ID and password.
 2. To open the Azure Active Directory admin center, in the left pane, click the ellipsis to expand the Show all menu, and then click Admin centers &gt; Azure Active Directory.
 3. To open your tenant dashboard, in the left pane of the Azure Active Directory admin center, click **Azure Active Directory**.
