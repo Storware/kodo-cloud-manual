@@ -2,9 +2,8 @@
 
 Data policy allows you to configure:
 
-* Access to data by administrator
+* Access to the data by administrator
 * Backup retention 
-* Quota
 * Includes and Excludes for OneDrive feature backup
 
 To configure data policy follow these steps:
@@ -21,7 +20,7 @@ Data Policy configuration will apply to all users and tasks
 
 Select this option to allow system administrators to download user data directly to computer.
 
-If this option is not select only restore to cloud \(Microsoft Office365\) is possible.
+If this option is not select only restore to cloud \(Microsoft Office365\) is possible. 
 
 ![](../.gitbook/assets/image%20%2824%29.png)
 
@@ -37,11 +36,7 @@ You can use retention based on time or versions, or both
 
 Specify the number of days to keep backup versions.
 
-![](../.gitbook/assets/image%20%2816%29.png)
-
-{% hint style="info" %}
-You can also select other, than days, unit of time measure
-{% endhint %}
+![](../.gitbook/assets/image%20%2827%29.png)
 
 ### Version based retention
 
@@ -57,43 +52,23 @@ Versioning is used e.g. for OneDrive files \(if file is changed in time\), but a
 The number versions that the server keeps is also affected by the time retention setting. Versions expire when the number of days that they are inactive exceeds the value that is specified for retaining, even when the number of versions is not exceeded.
 {% endhint %}
 
-## Quota
-
-In this section you can configure backup data quota per user. If the quota will be excessed backup task will fail.
-
-Select a data unit and provide desired value.
-
-![](../.gitbook/assets/image%20%2813%29.png)
-
 ## Include and Exclude
-
-### Exclude path
-
-Provide \(comma separated\) paths that should be Excluded from OneDrive backup
-
-![](../.gitbook/assets/image%20%2823%29.png)
-
-### Include path
-
-Provide \(comma separated\) paths that should be Included in process of OneDrive backup
-
-![](../.gitbook/assets/image%20%2812%29.png)
-
-### Exclude extension
-
-Provide \(comma separated\) files extension that should be Excluded from OneDrive backup
-
-![](../.gitbook/assets/image%20%2818%29.png)
-
-### Max file size
-
-Here you can provide maximum file size for backup process. If file excessed provided value, it will be omitted during backup process
-
-![](../.gitbook/assets/image%20%282%29.png)
 
 ### Include extension
 
 Provide \(comma separated\) files extension that should be Included in process of OneDrive backup.
 
-![](../.gitbook/assets/image%20%2815%29.png)
+### Exclude path
+
+Provide \(comma separated\) paths that should be Excluded from OneDrive backup 
+
+### Include path
+
+Provide \(comma separated\) paths that should be Included in process of OneDrive backup 
+
+### Exclude extension
+
+Provide \(comma separated\) files extension that should be Excluded from OneDrive backup 
+
+### 
 
