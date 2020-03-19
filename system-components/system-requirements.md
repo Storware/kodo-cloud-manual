@@ -35,7 +35,6 @@
         </ul>
       </td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>RHEL 7.x</li>
           <li>CentOS 7.x</li>
@@ -53,7 +52,6 @@
         </ul>
       </td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>RHEL 7.x</li>
           <li>CentOS 7.x</li>
@@ -63,4 +61,3 @@
     </tr>
   </tbody>
 </table>
-

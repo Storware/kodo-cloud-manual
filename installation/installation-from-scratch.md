@@ -61,7 +61,7 @@ After that you can use yum to install MariaDB:
 
 ### IBM Spectrum Protect Backup-Archive Client
 
-At least version 7.1.6 is required. 
+At least version 7.1.6 is required.
 
 Latest 7.1.8 version of IBM SP BA Client can be found on IBM FTP server:
 
@@ -109,11 +109,11 @@ You can install libunwind from yum repo:
 
 ## Pre-installation configuration
 
-### Creating user ID and instance directories 
+### Creating user ID and instance directories
 
 Create the user ID for the KODO server instance and create the directories that the KODO instance needs for installation.
 
-1.  Create the user ID that will own the server instance `useradd -m kodo`
+1. Create the user ID that will own the server instance `useradd -m kodo`
 2. Configure password for new user `passwd kodo`
 3. Create directory for KODO server installation `mkdir /opt/storware /opt/storware/kodo-server /opt/StorwareData`
 4. Change owner of the directories for newly created user `chown -R kodo:kodo /opt/storware /opt/StorwareData`
@@ -158,7 +158,7 @@ transaction_isolation = READ-COMMITTED
 #### Enable database service at boot
 
 Start the service and enable service at boot:  
-`systemctl enable mariadb  
+`systemctl enable mariadb    
 systemctl start mariadb`
 
 #### Initializing and preparing database for KODO
@@ -177,7 +177,7 @@ This program is a shell script available on Unix systems, and enables you to imp
 Default root user is using blank password
 {% endhint %}
 
-#### Create user and database 
+#### Create user and database
 
 Log in to database instance as a root user:  
 `mysql -u root -p`
@@ -332,7 +332,7 @@ Default KODO server will be started from 'kodo' user. To change this modify syst
 
 ## Installing web-admin-ui component
 
-Web admin UI files should be path according to nginx configuration. 
+Web admin UI files should be path according to nginx configuration.
 
 Default path:
 

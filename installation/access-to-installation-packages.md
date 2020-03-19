@@ -4,13 +4,11 @@
 
 Currently we support following installation types:
 
-![scratch packages, rpm, docker](../.gitbook/assets/image%20%289%29.png)
+![scratch packages, rpm, docker](../.gitbook/assets/image%20%2810%29.png)
 
 | Installation type | Notes |
 | :--- | :--- |
-| installation from scratch | Install and configure everything from scratch 🛠  |
-| RPM packages | Use pre-configured RPM packages 🔧  |
-| Docker | Just run it 🤩  |
-
-
+| installation from scratch | Install and configure everything from scratch 🛠 |
+| RPM packages | Use pre-configured RPM packages 🔧 |
+| Docker | Just run it 🤩 |
 

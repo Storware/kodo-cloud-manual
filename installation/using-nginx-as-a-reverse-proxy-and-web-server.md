@@ -10,7 +10,7 @@ It's address is the one advertised for the KODO system, and it sits at the edge 
 
 ## Nginx as a web server
 
-We are also using Nginx to serve web admin UI. Web UI is delivered as a html files. 
+We are also using Nginx to serve web admin UI. Web UI is delivered as a html files.
 
 ## Installation
 
@@ -28,7 +28,7 @@ yum -y install nginx
 
 ## Configuration
 
-To configure Nginx as a reverse proxy to an HTTP server you need to specify a location and an address of  proxied server inside.
+To configure Nginx as a reverse proxy to an HTTP server you need to specify a location and an address of proxied server inside.
 
 ### location /
 
@@ -43,7 +43,7 @@ location / {
 ```
 
 {% hint style="info" %}
-You can install web admin UI on other host 
+You can install web admin UI on other host
 {% endhint %}
 
 ### location /api
@@ -53,15 +53,15 @@ Location /api needs to point to api-core service:
 ```text
 location /api {
     proxy_set_header  X-Real-IP $remote_addr;
-	proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
     proxy_set_header  Host $http_host;
     proxy_set_header X-Forwarded-Proto https;
     proxy_redirect off;
     proxy_connect_timeout      300;
     proxy_send_timeout         300;
     proxy_read_timeout         300;
-	proxy_buffering off;
-	proxy_request_buffering off;
+    proxy_buffering off;
+    proxy_request_buffering off;
     proxy_pass https://localhost:8181;
 }
 ```

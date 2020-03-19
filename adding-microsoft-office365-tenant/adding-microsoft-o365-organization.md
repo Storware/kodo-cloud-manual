@@ -2,7 +2,7 @@
 
 Before starting to work with data, KODO first need to get access to your Microsoft Office365 Organization.
 
-Access to data is performed via application installed in you organization. 
+Access to data is performed via application installed in you organization.
 
 {% hint style="info" %}
 KODO does not store your O365 administrative id or password
@@ -18,13 +18,11 @@ Download PowerShell script:
 
 Log in to Windows system and as an administrator run downloaded PowerShell script.
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 Script will ask you for your TenantID which can by ID or domain name, e.g.: kodo4cloud.onmicrosoft.com. After providing TenantID Azure Active Directory window will be displayed, please provide your administrative login and password \(AzureAD\) to register KODO4Cloud application.
 
-![](../.gitbook/assets/image%20%2825%29.png)
-
-
+![](../.gitbook/assets/image%20%2826%29.png)
 
 Script will register KODO4Cloud application and display necessary information that you will need to provide in your KODO organization configuration:
 

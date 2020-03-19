@@ -49,7 +49,7 @@ _-h \| --hostname_ Specify database host address. Default: localhost
 #### Example: <a id="example"></a>
 
 ```text
-[root@localhost ~]# /opt/storware/kodo-server/api-core/bin/kodo-init.sh Database root user passwod is not set!Please provide new password for database root user: Repeat password: Updating root password...Disabling remote root login...Removing anonymous users...Removing test database...Flushing privileges...User 'kodo' does not exist.Creating 'kodo' user...User password: 3izrxLkLSEzN6eC8spfgHMTtC4joowWXDatabase 'storware' does not exist.Creating 'storware' database...​DONE!Start KODO server with: systemctl start kodo-server-api-core[root@localhost ~]# 
+[root@localhost ~]# /opt/storware/kodo-server/api-core/bin/kodo-init.sh Database root user passwod is not set!Please provide new password for database root user: Repeat password: Updating root password...Disabling remote root login...Removing anonymous users...Removing test database...Flushing privileges...User 'kodo' does not exist.Creating 'kodo' user...User password: 3izrxLkLSEzN6eC8spfgHMTtC4joowWXDatabase 'storware' does not exist.Creating 'storware' database...​DONE!Start KODO server with: systemctl start kodo-server-api-core[root@localhost ~]#
 ```
 
 ### Starting and stoping api-core component <a id="starting-and-stoping-api-core-component"></a>
@@ -69,7 +69,7 @@ Now you can configure web-admin-ui component that will allows you to mange kodo 
 **To stop api-core component run:**
 
 ```text
-systemctl stop kodo-server-api-core 
+systemctl stop kodo-server-api-core
 ```
 
 ## Configuring web-admin-ui component <a id="configuring-web-admin-ui-component"></a>
@@ -91,7 +91,7 @@ Remember to specify listening port of api-core component
 #### Example: <a id="example-1"></a>
 
 ```text
-[root@localhost ~]# /opt/storware/kodo-server/web-admin-ui/bin/web-admin-ui-init.sh -s https://10.10.0.5:8181Trying connect to KODO server... [OK]Trying to obtain KODO api version...[OK] (3.16.0)Enabling web-admin-ui service...Created symlink from /etc/systemd/system/multi-user.target.wants/kodo-server-web-admin-ui.service to /etc/systemd/system/kodo-server-web-admin-ui.service.Starting web-admin-ui service...DONE![root@localhost ~]# 
+[root@localhost ~]# /opt/storware/kodo-server/web-admin-ui/bin/web-admin-ui-init.sh -s https://10.10.0.5:8181Trying connect to KODO server... [OK]Trying to obtain KODO api version...[OK] (3.16.0)Enabling web-admin-ui service...Created symlink from /etc/systemd/system/multi-user.target.wants/kodo-server-web-admin-ui.service to /etc/systemd/system/kodo-server-web-admin-ui.service.Starting web-admin-ui service...DONE![root@localhost ~]#
 ```
 
 Once started api-core component will listen on port 5000 for HTTPS connections.
@@ -103,13 +103,13 @@ The server url address \(IP or FQDN\) that you provide in configuration is used 
 **To start api-core component run:**
 
 ```text
-systemctl start kodo-server-web-admin-ui 
+systemctl start kodo-server-web-admin-ui
 ```
 
 **To stop web-admin-ui component run:**
 
 ```text
-systemctl stop kodo-server-web-admin-ui 
+systemctl stop kodo-server-web-admin-ui
 ```
 
 ## Configuring kodo-agent component <a id="configuring-kodo-agent-component"></a>
@@ -135,7 +135,7 @@ Remember to specify listening port of api-core component
 #### **Example:** <a id="example-2"></a>
 
 ```text
-[root@localhost ~]# /opt/storware/kodo-agent/bin/kodo-agent-install.sh -s https://10.10.0.5:8181Storware KODO Agent instance wizard v0.1Trying connect to KODO server... (ignoring SSL certificate) [OK]Trying to obtain KODO api version...[OK] (3.16.0)​Agent name not specified. Trying to draw a unique name for agent [DONE]​KODO SERVER URL: https://10.10.0.5:8181INSTANCES PATH: /opt/storware/kodo-agent/instancesAGENT NAME: VoyagerAGENT SERVICE NAME: kodo-agent-Voyager.service​Continue? [Y/N] y​​Creating instance directory...[OK]Copying config file... [OK]Copying service file... [OK]Created symlink from /etc/systemd/system/multi-user.target.wants/kodo-agent-Voyager.service to /etc/systemd/system/kodo-agent-Voyager.service.Starting agent Voyager...[root@localhost ~]# 
+[root@localhost ~]# /opt/storware/kodo-agent/bin/kodo-agent-install.sh -s https://10.10.0.5:8181Storware KODO Agent instance wizard v0.1Trying connect to KODO server... (ignoring SSL certificate) [OK]Trying to obtain KODO api version...[OK] (3.16.0)​Agent name not specified. Trying to draw a unique name for agent [DONE]​KODO SERVER URL: https://10.10.0.5:8181INSTANCES PATH: /opt/storware/kodo-agent/instancesAGENT NAME: VoyagerAGENT SERVICE NAME: kodo-agent-Voyager.service​Continue? [Y/N] y​​Creating instance directory...[OK]Copying config file... [OK]Copying service file... [OK]Created symlink from /etc/systemd/system/multi-user.target.wants/kodo-agent-Voyager.service to /etc/systemd/system/kodo-agent-Voyager.service.Starting agent Voyager...[root@localhost ~]#
 ```
 
 This will create and start new agent instance. After agent instance is up you need to activate it using administrative portal.
@@ -157,8 +157,6 @@ Now you can configure web-admin-ui component that will allows you to mange kodo 
 **To stop kodo-agent instance run:**
 
 ```text
-systemctl stop kodo-agent-{agent name} 
+systemctl stop kodo-agent-{agent name}
 ```
-
-## 
 
