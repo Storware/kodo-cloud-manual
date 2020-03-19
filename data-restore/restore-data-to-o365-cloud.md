@@ -15,19 +15,19 @@ Now you can confirm your action by simply clicking Restore button or provide som
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
-## Overwrite existing files
+### Overwrite existing files
 
 Select this option if you want to overwrite existing items with version from backup.
 
-## Path
+### Path
 
 In case of OneDrive backup you can restore files to path other than original
 
-## Restore delete files
+### Restore delete files
 
 Select this option of you want restore files that no longer exist at source
 
-## Destination account mail
+### Destination account mail
 
 This option allows you to restore data to the account other than an source one.
 
