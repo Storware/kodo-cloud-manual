@@ -12,5 +12,5 @@ Full backup is done automatically when user is protected for the first time. You
 
 When [performing manual backup](performing-manual-backup.md) select Advance options and select for which features you would like to perform full backup.
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
