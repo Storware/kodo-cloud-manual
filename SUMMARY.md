@@ -7,6 +7,7 @@
   * [Access to installation packages](installation/access-to-installation-packages.md)
   * [Deploying OVA](installation/deploying-ova/README.md)
     * [Configuring virtual appliance](installation/deploying-ova/configuring-virtual-appliance.md)
+  * [Default login and password](installation/default-login-and-password.md)
 * [Microsoft Office365 Organization Management](adding-microsoft-office365-tenant/README.md)
   * [Adding Microsoft O365 Organization](adding-microsoft-office365-tenant/adding-microsoft-o365-organization.md)
   * [Synchronizing users](adding-microsoft-office365-tenant/synchronizing-users.md)
