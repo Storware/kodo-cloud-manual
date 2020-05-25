@@ -9,7 +9,7 @@ After successful adding Microsoft O365 Organization you can synchronize users be
 Only users synchronized with KODO can be protected
 {% endhint %}
 
-![Synchronize button in User view](../.gitbook/assets/image%20%2821%29.png)
+![Synchronize button in User view](../.gitbook/assets/image%20%2820%29.png)
 
 Synchronization will create new Synchronization task that will be executed by agent. You can check task status in **Tasks** view.
 

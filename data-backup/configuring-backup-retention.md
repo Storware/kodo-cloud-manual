@@ -22,7 +22,7 @@ Select this option to allow system administrators to download user data directly
 
 If this option is not select only restore to cloud \(Microsoft Office365\) is possible. 
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 ## Backup retention
 
