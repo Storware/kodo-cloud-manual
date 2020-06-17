@@ -13,8 +13,8 @@
       <td style="text-align:left">KODO for Cloud</td>
       <td style="text-align:left">
         <ul>
-          <li>at least 4 processor cores</li>
-          <li>at least 24GB RAM</li>
+          <li>at least 4 vCPUs</li>
+          <li>at least 8 GB RAM</li>
           <li>at least 50GB for database</li>
           <li>at least 10GB for /opt</li>
         </ul>
