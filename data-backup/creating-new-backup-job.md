@@ -12,13 +12,13 @@ Follow instruction to create a new backup job:
 
 Specify job name, you can also add description.
 
-![Wizard step 1](../.gitbook/assets/image%20%2829%29.png)
+![Wizard step 1](../.gitbook/assets/image%20%2826%29.png)
 
 ## Features
 
 Select what we should protect.
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 ## Users
 

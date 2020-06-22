@@ -8,7 +8,7 @@ On system dashboard you will find a "User Protection" section where you can chec
 
 You can also check protection status for individual user. Simply go to **Users** view and check statuses in **Services** and **Protection status** columns
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 ### Services
 
@@ -21,7 +21,7 @@ Icons that you see in Services column of user view represent in order:
 
 If icons is greyed out backup for this feature was never performed. You can hover mouse over the icon to display last backup date.
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 ### Protection status
 
