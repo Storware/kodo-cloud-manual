@@ -1,4 +1,4 @@
-# Creating a new backup job
+# Scheduled Backup
 
 Follow instruction to create a new backup job:
 

@@ -1,4 +1,4 @@
-# Restore data to O365 cloud
+# Restore data to Microsoft 365
 
 To browse and restore backup data do the following:
 

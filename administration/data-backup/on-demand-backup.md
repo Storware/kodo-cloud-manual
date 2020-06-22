@@ -1,4 +1,12 @@
-# Performing manual backup
+# On-Demand Backup
+
+Full backup is done automatically when user is protected for the first time. You can also force full backup manually.
+
+### Forcing full backup from manual backup
+
+When [performing manual backup](on-demand-backup.md) select Advance options and select for which features you would like to perform full backup.
+
+![](../../.gitbook/assets/image%20%284%29.png)
 
 You can also trigger backup manually. To do this follow instruction:
 
