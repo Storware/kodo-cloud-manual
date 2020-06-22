@@ -1,13 +1,22 @@
 # Virtual Appliance \(VMware\)
 
-## Logging to virtual appliance
+## How to access a Virtual Appliance
 
-Use credentials listed below to log in to system:
+Download virtual appliance from the following link:
+
+[ftp://kodo4cloud@ftp.storware.eu/](ftp://kodo4cloud@ftp.storware.eu/)
+
+**Login:** kodo4cloud  
+**Password:** sEkQsrdsr98Q
+
+## Logging to the virtual appliance
+
+Use credentials listed below to log in to the system:
 
 > **Login:** kodo  
 > **Password:** Zt3edWny
 
-### NOTE: FOR SECURITY REASONS PLEASE CHANGE PASSWORD AFTER FIRST LOGIN TO SYSTEM!
+### NOTE: FOR SECURITY REASONS PLEASE CHANGE PASSWORD AFTER THE FIRST LOGIN TO SYSTEM!
 
 Use `passwd` command to change password:
 
@@ -26,9 +35,9 @@ Retype New Password:
 
 ## Setting up network configuration
 
-The next step is to configure the network connection. To do this you will need to edit network configuration file. Default configuration will try to assign IP adress from DHCP.
+The next step is to configure the network connection. To do this you will need to edit the network configuration file. The default configuration will try to assign IP address from DHCP.
 
-Use `sudo` command to run shell with root privileges:
+Use `sudo` command to run a shell with root privileges:
 
 ```text
 $ sudo -s
@@ -42,7 +51,7 @@ Edit network configuration file:
 # nano /etc/sysconfig/netork-scripts/ifcfg-eth0
 ```
 
-To set up static IP adress change:
+To set up static IP address change:
 
 ```text
 BOOTPROTO=dhcp
@@ -91,13 +100,13 @@ Save the file pressing the `CTRL+o` and then `Enter` key.
 
 After a file is saved you can exit editor pressing `CTRL+x` key combination.
 
-The final step is to restart network configuration. To do this use the command:
+The final step is to restart the network configuration. To do this use the command:
 
 ```text
 # service network restart
 ```
 
-Now you should be able login your KODO system using web browser and IP address that you configured in previous steps. Open web browser and enter:
+Now you should be able to login your KODO system using web browser and IP address that you configured in previous steps. Open web browser and enter:
 
 ```text
 https://ip_address

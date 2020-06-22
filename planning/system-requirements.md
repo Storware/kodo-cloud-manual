@@ -36,8 +36,8 @@
 | Component | To | Port |
 | :--- | :--- | :--- |
 | api-core | MySQL database | 3306\* |
-| KODO4Cloud Agent | api-core | 443 |
-| KODO4Cloud Agent | Microsoft 365 | 443, 80 |
+| Cloud Agent | api-core | 443 |
+| Cloud Agent | Microsoft 365 | 443, 80 |
 
 _\* - default port number  
 \*\* - default port number for the client and administrative communication_
