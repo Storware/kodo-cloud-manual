@@ -6,19 +6,19 @@ Follow instruction to create a new backup job:
 2. Click **Create** Job Button
 3. Follow the steps of the wizard
 
-![Create job button in Tasks view](../.gitbook/assets/image.png)
+![Create job button in Tasks view](../../.gitbook/assets/image.png)
 
 ## General
 
 Specify job name, you can also add description.
 
-![Wizard step 1](../.gitbook/assets/image%20%2829%29.png)
+![Wizard step 1](https://github.com/Storware/kodo-cloud-manual/tree/6ce1c059a7e8a80d54e1a6fff60815797cf17a9a/.gitbook/assets/image%20%2829%29.png)
 
 ## Features
 
 Select what we should protect.
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
 ## Users
 

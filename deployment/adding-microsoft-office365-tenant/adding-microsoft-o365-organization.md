@@ -1,8 +1,8 @@
-# Adding Microsoft O365 Organization
+# Adding Microsoft 365 Organization
 
 Before starting to work with data, KODO first need to get access to your Microsoft Office365 Organization.
 
-Access to data is performed via application installed in you organization. 
+Access to data is performed via application installed in you organization.
 
 {% hint style="info" %}
 KODO does not store your O365 administrative id or password

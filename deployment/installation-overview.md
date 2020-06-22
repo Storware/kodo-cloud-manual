@@ -1,4 +1,4 @@
-# Access to installation packages
+# Installation Overview
 
 Download virtual appliance from the following link:
 
@@ -8,8 +8,4 @@ Download virtual appliance from the following link:
 **Password:** sEkQsrdsr98Q
 
 \*\*\*\*
-
-
-
-
 

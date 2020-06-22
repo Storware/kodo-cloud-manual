@@ -1,4 +1,4 @@
-# Configuring virtual appliance
+# Virtual Appliance \(VMware\)
 
 ## Logging to virtual appliance
 
@@ -7,7 +7,7 @@ Use credentials listed below to log in to system:
 > **Login:** kodo  
 > **Password:** Zt3edWny
 
-#### NOTE: FOR SECURITY REASONS PLEASE CHANGE PASSWORD AFTER FIRST LOGIN TO SYSTEM!
+### NOTE: FOR SECURITY REASONS PLEASE CHANGE PASSWORD AFTER FIRST LOGIN TO SYSTEM!
 
 Use `passwd` command to change password:
 
@@ -89,15 +89,15 @@ ONBOOT=yes
 
 Save the file pressing the `CTRL+o` and then `Enter` key.
 
-After file is saved you can exit editor pressing `CTRL+x` key combiantion.
+After a file is saved you can exit editor pressing `CTRL+x` key combination.
 
-The final step is to restar network configuration. To do this use the command:
+The final step is to restart network configuration. To do this use the command:
 
 ```text
 # service network restart
 ```
 
-Now you shoud be able login your KODO system using webbrowser and IP address that you configured in previous steps. Open webbrowser and enter:
+Now you should be able login your KODO system using web browser and IP address that you configured in previous steps. Open web browser and enter:
 
 ```text
 https://ip_address
