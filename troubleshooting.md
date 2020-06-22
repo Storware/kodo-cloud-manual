@@ -1,6 +1,6 @@
 # Troubleshooting
 
-## Getting access to the CloudAgent logs
+### Getting access to the CloudAgent logs
 
 CloudAgent logs contains information about backup and restore operation for Office365.
 
