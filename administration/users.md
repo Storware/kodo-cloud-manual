@@ -8,13 +8,9 @@ Below each user's differences are described in next paragraphs.
 
 ###  Kodoadmin user
 
- It's KODO server user with administrative rights. He can rights to administer all KODO server key settings.   
+It's a principal "KODO for Cloud" server user with administrative rights. He's got privileges  to administer all KODO server settings.   
 
 ### Admin user
 
-It's an administration user for tenant organization, defined by kodoadmin user. He has rights to add users from organization and create jobs, protection policies, recover tasks etc.  
-
-{% hint style="danger" %}
-
-{% endhint %}
+It's an administration user for tenant organization, defined by kodoadmin user. He has rights to add users from organization and create jobs, protection policies, recover tasks etc.
 
