@@ -2,7 +2,7 @@
 
 Follow instruction to create a new backup job:
 
-1. Go to the Jobs view 
+1. Go to the "Jobs" view 
 2. Click **Create** Job Button
 3. Follow the steps of the wizard
 

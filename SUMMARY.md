@@ -48,4 +48,5 @@
   * [Collecting logs](troubleshooting/collecting-logs.md)
 * [Integration](integration.md)
 * [Known software issues and limitations](known-software-issues-and-limitations.md)
+* [About This Document](about-this-document.md)
 

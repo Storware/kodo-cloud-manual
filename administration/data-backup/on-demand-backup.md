@@ -1,21 +1,20 @@
 # On-Demand Backup
 
-Full backup is done automatically when user is protected for the first time. You can also force full backup manually.
+### Forcing full on-demand backup
 
-### Forcing full backup from manual backup
+If you want to perform on-demand full backup, follow the instruction:
 
-When [performing manual backup](on-demand-backup.md) select Advance options and select for which features you would like to perform full backup.
+1. Go to "**Users**" menu.
+2. Select user or users you want to protect.
+3. Click on "**Backup**" buton.
+4. Select components you want to protect or mark "**Select all**" radio buton.
+5. On the right side of the "**Backup**" window mark "**Select all**" radio button to force a full backup.  
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/kodo-cloud-administration-backup03.jpg)
 
-You can also trigger backup manually. To do this follow instruction:
+Clik "**Backup**" to start  backup operation. The information as below should be displayed. 
 
-1. Go to **Users** view
-2. Select user or users you want to protect
-3. Click on **Backup** button
-4. Select features you want to protect. Select **Advance options** to perform full backup
-
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](../../.gitbook/assets/kodo-cloud-administration-backup04.jpg)
 
 New task\(s\) will be generated and they will be waiting in the queue to be processed by agent\(s\).
 

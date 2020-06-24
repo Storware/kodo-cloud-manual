@@ -2,21 +2,19 @@
 
 ## Overview 
 
-* Section1
-  * Section2
-    * Section 3
+There are two predefined users at "KODO for Cloud" server with admin rights : kodoadmin and admin user. Each user has different role in KODO for Cloud server
 
-## Set2
+Below each user's differences are described in next paragraphs.
 
-Tutaj chciałbym przekierować na [Dashboard](dashboard.md) 
+###  Kodoadmin user
 
-często **stosuj** `lsblk`
+ It's KODO server user with administrative rights. He can rights to administer all KODO server key settings.   
 
+### Admin user
 
+It's an administration user for tenant organization, defined by kodoadmin user. He has rights to add users from organization and create jobs, protection policies, recover tasks etc.  
 
-![](../.gitbook/assets/kodo-cloud-administration-users-01.png)
-
-{% hint style="warning" %}
+{% hint style="danger" %}
 
 {% endhint %}
 
