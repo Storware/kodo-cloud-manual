@@ -4,8 +4,6 @@
 
 There are two predefined users at "KODO for Cloud" server with admin rights : kodoadmin and admin user. Each user has different role in KODO for Cloud server
 
-Below each user's differences are described in next paragraphs.
-
 ###  Kodoadmin user
 
 It's a principal "KODO for Cloud" server user with administrative rights. He's got privileges  to administer all KODO server settings.   
