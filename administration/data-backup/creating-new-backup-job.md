@@ -28,7 +28,7 @@ Create a schedule according to your backup policy.  Select when first full backu
 
 ### Summary
 
-Verify job configuration and provide amendments if necessary. Save the job. The job is ready to work.   
+Verify job configuration and provide amendments if necessary. Save the job. The job is ready to work.
 
 ## What will happen next?
 

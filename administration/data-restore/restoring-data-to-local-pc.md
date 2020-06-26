@@ -1,15 +1,19 @@
 # Restoring data to local PC
 
-To browse and restore backup data do the following:
+To browse and restore backup data to your PC do the following:
 
-1. Go to **Users** view
-2. Click on name of user which data you want to browse or restore
+1. Go to **Users** view.
+2. Click a user whose data you want to browse and restore.
+3. Seclect item\(s\) or files\(s\) you want to download.
+4. Change the **Point in time** parameter if you want to recover previous version of item\(s\) or file\(s\).  
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../../.gitbook/assets/kodo-cloud-administration-restore05.png)
 
-Click on the name of feature you would like to restore and then select, by clicking checkbox on the right side of list, individual folders, messages, files or items you would like to restore and press Download button.
+Click **Download** button in the right top corner. Confirm you want to download user data.
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+{% hint style="warning" %}
+Data owner \(user\) will be notified by e-mail about downloaded item\(s\) or file\(s\).  Selected data will be downloaded in compressed format \(zip\).
+{% endhint %}
 
-In few second downloading of selected data will begin.
+In a few seconds the download of selected data will begin.
 
