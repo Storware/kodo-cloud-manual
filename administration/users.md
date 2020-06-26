@@ -1,4 +1,4 @@
-# Users
+# Administrative users
 
 ## Overview 
 
@@ -10,5 +10,5 @@ It's a principal **KODO for Cloud** server user with administrative rights. He's
 
 ### Admin user
 
-It's an administration user for tenant organization, defined by kodoadmin user. He's got privileges to add users from organization and create [jobs](jobs/), protection [policies](policies.md), restore [tasks ](tasks.md)etc.
+It's an administration user for tenant organization, defined by kodoadmin user. He's got privileges to add users from organization and create [jobs](jobs/), protection [policies](policies/), restore [tasks ](tasks.md)etc.
 
