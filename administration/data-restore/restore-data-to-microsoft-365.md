@@ -1,33 +1,50 @@
 # Restore data to Microsoft 365
 
-To browse and restore backup data do the following:
+## Restore user data \(all\)
+
+To restore backup of all user data do the following:
 
 1. Go to **Users** view
-2. Click on name of user which data you want to browse or restore
+2. Select a  user whose data you want to restore by maring the radio buton.  Press **Recover** button at the right top corner.  
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../../.gitbook/assets/kodo-cloud-administration-restore01.png)
 
-Click on the name of feature you would like to restore and then select, by clicking checkbox on the right side of list, individual folders, messages, files or items you would like to restore and press Restore button.
+Confirm you want to recover data for selected user. All user data will be recovered. 
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+### Restore user data \(selected\)
 
-Now you can confirm your action by simply clicking Restore button or provide some additional parameters:
+To browse and restore selected items from user backup do the following:
 
-![](../../.gitbook/assets/image%20%286%29.png)
+1. Go to **Users** view.
+2. Click a user whose data you want to browse and restore.
+3. You can choose whole element \(e.g OneDrive\) or browse it to recover selected item or file.  
 
-## Overwrite existing files
+![](../../.gitbook/assets/kodo-cloud-administration-restore02.png)
+
+### Restore options
+
+If you selected whole element now you have some recovery options to choose. 
+
+![](../../.gitbook/assets/kodo-cloud-administration-restore04.png)
+
+### Restore deleted files
+
+Select this option of you want restore files that no longer exist at source. 
+
+### Overwrite existing files
 
 Select this option if you want to overwrite existing items with version from backup.
 
-## Path
+### Restore to another account
 
-In case of OneDrive backup you can restore files to path other than original
+Select this option if you want to recover data to other user account.  If you choose this option you have yet two options:
 
-## Restore delete files
+* Destination account mail -select a user
+* Restore to another path - select if you need to recover data to other path.
 
-Select this option of you want restore files that no longer exist at source
+### Restore to another path
 
-## Destination account mail
+Select this option if you want to restore files to path other than original one.
 
-This option allows you to restore data to the account other than an source one.
+Now you can confirm your action by simply clicking **Restore** buton.
 

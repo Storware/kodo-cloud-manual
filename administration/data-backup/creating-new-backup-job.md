@@ -2,37 +2,35 @@
 
 Follow instruction to create a new backup job:
 
-1. Go to the "Jobs" view 
-2. Click **Create** Job Button
-3. Follow the steps of the wizard
+1. Go to the "**Jobs**" view. 
+2. Click "**Create a Job"** buton.
+3. Follow the steps of the wizard.
 
-![Create job button in Tasks view](../../.gitbook/assets/image.png)
+![](../../.gitbook/assets/kodo-cloud-administration-backup05.png)
 
-## General
+### General
 
-Specify job name, you can also add description.
+Enter a job name and schedule description and click **Next**.
 
-![Wizard step 1](https://github.com/Storware/kodo-cloud-manual/tree/6ce1c059a7e8a80d54e1a6fff60815797cf17a9a/.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/kodo-cloud-administration-backup06.png)
 
-## Features
+### Users
 
-Select what we should protect.
+Select user that should be protected by this backup job. You can also use **Auto-select users** option to automatically protect all users registered in KODO from Office 365.  
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/kodo-cloud-administration-backup07.png)
 
-## Users
+### Schedule
 
-Select user that should be protected by this backup job. You can also use **Auto-select users** option to automatically protect all users registered in KODO.
+Create a schedule according to your backup policy.  Select when first full backup should occur and the cycle in which it is to be repeated \(incremental\).
 
-## Schedule
+![](../../.gitbook/assets/kodo-cloud-administration-backup08.png)
 
-On this screen you can select when first backup should occur and the cycle in which it is to be repeated.
+### Summary
 
-## Summary
-
-Verify job configuration and provide amendments if necessary. Save the job.
+Verify job configuration and provide amendments if necessary. Save the job. The job is ready to work.   
 
 ## What will happen next?
 
-At the set, in job, time and date server will generate task for every selected user and feature. Tasks will be waiting in the queue to be processed by agent.
+At the set, in job, time and date server will generate task for every selected user. Tasks will be waiting in queue to be processed by agent.
 

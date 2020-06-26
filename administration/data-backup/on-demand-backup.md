@@ -10,7 +10,7 @@ If you want to perform on-demand full backup, follow the instruction:
 4. Select components you want to protect or mark "**Select all**" radio buton.
 5. On the right side of the "**Backup**" window mark "**Select all**" radio button to force a full backup.  
 
-![](../../.gitbook/assets/kodo-cloud-administration-backup03.jpg)
+![](../../.gitbook/assets/kodo-cloud-administration-backup03%20%281%29.jpg)
 
 Clik "**Backup**" to start  backup operation. The information as below should be displayed. 
 
