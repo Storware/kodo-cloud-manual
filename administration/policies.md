@@ -2,15 +2,22 @@
 
 Data policy allows you to configure:
 
-* Access to the data by administrator
-* Backup retention 
-* Includes and Excludes for OneDrive feature backup
+* Set a default policy
+* Backup retention \(day\(s\), month\(s\), year\(s\)\)
+* Number of protected item\(s\) or file\(s\) versions 
+* Protected Microsoft 365 services \(SLA\):
+  * Exchange Online Mailbox
+  * Exchange Online Calendars
+  * Exchange Online Contacts
+  * OneDrive for Business
 
-To configure data policy follow these steps:
+To configure data policy do the following steps:
 
-1. Go to **Settings** view
-2. Click on **Data Policy** tab
-3. Use description below to customize **Data Policy** to your needs
+1. Go to **Policies** view
+2. Click on **Add Policy** button
+3. Configure the data policy due to you company backup regulations and confirm settings by pressing **Save** button.  
+
+![](../.gitbook/assets/kodo-cloud-administration-policies01.png)
 
 {% hint style="info" %}
 Data Policy configuration will apply to all users and tasks
