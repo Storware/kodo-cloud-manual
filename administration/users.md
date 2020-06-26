@@ -1,4 +1,4 @@
-# Administrative users
+# Users
 
 ## Overview 
 

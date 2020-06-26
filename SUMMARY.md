@@ -28,7 +28,7 @@
     * [Adding Microsoft 365 organization manually](deployment/microsoft-365-organization-management/microsoft-365-organization-management.md)
 * [Administration](administration/README.md)
   * [Dashboard](administration/dashboard.md)
-  * [Administrative users](administration/users.md)
+  * [Users](administration/users.md)
   * [Backup](administration/data-backup/README.md)
     * [On-Demand Backup](administration/data-backup/on-demand-backup.md)
     * [Scheduled Backup](administration/data-backup/creating-new-backup-job.md)
