@@ -1,6 +1,7 @@
 # Table of contents
 
 * [About KODO for CLOUD](README.md)
+* [About This Document](about-this-document.md)
 * [Table of Contents](table-of-contents.md)
 * [Overview](overview/README.md)
   * [Architecture](overview/architecture.md)
@@ -54,5 +55,4 @@
   * [Collecting logs](troubleshooting/collecting-logs.md)
 * [Integration](integration.md)
 * [Known software issues and limitations](known-software-issues-and-limitations.md)
-* [About This Document](about-this-document.md)
 
