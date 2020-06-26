@@ -2,7 +2,7 @@
 
 ## Full
 
-Full backup is done automatically by default when user or users from defined job are protected for the first time. Only one initial full backup is done, every other backup in chain is incremental.You can also force full on-demand backup . 
+Full backup is done automatically by default when user\(s\) from defined job are protected for the first time. You can also force full on-demand backup . 
 
 ### Incremental backup
 
