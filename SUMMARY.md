@@ -28,7 +28,8 @@
     * [Adding Microsoft 365 organization manually](deployment/microsoft-365-organization-management/microsoft-365-organization-management.md)
 * [Administration](administration/README.md)
   * [Dashboard](administration/dashboard.md)
-  * [Users](administration/users.md)
+  * [Users](administration/users/README.md)
+    * [User management](administration/users/user-management.md)
   * [Backup](administration/data-backup/README.md)
     * [On-Demand Backup](administration/data-backup/on-demand-backup.md)
     * [Scheduled Backup](administration/data-backup/creating-new-backup-job.md)
@@ -54,5 +55,6 @@
   * [How to enable KODO for Cloud DEBUG mode](troubleshooting/how-to-enable-kodo-for-cloud-debug-mode.md)
   * [Collecting logs](troubleshooting/collecting-logs.md)
 * [Integration](integration.md)
-* [Known software issues and limitations](known-software-issues-and-limitations.md)
+* [Known software issues and limitations](known-software-issues-and-limitations/README.md)
+  * [Users](known-software-issues-and-limitations/users.md)
 

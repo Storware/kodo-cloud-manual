@@ -34,5 +34,5 @@
   * [How to enable KODO for Cloud DEBUG mode](troubleshooting/how-to-enable-kodo-for-cloud-debug-mode.md)
   * [Collecting logs](troubleshooting/collecting-logs.md)
 * [Integration](integration.md)
-* [Known software issues and limitations](known-software-issues-and-limitations.md)
+* [Known software issues and limitations](known-software-issues-and-limitations/)
 
