@@ -6,7 +6,6 @@
   * [Architecture](overview/architecture.md)
   * [Licensing](overview/licensing.md)
   * [Main Features](overview/main-features.md)
-  * [Typical Scenarios]()
 * [Planning](planning/)
   * [KODO for Cloud Support Matrix](planning/kodo-for-cloud-support-matrix.md)
   * [Platform Requirements](planning/system-requirements.md)

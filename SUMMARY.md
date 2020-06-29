@@ -1,7 +1,6 @@
 # Table of contents
 
-* [About KODO for CLOUD](README.md)
-* [About This Document](about-this-document.md)
+* [KODO for Cloud documentation](README.md)
 * [Table of Contents](table-of-contents.md)
 * [Overview](overview/README.md)
   * [Architecture](overview/architecture.md)
@@ -28,8 +27,7 @@
     * [Adding Microsoft 365 organization manually](deployment/microsoft-365-organization-management/microsoft-365-organization-management.md)
 * [Administration](administration/README.md)
   * [Dashboard](administration/dashboard.md)
-  * [Users](administration/users/README.md)
-    * [User management](administration/users/user-management.md)
+  * [Users](administration/users.md)
   * [Backup](administration/data-backup/README.md)
     * [On-Demand Backup](administration/data-backup/on-demand-backup.md)
     * [Scheduled Backup](administration/data-backup/creating-new-backup-job.md)

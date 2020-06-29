@@ -20,5 +20,3 @@ If administrator logs into console as "**kodoadmin**" user then different **KODO
 
 ![](../.gitbook/assets/kodo-administrator-dashboard02.jpg)
 
-{% file src="../.gitbook/assets/nextusers.url" %}
-

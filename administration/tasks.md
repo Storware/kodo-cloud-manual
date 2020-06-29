@@ -1,8 +1,8 @@
 # Tasks
 
-In the **Tasks**  view  there are collected all system tasks that have been, will be or are being performed on the **KODO for Cloud** server. 
+In the **Tasks** view, there are collected all system tasks that have been, will be or are being performed on the **KODO for Cloud** server. 
 
-Tasks are devided into following categories:
+Tasks are divided into the following categories:
 
 * Running
 * Queued

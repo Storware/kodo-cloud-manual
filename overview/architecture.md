@@ -1,22 +1,41 @@
 # Architecture
 
-## Architecture
+## High-level Architecture
 
-### KODO for Cloud agent
+Use KODO for Cloud to back up and restore your data from your Microsoft \(Office\) 365. You can back up data to and recover data from local filesystem, Virtual Data Optimizer \(VDO\) or NFS/CIFS share. 
 
-Download data from O365 cloud and exposes them for KODO. To accelerate backup you can use many agent instances
+![](../.gitbook/assets/kodo-for-cloud-architecture.png)
 
-### RabbitMQ Queue service
+## Detailed Architecture
 
-Place where data received from agent awaits to be processed
+![](../.gitbook/assets/kodo-for-cloud-detailed-architecture.png)
 
-### KODO \(api-core\)
+### KODO Cloud agent
 
-The brain of KODO system, where all the magic is done
+* Retrieves O365 items from cloud
+* In case of restore also send data to the cloud
+* KODO agent can by multiply for better backup/restore performance
 
-### KODO DB \(MariaDB\) Metadata
+### KODO Cloud Server \(api-core\)
 
-Spectrum Protect \(backup engine\) The heart of KODO system, place where data awaits to be restored \(after we squeeze them with deduplication and compression\)
+* Management + orchestration
+
+### KODO DB \(MariaDB\) 
+
+* Internal KODO database \(backup catalog\) for keeping all metadata for protected users. 
+
+### Backup Storage
+
+* Place, where KODO for Cloud stores a backup data
+
+
+
+## Component placement
+
+* **KODO for Cloud server and agents can be installed in the same system** 
+* Server can be installed on a physical machine or VM - nodes just need to be able to connect to it.
+* Agents can be installed also inside a VM or physical machine, but keep in mind that some backup strategies require Node to be installed as a VM on a Hypervisor Cluster \(especially when "disk attachment" export mode is mentioned\).
+* Both components are installed on a CentOS/RHEL 8 minimal.
 
 ## Understating correlation between agents, tasks, and schedules
 

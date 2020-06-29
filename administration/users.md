@@ -1,14 +1,20 @@
 # Users
 
-## Overview 
+In this view you can see all users synchronized with your defined organization \(Microsoft 365\)
 
-There are two predefined users at **KODO for Cloud** server with admin rights : kodoadmin and admin user. Each user has different role in KODO for Cloud server.
+Click **Synchronize** button  to import users.
 
-###  Kodoadmin user
+![](../.gitbook/assets/kodo-cloud-administration-users01.png)
 
-It's a principal **KODO for Cloud** server user with administrative rights. He's got privileges  to administer all KODO server settings.   
+You can do the following activities on user\(s\):
 
-### Admin user
+* Assign [Policy](policies/)- change assigned user\(s\) data policy 
+* [Backup](data-backup/on-demand-backup.md)- backup user\(s\)
+* Lock/Unlock -lock/unlock user\(s\)
+* Delete -delete user\(s\)
+* [Restore](data-restore/restore-data-to-microsoft-365.md)-restore users \(s\)
 
-It's an administration user for tenant organization, defined by kodoadmin user. He's got privileges to add users from organization and create [jobs](jobs/), protection [policies](policies/), restore [tasks ](tasks.md)etc.
+![](../.gitbook/assets/kodo-cloud-administration-users02.png)
+
+
 
