@@ -29,7 +29,7 @@ KODO gives you flexibility to configure backup retention. Backup retention setti
 
 If you configure retention for 7 days you will have 7 days to restore item\(s\) deleted by user. All data that exist at source will never be deleted.
 
-### Version to keep
+### Versions to keep
 
 You can specify the number of backup versions to keep.
 
