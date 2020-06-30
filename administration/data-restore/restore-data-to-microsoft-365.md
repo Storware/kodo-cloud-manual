@@ -29,11 +29,11 @@ If you've selected a whole Microsoft 365 element and pressed **Restore** button 
 
 ### Restore deleted files
 
-Select this option of you want restore files that no longer exist at source. 
+Select this option of you want restore files that no longer exist at a source. 
 
 ### Overwrite existing files
 
-Select this option if you want to overwrite existing items with version from backup.
+Select this option if you want to overwrite existing items with a version from backup.
 
 ### Restore to another account
 
@@ -42,5 +42,5 @@ Select this option if you want to recover data to other user account.  If you ch
 * **Destination account mail** -select a user account you want to restore into.
 * **Restore to another path** - select it if you need to recover data to other path.
 
-Now you can confirm your action by simply clicking **Restore** button.
+Now you can confirm your action by simply clicking **Restore** button. The restoration process wil begin.      
 
