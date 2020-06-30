@@ -4,19 +4,19 @@ Follow instruction to create a new backup job:
 
 1. Go to the **Jobs** view. 
 2. Click **Create a Job** button.
-3. Follow the steps of the wizard.
+3. Follow the steps of the wizard to configure the job.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-backup05.png)
 
 ### Step: General
 
-Enter a job name and schedule description and click **Next**.
+Enter a job name and schedule description. Click **Next** buton to continue.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-backup06.png)
 
 ### Step: Users
 
-Select user that should be protected by this backup job. You can also use **Auto-select users** option to automatically protect all users registered in KODO from Office 365.  
+Select user or users that should be protected in this backup job. You can also use **Auto-select users** option to automatically protect all users registered in the defined Microsoft 365 organisation.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-backup07.png)
 
