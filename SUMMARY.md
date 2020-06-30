@@ -37,7 +37,7 @@
   * [Tasks](administration/tasks.md)
   * [Jobs](administration/jobs/README.md)
     * [Edit a job](administration/jobs/edit-a-job.md)
-    * [Start a job](administration/jobs/start-a-job.md)
+    * [Start a job \(manually\)](administration/jobs/start-a-job.md)
     * [Delete a job](administration/jobs/delete-a-job.md)
   * [Policies](administration/policies/README.md)
     * [Delete a policy](administration/policies/delete-a-policy.md)
