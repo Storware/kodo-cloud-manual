@@ -12,11 +12,11 @@ The differences between both user types are described in the [Users ](https://ap
 
 ![](../.gitbook/assets/kodo-administrator-dashboard%20%281%29.jpg)
 
-The administrator can log into console as **admin** user and then KODO for Cloud dashboard view appears as shown on the screenshot below. Using this dashboard administrator is able to manage his own organization and set up jobs to protect users data.
+Administrator can log into console as **admin** user and then KODO for Cloud dashboard view appears as shown on the screenshot below. Using this dashboard administrator is able to manage his own organization and set up jobs to protect users data.
 
 ![](../.gitbook/assets/kodo-cloud-administration-dashboard-01.png)
 
-If administrator logs into a console as "**kodoadmin**" user then a different **KODO for Cloud** dashboard view appears as shown on the screenshot below.  Using this dashboard an administrator can add, delete, edit and manage server key components such as organizations, agents and also change server settings. At this view all server key paramaters are visible for KODO administrator. 
+If administrator logs into console as "**kodoadmin**" user then different **KODO for Cloud** dashboard view appears as shown on the screenshot below.  Using this dashboard an administrator can add, delete, edit and manage server key components like organizations, agents and also change server settings. At this view all server key paramaters are visible for KODO administrator. 
 
 ![](../.gitbook/assets/kodo-administrator-dashboard02.jpg)
 
