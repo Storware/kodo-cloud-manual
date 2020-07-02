@@ -1,4 +1,8 @@
 # Restore
 
-Restore is the process of copying backup data from secondary storage and restoring it to its original location or a new location. In KODO for Cloud server data are restored from its internal storage \(LVM block device or VDO\). 
+The backed up data by **KODO for Cloud**  you can easely restore to it its original location in Microsoft 365 service or on you local PC.
+
+
+
+
 

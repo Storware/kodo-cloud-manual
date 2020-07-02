@@ -1,2 +1,0 @@
-# KODO Multi-Organization Management
-

@@ -1,8 +1,8 @@
 # Restore data to Microsoft 365
 
-## Restore all user data
+## Restore all user's data
 
-To restore Microsoft 365 all user data do the following steps:
+To restore Microsoft 365 all user data do the following:
 
 1. Go to the **Users** view
 2. Select a  user whose data you want to restore by marking the radio buton. Press **Restore** button at the right-top window corner.  
@@ -11,7 +11,7 @@ To restore Microsoft 365 all user data do the following steps:
 
 Confirm you want to recover data for selected user. All user's Microsoft 365 data will be recovered. 
 
-### Restore selected user data 
+### Restore selected user's data 
 
 To browse and restore selected item\(s\) from user's backup do the following:
 
