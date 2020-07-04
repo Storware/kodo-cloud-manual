@@ -5,15 +5,15 @@
 To restore Microsoft 365 all user data do the following:
 
 1. Go to the **Users** view
-2. Select a  user whose data you want to restore by marking the radio buton. Press **Restore** button at the right-top window corner.  
+2. Select a  user whose data you want to restore by marking the radio button. Press the **Restore** button at the right-top window corner.  
 
 ![](../../.gitbook/assets/kodo-cloud-administration-restore01.png)
 
-Confirm you want to recover data for selected user. All user's Microsoft 365 data will be recovered. 
+Confirm you want to recover data for the selected user. All user's Microsoft 365 data will be recovered. 
 
-### Restore selected user's data 
+### Restore a selected user's data 
 
-To browse and restore selected item\(s\) from user's backup do the following:
+To browse and restore a selected item\(s\) from the user's backup do the following:
 
 1. Go to the **Users** view.
 2. Click a user whose data you want to browse and restore.
@@ -29,7 +29,7 @@ If you've selected a whole Microsoft 365 element and pressed **Restore** button 
 
 ### Restore deleted files
 
-Select this option of you want restore files that no longer exist at a source. 
+Select this option if you want restore files that no longer exist at a source. 
 
 ### Overwrite existing files
 
@@ -37,10 +37,10 @@ Select this option if you want to overwrite existing items with a version from b
 
 ### Restore to another account
 
-Select this option if you want to recover data to other user account.  If you choose this option you have yet two options:
+Select this option if you want to recover data to another user account.  If you choose this option you have yet two options:
 
 * **Destination account mail** -select a user account you want to restore into.
-* **Restore to another path** - select it if you need to recover data to other path.
+* **Restore to another path** - select it if you need to recover data to another path.
 
-Now you can confirm your action by simply clicking **Restore** button. The restoration process wil begin.      
+Now you can confirm your action by simply clicking the **Restore** button. The restoration process will begin.      
 

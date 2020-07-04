@@ -1,6 +1,6 @@
 # Scheduled Backup
 
-Follow instruction to create a new backup job:
+Follow the instruction to create a new backup job:
 
 1. Go to the **Jobs** view. 
 2. Click **Create a Job** button.
@@ -10,7 +10,7 @@ Follow instruction to create a new backup job:
 
 ### Step: General
 
-Enter a job name and schedule description. Click **Next** buton to continue.
+Enter a job name and schedule description. Click **Next** button to continue.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-backup06.png)
 
@@ -22,7 +22,7 @@ Select user or users that should be protected in this backup job. You can also u
 
 ### Step: Schedule
 
-Create a schedule according to your internal backup policy.  Select when the first full backup should start and the cycle in which it will be repeated \(as incremental backup\). You can choose day\(s\) of week or other time interval \(week or month\). Set the time the job should start.
+Create a schedule according to your internal backup policy.  Select when the first full backup should start and the cycle in which it will be repeated \(as incremental backup\). You can choose a day\(s\) of a week or other time interval \(week or month\). Set the time the job should start.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-backup08.png)
 
@@ -32,7 +32,7 @@ Verify your job configuration and provide amendments if necessary. Save the job.
 
 ## What will happen next?
 
-After creation the job is deactive state.  
+After creation, the job is an inactive state.  
 
-At the set, in job, time and date server will generate a task for every selected user. Tasks will be waiting in queue to be processed by agent.
+At the set, in a job, time and date server will generate a task for every selected user. Tasks will be waiting in queue to be processed by the agent.
 

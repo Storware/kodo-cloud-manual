@@ -6,7 +6,7 @@ In KODO for Cloud server the administrator can define more than one Microsoft 36
 * **MAX\_TENANTS\_PER\_ORG** - maximum number of tenants to define per organization
 * **MAX\_USERS**- maximum number of protected users.
 
- More information about licensing can be found in the [Lisensing ](../../overview/licensing.md)paragraph. 
+ More information about licensing can be found in the [Lisensing ](../overview/licensing.md)paragraph. 
 
        
 

@@ -9,11 +9,11 @@ To browse and restore backup data to your PC do the following:
 
 ![](../../.gitbook/assets/kodo-cloud-administration-restore05.png)
 
-Click **Download** button in the right-top window corner. Confirm if you want to download user data.
+Click the **Download** button in the right-top window corner. Confirm if you want to download user data.
 
 {% hint style="warning" %}
-Data owner \(user\) will be notified by an e-mail about downloaded item\(s\) or file\(s\).  Selected data will be downloaded in a compressed format \(zip\).
+Data owner \(user\) will be notified by an e-mail about the downloaded item\(s\) or file\(s\).  Selected data will be downloaded in a compressed format \(zip\).
 {% endhint %}
 
-In a few seconds the download of selected data will begin.
+In a few seconds, the download of selected data will begin.
 

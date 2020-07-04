@@ -12,7 +12,7 @@ Use KODO for Cloud to back up and restore your data from your Microsoft \(Office
 
 ### KODO Cloud agent
 
-* Retrieves O365 items from cloud
+* Retrieves O365 items from the cloud
 * In case of restore also send data to the cloud
 * KODO agent can by multiply for better backup/restore performance
 
@@ -27,8 +27,6 @@ Use KODO for Cloud to back up and restore your data from your Microsoft \(Office
 ### Backup Storage
 
 * Place, where KODO for Cloud stores a backup data
-
-
 
 ## Component placement
 

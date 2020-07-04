@@ -1,12 +1,12 @@
 # KODO Admin
 
-The **kodoadmin** user is predefined administrative user on **KODO for Cloud** server .  If you are logging in to  **KODO for Cloud** server as **kodoadmin** then you can edit the **Kodo for Cloud** settings.
+The **kodoadmin** user is a predefined administrative user on **KODO for Cloud** server.  If you are logging in to  **KODO for Cloud** server as **kodoadmin** then you can edit the **Kodo for Cloud** settings.
 
 ## General tab
 
-Here you can edit the folowing settings:
+Here you can edit the following settings:
 
-* Generatl settings-  allowed IP adresses to logi with KodoAdmin role
+* General settings-  allowed IP addresses to login with KodoAdmin role
 * Support website URL
 * Product website URL
 * Documentation website URL
