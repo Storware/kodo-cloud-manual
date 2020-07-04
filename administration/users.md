@@ -1,6 +1,6 @@
 # Users
 
-In this view you can see all users synchronized \(imported\) from defined organization \(Microsoft 365\)
+In this view, you can see all users synchronized \(imported\) from a defined organization \(Microsoft 365\)
 
 Click **Synchronize** button to import users.
 

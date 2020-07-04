@@ -1,18 +1,18 @@
 # Dashboard
 
-After successful installation of **KODO for Cloud**, administrator can log into application using popular web browser \(e.g. Google Chrome, MozillaFirefox or MS IE Edge\). To do to this, use IP address of the server where **KODO for Cloud** server was installed. 
+After successful installation of **KODO for Cloud**, an administrator can log into the application using a popular web browser \(e.g. Google Chrome, Mozilla Firefox or MS IE Edge\). To do to this, use the IP address of the server where **KODO for Cloud** server was installed. 
 
 `https://KODO_server_IP_address`
 
 {% hint style="info" %}
-Administrator can use admin or kodoadmin account to log into application. 
+An administrator can use admin or kodoadmin account to log into the application. 
 
-The differences between both user types are described in the [Users ](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/~/drafts/-MAWwMuu2uq6CjweVK0b/administration/users)section. 
+The differences between both user types are described in the [administrators](../deployment/users.md) section. 
 {% endhint %}
 
 ![](../.gitbook/assets/kodo-administrator-dashboard%20%281%29.jpg)
 
-The administrator can log into console as **admin** user and then KODO for Cloud dashboard view appears as shown on the screenshot below. Using this dashboard administrator is able to manage his own organization and set up jobs to protect users data.
+The administrator can log into the console as **admin** user and then KODO for Cloud dashboard view appears as shown on the screenshot below. Using this dashboard administrator is able to manage his own organization and set up jobs to protect users data.
 
 ![](../.gitbook/assets/kodo-administrator-dashboard02%20%281%29.jpg)
 
@@ -28,7 +28,7 @@ At the dashboard view the following information is displayed:
 * User Protection
 * Data Transfer
 
-If administrator logs into a console as "**kodoadmin**" user then a different **KODO for Cloud** dashboard view appears as shown on the screenshot below.  Using this dashboard an administrator can add, delete, edit and manage server key components such as organizations, agents and also change server settings. At this view all server key paramaters are visible for KODO administrator. 
+If an administrator logs into a console as "**kodoadmin**" user then a different **KODO for Cloud** dashboard view appears as shown on the screenshot below.  Using this dashboard an administrator can add, delete, edit and manage server key components such as organizations, agents and also change server settings. At this view, all server key parameters are visible for KODO administrator. 
 
 ![](../.gitbook/assets/kodo-cloud-administrator-dashboard03.jpg)
 
