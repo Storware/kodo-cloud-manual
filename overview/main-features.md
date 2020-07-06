@@ -2,7 +2,7 @@
 
 * Backup & Recovery for Microsoft Office 365
   * Exchange Online
-    * emails
+    * e-mails
     * contacts 
     * calendars
     * shared mailboxes
@@ -17,7 +17,7 @@
 * Auto-assign accounts to jobs for robust backups
 * Option to create multiple policies with custom retentions 
 * Option to add multiple Office 365 tenants into single KODO organization 
-* Multitenancy Mode \(multiple KODO organizations\) with a billing feature for large enterprises or Manage Service Providers \(backup as a service offering\)
+* Multi-tenancy Mode \(multiple KODO organizations\) with a billing feature for large enterprises or Manage Service Providers \(backup as a service offering\)
 * File-based backup repository
 * Built-in data deduplication with Virtual Data Optimizer \(VDO\)
 * NFS support backup repository
