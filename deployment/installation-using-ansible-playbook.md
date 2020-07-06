@@ -63,7 +63,10 @@ ansible_user = root
 {% endcode %}
 
 * Run playbook: `ansible-playbook -i hosts site.yml`
-* After installation you should be able to login to your Kodo Cloud Server: `https://kodo_cloud_server_address` and your nodes should be registered and running. By default Kodo Cloud has one global admin account - `kodoadmin` with password `Kodo@dm1n` \(with zero\).
+* After installation you should be able to login to your Kodo Cloud Server: `https://kodo_cloud_server_address` and your nodes should be registered and running. 
+* By default Kodo Cloud has one global admin \(admin managing organizations\) account and a account in the default organization:
+  * Kodo admin \(global admin\): `kodoadmin` with password `Kodo@dm1n` \(with zero\)
+  * default organization admin: `admin` with password `Kodo@dm1n` \(with zero\)
 
 ## Variables
 
