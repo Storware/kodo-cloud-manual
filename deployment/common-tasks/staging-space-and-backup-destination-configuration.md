@@ -64,7 +64,7 @@ You also can use a plain file system for staging space \(and optionally for back
     ```text
     /dev/mapper/kodo    /kodo_data    xfs    defaults,discard,x-systemd.requires=vdo.service 0 0
     ```
-* Mount
+* Mount:
 
   ```text
   mount -a
