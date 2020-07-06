@@ -52,11 +52,17 @@ You also can use a plain file system for staging space \(and optionally for back
   mkfs.xfs -K /dev/sdc
   ```
 
-* Add a line to `/etc/fstab` file, to automatically mount new filesystem after reboot \(use `/dev/mapper/kodo` instead of `/dev/sdc` if VDO is used\):
+* Add a line to `/etc/fstab` file, to automatically mount new filesystem after reboot:
 
   ```text
   /dev/sdc    /kodo_data    xfs    defaults 0 0
   ```
+
+  * If VDO is used this line should look as follows:
+
+    ```text
+    /dev/mapper/kodo    /kodo_data    xfs    defaults,discard,x-systemd.requires=vdo.service 0 0
+    ```
 
 * Mount
 
