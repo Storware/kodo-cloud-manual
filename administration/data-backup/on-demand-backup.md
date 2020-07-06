@@ -2,7 +2,7 @@
 
 ### Forcing full on-demand backup
 
-If you want to perform on-demand full backup, follow the instruction:
+If you need to perform on-demand full backup, follow the instruction:
 
 1. Go to the **Users** menu.
 2. Select user or users, you want to protect.
