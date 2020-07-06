@@ -23,6 +23,8 @@
   * [Virtual Appliance \(VMware\)](deployment/virtual-appliance-vmware.md)
   * [Administrators](deployment/users.md)
   * [Cloud Agent](deployment/cloud-agent.md)
+  * [Common tasks](deployment/common-tasks/README.md)
+    * [Staging space and backup destination configuration](deployment/common-tasks/staging-space-and-backup-destination-configuration.md)
   * [Microsoft 365 Organization Management](deployment/microsoft-365-organization-management/README.md)
     * [Auto Mode \(global admin authentication\)](deployment/microsoft-365-organization-management/auto-mode-global-admin-authentication.md)
     * [Adding Microsoft 365 organization manually](deployment/microsoft-365-organization-management/microsoft-365-organization-management.md)
