@@ -15,21 +15,21 @@ Here you can edit the following settings:
 
 ## Email
 
-Here you can edit the email settings as following:
+Here you can edit the email settings as follow:
 
 * E-mail address
 * Login
 * Server address
 * Port
 * SSL port \(if used\)
-* Require authentication
+* Require Authentication
   * Password
 
 ![](../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin02-%20%281%29.png)
 
 ## Storage tab
 
-Here you can edit the storage settings as folowing:
+Here you can edit the storage settings as follow:
 
 * Backup storage path
 * Staging path
@@ -40,13 +40,13 @@ Here you can edit the storage settings as folowing:
 
 ## Logs tab
 
-Here you can edit the logging settings as follwing:
+Here you can edit the logging settings as follow:
 
 * Maximum number of files 
 * Log level
 * Max file size
 
-You can also downolad KODO logs or Server logs to send this information to KODO support
+You can also downolad KODO logs or Server logs to send this information to KODO support.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin04-%20%281%29.png)
 
@@ -55,8 +55,6 @@ You can also downolad KODO logs or Server logs to send this information to KODO 
 Here you can verify current license limit or update a new one.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin05-.png)
-
- 
 
 ## Billing tab
 
