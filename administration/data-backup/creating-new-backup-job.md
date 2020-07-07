@@ -22,7 +22,7 @@ Select user or users that should be protected in this backup job. You can also u
 
 ### Step 3: Schedule
 
-Create a schedule according to your backup policy.  Select the time when the first full backup should start and the cycle in which it will be repeated \(as incremental backup\). You can choose a day\(s\) of a week or other time interval \(week or month\). Set the time the job should start.
+Create a schedule according to your backup policy. Select the time when the first full backup should start and the cycle in which it will be repeated \(as incremental backup\). You can choose a day\(s\) of a week or other time interval \(week or month\). Set the time the job should start.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-backup08.png)
 
@@ -32,7 +32,7 @@ Verify your job configuration and provide amendments if necessary. Save the job.
 
 ## What will happen next?
 
-After creation, the job is an inactive state.  
+After creation, the job is set by default to the active state.  
 
-At the set, in a job, time and date server will generate a task for every selected user. Tasks will be waiting in queue to be processed by the agent.
+When the time set in the job comes the server will generate a task for every selected user. Tasks will be waiting in a queue to be processed by the cloud agent.
 
