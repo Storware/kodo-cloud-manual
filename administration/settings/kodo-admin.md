@@ -1,6 +1,6 @@
 # KODO Admin
 
-The **kodoadmin** user is a predefined administrative user on **KODO for Cloud** server.  If you are logging in to  **KODO for Cloud** server as **kodoadmin** then you can edit the **Kodo for Cloud** settings.
+The **kodoadmin** user is a predefined administrative user on **KODO for Cloud** server.  If you are logging in to the  server as **kodoadmin** then you can edit the server settings.
 
 ## General tab
 
