@@ -16,7 +16,7 @@ Enter a job name and schedule description. Click **Next** button to continue.
 
 ### Step 2: Users
 
-Select user or users that should be protected in this backup job. You can also use **Auto-select users** option to automatically protect all users registered in the defined Microsoft 365 organisation.
+Select user or users that should be protected in this backup job. You can also use **Auto-select users** option to automatically protect all users registered in the defined Microsoft 365 organization.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-backup07.png)
 
@@ -32,7 +32,5 @@ Verify your job configuration and provide amendments if necessary. Save the job.
 
 ## What will happen next?
 
-After creation, the job is set by default to the active state.  
-
-When the time set in the job comes the server will generate a task for every selected user. Tasks will be waiting in a queue to be processed by the cloud agent.
+After creation, the job is set by default to the active state. When the time set in the job comes the server will generate a task for every selected user. Tasks will be waiting in a queue to be processed by the cloud agent.
 
