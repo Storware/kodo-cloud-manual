@@ -21,7 +21,7 @@ Agents will communicate with Kodo Cloud Server on port 8181, so they need to be 
 
 ## Installation
 
-This example assumes that you want to install both Kodo Cloud Server and Agent **using a single playbook** and **on the same host** \(single agent\) ****and currently this is the only supported deployment.
+This example assumes that you want to install both Kodo for Cloud server and agent **using a single playbook** and **on the same host** \(single agent\) ****and currently this is the only supported deployment.
 
 Run these on the system from which you run Ansible playbooks:
 
@@ -74,7 +74,7 @@ These two roles use just a few variables. Both plays use `server_fqdn` variable.
 
 Node play needs `agent_name` for registration process. If not provided it will just use hostname reported by OS, however keep in mind that it needs to be **unique** for each node. We recommend that you set them in the host inventory file.
 
-By default Kodo Cloud uses MariaDB 10.4 for CentOS - you can control source, distribution and version of your MariaDB with the following variables \(with their respective default values\):
+By default Kodo for Cloud uses MariaDB 10.4 for CentOS - you can control source, distribution and version of your MariaDB with the following variables \(with their respective default values\):
 
 ```yaml
 mariadb_version: "10.4"
@@ -83,7 +83,7 @@ mariadb_repo_url: "http://yum.mariadb.org/{{ mariadb_version }}/{{ mariadb_distr
 mariadb_repo_gpg_key: "https://yum.mariadb.org/RPM-GPG-KEY-MariaDB"
 ```
 
-Installer assumes **staging** space to be mounted in `/kodo_data/staging` and **backup destination** mounted in `/kodo_data/backups` - we recommend to leave these defaults and just mount appropriate storage underneath `/kodo_data`
+Installer assumes **staging** space to be mounted in `/kodo_data/staging` and **backup destination** mounted in `/kodo_data/backup` - we recommend to leave these defaults and just mount appropriate storage underneath `/kodo_data`
 
 Ansible playbook is also able to automatically prepare **deduplication** \(by default storage used for staging and backup destination it is not initialized and just assumed to be present under above-mentioned paths\). To enable deduplication - you just need to provide a block device which will be used for VDO \(by default it is empty string, which means that VDO is not going to be initialized\). VDO will be mounted in `/kodo_data` by default which means that both staging space and backup destination will use the same storage.
 

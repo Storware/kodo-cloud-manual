@@ -10,14 +10,14 @@
    yum -y update
    ```
 
-   If kernel is updated, then You need to reboot your operating system.
+   If kernel is updated, then you need to reboot your operating system.
 
-3. Install vProtect repository
+3. Install Kodo for Cloud repository
 
    * create file `/etc/yum.repos.d/kodo.repo`:
 
    ```text
-   # vProtect Enterprise backup solution for virtual environments repository
+   # Kodo for Cloud Microsoft 365 backup solution repository
    [kodo]
    name = Kodo Cloud
    baseurl = http://repo.storware.eu/kodo-cloud/current/el8
@@ -27,7 +27,7 @@
    * optionally  `current` can also be pointed to the specific version, i.e. `4.0` \(not the one that is always up to date\), i.e.`http://repo.storware.eu/kodo-cloud/4.0/el8`
 
 4. Install MariaDB repository
-   * generate .repo file at [MariaDB download](https://downloads.mariadb.org/mariadb/repositories) site\)
+   * generate.repo file at [MariaDB download](https://downloads.mariadb.org/mariadb/repositories) site\)
    * copy and paste generated repo file into `/etc/yum.repos.d/MariaDB.repo`, so it looks similar to this \(this one for CentOS/RHEL 8\):
 
      ```text
@@ -52,9 +52,9 @@
      gpgcheck = 1
      ```
 
-## Kodo Cloud Server
+## Kodo for Cloud server
 
-Kodo Cloud consists of server \(central management point with WebUI\) and agent, which should be installed on the same host as server. The first step is always to install server.
+Kodo for Cloud consists of server \(central management point with WebUI\) and agent \(CloudAgent\), which should be installed on the same host as server. The first step is always to install the server.
 
 1. Install kodo-cloud-server using YUM:
 
@@ -77,13 +77,13 @@ Kodo Cloud consists of server \(central management point with WebUI\) and agent,
    mysql_secure_installation
    ```
 
-4. Initialize Kodo Cloud Server database using script - you need to provide DB root password:
+4. Initialize Kodo for Cloud server database using script - you need to provide DB root password:
 
    ```text
    /opt/kodo-cloud/server/bin/kodo-cloud-server-init.sh --dbrootpassword YOUR_DB_ROOT_PASSWORD
    ```
 
-5.  Start and enable Kodo Cloud Server service \(it can take around a minute for server to be started\):
+5.  Start and enable Kodo for Cloud server service \(it can take around a minute for server to be started\):
 
    ```text
    systemctl start kodo-cloud-server
@@ -104,9 +104,9 @@ Kodo Cloud consists of server \(central management point with WebUI\) and agent,
    firewall-cmd --complete-reload
    ```
 
-8. Now you should be able to log into the web console using URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST` is hostname or IP of your Kodo Cloud Server. By default Kodo Cloud has one global admin \(admin managing organizations\) account and a account in the default organization:
-   * Kodo admin \(global admin\): `kodoadmin` with password `Kodo@dm1n` \(with zero\)
-   * default organization admin: `admin` with password `Kodo@dm1n` \(with zero\)
+8. Now you should be able to log into the web console using URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST` isthe hostname or IP address of your Kodo Cloud Server. By default Kodo for Cloud has one global admin account \(the administrator to manage organizations\) and  another admin account in the default organization:
+   * Kodo admin \(global admin\): `kodoadmin` with password `Kodo@dm1n`
+   * default organization admin: `admin` with password `Kodo@dm1n` 
 
 ## Kodo Cloud Agent
 
@@ -119,7 +119,7 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    ```
 
 2. Now follow steps described in [Staging space and backup destination configuration](common-tasks/staging-space-and-backup-destination-configuration.md)
-3. Register agent to the server with `AGENT_NAME` of your choice, to the server `ADMIN_USER` user name which you would like to use and URL to vProtect API and provide password when prompted.
+3. Register agent to the server with `AGENT_NAME` of your choice, to the server `ADMIN_USER` user name which you would like to use and URL to Kodo for Cloud API and provide password when prompted.
    * syntax:
 
      ```text
@@ -145,5 +145,5 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
      systemctl start kodo-cloud-agent1
      systemctl enable kodo-cloud-agent1
      ```
-5. Now you should be able to see new entry in `Agents` section of web UI \(kodo admin panel\) - you need to activate the agent \(menu on the right\) to allow it to process tasks
+5. Now you should be able to see new entry in `Agents` section of web UI \([kodoadmin ](../administration/dashboard.md)dashboard\)
 

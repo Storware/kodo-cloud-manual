@@ -1,11 +1,11 @@
 # Dashboard
 
-After successful installation of **KODO for Cloud**, an administrator can log into the application using a popular web browser \(e.g. Google Chrome, Mozilla Firefox or MS IE Edge\). To do to this, use the IP address of the server where **KODO for Cloud** server was installed. 
+After successful installation of **KODO for Cloud** server the administrator can log into the application using a popular web browser \(e.g. Google Chrome, Mozilla Firefox or MS IE Edge\). To do to this provide the IP address of the server where **KODO for Cloud** server was installed at the browser address bar. 
 
 `https://KODO_server_IP_address`
 
 {% hint style="info" %}
-An administrator can use admin or kodoadmin account to log into the application. 
+The administrator can use admin or kodoadmin account to log into the application. 
 
 The differences between both user types are described in the [administrators](../deployment/users.md) section. 
 {% endhint %}
