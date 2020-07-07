@@ -8,25 +8,25 @@ Follow the instruction to create a new backup job:
 
 ![](../../.gitbook/assets/kodo-cloud-administration-backup05.png)
 
-### Step: General
+### Step 1: General
 
 Enter a job name and schedule description. Click **Next** button to continue.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-backup06.png)
 
-### Step: Users
+### Step 2: Users
 
 Select user or users that should be protected in this backup job. You can also use **Auto-select users** option to automatically protect all users registered in the defined Microsoft 365 organisation.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-backup07.png)
 
-### Step: Schedule
+### Step 3: Schedule
 
-Create a schedule according to your internal backup policy.  Select when the first full backup should start and the cycle in which it will be repeated \(as incremental backup\). You can choose a day\(s\) of a week or other time interval \(week or month\). Set the time the job should start.
+Create a schedule according to your backup policy.  Select the time when the first full backup should start and the cycle in which it will be repeated \(as incremental backup\). You can choose a day\(s\) of a week or other time interval \(week or month\). Set the time the job should start.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-backup08.png)
 
-### Step: Summary
+### Step 4: Summary
 
 Verify your job configuration and provide amendments if necessary. Save the job. The job is ready to start.
 
