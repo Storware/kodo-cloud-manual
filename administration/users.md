@@ -2,11 +2,11 @@
 
 In this view, you can see all users synchronized \(imported\) from a defined organization \(Microsoft 365\)
 
-Click **Synchronize** button to import users.
+Click **Synchronize** button to import users from Microsoft 365 organization.
 
-![](../.gitbook/assets/kodo-cloud-administration-users01.png)
+![](../.gitbook/assets/kodo-cloud-administration-users01%20%281%29.png)
 
-You can do the following activities on user\(s\):
+You can do the following activities on the user\(s\):
 
 * Assign [Policy](policies/)- change a data policy  for assigned user\(s\)  
 * [Backup](data-backup/on-demand-backup.md)- start a backup process for selected user\(s\)
