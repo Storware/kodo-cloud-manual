@@ -14,8 +14,6 @@ To get logs for troubleshooting do the following:
 If you install another CloudAgent on you Kodo for Cloud server, then the logs path will look as follow: **/opt/kodo-cloud/agent/logs/CloudAgent\_name**
 {% endhint %}
 
-
-
 If necessary you can download logs using SCP client of your choice \(e.g. WinSCP\).
 
 Server logs are located at the following path:
@@ -24,6 +22,22 @@ Server logs are located at the following path:
 
 You can find two kinds of logs under that path:
 
-* **Server logs** - logs regarding server
-* **Application logs** -logs regarding application
+* **Server logs** - \(server.log.x\)
+* **Application logs** - \(kodo.log and kodo\_log.%DATE%.log.zip\) 
+
+You can download logs from KODO for Cloud server or by logging into WEB GUI as  **kodoadmin** user.
+
+To get the logs do the following:
+
+1. Log in to the KODO for Cloud server as **kodoadmin** user.
+2. Go to the **Settings** menu.
+3. At the **Settings** menu go to **Logs** tab.
+4. Select **Server Logs** or **Application Logs** section.
+5. Click **Download** to save selected log\(s\) file\(s\) locally or **Action** icon to save only one, choosen file.
+
+![](../.gitbook/assets/kodo-cloud-administration-settings-kodoadmin02.png)
+
+![](../.gitbook/assets/kodo-cloud-administration-settings-kodoadmin03.png)
+
+
 
