@@ -57,7 +57,7 @@
     * [Organization Admin](administration/settings/organization-admin/README.md)
       * [Add a Microsoft 365 organization](administration/settings/organization-admin/add-a-microsoft-365-organization.md)
 * [Troubleshooting](troubleshooting/README.md)
-  * [How to enable KODO for Cloud DEBUG mode](troubleshooting/how-to-enable-kodo-for-cloud-debug-mode.md)
+  * [How to change a log level in KODO for Cloud](troubleshooting/how-to-enable-kodo-for-cloud-debug-mode.md)
   * [Collecting logs](troubleshooting/collecting-logs.md)
 * [Integration](integration.md)
 * [Known software issues and limitations](known-software-issues-and-limitations.md)
