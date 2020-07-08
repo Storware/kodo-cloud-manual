@@ -1,7 +1,5 @@
 # Installation Overview
 
-
-
 1. Setup backup storage
 2. Choose your installation path. You have the following options:
    * [​All-in-one quick installation​](quick-install-all-in-one.md)

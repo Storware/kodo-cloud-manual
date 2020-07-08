@@ -13,7 +13,7 @@ Data policy allows you to configure the following settings:
 
 To configure data policy do the following steps:
 
-1. Go to **Policies** view
+1. Go to the **Policies** view
 2. Click on **Add Policy** button
 3. Configure the data policy due to your company backup regulations and confirm settings by pressing **Save** button.  
 

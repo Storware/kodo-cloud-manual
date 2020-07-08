@@ -1,10 +1,10 @@
 # KODO Admin
 
-The **kodoadmin** user is a predefined administrative user on **KODO for Cloud** server.  If you are logging in to the  server as **kodoadmin** then you can edit the follwing server settings.
+The **kodoadmin** user is a predefined administrative user on KODO for Cloud server.  If you are logging in to the  server as **kodoadmin** then you can edit the server settings in the tabs.
 
-## General tab
+## General
 
-Here you can edit settings as follow:
+Here you can edit the following settings:
 
 * General settings-  allowed IP addresses to login with KodoAdmin role
 * Support website URL
@@ -15,7 +15,7 @@ Here you can edit settings as follow:
 
 ## Email
 
-Here you can edit the email settings as follow:
+Here you can edit the following settings:
 
 * E-mail address
 * Login
@@ -27,9 +27,9 @@ Here you can edit the email settings as follow:
 
 ![](../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin02-%20%281%29.png)
 
-## Storage tab
+## Storage
 
-Here you can edit the storage settings as follow:
+Here you can edit the following settings:
 
 * Backup storage path
 * Staging path
@@ -38,27 +38,27 @@ Here you can edit the storage settings as follow:
 
 ![](../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin03-.png)
 
-## Logs tab
+## Logs
 
-Here you can edit the logging settings as follow:
+Here you can edit the following settings:
 
 * Maximum number of files 
 * Log level
 * Max file size
 
-You can also download KODO logs or Server logs to send this information to KODO support.
+You can also download Server logs or Application Logs for troubleshhoting or to send this information to KODO support.
 
-![](../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin04-%20%281%29.png)
+![](../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin04-%20%282%29.png)
 
 ## License tab
 
-Here you can verify current license limit or update a new one.
+Here you can preview current license or update a new one.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin05-.png)
 
-## Billing tab
+## Billing
 
-Her you can edit your billing settings.
+Here you can edit your billing settings.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin06-.png)
 

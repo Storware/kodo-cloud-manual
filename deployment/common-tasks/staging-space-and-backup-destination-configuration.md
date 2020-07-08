@@ -2,7 +2,7 @@
 
 KODO for Cloud needs staging space and backup destination available in `/kodo_data` by default. It is common to just attach empty drive and mount it.
 
-## Deduplication \(VDO\) setup
+## Deduplication \(VDO- Virtual Data Optimizer\) setup
 
 These steps are required only if you want to use VDO deduplication.
 

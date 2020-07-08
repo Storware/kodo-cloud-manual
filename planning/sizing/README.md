@@ -14,5 +14,5 @@ Many factors may affect your final deployment, but it's a good practice to answe
 
 When you take the above questions into consideration you should have at least a good starting point to plan your backup strategy.
 
-Based on the above, we prepared three scenarios which are typical for most use cases.
+Based on the above, we prepared four configurations which are typical for most use cases.
 

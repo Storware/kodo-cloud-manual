@@ -23,7 +23,6 @@ For the small Microsoft 365 organization \(up to 50 users\) the following system
         </ul>
       </td>
       <td style="text-align:center">
-        <p></p>
         <ul>
           <li>RHEL 8.x</li>
           <li>CentOS 8.x</li>
