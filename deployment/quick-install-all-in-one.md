@@ -1,12 +1,17 @@
 # Quick Install \(All-In-One\)
 
-KODO for Cloud can be easily installed on a single box quickly. You just need a few steps:
+KODO for Cloud can be easily installed on a single box. It can be a physical server or a virtual one.  In both cases, the steps you need to follow are basically the same. 
 
-* Install **CentOS 8** or **RHEL 8** **minimal** with **4 GB** of RAM and **2 vCPUs** and some storage for staging space and optionally a backup destination:
-  * use the first disk for an operating system
+* Install **CentOS 8** or **RHEL 8** **minimal** with **16 GB** of RAM and **4 vCPUs**  \(or 2 physical CPUs\) and some storage for staging and  backup destination:
+  * use the first disk for an operating system \(50 GB recommended\)
+  * use another disk for /opt/kodo-cloud disrectory
   * add a secondary disk, i.e. **200GB - 1 TB** \(depending on the size your VMs that you want to backup\) - leave it empty, you'll initialize this space later
-* log in as **root** over **SSH** to your machine, where you want to install it
+* Log in as **root** over **SSH** to the machine you want to install it.
+
+{% hint style="warning" %}
 * **RHEL** requires an active subscription
+{% endhint %}
+
 * Optionally, if you want to have initialize VDO \(deduplication\) initialized during installation, please do a following steps
   * add a physical or virtual disk to KODO server
   * check its availability - `lsblk` command - let's assume it is `/dev/sdx`

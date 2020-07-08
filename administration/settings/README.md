@@ -1,18 +1,8 @@
 # Settings
 
-In Kodo for Cloud server, you have to configure and manage afterwards sets of settings. The main is for **kodoadmin** user and separate settings for defined organizations admins  
+In Kodo for Cloud server, you have to configure and manage  sets of settings. The main server settings are manage for **kodoadmin** user dashboard and separate set of settings for defined organizations admins. 
 
-## KODO Admin 
-
-
-
-### General 
-
-### Storage
-
-### License 
-
-### Billing
+## 
 
 
 

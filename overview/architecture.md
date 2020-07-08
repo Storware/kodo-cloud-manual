@@ -12,11 +12,13 @@ Use KODO for Cloud to back up and restore your data from your Microsoft \(Office
 
 ### KODO Cloud agent
 
+
+
 * Retrieves O365 items from the cloud
 * In case of restore also send data to the cloud
-* KODO agent can by multiply for better backup/restore performance
+* KODO agent can be multiply for better backup/restore performance
 
-### KODO Cloud Server \(api-core\)
+### KODO Cloud Server \(API-core\)
 
 * Management + orchestration
 
@@ -26,18 +28,18 @@ Use KODO for Cloud to back up and restore your data from your Microsoft \(Office
 
 ### Backup Storage
 
-* Place, where KODO for Cloud stores a backup data
+* It a place where KODO for Cloud stores a backup data
 
 ## Component placement
 
 * **KODO for Cloud server and agents can be installed in the same system** 
 * Server can be installed on a physical machine or VM - nodes just need to be able to connect to it.
-* Agents can be installed also inside a VM or physical machine, but keep in mind that some backup strategies require Node to be installed as a VM on a Hypervisor Cluster \(especially when "disk attachment" export mode is mentioned\).
+* Agents can be installed also inside a VM or physical machine, but keep in mind that some backup strategies require node to be installed as a VM on a Hypervisor Cluster \(especially when "disk attachment" export mode is mentioned\).
 * Both components are installed on a CentOS/RHEL 8 minimal.
 
 ## Understating correlation between agents, tasks, and schedules
 
-In KODO system scheduler is a group of rules describing what, who and when should be protected. Every scheduler generate tasks based on rules mentioned above. Task describe feature \(Mailbox/Calendar/Contact/OneDrive\) and user that should be protected. Next tasks are putted into the queue and waiting there to be picked up by Agent \(tasks are putted into internal application queue – not RabbitMQ\).
+In KODO system scheduler is a group of rules describing what, who and when should be protected. Every scheduler generate tasks based on rules mentioned above. Task describe feature \(Mailbox/Calendar/Contacts/OneDrive\) and user that should be protected. Next tasks are putted into the queue and waiting there to be picked up by Agent \(tasks are putted into internal application queue\)
 
 **Example:**
 

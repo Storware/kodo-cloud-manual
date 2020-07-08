@@ -1,10 +1,10 @@
 # KODO Admin
 
-The **kodoadmin** user is a predefined administrative user on **KODO for Cloud** server.  If you are logging in to the  server as **kodoadmin** then you can edit the server settings.
+The **kodoadmin** user is a predefined administrative user on **KODO for Cloud** server.  If you are logging in to the  server as **kodoadmin** then you can edit the follwing server settings.
 
 ## General tab
 
-Here you can edit the following settings:
+Here you can edit settings as follow:
 
 * General settings-  allowed IP addresses to login with KodoAdmin role
 * Support website URL
@@ -46,7 +46,7 @@ Here you can edit the logging settings as follow:
 * Log level
 * Max file size
 
-You can also downolad KODO logs or Server logs to send this information to KODO support.
+You can also download KODO logs or Server logs to send this information to KODO support.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin04-%20%281%29.png)
 
