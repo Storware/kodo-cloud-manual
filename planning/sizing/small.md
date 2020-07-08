@@ -1,4 +1,4 @@
-# Small
+# Small Microsoft  365 organization
 
 For the small Microsoft 365 organization \(up to 50 users\) the following system configurtation is recommended:
 
@@ -14,9 +14,8 @@ For the small Microsoft 365 organization \(up to 50 users\) the following system
     <tr>
       <td style="text-align:left">Kodo for Cloud</td>
       <td style="text-align:left">
-        <p></p>
         <ul>
-          <li>at least 4 vCPUs (2 physical CPUs)</li>
+          <li>at least 4 vCPUs (or 2 physical CPUs)</li>
           <li>at least 16 GB RAM</li>
           <li>at least 30 GB for database</li>
           <li>at least 50 GB for /opt/kodo-cloud</li>
@@ -34,7 +33,7 @@ For the small Microsoft 365 organization \(up to 50 users\) the following system
   </tbody>
 </table>
 
-One Cloud Agent is capable to run 25 tasks in parallel. If you need to configure another Cloud Agent instance you have to add additional 4GB of RAM and 2 vCPU. 
+One Cloud Agent is capable to run 25 tasks in parallel. If you need to configure another Cloud Agent instance you have to add additional 4GB of RAM and 2 vCPU to your system configuration.
 
 {% hint style="warning" %}
 When installing KODO for Cloud on RHEL 8 it is recomended to have active Red Hat subscription. Use **yum repolist** command to check it.

@@ -1,6 +1,6 @@
 # Sizing
 
-There are two types of people: those who are doing backups and those who will be doing them. But just **doing** backups is not everything. To avoid unnecessary surprises the best strategy is to **plan** your backup environment/procedure **before implementing** it. In this chapter we have collected generic hints and guides which you might find useful while thinking about your **KODO for Cloud** implementation.
+There are two kinds of people: those who make backups and those who will make them. But just doing  backups is not enough. To avoid unnecessary surprises, the best strategy is to plan your backup environment/procedure **before implementing** it. In this chapter we have gathered general tips and tutorials that you may find useful when thinking about implementing **KODO for Cloud**.
 
 Many factors may affect your final deployment, but it's a good practice to answer following questions:
 

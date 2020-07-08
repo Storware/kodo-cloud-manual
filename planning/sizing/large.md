@@ -1,4 +1,4 @@
-# Large
+# Large Microsoft  365 organization
 
 For a large Microsoft 365 organization \(from 251 to 1000 users\) the following system configurtation is recommended:
 
@@ -14,8 +14,6 @@ For a large Microsoft 365 organization \(from 251 to 1000 users\) the following 
     <tr>
       <td style="text-align:left">Kodo for Cloud</td>
       <td style="text-align:left">
-        <p></p>
-        <p></p>
         <ul>
           <li>at least 4 vCPUs (or 2 physical CPUs)</li>
           <li>at least 24 GB RAM</li>
