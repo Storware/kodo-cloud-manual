@@ -7,7 +7,7 @@ You can search for messages for keyword\(s\) using "**Search here**" field.
 {% endhint %}
 
 {% hint style="info" %}
-You can search audit log over a given period using the calendar.
+You can search audit log over a period of time using the calendar.
 {% endhint %}
 
 ![](../.gitbook/assets/kodo-cloud-administration-audit01.png)

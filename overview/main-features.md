@@ -1,5 +1,9 @@
 # Main Features
 
+KODO for Cloud server is capable to protect users data in the Microsoft 365 service in efficent way. 
+
+The server has the following features implemented: 
+
 * Backup & Recovery for Microsoft 365
   * Exchange Online
     * e-mails

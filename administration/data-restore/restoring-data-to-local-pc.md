@@ -1,4 +1,4 @@
-# Restoring data to local PC
+# Restore data to local PC
 
 To browse and restore backup data to your PC do the following:
 
