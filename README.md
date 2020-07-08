@@ -12,5 +12,5 @@ Protecting your organization with KODO for Cloud is simple and effective. It pro
 
 ## Intended Audience
 
-This guide is intended for IT specialists who want to provide 24/7/365 data protection and availability for Microsoft Office 365 users.
+This guide is intended for IT specialists who want to provide 24/7/365 data protection and availability for Microsoft 365 users.
 

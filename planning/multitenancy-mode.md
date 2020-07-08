@@ -1,2 +1,4 @@
-# Multitenancy Mode
+# Multi-tenancy
+
+Organizations 
 

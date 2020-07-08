@@ -1,6 +1,6 @@
 # Staging space and backup destination configuration
 
-Kodo for Cloud needs staging space and backup destination available in `/kodo_data` by default. It is common to just attach empty drive and mount it.
+KODO for Cloud needs staging space and backup destination available in `/kodo_data` by default. It is common to just attach empty drive and mount it.
 
 ## Deduplication \(VDO\) setup
 

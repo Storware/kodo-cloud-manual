@@ -1,6 +1,6 @@
 # Policies
 
-Data policy allows you to configure:
+Data policy allows you to configure the following settings:
 
 * Set a default policy
 * Backup retention \(day\(s\), month\(s\), year\(s\)\)
@@ -20,7 +20,7 @@ To configure data policy do the following steps:
 ![](../../.gitbook/assets/kodo-cloud-administration-policies01.png)
 
 {% hint style="info" %}
-Data Policy configuration will apply to all users and tasks
+Data policy configuration will apply to all users and tasks
 {% endhint %}
 
 ##  Retention time
@@ -46,6 +46,12 @@ Versioning is used e.g. for OneDrive files \(if the file is changed in time\), b
 {% hint style="info" %}
 The number of versions that the server keeps is also affected by the time retention setting. Versions expire when the number of days that they are inactive exceeds the value that is specified for retaining, even when the number of versions is not exceeded.
 {% endhint %}
+
+{% hint style="info" %}
+The number of versions that the server keeps is also affected by the time retention setting. Versions expire when the number of days that they are inactive exceeds the value that is specified for retaining, even when the number of versions is not exceeded.
+{% endhint %}
+
+To add organization users to the policy you have to [edit](edit-a-policy.md).    
 
 
 

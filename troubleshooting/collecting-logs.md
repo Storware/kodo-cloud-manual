@@ -7,23 +7,23 @@ CloudAgent logs contain information about backup and restore operation for Micro
 To get logs for troubleshooting do the following:
 
 1. Log in to the system where CloudAgent is installed.
-2. Go to directory  **/opt/kodo-cloud/agent/logs/voyager/**
+2. Go to directory  `/opt/kodo-cloud/agent/logs/voyager`
 3. Investigate the logs to look for a root cause of errors you've encoutered.
 
 {% hint style="info" %}
 If you install another CloudAgent on you Kodo for Cloud server, then the logs path will look as follow: **/opt/kodo-cloud/agent/logs/CloudAgent\_name**
 {% endhint %}
 
-If necessary you can download logs using SCP client of your choice \(e.g. WinSCP\).
+If necessary you can download logs using SCP client of your choice \(i.e. WinSCP\).
 
 Server logs are located at the following path:
 
-**/opt/kodo-cloud/server/logs/server/**
+`/opt/kodo-cloud/server/logs/server`
 
 You can find two kinds of logs under that path:
 
-* **Server logs** - \(server.log.x\)
-* **Application logs** - \(kodo.log and kodo\_log.%DATE%.log.zip\) 
+* **Server logs** - \(`server.log.x`\)
+* **Application logs** - \(kodo.log and `kodo_log.TIMESTAMP.log.zip`\) 
 
 You can download logs from KODO for Cloud server by logging into WEB GUI as  [**kodoadmin** ](../administration/settings/kodo-admin.md)user.
 

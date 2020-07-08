@@ -2,51 +2,23 @@
 
 ## Platform Requirements
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Component</th>
-      <th style="text-align:left">Hardware Requirements</th>
-      <th style="text-align:left">Software Requirements</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">KODO for Cloud</td>
-      <td style="text-align:left">
-        <ul>
-          <li>at least 4 vCPUs</li>
-          <li>at least 16 GB RAM</li>
-          <li>at least 300 GB for database</li>
-          <li>at least 100 GB for /opt</li>
-        </ul>
-      </td>
-      <td style="text-align:left">
-        <ul>
-          <li>RHEL 8.x</li>
-          <li>CentOS 8.x</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+You can install KODO for Cloud server on the CentOS 8.x or RHEL 8.x operating system. The hardware requirements \(physical or virtual\) will depend on the size of your Microsoft 365 organization. Check the [Sizing ](sizing/)section for the requirements for your KODO for Cloud server.  
 
 {% hint style="warning" %}
-Before the KODO for Cloud install, please make sure your OS is up-to-date. Use **dnf update** \(or **yum update**\) command if needed. Reboot your OS afterwards. 
+Before the KODO for Cloud installation, please make sure your OS is up-to-date. Use **dnf update** \(or **yum update**\) command if needed. Reboot your OS afterwards. 
 {% endhint %}
 
 An [Active Red Hat subscription](https://access.redhat.com/management/products) is required for registering the [RHEL 8](https://www.itzgeek.com/tag/rhel-8) systems or you can [sign up for 30 days trial](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) which will allow you to download Red Hat Enterprise Linux 8 as well as register your RHEL 8 system with Red Hat for receiving packages and updates.
 
 Keep your Red Hat subscription credentials handy for registering your RHEL 8 system to Red Hat.
 
-## Ports used for communication
+{% hint style="info" %}
+ TCP **port 443** is the standard TCP port ****that is used for website which use SSL. TCP port 443 is used to communicate with KODO for Cloud server UI.
+{% endhint %}
 
-| Component | To | Port |
-| :--- | :--- | :--- |
-| api-core | MySQL database | 3306\* |
-| Cloud Agent | api-core | 443 |
-| Cloud Agent | Microsoft 365 | 443, 80 |
 
-_\* - default port number  
-\*\* - default port number for the client and administrative communication_
+
+
+
+
 

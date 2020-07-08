@@ -15,7 +15,7 @@ For a medium Microsoft 365 organization \(from 51 to 250 users\) the following s
       <td style="text-align:left">Kodo for Cloud</td>
       <td style="text-align:left">
         <ul>
-          <li>at least 4 vCPUs (or 2 physical CPUs)</li>
+          <li>at least 4 cores</li>
           <li>at least 16 GB RAM</li>
           <li>at least 150 GB for database</li>
           <li>at least 100 GB for /opt/kodo-cloud</li>

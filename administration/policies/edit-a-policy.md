@@ -1,13 +1,18 @@
 # Edit a policy
 
-If you want to edit a data policy, do the following:
+If you need to edit a data policy, do the following:
 
 1. Go to the **Policies** view.
-2. Do the right-click on **Options** on the right side.
-3. Choose **Edit** to preview or configure the policy.
-4. The policy configuration window will be opened. 
-5. Now you can reconfigure the policy.
-6. Click **Save** button to confirm amendments.  
+2. Select the policy and do the right-click on **Options** \(or just double-click on the policy name\) .
+3. Choose **Edit** to configure the policy.
 
-![](../../.gitbook/assets/kodo-cloud-administration-policies02.png)
+{% hint style="info" %}
+You can also double-click on the policy name to start edit the policy
+{% endhint %}
+
+ Click the **Save** button to confirm amendments.  
+
+
+
+
 

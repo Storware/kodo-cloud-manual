@@ -14,9 +14,8 @@ For a very large Microsoft 365 organization \(1000+ users\) the following system
     <tr>
       <td style="text-align:left">Kodo for Cloud</td>
       <td style="text-align:left">
-        <p></p>
         <ul>
-          <li>at least 8 vCPUs (or 2 physical CPUs)</li>
+          <li>at least 8 cores</li>
           <li>at least 32 GB RAM</li>
           <li>at least 1 TB for database</li>
           <li>at least 100 GB for /opt/kodo-cloud</li>
@@ -24,7 +23,6 @@ For a very large Microsoft 365 organization \(1000+ users\) the following system
         </ul>
       </td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>RHEL 8.x</li>
           <li>CentOS 8.x</li>
