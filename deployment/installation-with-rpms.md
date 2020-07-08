@@ -129,7 +129,7 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    * currently only local installation is supported, so you should use localhost and 8181 as the target:
 
      ```text
-     /opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n agent1
+     /opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager
      ```
 4. Start and enable Kodo Cloud Agent service \(notice its name contains agent name\).
    * syntax:
@@ -142,8 +142,8 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    * example:
 
      ```text
-     systemctl start kodo-cloud-agent1
-     systemctl enable kodo-cloud-agent1
+     systemctl start kodo-cloud-voyager
+     systemctl enable kodo-cloud-voyager
      ```
 5. Now you should be able to see new entry in `Agents` section of web UI \([kodoadmin ](../administration/dashboard.md)dashboard\)
 
