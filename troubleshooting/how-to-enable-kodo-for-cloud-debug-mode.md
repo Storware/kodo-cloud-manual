@@ -10,7 +10,7 @@ If you need to change the default log level \(INFO\) and other settings for logg
 
 ![](../.gitbook/assets/kodo-cloud-administration-settings-kodoadmin01.png)
 
-You can set the following logging level:
+You can set the following logging levels:
 
 * INFO
 * DEBUG
