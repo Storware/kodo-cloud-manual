@@ -6,7 +6,7 @@ KODO for Cloud can be easily installed on a single box. It can be a physical ser
   * use the first disk for an operating system \(50 GB recommended\)
   * use another disk for /opt/kodo-cloud disrectory
   * add a secondary disk, i.e. **200GB - 1 TB** \(depending on the size your VMs that you want to backup\) - leave it empty, you'll initialize this space later
-  * make sure to have valid subscription if RHEL is your OS
+  * make sure to have active subscription if RHEL is your OS
 * Log in as **root** over **SSH** to the machine you want to install it.
 
 {% hint style="warning" %}
