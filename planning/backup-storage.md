@@ -11,7 +11,7 @@ If you are going to use a local disk or VDO option to store your data, you have 
 
 
 
-On virtual server 
+
 
 
 
