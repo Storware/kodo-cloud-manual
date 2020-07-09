@@ -12,11 +12,14 @@ Use KODO for Cloud to back up and restore your data from your Microsoft 365. You
 
 ### KODO Cloud agent \(Backup Agent\)
 
+This server component does the following:
 
+* It retrieves Microsoft 365 items from the cloud and stores it locally \(on local disk or NFS share\)
+* During restore process it sends data back to the cloud or is recovered locally. 
 
-* Retrieves O365 items from the cloud
-* In case of restore also send data to the cloud
-* KODO agent can be multiply for better backup/restore performance
+{% hint style="info" %}
+KODO Cloud agent can be multiplied for better backup/restore performance
+{% endhint %}
 
 ### KODO Cloud Server \(API-core\)
 
@@ -33,22 +36,7 @@ Use KODO for Cloud to back up and restore your data from your Microsoft 365. You
 ## Component placement
 
 * KODO for Cloud server and agent are installed in the same system. 
-* Server can be installed on a physical machine or virtual one.
-* Agent is installed during KODO for Cloud server installation .
+* Server can be installed on a physical or a virtual machine.
+* Agent may be installed during KODO for Cloud server installation \(see the chapter  [Quick Install \(All-In-One\)](../deployment/quick-install-all-in-one.md)\) .
 * Both components are installed on the CentOS/RHEL 8 minimal.
-
-## Understanding correlation between agents, tasks, and schedules
-
-In KODO system scheduler is a part of job configuration  rules describing what, who and when should be protected. Every scheduler generate tasks based on rules mentioned above. Task describes feature \(Mailbox/Calendar/Contacts/OneDrive\) and user that should be protected. Next tasks are putted into the queue and waiting there to be picked up by Agent \(tasks are putted into internal application queue\)
-
-**Example:**
-
-```text
-Job configuration:
-    Number of protected users: 20
-    Features to protect: Mailboxes, OneDrive 
-Number of task:
-    (no. users) * (no. of protected features) = number of task to be processed 
-    20 * 2 = 40 task to proceed
-```
 

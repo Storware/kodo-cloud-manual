@@ -11,7 +11,7 @@ To get logs for troubleshooting do the following:
 3. Investigate the logs to look for a root cause of errors you've encoutered.
 
 {% hint style="info" %}
-If you install another CloudAgent on you Kodo for Cloud server, then the logs path will look as follow: **/opt/kodo-cloud/agent/logs/CloudAgent\_name**
+If you install another CloudAgent on you Kodo for Cloud server, then the logs path will look as follow: `/opt/kodo-cloud/agent/logs/CloudAgent_name`
 {% endhint %}
 
 If necessary you can download logs using SCP client of your choice \(i.e. WinSCP\).

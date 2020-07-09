@@ -2,7 +2,7 @@
 
 In this view, you can see all users synchronized \(imported\) from a defined organization \(Microsoft 365\)
 
-Click **Synchronize** button to import users from Microsoft 365 organization.
+Click **Synchronize** button to import users from defMicrosoft 365 organization.
 
 ![](../.gitbook/assets/kodo-cloud-administration-users01%20%281%29.png)
 
