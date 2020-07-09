@@ -6,7 +6,7 @@ The **kodoadmin** user is a predefined administrative user on KODO for Cloud ser
 
 Here you can edit the following settings:
 
-* General settings-  allowed IP addresses to login with KodoAdmin role
+* General settings-- allowed IP addresses to login with KodoAdmin role
 * Support website URL
 * Product website URL
 * Documentation website URL

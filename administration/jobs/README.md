@@ -1,13 +1,17 @@
 # Jobs
 
-To do a backup on a regular basis, a job should be created. A job is a trigger to execute a backup process. 
+To do a backup on a regular basis, the administrator should create a job \(or jobs\). The job is a trigger to execute a backup process. 
 
-In the job deffinition you have to set the following:
+In the job deffinition you have to provide the following information:
 
 * Job name
 * Schedule description \(optional\)
 * Select user\(s\)
 * Schedule
+
+
+
+
 
 
 

@@ -31,8 +31,10 @@ Versioning is used e.g. for OneDrive files \(if the file is changed in time\), b
 {% endhint %}
 
 {% hint style="info" %}
-
+The number of versions that the server keeps is also affected by the time retention setting. Versions expire when the number of days that they are inactive exceeds the value that is specified for retaining, even when the number of versions is not exceeded.
 {% endhint %}
+
+
 
 
 

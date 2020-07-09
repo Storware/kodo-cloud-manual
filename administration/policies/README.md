@@ -11,33 +11,7 @@ Data policy allows you to configure the following settings:
   * Exchange Online Contacts
   * OneDrive for Business
 
-To configure data policy do the following steps:
-
-1. Go to the **Policies** view
-2. Click on **Add Policy** button
-3. Configure the data policy due to your company backup regulations and confirm settings by pressing **Save** button.  
-
-![](../../.gitbook/assets/kodo-cloud-administration-policies01.png)
-
-{% hint style="info" %}
-Data policy configuration will apply to all users and tasks
-{% endhint %}
-
-##  Retention time
-
-KODO gives you the flexibility to configure backup retention. Backup retention settings apply only to items \(like files or messages\) that have been deleted from the source.
-
-If you configure retention for 7 days you will have 7 days to restore item\(s\) deleted by the user. All data that exist at the source will never be deleted.
-
-### Versions to keep
-
-You can specify the number of backup versions to keep.
-
-{% hint style="info" %}
-Minimum number version to keep is 1. The default value is 5.
-{% endhint %}
-
-![](../../.gitbook/assets/image%20%281%29.png)
+T
 
 {% hint style="info" %}
 Versioning is used e.g. for OneDrive files \(if the file is changed in time\), but also e-mail messages can have many version \(mail draft changed in time\)

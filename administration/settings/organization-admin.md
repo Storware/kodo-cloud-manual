@@ -1,5 +1,7 @@
 # Organization Admin
 
+If you are logging to the KODO for Cloud server as 
+
 ## Details
 
 In this tab you can verify you server/agent version and available service options. 
