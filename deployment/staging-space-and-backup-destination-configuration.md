@@ -12,7 +12,7 @@ If you plan to use VDO deduplication for storing you backups, do as follow:
 * Run `lsblk` command to check the system name for the disk you will use as storage destination.  
 
 ```text
-[root@localhost yum.repos.d]# lsblk
+[root@localhost ~]# lsblk
 NAME              MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
 sda                 8:0    0   50G  0 disk
 ├─sda1              8:1    0  600M  0 part /boot/efi

@@ -28,8 +28,11 @@
    * optionally  `current` can also be pointed to the specific version, i.e. `4.0` \(not the one that is always up to date\), i.e.`http://repo.storware.eu/kodo-cloud/4.0/el8`
 
 4. Install MariaDB repository:
-   * generate.repo file at [MariaDB download](https://downloads.mariadb.org/mariadb/repositories) site
-   * copy and paste generated repo file into `/etc/yum.repos.d/MariaDB.repo`, so it looks similar to this \(this one for CentOS/RHEL 8\):
+   * generate.repo file at [MariaDB download](https://downloads.mariadb.org/mariadb/repositories) site:
+     * Choose a Distro \(i.e. `CentOS` \)
+     * Choose a Release \(i.e. `CentOS 8 (x86_64)` \)
+     *  ****Choose a Version \(i.e. `10.4 [Old Stable]`\)
+   * copy and paste generated repo file into `/etc/yum.repos.d/MariaDB.repo`, so it may  look similar to this one below \(this one for CentOS/RHEL 8\):
 
      ```text
      # MariaDB 10.4 CentOS repository list - created 2020-06-01 16:14 UTC
@@ -53,9 +56,9 @@
      gpgcheck = 1
      ```
 
-## Kodo for Cloud server
+## KODOfor Cloud server
 
-Kodo for Cloud consists of server \(central management point with WebUI\) and agent \(CloudAgent\), which should be installed on the same server. The first step is always to install the server.
+KODO for Cloud consists of server \(central management point with WebUI\) and agent \(CloudAgent\), which should be installed on the same server. The first step is always to install the server.
 
 1. Install kodo-cloud-server using YUM:
 
@@ -88,14 +91,14 @@ Kodo for Cloud consists of server \(central management point with WebUI\) and ag
    /opt/kodo-cloud/server/bin/kodo-cloud-server-init.sh --dbrootpassword YOUR_DB_ROOT_PASSWORD
    ```
 
-5.  Start and enable Kodo for Cloud server service \(it can take around a minute for server to be started\):
+5.  Start and enable KODO for Cloud server service \(it can take around a minute for server to be started\):
 
    ```text
    systemctl start kodo-cloud-server
    systemctl enable kodo-cloud-server
    ```
 
-6. If you don't have firewall running, yet - start and enable its service:
+6. If you don't have firewall running yet - start and enable its service:
 
    ```text
    systemctl start firewalld
@@ -109,7 +112,7 @@ Kodo for Cloud consists of server \(central management point with WebUI\) and ag
    firewall-cmd --complete-reload
    ```
 
-8. Now you should be able to log into the web console using URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST` is the hostname or IP address of your Kodo Cloud Server. By default Kodo for Cloud has one global admin account \(the administrator to manage organizations\) and  another admin account in the default organization:
+8. Now you should be able to log into the web console using URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST` is the hostname or IP address of your Kodo Cloud Server. By default KODO for Cloud has one global admin account \(the administrator to manage organizations\) and  another admin account in the default organization:
    * Kodo admin \(global admin\): `kodoadmin` with password `Kodo@dm1n`
    * default organization admin: `admin` with password `Kodo@dm1n` 
 
@@ -150,5 +153,5 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
      systemctl start cloud-agent-voyager
      systemctl enable cloud-agent-voyager
      ```
-5. Now you should be able to see agent entry in `Agents` section of web UI \([kodoadmin ](../administration/dashboard.md)dashboard\)
+5. Now you should be able to see agent entry in [Agents](../administration/cloud-agent.md) section of kodoadmin web UI 
 
