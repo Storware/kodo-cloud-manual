@@ -1,6 +1,6 @@
 # Small Microsoft  365 organization
 
-For the small Microsoft 365 organization \(up to 50 users\) the following system configurtation is recommended:
+For the small Microsoft 365 organization \(up to 50 users\) the following system configuration is recommended:
 
 <table>
   <thead>

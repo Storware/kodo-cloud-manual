@@ -9,6 +9,8 @@ Before you start the installation process you have to configure a data storage d
 
 If you are going to use a local disk or VDO option to store your data, you have to configure a block device on server in both cases.
 
+VDO data reduction technology works at the OS layer so it can benefit all layers above it. It works by first eliminating 4KB zero byte blocks and duplicate blocks and then adds compression to the remaining blocks.
+
 
 
 

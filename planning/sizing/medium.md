@@ -1,6 +1,6 @@
 # Medium Microsoft  365 organization
 
-For a medium Microsoft 365 organization \(from 51 to 250 users\) the following system configurtation is recommended:
+For a medium Microsoft 365 organization \(from 51 to 250 users\) the following system configuration is recommended:
 
 <table>
   <thead>

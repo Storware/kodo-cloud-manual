@@ -1,6 +1,6 @@
 # Agents \(kodoadmin dashboard only\)
 
-In this view you can verify currenly configured cloud agent instances on the KODO for Cloud server.
+In this view you can verify currently configured cloud agent instances on the KODO for Cloud server.
 
 {% hint style="info" %}
 Only one cloud agent instance is installed by default on The KODO for Cloud
@@ -8,7 +8,7 @@ Only one cloud agent instance is installed by default on The KODO for Cloud
 
 ## Management 
 
-Log into server as `kodoadmin` user and go to the **Agents** view. In the **Options**  menu you can select one of the folowing options:
+Log into server as `kodoadmin` user and go to the **Agents** view. In the **Options**  menu you can select one of the following options:
 
 * Details - information about tasks that were handled by the agent  
 * Stop \(or Start if agent's instance is not running\)
