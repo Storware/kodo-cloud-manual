@@ -118,7 +118,7 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    yum -y install kodo-cloud-agent
    ```
 
-2. Now follow steps described in [Staging space and backup destination configuration](common-tasks/staging-space-and-backup-destination-configuration.md)
+2. Now follow steps described in [Staging space and backup destination configuration](staging-space-and-backup-destination-configuration.md)
 3. Register agent to the server with `AGENT_NAME` of your choice, to the server `ADMIN_USER` user name which you would like to use and URL to Kodo for Cloud API and provide password when prompted.
    * syntax:
 

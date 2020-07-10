@@ -2,10 +2,10 @@
 
 ## Platform Requirements
 
-The KODO for Cloud server is supported on the CentOS 8.x or RHEL 8.x operating system.  The operating system can be install on a physical or a virtual server. The server configuration will depend on the size of your organization in the Microsoft 365 service. Check the [Sizing ](sizing/)section for the requirements for your KODO for Cloud server.  
+KODO for Cloud server is supported on the CentOS 8.x or RHEL 8.x operating system. The operating system can be install on a physical or a virtual server. The server configuration will depend on the size of your organization in the Microsoft 365 service. Check the [Sizing ](sizing/)section for the requirements for your KODO for Cloud server.  
 
 {% hint style="warning" %}
-Before the KODO for Cloud installation, please make sure your OS is up-to-date. Use **dnf update** \(or **yum update**\) command if needed. Reboot your OS afterwards. 
+Before KODO for Cloud installation, please make sure your OS is up-to-date. Use **dnf update** \(or **yum update**\) command if needed. Reboot your OS afterwards. 
 {% endhint %}
 
 {% hint style="warning" %}

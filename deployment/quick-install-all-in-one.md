@@ -1,10 +1,8 @@
 # Quick Install \(All-In-One\)
 
-KODO for Cloud can be easily installed on a single box. It can be a physical or a virtual server. In both cases, the steps you need to follow are basically the same. Before intallation prepare you server platform accordingly to the size of Microsoft 365 organization you are going to protect \(see the chapter [Sizing](../planning/sizing/)\).
+KODO for Cloud can be easily installed on a single box. It can be a physical or a virtual server. In both cases, the steps you need to follow are basically the same. Before you start the installation process you need to prepare your server platform accordingly to the size of Microsoft 365 organization you are going to protect \(see the chapter [Sizing](../planning/sizing/)\).
 
-
-
-* Install **CentOS 8** or **RHEL 8** **minimal** with **16 GB** of RAM and **4 vCPUs**  \(or 2 physical CPUs\) and some storage for staging and  backup destination:
+* Install **CentOS 8** or **RHEL 8** **minimal** 
   * use the first disk for an operating system \(50 GB recommended\)
   * use another disk for /opt/kodo-cloud disrectory
   * add a secondary disk, i.e. **200GB - 1 TB** \(depending on the size your VMs that you want to backup\) - leave it empty, you'll initialize this space later
@@ -12,7 +10,7 @@ KODO for Cloud can be easily installed on a single box. It can be a physical or 
 * Log in as **root** over **SSH** to the machine you want to install it.
 
 {% hint style="warning" %}
-* **RHEL** requires an active subscription.
+Installation on **RHEL**platform requires an active subscription.
 {% endhint %}
 
 * Optionally, if you want to have initialize VDO \(deduplication\) initialized during installation, please do a following steps

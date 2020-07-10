@@ -1,6 +1,6 @@
 # Large Microsoft  365 organization
 
-For a large Microsoft 365 organization \(from 251 to 1000 users\) the following system configurtation is recommended:
+For a large Microsoft 365 organization \(from 251 to 1000 users\) the following system configuration is recommended:
 
 <table>
   <thead>
