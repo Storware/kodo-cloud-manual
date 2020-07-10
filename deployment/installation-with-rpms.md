@@ -14,8 +14,8 @@
 
 3. Install Kodo for Cloud repository:
 
-   * create file `/etc/yum.repos.d/kodo.repo`: `touch /etc/yum.repos.d/kodo.repo` 
-   * open the file and insert to it the information from the box below
+   * create file `/etc/yum.repos.d/kodo.repo`  \(i.e.`touch /etc/yum.repos.d/kodo.repo` \)
+   * open the file \(using i.e.  `vi` editor \) and insert to it the information from the box below:
 
    ```text
    # Kodo for Cloud Microsoft 365 backup solution repository
@@ -42,7 +42,7 @@
      gpgcheck = 1
      ```
 5. Install Microsoft repository:
-   * create repo configuration file `/etc/yum.repos.d/Microsoft.repo`, with the following contents:
+   * create repo configuration file `/etc/yum.repos.d/Microsoft.repo`, with the content as follow:
 
      ```text
      # Microsoft repository
@@ -55,7 +55,7 @@
 
 ## Kodo for Cloud server
 
-Kodo for Cloud consists of server \(central management point with WebUI\) and agent \(CloudAgent\), which should be installed on the same host as server. The first step is always to install the server.
+Kodo for Cloud consists of server \(central management point with WebUI\) and agent \(CloudAgent\), which should be installed on the same server. The first step is always to install the server.
 
 1. Install kodo-cloud-server using YUM:
 
@@ -63,19 +63,23 @@ Kodo for Cloud consists of server \(central management point with WebUI\) and ag
    yum -y install kodo-cloud-server
    ```
 
-2. Start and enable MariaDB service
-
-   * Please provide a MariaDB password
+2. Start and enable MariaDB service:
 
    ```text
    systemctl start mariadb
    systemctl enable mariadb
    ```
 
-3. Run MariaDB script for secure installation:
+3. Run MariaDB script for secure installation \(choose the options as follow\):
 
    ```text
    mysql_secure_installation
+
+   Switch to unix_socket authentication [Y/n] y
+   Change the root password? [Y/n] n
+   Disallow root login remotely? [Y/n] y
+   Remove test database and access to it? [Y/n] y
+   Reload privilege tables now? [Y/n] y
    ```
 
 4. Initialize Kodo for Cloud server database using script - you need to provide DB root password:
@@ -105,7 +109,7 @@ Kodo for Cloud consists of server \(central management point with WebUI\) and ag
    firewall-cmd --complete-reload
    ```
 
-8. Now you should be able to log into the web console using URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST` isthe hostname or IP address of your Kodo Cloud Server. By default Kodo for Cloud has one global admin account \(the administrator to manage organizations\) and  another admin account in the default organization:
+8. Now you should be able to log into the web console using URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST` is the hostname or IP address of your Kodo Cloud Server. By default Kodo for Cloud has one global admin account \(the administrator to manage organizations\) and  another admin account in the default organization:
    * Kodo admin \(global admin\): `kodoadmin` with password `Kodo@dm1n`
    * default organization admin: `admin` with password `Kodo@dm1n` 
 
@@ -119,7 +123,7 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    yum -y install kodo-cloud-agent
    ```
 
-2. Now follow steps described in [Staging space and backup destination configuration](staging-space-and-backup-destination-configuration.md)
+2. Now follow steps described in [Backup and staging space configuration](staging-space-and-backup-destination-configuration.md) chapter.
 3. Register agent to the server with `AGENT_NAME` of your choice, to the server `ADMIN_USER` user name which you would like to use and URL to Kodo for Cloud API and provide password when prompted.
    * syntax:
 
@@ -146,5 +150,5 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
      systemctl start cloud-agent-voyager
      systemctl enable cloud-agent-voyager
      ```
-5. Now you should be able to see new entry in `Agents` section of web UI \([kodoadmin ](../administration/dashboard.md)dashboard\)
+5. Now you should be able to see agent entry in `Agents` section of web UI \([kodoadmin ](../administration/dashboard.md)dashboard\)
 

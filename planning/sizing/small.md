@@ -6,8 +6,8 @@ For the small Microsoft 365 organization \(up to 50 users\) the following system
   <thead>
     <tr>
       <th style="text-align:left">Component</th>
-      <th style="text-align:left">OS platform requirements</th>
-      <th style="text-align:left">Supported OS platforms</th>
+      <th style="text-align:left">Hardware Reqiurements</th>
+      <th style="text-align:center">Supported OS platforms</th>
     </tr>
   </thead>
   <tbody>
@@ -22,7 +22,7 @@ For the small Microsoft 365 organization \(up to 50 users\) the following system
           <li>space for backup</li>
         </ul>
       </td>
-      <td style="text-align:left">
+      <td style="text-align:center">
         <ul>
           <li>RHEL 8.x</li>
           <li>CentOS 8.x</li>
@@ -32,9 +32,7 @@ For the small Microsoft 365 organization \(up to 50 users\) the following system
   </tbody>
 </table>
 
-{% hint style="info" %}
-One Cloud Agent is capable to run 25 tasks in parallel. If you need to configure another Cloud Agent instance you will have to add additional 4GB of RAM and 2 cores to your system configuration.
-{% endhint %}
+One Cloud Agent is capable to run 25 tasks in parallel. If you need to configure another Cloud Agent instance you have to add additional 4GB of RAM and 2 vCPU to your system configuration.
 
 {% hint style="warning" %}
 When installing KODO for Cloud on RHEL 8 it is recomended to have active Red Hat subscription. Use **yum repolist** command to check it.

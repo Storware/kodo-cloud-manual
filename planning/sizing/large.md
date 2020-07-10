@@ -5,9 +5,9 @@ For a large Microsoft 365 organization \(from 251 to 1000 users\) the following 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Component</th>
-      <th style="text-align:left">OS platform requirements</th>
-      <th style="text-align:left">Supported OS platforms</th>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
     </tr>
   </thead>
   <tbody>
@@ -18,7 +18,7 @@ For a large Microsoft 365 organization \(from 251 to 1000 users\) the following 
           <li>at least 4 cores</li>
           <li>at least 24 GB RAM</li>
           <li>at least 500 GB for database</li>
-          <li>at least 100 GB for /opt/kodo-cloud</li>
+          <li>at least 50 GB for /opt/kodo-cloud</li>
           <li>space for backup</li>
         </ul>
       </td>

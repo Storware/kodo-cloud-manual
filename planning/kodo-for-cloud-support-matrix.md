@@ -1,6 +1,6 @@
 # KODO for Cloud Support Matrix
 
-KODO for Cloud supports backups and restores of Microsoft 365 services.
+KODO for Cloud supports backups and restores of Microsoft 365 services. 
 
  You have the detailed information about backup and restore features:
 

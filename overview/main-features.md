@@ -5,11 +5,12 @@ KODO for Cloud server is capable to protect users data from the Microsoft 365 se
 KODO for Cloud server has the following features implemented: 
 
 * Full & Incremental forever Microsoft 365 backup 
-* Flexible restore: to the cloud or direct restore via web UI
+* Flexible restore: to the cloud or directly via web UI to local PC
 * Individual object-level recovery \(files, e-mails, contacts, calendars\)
 * Multi-agent support for better scalability or geographically dispersed environments
 * The ability to process concurrent Microsoft 365 accounts 
 * Intelligent handling Microsoft 365 throttling & resource limits outage control
+* Data owner e-mail notifications during restore by downloading data
 * Auto-assign accounts to jobs for robust backups
 * Option to create multiple policies with custom retentions 
 * Option to add multiple Microsoft 365 tenants into single KODO organization 

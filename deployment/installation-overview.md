@@ -11,7 +11,7 @@ When the server platform is ready to deployment, do as following:
    * [​Installation with RPMs​](installation-with-rpms.md)
    * [Virtual Appliance \(VMware\)](virtual-appliance-vmware.md)
 3. Setup settings in [KODO Admin](../administration/settings/kodo-admin.md) panel
-   * Email information
+   * Email 
    * license 
 4. Add and verify [Microsoft 365 organization](microsoft-365-organization-management/)
    * synchronize users
