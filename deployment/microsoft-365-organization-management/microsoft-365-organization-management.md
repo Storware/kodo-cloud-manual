@@ -1,4 +1,4 @@
-# Adding Microsoft 365 organization manually
+# Configure Microsoft 365 access
 
 Before starting to work with data, KODO for Cloud first needs to get access to your Microsoft 365 Organization.
 
@@ -42,6 +42,7 @@ Follow the instruction to register KODO for Cloud application and add Microsoft 
     | Microsoft Graph | User.Read.all |
 
 13. To save the selected permissions, click Grant admin consent for &lt;your organization name&gt;.
+14. Go to the next chapter to add organization to KODO for Cloud server. 
 
 
 

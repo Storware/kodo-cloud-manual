@@ -1,12 +1,23 @@
 # KODO Multi-Organization Management
 
-In KODO for Cloud server the administrator can define more than one Microsoft 365 organization to protect. In a purchased license the following limitations are included:
+On KODO for Cloud server the administrator can define more than one Microsoft 365 organization to protect. In a purchased license the following limitations are included:
 
 * **MAX\_ORGANIZATIONS** - maximum number of organization to define.
 * **MAX\_TENANTS\_PER\_ORG** - maximum number of tenants to define per organization
 * **MAX\_USERS**- maximum number of protected users.
 
- More information about licensing can be found in the [Lisensing ](../../overview/licensing.md)paragraph. 
+ More information about licensing can be found in the [Lisensing ](../../overview/licensing.md)paragraph.
 
-       
+To add your Microsoft 365 organization to the server, do as follow:
+
+1. Log into Kodo for Cloud server as the organization admin.
+2. Go to the **Settings** menu.
+3. Select the **Organization** tab.
+4. Click the **Add Organization** button and select **Manually** option.
+5. In the **Microsoft 365 Configuration** window you have to provide following information:
+   1. Tenant ID
+   2. Client ID
+   3. Client secret
+6. Save you settings by clicking the **Save** button.
+7. Now you can go to the **Users** menu. Click the **Synchronize** button to synchronize users from your organization with KODO for Cloud server. 
 

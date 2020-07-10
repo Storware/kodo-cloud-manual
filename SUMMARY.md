@@ -26,7 +26,7 @@
   * [Cloud Agent](deployment/cloud-agent.md)
   * [Administrators](deployment/users.md)
   * [Microsoft 365 Organization Management](deployment/microsoft-365-organization-management/README.md)
-    * [Adding Microsoft 365 organization manually](deployment/microsoft-365-organization-management/microsoft-365-organization-management.md)
+    * [Configure Microsoft 365 access](deployment/microsoft-365-organization-management/microsoft-365-organization-management.md)
     * [KODO Multi-Organization Management](deployment/microsoft-365-organization-management/kodo-multi-organization-management.md)
     * [Auto Mode \(global admin authentication\)](deployment/microsoft-365-organization-management/auto-mode-global-admin-authentication.md)
   * [Common tasks](deployment/common-tasks.md)

@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-1. Install CentOS/RHEL 8 minimal
+1. Install CentOS/RHEL 8 minimal 
    * if you plan to use deduplication with VDO we recommend to install RHEL to have Red Hat's support available
 2. Make sure your OS is up to date:
 
@@ -12,9 +12,10 @@
 
    If kernel is updated, then you need to reboot your operating system.
 
-3. Install Kodo for Cloud repository
+3. Install Kodo for Cloud repository:
 
-   * create file `/etc/yum.repos.d/kodo.repo`:
+   * create file `/etc/yum.repos.d/kodo.repo`: `touch /etc/yum.repos.d/kodo.repo` 
+   * open the file and insert to it the information from the box below
 
    ```text
    # Kodo for Cloud Microsoft 365 backup solution repository
@@ -26,8 +27,8 @@
 
    * optionally  `current` can also be pointed to the specific version, i.e. `4.0` \(not the one that is always up to date\), i.e.`http://repo.storware.eu/kodo-cloud/4.0/el8`
 
-4. Install MariaDB repository
-   * generate.repo file at [MariaDB download](https://downloads.mariadb.org/mariadb/repositories) site\)
+4. Install MariaDB repository:
+   * generate.repo file at [MariaDB download](https://downloads.mariadb.org/mariadb/repositories) site
    * copy and paste generated repo file into `/etc/yum.repos.d/MariaDB.repo`, so it looks similar to this \(this one for CentOS/RHEL 8\):
 
      ```text
@@ -40,7 +41,7 @@
      gpgkey = https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
      gpgcheck = 1
      ```
-5. Install Microsoft repository
+5. Install Microsoft repository:
    * create repo configuration file `/etc/yum.repos.d/Microsoft.repo`, with the following contents:
 
      ```text
@@ -135,15 +136,15 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    * syntax:
 
      ```text
-     systemctl start kodo-cloud-AGENT_NAME
-     systemctl enable kodo-cloud-AGENT_NAME
+     systemctl start cloud-agent-AGENT_NAME
+     systemctl enable cloud-agent-AGENT_NAME
      ```
 
    * example:
 
      ```text
-     systemctl start kodo-cloud-voyager
-     systemctl enable kodo-cloud-voyager
+     systemctl start cloud-agent-voyager
+     systemctl enable cloud-agent-voyager
      ```
 5. Now you should be able to see new entry in `Agents` section of web UI \([kodoadmin ](../administration/dashboard.md)dashboard\)
 
