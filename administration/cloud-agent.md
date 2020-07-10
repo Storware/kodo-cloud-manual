@@ -1,4 +1,4 @@
-# Agents \(kodoadmin dashboard only\)
+# Agents \(kodoadmin level\)
 
 In this view you can verify currently configured cloud agent instances on the KODO for Cloud server.
 
