@@ -1,17 +1,29 @@
 # Administrators
 
- There are two predefined users with admin rights at **KODO for Cloud** server: 
+KODO system consists of two levels of administration: 
 
-* **kodoadmin** 
-* **admin**
+* KODO administration level - accessed through KODO Admin Portal
+* KODO organization administration level - accessed through KODO organization portal
 
-###  kodoadmin
+## KODO administrator level
 
-It's a principal **KODO for Cloud** server user with administrative rights. He's got privileges to administer all server settings.   
+KODO administration level is the highest level of authorization. Logging in to the system with this level of authorization you will log in to KODO Admin Portal. KODO Admin Portal allows you to configure fundamental aspects of the system such as:
 
-### admin 
+* General system settings
+* E-mail server settings
+* Licensing information
+* Create new organization
 
-It's the administration user for tenant organization, defined by kodoadmin user. He's got privileges to add users to defined organization from the Microsoft 365 service  and create [jobs](../administration/jobs/), data [policies](../administration/policies/), restore [tasks ](../administration/tasks.md)etc.
+## KODO organization administrator level
 
+KODO system allows your company to create multiple organization under one KODO for Cloud server. Every organization is a separate entity with separated data, users, policies etc.  
+Logging in to the KODO Organization Portal as an organization administrator will allow configuring aspects of the system such as:
 
+* Add organization 
+* Add organization administrators
+* Sychchronize users
+* Set up data policies
+* Set up jobs
+
+The basic organization unit named “**My organization**” is already created in the new system installation.
 
