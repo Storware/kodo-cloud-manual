@@ -9,7 +9,7 @@ Before KODO for Cloud installation, please make sure your OS is up-to-date. Use 
 {% endhint %}
 
 {% hint style="warning" %}
- When you've decided to deploy the KODO for Cloud server as quick install \(All-In-One\) on RHEL 8, it is recomended to have active Red Hat subscription. This kind of installation uses the ansible-playbook during installation. 
+ When you've decided to deploy KODO for Cloud server as quick install \(All-In-One\) on RHEL 8, it is recomended to have active Red Hat subscription. This kind of installation uses the ansible-playbook during installation. 
 
  Use **yum repolist** command to check you subscription status
 

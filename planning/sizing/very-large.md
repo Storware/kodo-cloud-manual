@@ -6,7 +6,7 @@ For a very large Microsoft 365 organization \(1000+ users\) the following system
   <thead>
     <tr>
       <th style="text-align:left">Component</th>
-      <th style="text-align:left">Hardware requirements</th>
+      <th style="text-align:left">OS platform requirements</th>
       <th style="text-align:left">Supported OS platforms</th>
     </tr>
   </thead>
@@ -31,4 +31,6 @@ For a very large Microsoft 365 organization \(1000+ users\) the following system
     </tr>
   </tbody>
 </table>
+
+
 

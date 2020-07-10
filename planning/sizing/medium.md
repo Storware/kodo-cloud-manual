@@ -6,7 +6,7 @@ For a medium Microsoft 365 organization \(from 51 to 250 users\) the following s
   <thead>
     <tr>
       <th style="text-align:left">Component</th>
-      <th style="text-align:left">Hardware requirements</th>
+      <th style="text-align:left">OS platform requirements</th>
       <th style="text-align:left">Supported OS platforms</th>
     </tr>
   </thead>
