@@ -13,7 +13,7 @@ When the server platform is ready to deployment, do as following:
 3. Setup settings in [KODO Admin](../administration/settings/kodo-admin.md) panel
    * Email 
    * license 
-4. Add and verify [Microsoft 365 organization](cloud-agent/microsoft-365-organization-management/)
+4. Add and verify [Microsoft 365 organization](microsoft-365-organization-management/)
    * synchronize users
    * assign users to data policy 
    * assign users to job 
