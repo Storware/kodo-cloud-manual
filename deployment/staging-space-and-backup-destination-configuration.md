@@ -101,7 +101,7 @@ You also can use a plain file system for staging space \(and optionally for back
   mount -a
   ```
 
-* Confirm with `df` that your `/kodo_data` is mounted
+* Confirm with `df` command that your directory `/kodo_data` is mounted
 * Create staging space and backup destination directories
 
   ```text

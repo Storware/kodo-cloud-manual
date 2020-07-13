@@ -73,7 +73,7 @@ KODO for Cloud consists of server \(central management point with WebUI\) and ag
    systemctl enable mariadb
    ```
 
-3. Run MariaDB script for secure installation \(choose the options as follow\):
+3. Run MariaDB script for secure installation \(choose the options as below\):
 
    ```text
    mysql_secure_installation
@@ -126,32 +126,36 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    yum -y install kodo-cloud-agent
    ```
 
-2. Now follow steps described in [Backup and staging space configuration](staging-space-and-backup-destination-configuration.md) chapter.
+2. Configure a storage destination. Follow the instructions in [Backup and staging space configuration](staging-space-and-backup-destination-configuration.md) chapter.
 3. Register agent to the server with `AGENT_NAME` of your choice, to the server `ADMIN_USER` user name which you would like to use and URL to Kodo for Cloud API and provide password when prompted.
+
    * syntax:
 
-     ```text
-     /opt/kodo-cloud/agent/bin/cloudagent.sh -s SERVER_HOST:SERVER_PORT -n AGENT_NAME
-     ```
+   ```text
+   /opt/kodo-cloud/agent/bin/cloudagent.sh -s SERVER_HOST:SERVER_PORT -n AGENT_NAME
+   ```
 
    * currently only local installation is supported, so you should use localhost and 8181 as the target:
 
-     ```text
-     /opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager
-     ```
+   ```text
+   /opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager
+   ```
+
 4. Start and enable Kodo Cloud Agent service \(notice its name contains agent name\).
+
    * syntax:
 
-     ```text
-     systemctl start cloud-agent-AGENT_NAME
-     systemctl enable cloud-agent-AGENT_NAME
-     ```
+   ```text
+   systemctl start cloud-agent-AGENT_NAME
+   systemctl enable cloud-agent-AGENT_NAME
+   ```
 
    * example:
 
-     ```text
-     systemctl start cloud-agent-voyager
-     systemctl enable cloud-agent-voyager
-     ```
+   ```text
+   systemctl start cloud-agent-voyager
+   systemctl enable cloud-agent-voyager
+   ```
+
 5. Now you should be able to see agent entry in [Agents](../administration/cloud-agent.md) section of kodoadmin web UI 
 

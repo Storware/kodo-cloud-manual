@@ -1,6 +1,6 @@
 # Quick Install \(All-In-One\)
 
-KODO for Cloud can be easily installed on a single box. It can be a physical or a virtual server. In both cases, the steps you need to follow are basically the same. Before you start the installation process you need to prepare your server platform accordingly to the size of Microsoft 365 organization you are going to protect \(see the chapter [Sizing](../planning/sizing/)\).
+KODO for Cloud can be easily installed on a single box. It can be a physical or a virtual machine. In both cases, the steps you need to follow are basically the same. Before you start the installation process you need to prepare your server platform accordingly to the size of Microsoft 365 organization you are going to protect \(see the chapter [Sizing](../planning/sizing/)\).
 
 {% hint style="warning" %}
 Installtion on **RHEL** platform requires an active Red Hat subscription.
@@ -25,12 +25,5 @@ bash < <(curl -s http://repo.storware.eu/kodo-cloud/kodo-cloud-local-install.sh)
 
 
 
-KODO for Cloud has one global admin \(admin managing organizations\) account and  one account in the default organization by default:
-
-* Kodo admin \(global admin\): `kodoadmin` with password `Kodo@dm1n` 
-* default organization admin: `admin` with password `Kodo@dm1n`
-
 Now you should be able to log in to KODO for Cloud using `https://IP_OF_YOUR_MACHINE`
-
-
 
