@@ -15,8 +15,8 @@ When the server platform is ready to deployment, do as following:
    * license 
 4. Add and verify [Microsoft 365 organization](microsoft-365-organization-management/):
    * synchronize users
-   * assign users to data policy 
-   * assign users to job 
+   * create a data policy and assign users 
+   * create a job  and select users
 5. Test basic backup & recovery operations to verify that the installation is completed:
 
    * [Backup](../administration/data-backup/on-demand-backup.md)​ 

@@ -23,7 +23,7 @@ Installation on **RHEL** platform requires an active Red Hat subscription.
 bash < <(curl -s http://repo.storware.eu/kodo-cloud/kodo-cloud-local-install.sh)
 ```
 
-
+Installation process may take about 2-5 minutes, depending on your system performance.
 
 Now you should be able to log in to KODO for Cloud using `https://IP_OF_YOUR_MACHINE`
 

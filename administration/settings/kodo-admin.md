@@ -7,9 +7,9 @@ The **kodoadmin** user is a predefined administrative user on KODO for Cloud ser
 Here you can edit the following settings:
 
 * General settings-- allowed IP addresses to login with KodoAdmin role
-* Support website URL -the addess of KODO support website.
-* Product website URL- the addess of Storware support website.
-* Documentation website URL - the addess of KODO documentation  website.
+* Support website URL
+* Product website URL
+* Documentation website URL
 
 ![](../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin01-%20%281%29.png)
 

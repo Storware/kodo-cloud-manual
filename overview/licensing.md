@@ -1,6 +1,6 @@
 # Licensing
 
-Kodo for Cloud server is licensed per number of protected users mailboxes in the Microsoft 365 service. Buy a perpetual license \(e.g. 1 Year Subscrption and Support \) or choose the monthy subscription. 
+KODO for Cloud server is licensed per number of protected user accounts in the Microsoft 365 service. Buy a perpetual license \(e.g. 1 Year Subscrption and Support \) or choose the monthy subscription. 
 
 {% hint style="info" %}
 The license price does not depend on the number of organizations or tenants you want to configure in KODO for Cloud server. 
@@ -10,15 +10,14 @@ The license price does not depend on the number of organizations or tenants you 
  There is an option to buy additional years of support and subscription by contacting our sales team on: [globalsales@storware.eu](mailto:globalsales@storware.eu).
 {% endhint %}
 
-  
-**Models- choose the model you want to pay for to achieve best ROI:**  
-  
+## **Models- choose the model you want to pay for to achieve best ROI:**
+
  **Monthly subscription**  
   
 What fits Microsoft 365 licensing model best is monthly payment model. You may decide to choose the number of months and Pay as You Grow. 
 
 {% hint style="info" %}
- The minimum number of months you buying license for is 12
+ The minimum number of months you buying license for is **12**
 {% endhint %}
 
 Of course, there is an option to buy additional months of support and subscription by contacting our sales team on: [globalsales@storware.eu](mailto:globalsales@storware.eu) or visiting our website: [https://storware.eu/products](https://storware.eu/products) and use proper product and forms.
