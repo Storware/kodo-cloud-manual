@@ -15,7 +15,7 @@ Use KODO for Cloud to back up and restore your data from your Microsoft 365. You
 This server component does the following:
 
 * It retrieves Microsoft 365 items from the cloud and stores it locally \(on local disk or NFS share\)
-* During restore process it sends data back to the cloud or data is recovered locally. 
+* During restore process it sends data back to the cloud or is recovered locally. 
 
 {% hint style="info" %}
 KODO Cloud agent can be multiplied for better backup/restore performance

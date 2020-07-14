@@ -14,17 +14,5 @@ Many factors may affect your final deployment, but it's a good practice to answe
 
 When you take the above questions into consideration you should have at least a good starting point to plan your backup strategy.
 
-{% hint style="info" %}
-One Cloud Agent is capable to run 25 tasks in parallel. If you need to configure another Cloud Agent instance you will have to add additional 4GB of RAM and 2 cores to your system configuration.
-{% endhint %}
-
-{% hint style="warning" %}
-When installing KODO for Cloud on RHEL 8 it is recomended to have active Red Hat subscription. Use **yum repolist** command to check it.
-{% endhint %}
-
-![](../../.gitbook/assets/kodo-cloud-planning-sizing01.jpg)
-
-
-
 Based on the above, we prepared four configurations which are typical for most use cases.
 

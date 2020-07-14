@@ -19,7 +19,7 @@ For a medium Microsoft 365 organization \(from 51 to 250 users\) the following s
           <li>at least 16 GB RAM</li>
           <li>at least 150 GB for database</li>
           <li>at least 100 GB for /opt/kodo-cloud</li>
-          <li>storage space for backup</li>
+          <li>space for backup</li>
         </ul>
       </td>
       <td style="text-align:left">

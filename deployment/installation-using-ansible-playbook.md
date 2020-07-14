@@ -1,5 +1,7 @@
 # Installation using Ansible playbook
 
+Before you start the installation process you need to prepare your server platform accordingly to the size of Microsoft 365 organization you are going to protect \(see the chapter [Sizing](../planning/sizing/)\).
+
 You can install complete Kodo for Cloud solution using the following 2 roles, available on Ansible Galaxy:
 
 * Kodo Cloud Server: [https://galaxy.ansible.com/xe0nic/ansible\_kodo\_cloud\_server](https://galaxy.ansible.com/xe0nic/ansible_kodo_cloud_server)
@@ -64,7 +66,7 @@ ansible_user = root
 
 * Run playbook: `ansible-playbook -i hosts site.yml`
 * After installation you should be able to login to your Kodo Cloud Server: `https://kodo_cloud_server_address` and your nodes should be registered and running. 
-* By default Kodo Cloud has one global admin \(admin managing organizations\) account and a account in the default organization:
+* By default Kodo for Cloud has one global admin \(admin managing organizations\) account and a account in the default organization:
   * Kodo admin \(global admin\): `kodoadmin` with password `Kodo@dm1n`
   * default organization admin: `admin` with password `Kodo@dm1n` 
 
@@ -74,11 +76,11 @@ These two roles use just a few variables. Both plays use `server_fqdn` variable.
 
 Node play needs `agent_name` for registration process. If not provided it will just use hostname reported by OS, however keep in mind that it needs to be **unique** for each node. We recommend that you set them in the host inventory file.
 
-By default Kodo for Cloud uses MariaDB 10.4 for CentOS - you can control source, distribution and version of your MariaDB with the following variables \(with their respective default values\):
+By default KODO for Cloud uses MariaDB 10.4 for CentOS - you can control source, distribution and version of your MariaDB with the following variables \(with their respective default values\):
 
 ```yaml
 mariadb_version: "10.4"
-mariadb_distro: "centos7-amd64"
+mariadb_distro: "centos8-amd64"
 mariadb_repo_url: "http://yum.mariadb.org/{{ mariadb_version }}/{{ mariadb_distro }}"
 mariadb_repo_gpg_key: "https://yum.mariadb.org/RPM-GPG-KEY-MariaDB"
 ```

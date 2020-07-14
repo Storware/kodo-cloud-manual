@@ -6,7 +6,7 @@ For a very large Microsoft 365 organization \(1000+ users\) the following system
   <thead>
     <tr>
       <th style="text-align:left">Component</th>
-      <th style="text-align:left">OS platform requirements</th>
+      <th style="text-align:left">Hardware requirements</th>
       <th style="text-align:left">Supported OS platforms</th>
     </tr>
   </thead>
@@ -19,7 +19,7 @@ For a very large Microsoft 365 organization \(1000+ users\) the following system
           <li>at least 32 GB RAM</li>
           <li>at least 1 TB for database</li>
           <li>at least 100 GB for /opt/kodo-cloud</li>
-          <li>storage space for backup</li>
+          <li>space for backup</li>
         </ul>
       </td>
       <td style="text-align:left">
@@ -31,6 +31,4 @@ For a very large Microsoft 365 organization \(1000+ users\) the following system
     </tr>
   </tbody>
 </table>
-
-
 
