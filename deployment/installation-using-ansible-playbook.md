@@ -1,6 +1,6 @@
 # Installation using Ansible playbook
 
-Before you start the installation process you need to prepare your server platform accordingly to the size of Microsoft 365 organization you are going to protect \(see the chapter [Sizing](../planning/sizing/)\).
+Before start the installation process you need to prepare your server platform accordingly to the size of Microsoft 365 organization you are going to protect \(see the chapter [Sizing](../planning/sizing/)\).
 
 You can install complete Kodo for Cloud solution using the following 2 roles, available on Ansible Galaxy:
 
@@ -13,12 +13,19 @@ You need to prepare CentOS/RHEL 8 minimal for Kodo for Cloud \(both roles can be
 
 This example assumes that you have `root` access to this host and you have configured your Ansible to connect with SSH public-keys to your host. For example:
 
-generate key:  
-`ssh-keygen -f ~/.ssh/id_rsa -P ""`
+generate key:
 
-and copy it to your CentOS/RHEL box:  
-`ssh-copy-id -i ~/.ssh/id_rsa.pub root@YOUR_HOST`
+```yaml
+ssh-keygen -f ~/.ssh/id_rsa -P ""
+```
 
+and copy it to your CentOS/RHEL box:
+
+```yaml
+ssh-copy-id -i ~/.ssh/id_rsa.pub root@YOUR_HOST
+```
+
+  
 Agents will communicate with Kodo Cloud Server on port 8181, so they need to be able to access it using the servers FQDN \(needs to be resolvable\).
 
 ## Installation

@@ -18,6 +18,9 @@ To add your Microsoft 365 organization to the server, do as follow:
    1. Tenant ID
    2. Client ID
    3. Client secret
-6. Save you settings by clicking the **Save** button.
-7. Now you can go to the **Users** menu. Click the **Synchronize** button to synchronize users from your organization with KODO for Cloud server. 
+6. You can optionally provide user name and password for the defined user to backup Exchange shared mailboxes. 
+7. Save you settings by clicking the **Save** button.
+8. Now you can go to the **Users** menu. Click the **Synchronize** button to synchronize users from your organization with KODO for Cloud server. 
+
+
 
