@@ -10,19 +10,24 @@ When the server platform is ready to deployment, do as following:
    * ​[Installation using Ansible playbook​](installation-using-ansible-playbook.md)
    * [​Installation with RPMs​](installation-with-rpms.md)
    * [Virtual Appliance \(VMware\)](virtual-appliance-vmware.md)
-3. Setup settings in [KODO Admin](../administration/settings/kodo-admin.md) panel
-   * Email 
+3. Setup settings in [KODO Admin](../administration/settings/kodo-admin.md) panel:
+   * Email information
    * license 
-4. Add and verify [Microsoft 365 organization](microsoft-365-organization-management/)
+4. Add and verify [Microsoft 365 organization](microsoft-365-organization-management/):
    * synchronize users
-   * assign users to data policy 
-   * assign users to job 
+   * create a data policy and assign users 
+   * create a job  and select users
 5. Test basic backup & recovery operations to verify that the installation is completed:
 
    * [Backup](../administration/data-backup/on-demand-backup.md)​ 
    * [Restore](../administration/data-restore/) 
 
+{% hint style="info" %}
+KODO for Cloud has one global admin \(admin managing organizations\) account and  one account in the default organization by default:
+
+* Kodo admin \(global admin\): `kodoadmin` with password `Kodo@dm1n` 
+* default organization admin: `admin` with password `Kodo@dm1n`
+{% endhint %}
+
 Go th the next chapter to configure backup and storage space on your server.
-
-
 

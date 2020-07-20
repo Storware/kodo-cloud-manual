@@ -10,11 +10,9 @@ To set this function on the server do as follow:
 4. Set the **Daily synchronization time** and **Timezone**.
 5. Click the **Save** button.
 
-From now on all added users to Microsoft 365 service are also visable on KODO for Cloud server. 
+From now on all users added to Microsoft 365 service are also listed on KODO for Cloud server. 
 
-If you want them to be also automatically added 
-
-Now you can go to the **Jobs** menu to set the  Auto-select users options:
+If you want them to be also automatically added to a job, do as follow:
 
 1. Select a job and choose  **Edit** from the **options** menu ****.
 2. In the Users \(step 2\) mark the **Auto-select users** option.
