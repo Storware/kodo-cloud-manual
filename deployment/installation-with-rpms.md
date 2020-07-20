@@ -1,6 +1,6 @@
 # Installation with RPMs
 
-Before start the installation process you need to prepare your server platform accordingly to the size of Microsoft 365 organization you are going to protect \(see the chapter [Sizing](../planning/sizing/)\).
+Before start the installation process you need to prepare your server platform accordingly to the size of Microsoft 365 organization you are going to protect \(see the [Sizing](../planning/sizing/) chapter\).
 
 1. Make sure your OS is up to date:
 
@@ -8,12 +8,12 @@ Before start the installation process you need to prepare your server platform a
    yum -y update
    ```
 
-   If kernel is updated, then you need to reboot your operating system.
+   After the kernel is updated, then you need to reboot your operating system.
 
 2. Install Kodo for Cloud repository:
 
-   * create file `/etc/yum.repos.d/kodo.repo`  \(i.e.`touch /etc/yum.repos.d/kodo.repo` \)
-   * open the file \(using i.e.  `vi` editor \) and insert to it the information from the box below:
+   * create file `/etc/yum.repos.d/kodo.repo`  \(e.g.`touch /etc/yum.repos.d/kodo.repo` \)
+   * open the file \(using e.g.  `vi` editor \) and insert to it the information from the box below:
 
    ```text
    # Kodo for Cloud Microsoft 365 backup solution repository
@@ -23,13 +23,13 @@ Before start the installation process you need to prepare your server platform a
    gpgcheck=0
    ```
 
-   * optionally  `current` can also be pointed to the specific version, i.e. `4.0` \(not the one that is always up to date\), i.e.`http://repo.storware.eu/kodo-cloud/4.0/el8`
+   * optionally  `current` can also be pointed to the specific version, e.g. `4.0` \(not the one that is always up to date\), e.g.`http://repo.storware.eu/kodo-cloud/4.0/el8`
 
 3. Install MariaDB repository:
    * generate.repo file at [MariaDB download](https://downloads.mariadb.org/mariadb/repositories) site:
-     * Choose a Distro \(i.e. `CentOS` \)
-     * Choose a Release \(i.e. `CentOS 8 (x86_64)` \)
-     *  ****Choose a Version \(i.e. `10.4 [Old Stable]`\)
+     * Choose a Distro \(e.g. `CentOS` \)
+     * Choose a Release \(e.g. `CentOS 8 (x86_64)` \)
+     *  ****Choose a Version \(e.g.. `10.4 [Old Stable]`\)
    * copy and paste generated repo file into `/etc/yum.repos.d/MariaDB.repo`, so it may  look similar to this one below \(this one for CentOS/RHEL 8\):
 
      ```text

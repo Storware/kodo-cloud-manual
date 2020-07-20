@@ -1,5 +1,11 @@
 # Virtual Appliance \(VMware\)
 
+```text
+$ passwd
+```
+
+d to change password for **kodo** user:
+
 ## How to access a Virtual Appliance
 
 You can download the virtual appliance from the following link:
@@ -9,22 +15,20 @@ You can download the virtual appliance from the following link:
 **Login:** kodo4cloud  
 **Password:** sEkQsrdsr98Q
 
-## Logging to the virtual appliance
+## Logging to the virtual appliances
+
+
 
 Use credentials listed below to log in to the system:
 
 > **Login:** kodo  
 > **Password:** Zt3edWny
 
-### NOTE: FOR SECURITY REASONS PLEASE CHANGE PASSWORD AFTER THE FIRST LOGIN TO SYSTEM!
+### NOTE: FOR SECURITY REASONS PLEASE CHANGE PASSWORD AFTER THE FIRST LOGIN TO THE SYSTEM!
 
-Use `passwd` command to change password for **kodo** user:
+Use `passwd` comman
 
-```text
-$ passwd
-```
-
-Type old password and new password two times:
+Type old password and the new password two times:
 
 ```text
 Changing password for kodo.
@@ -48,10 +52,10 @@ When ask for password use password for kodo user.
 Edit network configuration file:
 
 ```text
-# nano /etc/sysconfig/netork-scripts/ifcfg-eth0
+# nano /etc/sysconfig/network-scripts/ifcfg-ens192
 ```
 
-To set up static IP address change:
+To set up static IP address change the BOOTPROTO parameter:
 
 ```text
 BOOTPROTO=dhcp
@@ -63,35 +67,36 @@ to
 BOOTPROTO=static
 ```
 
-Next uncomment \(delete the `#` character\) the following options:
+Next add to the file  following options:
 
 * IPADDR=YOUR\_IP\_ADDRESS
 * NETMASK=YOUR\_NETMASK
 * GATEWAY=YOUR\_GATEWAY
 
-and change them according to your requirements.
+and set them according to your local network: 
 
-**IPADDR** - IP address of the KODO Server  
+**IPADDR** - IP address of KODO Server  
 **NETMASK** - netmask value of your network  
 **GATEWAY** - gateway value of your network
 
-Sample configuration file:
+Here you have a sample configuration file:
 
 ```text
 TYPE=Ethernet
+PROXY_METHOD=none
+BROWSER_ONLY=no
 BOOTPROTO=static
-IPADDR=192.168.1.31
-NETMASK=255.255.255.0
-GATEWAY=192.168.1.1
+IPADDR=xxx.xxx.xxx.xxx
+NETMASK=xxx.xxx.xxx.xxx
+GATEWAY=xxx.xxx.xxx.xxx
 DEFROUTE=yes
 IPV4_FAILURE_FATAL=no
-IPV6INIT=no
+IPV6INIT=yes
 IPV6_AUTOCONF=yes
 IPV6_DEFROUTE=yes
-IPV6_PEERDNS=yes
-IPV6_PEERROUTES=yes
 IPV6_FAILURE_FATAL=no
-NAME=eth0
+IPV6_ADDR_GEN_MODE=stable-privacy
+NAME=ens192
 DEVICE=ens192
 ONBOOT=yes
 ```
@@ -103,10 +108,10 @@ After the file is saved you can exit the editor by pressing `CTRL+x` key combina
 The final step is to restart the network configuration. To do this use the following command:
 
 ```text
-# service network restart
+# systemctl restart NetworkManager.service
 ```
 
-Now you should be able to login to your KODO for Cloud server using web browser and IP address that you've configured in previous steps. Open web browser and enter:
+Now you should be able to login to your KODO for Cloud server using a web browser and IP address that you've configured in previous steps. Open a web browser and enter:
 
 ```text
 https://ip_address

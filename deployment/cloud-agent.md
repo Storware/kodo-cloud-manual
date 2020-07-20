@@ -1,19 +1,23 @@
 # Cloud Agent
 
+Cloud agent is a part of KODO for Cloud server that is responsible for backup and recover user data.
+
+When KODO for Cloud is installed, only one instance of  Cloud agent is configured by default. 
+
+{% hint style="info" %}
 Another instance of Cloud Agent allows you to run next 25 tasks in parallel on your KODO for Cloud server.
+{% endhint %}
 
-If you need to install it do as follow:
+If you need to install the Cloud Agent instance do as follow:
 
-1. Register agent to the server with `AGENT_NAME` of your choice, to the server `ADMIN_USER` user name which you would like to use and URL to Kodo for Cloud API and provide password when prompted.
+1. Register agent to the server with `AGENT_NAME` of your choice to the server `SERVER_HOST`
    * syntax:
 
 ```text
 /opt/kodo-cloud/agent/bin/cloudagent.sh -s SERVER_HOST:SERVER_PORT -n AGENT_NAME
 ```
 
-{% hint style="info" %}
-currently only local installation is supported, so you should use localhost and 8181 as the target:
-{% endhint %}
+* example \(AGENT\_NAME=voyager2\):
 
 ```text
 /opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager2
@@ -29,23 +33,17 @@ Job concurrency size: 25
 
 * syntax:
 
-  ```text
-  systemctl start cloud-agent-AGENT_NAME
-  systemctl enable cloud-agent-AGENT_NAME
-  ```
+```text
+systemctl start cloud-agent-AGENT_NAME
+systemctl enable cloud-agent-AGENT_NAME
+```
 
-* example:
+* example \(AGENT\_NAME=voyager2\):
 
-  ```text
-  systemctl start cloud-agent-voyager2
-  systemctl enable cloud-agent-voyager2
-  ```
+```text
+systemctl start cloud-agent-voyager2
+systemctl enable cloud-agent-voyager2
+```
 
 3. Now you should be able to see new entry in `Agents` section of web UI \([kodoadmin ](../administration/dashboard.md)dashboard\)
-
-
-
-
-
-
 
