@@ -24,7 +24,5 @@ When installing KODO for Cloud on RHEL 8 it is recomended to have active Red Hat
 
 ![](../../.gitbook/assets/kodo-cloud-planning-sizing01.jpg)
 
-
-
 Based on the above, we prepared four configurations which are typical for most use cases.
 
