@@ -24,7 +24,7 @@
   * [Installation with RPMs](deployment/installation-with-rpms.md)
   * [Virtual Appliance \(VMware\)](deployment/virtual-appliance-vmware.md)
   * [Cloud Agent](deployment/cloud-agent.md)
-  * [Administrators](deployment/users.md)
+  * [Administration levels](deployment/users.md)
   * [Microsoft 365 Organization Management](deployment/microsoft-365-organization-management/README.md)
     * [Configure Microsoft 365 access](deployment/microsoft-365-organization-management/microsoft-365-organization-management.md)
     * [KODO Multi-Organization Management](deployment/microsoft-365-organization-management/kodo-multi-organization-management.md)

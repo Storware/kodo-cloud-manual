@@ -1,6 +1,6 @@
 # Configure Microsoft 365 access
 
-Before starting to work with data, KODO for Cloud first needs to get access to your Microsoft 365 Organization.
+Before you start to configure backup policies and jobs, KODO for Cloud needs to get access to your Microsoft 365 Organization configuration first.
 
 Access to data is performed via an application installed in your organization.
 

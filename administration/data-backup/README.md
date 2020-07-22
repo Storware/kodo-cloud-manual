@@ -1,14 +1,14 @@
 # Backup
 
-KODO for Cloud server can perform backups and restore operations in very effective way. It allows to shorten the backup window and save a storage space required for data, because it uses only two backup levels.  
+KODO for Cloud server can perform backups and restore operations in very effective way. It allows to short the backup window and save the storage space required for data, because it utilizes only two backup levels.  
 
 ## Full
 
-Full backup is done automatically by default when user\(s\) from defined job are protected for the first time. The administrator can force full on-demand backup any time it's needed.  
+Full backup is done automatically by default when user\(s\) in defined job are protected for the first time. Only one initial full backup is done. The administrator can force full on-demand backup any time it's needed.  
 
 ### Incremental backup
 
-Incremental backup is a default backup type. Only one initial full backup is done, every next backup in chain is the incremental one.
+Incremental backup is the default backup type on KODO for Cloud server. Only one initial full backup is done, every next backup in chain is the incremental one.
 
 
 
