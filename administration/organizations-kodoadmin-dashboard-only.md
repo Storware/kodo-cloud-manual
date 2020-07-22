@@ -18,5 +18,7 @@ You have to entrer follwing information:
 
 ![](../.gitbook/assets/kodo-cloud-administration-organizations03.png)
 
+Once the organization is created, the information with account access is sent to the provided email address.
+
 
 

@@ -32,6 +32,7 @@
   * [Common tasks](deployment/common-tasks/README.md)
     * [Creating the account for shared mailboxes protection](deployment/common-tasks/creating-the-account-for-shared-mailboxes-protection.md)
 * [Administration](administration/README.md)
+  * [Logging information](administration/logging-information.md)
   * [Dashboard](administration/dashboard.md)
   * [Users](administration/users.md)
   * [Backup](administration/data-backup/README.md)

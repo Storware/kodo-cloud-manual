@@ -1,8 +1,8 @@
 # Installation Overview
 
-KODO for Cloud can be easily installed on a single box. It can be a physical or a virtual server. In both cases, the steps you need to follow are basically the same. Before intallation prepare you server platform accordingly to the size of Microsoft 365 organization you are going to protect \(see the chapter [Sizing](../planning/sizing/)\).
+KODO for Cloud can be easily installed on a single box. It can be a physical or a virtual server. In both cases, the steps you need to follow are basically the same. Before intallation prepare you server platform accordingly to the size of Microsoft 365 organization you are going to protect \(see the [Sizing](../planning/sizing/) chapter\).
 
-When the server platform is ready to deployment, do as following:
+When the system platform is ready to KODO for deployment do as follow:
 
 1. Configure [backup and stage space.](staging-space-and-backup-destination-configuration.md)
 2. Choose your installation path. You have the following options:
@@ -12,7 +12,7 @@ When the server platform is ready to deployment, do as following:
    * [Virtual Appliance \(VMware\)](virtual-appliance-vmware.md)
 3. Setup settings in [KODO Admin](../administration/settings/kodo-admin.md) panel:
    * Email information
-   * license 
+   * License information 
 4. Add and verify [Microsoft 365 organization](microsoft-365-organization-management/):
    * synchronize users
    * create a data policy and assign users 

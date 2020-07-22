@@ -16,5 +16,9 @@ You can do the following activities on the user\(s\):
 
 ![](../.gitbook/assets/kodo-cloud-administration-users02.png)
 
+{% hint style="warning" %}
+If a user was deleted from the server, his status is automatically changed to "Locked". The deletion process is running in the background on the server and the data is removed from the backup storage. When the process is finished, the user is  also removed from the users list but not from the Microsoft 365 service. If the user is preserved in the Microsoft 365 service,  organization admin can synchronize his account with KODO for Cloud server and add it to any defined policy.  
+{% endhint %}
+
 
 

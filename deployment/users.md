@@ -11,10 +11,12 @@ KODO administration level is the highest level of authorization. Logging in to t
 
 KODO administrator level is the highest level of authority. By logging into the system with this authorization level you will log into KODO Admin Portal. KODO Admin Portal allows you to configure basic aspects of the system, such as:
 
-* General system settings
-* E-mail server settings
-* Licensing information
-* Create new organizations
+* General settings
+* E-mail settings
+* Storage
+* Logs
+* License
+* Billing
 
 ## KODO organization administrator level
 
@@ -27,5 +29,5 @@ By logging into KODO organization portal as an organization administrator you ar
 * Set up data policies
 * Set up jobs
 
-The basic organization unit is named “**My organization**” and is created during  KODO for Cloud installation.
+The basic organization unit is named **My organization** and was created during  KODO for Cloud server installation.
 

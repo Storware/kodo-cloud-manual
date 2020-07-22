@@ -1,6 +1,6 @@
 # Dashboard
 
-After successful installation of **KODO for Cloud** server the administrator can log into the application using a popular web browser \(e.g. Google Chrome, Mozilla Firefox or MS IE Edge\). To do to this provide the IP address of the server where **KODO for Cloud** server was installed at the browser address bar. 
+After successful installation of **KODO for Cloud** server the administrator can log into the application using a popular web browser \(e.g. Google Chrome, Mozilla Firefox or MS IE Edge\). Type the IP address of the server where **KODO for Cloud** server was installed at the browser address bar. 
 
 `https://KODO_server_IP_address`
 
@@ -32,7 +32,7 @@ At the dashboard view the following information is displayed:
 
 ## The kodoadmin user dashboard
 
-If the administrator logs into a console as `kodoadmin` user then a different **KODO for Cloud** dashboard view appears as shown on the screenshot below.  Using this dashboard the administrator can add, delete, edit and manage server key components such as organizations, agents and also change server settings. At this view, all server key parameters are visible for KODO administrator. 
+If the administrator logs into the  webUI console as `kodoadmin` user then a different **KODO for Cloud** dashboard view appears as shown on the screenshot below.  Using this dashboard  administrator can add, delete, edit and manage server key components such as organizations, agents and also change server settings. At this view, all server key parameters are visible for KODO administrator. 
 
 ![](../.gitbook/assets/kodo-cloud-administrator-dashboard03.jpg)
 

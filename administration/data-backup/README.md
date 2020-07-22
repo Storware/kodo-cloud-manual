@@ -1,6 +1,6 @@
 # Backup
 
-There are only two backup levels in Kodo for Cloud server.  
+KODO for Cloud server can perform backups and restore operations in very effective way. It allows to shorten the backup window and save a storage space required for data, because it uses only two backup levels.  
 
 ## Full
 
