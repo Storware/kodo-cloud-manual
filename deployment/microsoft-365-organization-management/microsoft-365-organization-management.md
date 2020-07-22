@@ -10,7 +10,9 @@ KODO does not store your Microsoft 365 administrative id or password.
 
 ## Manually registering an application with Azure Active Directory
 
-Follow the instruction to register KODO for Cloud application and add Microsoft 365 organization to KODO:
+A new Microsoft 365 application have to be registered and configured in Azure Active Directory. When it will be done, in the next step you can add the application \(organization\) on KODO for Cloud server.
+
+The instruction is as follow:
 
 1. Go to the Azure portal \([https://portal.azure.com/](https://portal.azure.com/)\) page and sign in to your Microsoft account by using your Microsoft 365 administrative user ID and password.
 2. In the home view, go to **Mange Azure Active Directory** \(click "View" button\).
