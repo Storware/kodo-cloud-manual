@@ -8,7 +8,7 @@ Before start the installation process you need to prepare your server platform a
    yum -y update
    ```
 
-   After the kernel is updated, then you need to reboot your operating system.
+   After the kernel is updated, then you need to reboot the operating system.
 
 2. Install Kodo for Cloud repository:
 

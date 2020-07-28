@@ -24,11 +24,11 @@ Use credentials listed below to log in to the system:
 > **Login:** kodo  
 > **Password:** Zt3edWny
 
-### NOTE: FOR SECURITY REASONS PLEASE CHANGE PASSWORD AFTER THE FIRST LOGIN TO THE SYSTEM!
+### NOTE: FOR SECURITY REASONS PLEASE CHANGE PASSWORD AFTER THE FIRST LOGIN TO THE SYSTEM to cha!
 
-Use `passwd` comman
+Use `passwd` command to change the password.
 
-Type old password and the new password two times:
+Type the old password and the new password two times:
 
 ```text
 Changing password for kodo.
