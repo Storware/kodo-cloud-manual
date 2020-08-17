@@ -1,11 +1,5 @@
 # Virtual Appliance \(VMware\)
 
-```text
-$ passwd
-```
-
-d to change password for **kodo** user:
-
 ## How to access a Virtual Appliance
 
 You can download the virtual appliance from the following link:
@@ -24,9 +18,17 @@ Use credentials listed below to log in to the system:
 > **Login:** kodo  
 > **Password:** Zt3edWny
 
-### NOTE: FOR SECURITY REASONS PLEASE CHANGE PASSWORD AFTER THE FIRST LOGIN TO THE SYSTEM to cha!
 
-Use `passwd` command to change the password.
+
+{% hint style="warning" %}
+### NOTE: FOR SECURITY REASONS PLEASE CHANGE PASSWORD AFTER THE FIRST LOGIN TO THE SYSTEM.
+{% endhint %}
+
+Use `passwd` command to change the password for **kodo** user
+
+```text
+$ passwd
+```
 
 Type the old password and the new password two times:
 
