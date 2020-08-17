@@ -5,7 +5,7 @@ Before start the installation process you need to prepare your server platform a
 1. Make sure your OS is up to date:
 
    ```text
-   yum -y update
+   # yum -y update
    ```
 
    After the kernel is updated, then you need to reboot the operating system.
@@ -58,23 +58,23 @@ Before start the installation process you need to prepare your server platform a
 
 KODO for Cloud consists of server \(central management point with WebUI\) and agent \(CloudAgent\), which should be installed on the same server. The first step is always to install the server.
 
-1. Install kodo-cloud-server using YUM:
+1. Install **kodo-cloud-server** using YUM:
 
    ```text
-   yum -y install kodo-cloud-server
+   # yum -y install kodo-cloud-server
    ```
 
-2. Start and enable MariaDB service:
+2. Start and enable **MariaDB** service:
 
    ```text
-   systemctl start mariadb
-   systemctl enable mariadb
+   # systemctl start mariadb
+   # systemctl enable mariadb
    ```
 
-3. Run MariaDB script for secure installation \(choose the options as below\):
+3. Run **MariaDB** script for secure installation \(choose the options as below\):
 
    ```text
-   mysql_secure_installation
+   # mysql_secure_installation
 
    Switch to unix_socket authentication [Y/n] y
    Change the root password? [Y/n] n
@@ -86,28 +86,28 @@ KODO for Cloud consists of server \(central management point with WebUI\) and ag
 4. Initialize Kodo for Cloud server database using script - you need to provide DB root password:
 
    ```text
-   /opt/kodo-cloud/server/bin/kodo-cloud-server-init.sh --dbrootpassword YOUR_DB_ROOT_PASSWORD
+   #/opt/kodo-cloud/server/bin/kodo-cloud-server-init.sh --dbrootpassword YOUR_DB_ROOT_PASSWORD
    ```
 
 5.  Start and enable KODO for Cloud server service \(it can take around a minute for server to be started\):
 
    ```text
-   systemctl start kodo-cloud-server
-   systemctl enable kodo-cloud-server
+   #systemctl start kodo-cloud-server
+   #systemctl enable kodo-cloud-server
    ```
 
 6. If you don't have firewall running yet - start and enable its service:
 
    ```text
-   systemctl start firewalld
-   systemctl enable firewalld
+   #systemctl start firewalld
+   #systemctl enable firewalld
    ```
 
 7. Open 8181 port on your firewall. Here is example:
 
    ```text
-   firewall-cmd --add-port=8181/tcp --permanent
-   firewall-cmd --complete-reload
+   #firewall-cmd --add-port=8181/tcp --permanent
+   #firewall-cmd --complete-reload
    ```
 
 8. Now you should be able to log into the web console using URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST` is the hostname or IP address of your Kodo Cloud Server. By default KODO for Cloud has one global admin account \(the administrator to manage organizations\) and  another admin account in the default organization:
@@ -121,7 +121,7 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
 1. Install kodo-cloud-agent using YUM:
 
    ```text
-   yum -y install kodo-cloud-agent
+   #yum -y install kodo-cloud-agent
    ```
 
 2. Configure a storage destination. Follow the instructions in [Backup and staging space configuration](staging-space-and-backup-destination-configuration.md) chapter.
@@ -130,13 +130,13 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    * syntax:
 
    ```text
-   /opt/kodo-cloud/agent/bin/cloudagent.sh -s SERVER_HOST:SERVER_PORT -n AGENT_NAME
+   #/opt/kodo-cloud/agent/bin/cloudagent.sh -s SERVER_HOST:SERVER_PORT -n AGENT_NAME
    ```
 
    * currently only local installation is supported, so you should use localhost and 8181 as the target:
 
    ```text
-   /opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager
+   #/opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager
    ```
 
 4. Start and enable Kodo Cloud Agent service \(notice its name contains agent name\).
@@ -144,15 +144,15 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    * syntax:
 
    ```text
-   systemctl start cloud-agent-AGENT_NAME
-   systemctl enable cloud-agent-AGENT_NAME
+   #systemctl start cloud-agent-AGENT_NAME
+   #systemctl enable cloud-agent-AGENT_NAME
    ```
 
    * example:
 
    ```text
-   systemctl start cloud-agent-voyager
-   systemctl enable cloud-agent-voyager
+   #systemctl start cloud-agent-voyager
+   #systemctl enable cloud-agent-voyager
    ```
 
 5. Now you should be able to log in to KODO for Cloud using `https://IP_OF_YOUR_MACHINE`
