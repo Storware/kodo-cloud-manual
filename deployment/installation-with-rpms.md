@@ -54,7 +54,7 @@ Before start the installation process you need to prepare your server platform a
      gpgcheck = 1
      ```
 
-## KODOfor Cloud server
+## KODO for Cloud server
 
 KODO for Cloud consists of server \(central management point with WebUI\) and agent \(CloudAgent\), which should be installed on the same server. The first step is always to install the server.
 
