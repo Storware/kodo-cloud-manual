@@ -2,7 +2,7 @@
 
 Cloud agent is a part of KODO for Cloud server that is responsible for backup and recover user data.
 
-When KODO for Cloud is installed, only one instance of  Cloud agent is configured by default. 
+When KODO for Cloud server is installed, only one instance of  Cloud agent is configured by default. 
 
 {% hint style="info" %}
 Another instance of Cloud Agent allows you to run next 25 tasks in parallel on your KODO for Cloud server.

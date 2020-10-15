@@ -1,11 +1,11 @@
 # Installation Overview
 
-KODO for Cloud can be easily installed on a single box. It can be a physical or a virtual server. In both cases, the steps you need to follow are basically the same. Before intallation prepare you server platform accordingly to the size of Microsoft 365 organization you are going to protect \(see the [Sizing](../planning/sizing/) chapter\).
+KODO for Cloud server can be easily installed on a single box. It can be a physical or a virtual server. In both cases, the steps you need to follow are basically the same. Before intallation prepare you server platform accordingly to the size of Microsoft 365 organization you are going to protect \(see the [Sizing](../planning/sizing/) chapter\).
 
-When the system platform is ready to KODO for deployment do as follow:
+When the system platform is ready for KODO deployment do as follow:
 
 1. Configure [backup and stage space.](staging-space-and-backup-destination-configuration.md)
-2. Choose your installation path. You have the following options:
+2. Choose your installation path. You can choose one of the following options:
    * [​All-in-one quick installation​](quick-install-all-in-one.md)
    * ​[Installation using Ansible playbook​](installation-using-ansible-playbook.md)
    * [​Installation with RPMs​](installation-with-rpms.md)
@@ -23,11 +23,11 @@ When the system platform is ready to KODO for deployment do as follow:
    * [Restore](../administration/data-restore/) 
 
 {% hint style="info" %}
-KODO for Cloud has one global admin \(admin managing organizations\) account and  one account in the default organization by default:
+KODO for Cloud has by default one global admin account \(admin that manages organizations\) and one account in the default organization :
 
-* Kodo admin \(global admin\): `kodoadmin` with password `Kodo@dm1n` 
-* default organization admin: `admin` with password `Kodo@dm1n`
+* Kodo admin \(global admin\): `kodoadmin`with password`Kodo@dm1n` 
+* default organization admin: `admin`with password`Kodo@dm1n`
 {% endhint %}
 
-Go th the next chapter to configure backup and storage space on your server.
+Go th the next chapter to configure backup and storage space on your KODO for Cloud server.
 

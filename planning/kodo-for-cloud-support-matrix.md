@@ -2,7 +2,7 @@
 
 KODO for Cloud supports backups and restores of Microsoft 365 services. 
 
- Here you can find detailed information about backup and restore features:
+ Here you can fin detailed information about backup and restore features:
 
 <table>
   <thead>
@@ -24,11 +24,12 @@ KODO for Cloud supports backups and restores of Microsoft 365 services.
         </ul>
       </td>
       <td style="text-align:left">
+        <p></p>
         <ul>
           <li>to the cloud or direct restore via web UI</li>
           <li>individual object-level recovery</li>
-          <li>to the same account and different path/folder</li>
-          <li>to another account and different path/folder</li>
+          <li>to the same account and different path/container</li>
+          <li>to another account and different path/container</li>
         </ul>
       </td>
     </tr>
@@ -44,13 +45,11 @@ KODO for Cloud supports backups and restores of Microsoft 365 services.
         <ul>
           <li>to the cloud or direct restore via web UI</li>
           <li>individual object-level recovery</li>
-          <li>to the same account and different path/folder</li>
-          <li>to another account and different path/folder</li>
+          <li>to the same account and different path/container</li>
+          <li>to another account and different</li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
-
-
 

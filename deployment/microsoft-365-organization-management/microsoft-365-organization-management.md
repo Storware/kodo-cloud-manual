@@ -1,6 +1,6 @@
 # Configure Microsoft 365 access
 
-Before you start to configure backup policies and jobs, KODO for Cloud needs to get access to your Microsoft 365 Organization configuration first.
+Before you start to configure backup policies and jobs, KODO for Cloud have to get the access to your Microsoft 365 Organization configuration first.
 
 Access to data is performed via an application installed in your organization.
 
@@ -15,7 +15,7 @@ A new Microsoft 365 application have to be registered and configured in Azure Ac
 The instruction is as follow:
 
 1. Go to the Azure portal \([https://portal.azure.com/](https://portal.azure.com/)\) page and sign in to your Microsoft account by using your Microsoft 365 administrative user ID and password.
-2. In the home view, go to **Mange Azure Active Directory** \(click "View" button\).
+2. In the home view, go to **Mange Azure Active Directory** \(click the "View" button\).
 3. To open the Azure Active Directory admin center, in the left pane, click the ellipsis to expand the Show all menu, and then click **Admin centers** &gt; **Azure Active Directory**.
 4. In the tenant dashboard menu, click **App registrations** and then click **New registration**.
 5. Specify a user-facing name for the Microsoft 365 application, on the "**Register an application**" page by enter a name in the **Name** field.
@@ -41,8 +41,12 @@ The instruction is as follow:
     | Microsoft Graph | Mail.ReadWrite | Application |
     | Microsoft Graph | Mail.Read | Application |
     | Microsoft Graph | Sites.Read.All | Application |
-    | Microsoft Graph | User.Read | Application |
+    | Microsoft Graph | User.ReadDelegated | Delegated |
     | Microsoft Graph | User.Read.all | Application |
+    | SharePoint | AllSites.FullControl | Delegated |
+    | SharePoint | Sites.FullControl.All | Application |
+    | SharePoint | User.Read.All | Application |
+    | SharePoint | User.ReadWrite.All | Delegated |
 
 13. To save the selected permissions, click **Grant admin consent for &lt;your organization name**&gt;.
 14. Go to the next chapter to add organization to KODO for Cloud server. 

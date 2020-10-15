@@ -9,9 +9,9 @@ You can install complete Kodo for Cloud solution using the following 2 roles, av
 
 ## Prerequisites
 
-You need to prepare CentOS/RHEL 8 minimal for Kodo for Cloud \(both roles can be installed on the same or different hosts\).
+You need to prepare CentOS/RHEL 8 server minimal for Kodo for Cloud \(both roles can be installed on the same or different hosts\).
 
-This example assumes that you have `root` access to this host and you have configured your Ansible to connect with SSH public-keys t+o your host. For example:
+This example assumes that you have `root` access to this host and you have configured your Ansible to connect with SSH public-keys to your host. For example:
 
 generate a key:
 
@@ -26,7 +26,7 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub root@YOUR_HOST
 ```
 
   
-Agents will communicate with Kodo Cloud Server on port 8181, so they need to be able to access it using the servers FQDN \(needs to be resolvable\).
+Agents communicate with Kodo Cloud Server on port 8181, so they need to be able to access it using the servers FQDN \(it needs to be resolvable\).
 
 ## Installation
 
@@ -73,9 +73,13 @@ ansible_user = root
 
 * Run playbook: `ansible-playbook -i hosts site.yml`
 * After installation you should be able to login to your Kodo Cloud Server: `https://kodo_cloud_server_address` and your nodes should be registered and running. 
-* By default Kodo for Cloud has one global admin \(admin managing organizations\) account and a account in the default organization:
-  * Kodo admin \(global admin\): `kodoadmin` with password `Kodo@dm1n`
-  * default organization admin: `admin` with password `Kodo@dm1n` 
+
+{% hint style="info" %}
+By default Kodo for Cloud has one global admin account \(for organizations management\) and one account in the default organization:
+
+* Kodo admin \(global admin\): `kodoadmin` with password `Kodo@dm1n`
+* Default organization admin: `admin` with password `Kodo@dm1n` 
+{% endhint %}
 
 ## Variables
 

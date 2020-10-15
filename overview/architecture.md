@@ -31,11 +31,11 @@ KODO Cloud agent can be multiplied for better backup/restore performance
 
 ### Backup Storage
 
-* It's a place where KODO for Cloud stores backup data.
+* It's a place where KODO for Cloud stores backup data
 
 ## Component placement
 
-* KODO for Cloud server and agent are installed in the same system by default. 
+* KODO for Cloud server and agent are installed in the same system. 
 * Server can be installed on a physical or a virtual machine.
 * Agent may be installed during KODO for Cloud server installation \(see the chapter  [Quick Install \(All-In-One\)](../deployment/quick-install-all-in-one.md)\) .
 * Both components are installed on the CentOS/RHEL 8 minimal.

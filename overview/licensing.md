@@ -14,7 +14,7 @@ The license price does not depend on the number of organizations or tenants you 
 
  **Monthly subscription**  
   
-What fits Microsoft 365 licensing model best is monthly payment model. You may decide to choose the number of months or Pay as You Grow. 
+What fits Microsoft 365 licensing model best is monthly payment model. You may decide to choose the number of months and Pay as You Grow. 
 
 {% hint style="info" %}
  The minimum number of months you buying license for is **12**
@@ -24,7 +24,7 @@ Of course, there is an option to buy additional months of support and subscripti
 
 **Perpetual license**
 
-Second choice is to purchase a perpetual license \(1 Year Subscription and Support\) and add more years of S&S. It helps to allocate your budget and keep the license forever. For more details you may always contact us on: [globalsales@storware.eu](mailto:globalsales@storware.eu)
+Second choice is to purchase a perpetual license \(1 Year Subscription and Support\) and add more years of S&S. It helps to allocate budget and keep the license for ever. For more details you may always contact us on: [globalsales@storware.eu](mailto:globalsales@storware.eu)
 
 **SLA customization:**
 
@@ -40,7 +40,7 @@ Second choice is to purchase a perpetual license \(1 Year Subscription and Suppo
 
              - 7 days per week x 24 hours SLA
 
-For more answers please go to: [https://storware.eu/faq/](https://storware.eu/faq/)
+For more answers go to: [https://storware.eu/faq/](https://storware.eu/faq/)
 
 
 
