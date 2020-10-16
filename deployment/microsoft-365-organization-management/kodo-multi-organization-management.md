@@ -14,7 +14,7 @@ To add your Microsoft 365 organization to the server, do as follow:
 2. Go to the **Settings** menu.
 3. Select the **Organizations** tab.
 4. Click the **Add Organization** button and select **Manually** option.
-5. In the **Microsoft 365 Configuration** window you have to enter information as follow:
+5. In the **Microsoft 365 Configuration** window provide information as follow:
    1. Tenant ID
    2. Client ID
    3. Client secret

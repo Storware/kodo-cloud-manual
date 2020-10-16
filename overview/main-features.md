@@ -23,6 +23,6 @@ KODO for Cloud server has the following features implemented:
 * Open API for 3rd party software integration \(REST API\)
 
 {% hint style="info" %}
-_SharePoint support is planned for September 2020_
+_SharePoint support is planned for November 2020_
 {% endhint %}
 

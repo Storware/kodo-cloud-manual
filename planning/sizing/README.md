@@ -5,7 +5,7 @@ There are two kinds of people: those who make backups and those who will make th
 Many factors may affect your final deployment, but it's a good practice to answer following questions:
 
 1. **What?**
-   * What type of Microsoft 365 services you want to protect \(Exchange Online Mailboxes, Calendars, Contacts, OneDrive files\)? 
+   * What type of Microsoft 365 services you want to protect \(Exchange Online Mailbox, Calendars, Contacts, OneDrive\)? 
    * How big is the volume of your data? 
 2. **Where?**
    * Where will you store your backups? Is it enough to use a simple \(or deduplicated\) dedicated filesystem \(separated from production environment\) or maybe you need more efficient backup destination.
@@ -15,7 +15,7 @@ Many factors may affect your final deployment, but it's a good practice to answe
 When you take the above questions into consideration you should have at least a good starting point to plan your backup strategy.
 
 {% hint style="info" %}
-One Cloud Agent is capable to run 25 tasks in parallel by default. If you need to configure another Cloud Agent instance you have to add additional 4GB of RAM and 2 cores into your system configuration.
+One Cloud Agent is capable to run 25 tasks in parallel. If you need to configure another Cloud Agent instance you will have to add additional 4GB of RAM and 2 cores to your system configuration.
 {% endhint %}
 
 {% hint style="warning" %}

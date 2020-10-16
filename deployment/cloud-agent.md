@@ -2,7 +2,7 @@
 
 Cloud agent is a part of KODO for Cloud server that is responsible for backup and recover user data.
 
-When KODO for Cloud server is installed, only one instance of  Cloud agent is configured by default. 
+When KODO for Cloud is installed, only one instance of  Cloud agent is configured by default. 
 
 {% hint style="info" %}
 Another instance of Cloud Agent allows you to run next 25 tasks in parallel on your KODO for Cloud server.
@@ -14,13 +14,13 @@ If you need to install the Cloud Agent instance do as follow:
    * syntax:
 
 ```text
-#/opt/kodo-cloud/agent/bin/cloudagent.sh -s SERVER_HOST:SERVER_PORT -n AGENT_NAME
+/opt/kodo-cloud/agent/bin/cloudagent.sh -s SERVER_HOST:SERVER_PORT -n AGENT_NAME
 ```
 
 * example \(AGENT\_NAME=voyager2\):
 
 ```text
-#/opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager2
+/opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager2
 [root@localhost ~]# /opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager2
 Created symlink /etc/systemd/system/multi-user.target.wants/cloud-agent-voyager2.service → /usr/lib/systemd/system/cloud-agent-voyager2.service.
 
@@ -34,15 +34,15 @@ Job concurrency size: 25
 * syntax:
 
 ```text
-#systemctl start cloud-agent-AGENT_NAME
-#systemctl enable cloud-agent-AGENT_NAME
+systemctl start cloud-agent-AGENT_NAME
+systemctl enable cloud-agent-AGENT_NAME
 ```
 
 * example \(AGENT\_NAME=voyager2\):
 
 ```text
-#systemctl start cloud-agent-voyager2
-#systemctl enable cloud-agent-voyager2
+systemctl start cloud-agent-voyager2
+systemctl enable cloud-agent-voyager2
 ```
 
 3. Now you should be able to see new entry in `Agents` section of web UI \([kodoadmin ](../administration/dashboard.md)dashboard\)
