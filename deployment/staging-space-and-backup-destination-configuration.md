@@ -29,7 +29,7 @@ sr0                11:0    1  6.7G  0 rom
 * Install VDO device-mapper driver
 
 ```text
-yum -y install vdo
+#yum -y install vdo
 ```
 
 * Reboot your OS platform to load VDO into system kernel. Run `lsmod |grep vdo` command to make sure the vdo is loaded. 
@@ -44,8 +44,8 @@ dm_mod                151552  13 kvdo,dm_log,dm_mirror,dm_bufio
 * Start and enable VDO device mapper
 
 ```text
-systemctl start vdo
-systemctl enable vdo
+#systemctl start vdo
+#systemctl enable vdo
 ```
 
 * Create VDO device on top of your physical block device:
@@ -54,7 +54,7 @@ systemctl enable vdo
   * if the block device is larger than 16 TB, add the `--vdoSlabSize=32G` parameter at the end to increase the slab size on the volume to 32 GB.
 
 ```text
-vdo create --name=kodo --device=/dev/sdb --vdoLogicalSize=3T
+#vdo create --name=kodo --device=/dev/sdb --vdoLogicalSize=3T
 ```
 
 * Now proceed with steps described in **Preparing file system** section below - use block device name `/dev/sdb`  or  `/dev/mapper/kodo` if VDO is used.
@@ -80,7 +80,7 @@ You also can use a plain file system for staging space \(and optionally for back
 * Format the disk \(use `/dev/sdb` or `/dev/mapper/kodo` if VDO is used\)
 
   ```text
-  mkfs.xfs -K /dev/sdb
+  #mkfs.xfs -K /dev/sdb
   ```
 
 * Add a line to `/etc/fstab` file to automatically mount new  disk after server reboot
@@ -88,33 +88,33 @@ You also can use a plain file system for staging space \(and optionally for back
   * if plain block device is used:
 
   ```text
-  /dev/sdb    /kodo_data    xfs    defaults 0 0
+  #/dev/sdb    /kodo_data    xfs    defaults 0 0
   ```
 
   * if VDO is used:
 
   ```text
-  /dev/mapper/kodo    /kodo_data    xfs    defaults,discard,x-systemd.requires=vdo.service 0 0
+  #/dev/mapper/kodo    /kodo_data    xfs    defaults,discard,x-systemd.requires=vdo.service 0 0
   ```
 
 * Mount the disk device \(all filesystems mentioned in `/etc/fstab` file to be mounted as indicated\): 
 
   ```text
-  mount -a
+  #mount -a
   ```
 
 * Confirm with `df` command that your directory `/kodo_data` is mounted
 * Create staging space and backup destination directories
 
   ```text
-  mkdir -p /kodo_data/staging
-  mkdir -p /kodo_data/backup
+  #mkdir -p /kodo_data/staging
+  #mkdir -p /kodo_data/backup
   ```
 
 * Set ownership to `kodo` user on directory `/kodo_data`:
 
   ```text
-  chown kodo:kodo -R /kodo_data
+  #chown kodo:kodo -R /kodo_data
   ```
 
 

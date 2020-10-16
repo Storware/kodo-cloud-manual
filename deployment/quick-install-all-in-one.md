@@ -10,7 +10,7 @@ Installtion on **RHEL** platform requires an active Red Hat subscription.
 * If you plan tu use VDO deduplication option to store data, export the following environmantal variable
 
 ```text
-export VDO_PHYSICAL_DEVICE=/dev/sdx where x represents the disk letter
+#export VDO_PHYSICAL_DEVICE=/dev/sdx where x represents the disk letter
 ```
 
 {% hint style="warning" %}
@@ -20,7 +20,7 @@ Installation on **RHEL** platform requires an active Red Hat subscription.
 * copy-and-paste this command and press ENTER:
 
 ```text
-bash < <(curl -s http://repo.storware.eu/kodo-cloud/kodo-cloud-local-install.sh)
+#bash < <(curl -s http://repo.storware.eu/kodo-cloud/kodo-cloud-local-install.sh)
 ```
 
 Installation process may take up to 10 minutes, depending on your system performance.

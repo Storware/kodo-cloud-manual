@@ -5,7 +5,7 @@ Before you start to configure backup policies and jobs, KODO for Cloud have to g
 Access to data is performed via an application installed in your organization.
 
 {% hint style="info" %}
-KODO does not store your Microsoft 365 administrative id or password.
+KODO does not store your Microsoft 365 administrative id and password.
 {% endhint %}
 
 ## Manually registering an application with Azure Active Directory

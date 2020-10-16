@@ -14,13 +14,13 @@ If you need to install the Cloud Agent instance do as follow:
    * syntax:
 
 ```text
-/opt/kodo-cloud/agent/bin/cloudagent.sh -s SERVER_HOST:SERVER_PORT -n AGENT_NAME
+#/opt/kodo-cloud/agent/bin/cloudagent.sh -s SERVER_HOST:SERVER_PORT -n AGENT_NAME
 ```
 
 * example \(AGENT\_NAME=voyager2\):
 
 ```text
-/opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager2
+#/opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager2
 [root@localhost ~]# /opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager2
 Created symlink /etc/systemd/system/multi-user.target.wants/cloud-agent-voyager2.service → /usr/lib/systemd/system/cloud-agent-voyager2.service.
 
@@ -34,15 +34,15 @@ Job concurrency size: 25
 * syntax:
 
 ```text
-systemctl start cloud-agent-AGENT_NAME
-systemctl enable cloud-agent-AGENT_NAME
+#systemctl start cloud-agent-AGENT_NAME
+#systemctl enable cloud-agent-AGENT_NAME
 ```
 
 * example \(AGENT\_NAME=voyager2\):
 
 ```text
-systemctl start cloud-agent-voyager2
-systemctl enable cloud-agent-voyager2
+#systemctl start cloud-agent-voyager2
+#systemctl enable cloud-agent-voyager2
 ```
 
 3. Now you should be able to see new entry in `Agents` section of web UI \([kodoadmin ](../administration/dashboard.md)dashboard\)

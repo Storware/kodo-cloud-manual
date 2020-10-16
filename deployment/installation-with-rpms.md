@@ -13,7 +13,7 @@ Before start the installation process you need to prepare your server platform a
 2. Install Kodo for Cloud repository:
 
    * create file `/etc/yum.repos.d/kodo.repo`  \(e.g.`touch /etc/yum.repos.d/kodo.repo` \)
-   * open the file \(using e.g.  `vi` editor \) and insert to it the information from the box below:
+   * open created file \(using e.g. vi editor \) and insert  the information from the box below to the file:
 
    ```text
    # Kodo for Cloud Microsoft 365 backup solution repository
@@ -30,6 +30,7 @@ Before start the installation process you need to prepare your server platform a
      * Choose a Distro \(e.g. `CentOS` \)
      * Choose a Release \(e.g. `CentOS 8 (x86_64)` \)
      *  ****Choose a Version \(e.g.. `10.4 [Old Stable]`\)
+   * create file `/etc/yum.repos.d/MariaDB.repo`  \(e.g.`touch /etc/yum.repos.d/MariaDB.repo)`
    * copy and paste generated repo file into `/etc/yum.repos.d/MariaDB.repo`, so it may  look similar to this one below \(this one for CentOS/RHEL 8\):
 
      ```text
@@ -43,7 +44,8 @@ Before start the installation process you need to prepare your server platform a
      gpgcheck = 1
      ```
 4. Install Microsoft repository:
-   * create repo configuration file `/etc/yum.repos.d/Microsoft.repo`, with the content as follow:
+   * create file`/etc/yum.repos.d/Microsoft.repo (e.g. touch /etc/yum.repos.d/Microsoft.repo)`
+   * open created file \(using e.g. vi editor \) and insert  the information from the box below:
 
      ```text
      # Microsoft repository

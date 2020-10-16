@@ -17,13 +17,13 @@ Before KODO for Cloud installation, please make sure your OS is up-to-date. Use 
 
  Use **yum repolist** command to check you subscription status
 
-An [active Red Hat subscription](https://access.redhat.com/management/products) is required for registering the [RHEL 8](https://www.itzgeek.com/tag/rhel-8) systems or you can [sign up for 30 days trial](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) which will allow you to download Red Hat Enterprise Linux 8 as well as register your RHEL 8 system with Red Hat for receiving packages and updates. 
+The [active Red Hat subscription](https://access.redhat.com/management/products) is required for registering the [RHEL 8](https://www.itzgeek.com/tag/rhel-8) systems or you can [sign up for 30 days trial](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) which will allow you to download Red Hat Enterprise Linux 8 as well as register your RHEL 8 system with Red Hat for receiving packages and updates. 
 
 Keep your Red Hat subscription credentials handy for registering your RHEL 8 system to Red Hat.
 {% endhint %}
 
 {% hint style="warning" %}
-It is recommended to configure separate filesystems for KODO for Cloud server data \(binaries and logs, `/opt` mount point \) and MariaDB database files \(`/var/lib` mount pont\).  
+It is recommended to configure separate filesystems for KODO for Cloud server data \(binaries and logs, /`opt` mount point \) and MariaDB database files \(`/var/lib` mount pont\).  
 
 Use LVM device mapper as filesystem, that allows user to expand disk space if necessary. 
 {% endhint %}

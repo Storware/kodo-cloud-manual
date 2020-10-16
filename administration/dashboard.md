@@ -7,7 +7,7 @@ After successful installation of **KODO for Cloud** server the administrator can
 {% hint style="info" %}
 The administrator can use admin or kodoadmin account to log into the application. 
 
-The differences between both user types are described in the [administrators](../deployment/users.md) section. 
+The differences between both user types are described in the [Administration levels](../deployment/users.md) section. 
 {% endhint %}
 
 ![](../.gitbook/assets/kodo-administrator-dashboard%20%281%29.jpg)
