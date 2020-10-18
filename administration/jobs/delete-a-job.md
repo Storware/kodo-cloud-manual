@@ -7,7 +7,7 @@ If you want to delete a job, do the following steps
 3. Choose **Delete** to delete the job.
 4. Confirm if you want to do this operation.
 
-![](../../.gitbook/assets/kodo-cloud-administration-job02.png)
+![](../../.gitbook/assets/kodo-cloud-administration-job02-delete.png)
 
 
 

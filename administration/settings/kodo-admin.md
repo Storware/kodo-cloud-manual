@@ -2,32 +2,31 @@
 
 The **kodoadmin** user is a predefined administrative user on KODO for Cloud server.  If you are logging in to the  server as `kodoadmin` then you can edit the server settings in the tabs.
 
-## General
+## General tab
 
 Here you can edit the following settings:
 
-* General settings-- allowed IP addresses to login with KodoAdmin role
-* Support website URL -the addess of KODO support website.
-* Product website URL- the addess of Storware support website.
-* Documentation website URL - the addess of KODO documentation  website.
+* **General settings**-- allowed IP addresses to login with KodoAdmin role
+* **Support website URL** -the addess of KODO support website.
+* **Product website URL**- the addess of Storware support website.
+* **Documentation website URL** - the addess of KODO documentation  website.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin01-%20%281%29.png)
 
-## Email
+## Email tab
 
-Here you can edit the following settings:
+You have to add the email settings for KODO server to be able to sent notification. You have to add the following settings:
 
-* E-mail address
-* Login
-* Server address
-* Port
-* SSL port \(if used\)
-* Require Authentication
-  * Password
+* **E-mail address** - the email address of the sender
+* **Login** - usually the same as email adress
+* **Server address -** SMTP server IP name or adress \(for Microsoft 365 service the name is smtp.office365.com\)
+* **Port -** usaully it's 25 or 587
+* **SSL port** 
+* **Password -** the password for the user provided in the  "Login" form 
 
-![](../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin02-%20%281%29.png)
+![](../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin02-%20%282%29.png)
 
-## Storage
+## Storage tab
 
 Here you can edit the following settings:
 
@@ -38,7 +37,7 @@ Here you can edit the following settings:
 
 ![](../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin03-.png)
 
-## Logs
+## Logs tab
 
 Here you can edit the following settings:
 
@@ -56,7 +55,7 @@ Here you can preview current license or update a new one.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin05-.png)
 
-## Billing
+## Billing tab
 
 Here you can edit your billing settings.
 

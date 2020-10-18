@@ -10,12 +10,12 @@ Only one cloud agent instance is installed by default on The KODO for Cloud
 
 Log into server as `kodoadmin` user and go to the **Agents** view. In the **Options**  menu you can select one of the following options:
 
-* Details - information about tasks that were handled by the agent  
-* Stop \(or Start if agent's instance is not running\)
-* Assign - assign agent to the defined organization
-* Unassign - unassign agent from the organization
-* Logs path - set the path for cloud agent logs
-* Delete - delete the agent
+* **Details** - information about tasks that were handled by the agent  
+* **Stop** - you can \(or start\) the agent's instance
+* **Assign** - you can assign the agent to the defined organization
+* **Unassign** - unassign agent from the organization
+* **Logs path** - set the path for cloud agent logs
+* **Delete** - choose the option to delete the agent
 
 ![](../.gitbook/assets/kodo-cloud-administration-agents01.png)
 

@@ -9,5 +9,5 @@ If you want to edit a job, do the following:
 5. Now you can reconfigure the job.
 6. Click **Save** button to confirm amendments.      ****
 
-![](../../.gitbook/assets/kodo-cloud-administration-job02.png)
+![](../../.gitbook/assets/kodo-cloud-administration-job02-edit.png)
 
