@@ -2,7 +2,7 @@
 
 Before start the installation process you need to prepare your server platform accordingly to the size of Microsoft 365 organization you are going to protect \(see the [Sizing](../planning/sizing/) chapter\).
 
-1. Make sure your OS is up to date:
+1. Make sure your OS is up to date by following command:
 
    ```text
    # yum -y update
@@ -13,7 +13,7 @@ Before start the installation process you need to prepare your server platform a
 2. Install Kodo for Cloud repository:
 
    * create file `/etc/yum.repos.d/kodo.repo`  \(e.g.`touch /etc/yum.repos.d/kodo.repo` \)
-   * open the file \(using e.g.  `vi` editor \) and insert to it the information from the box below:
+   * open created file \(using e.g. vi editor \) and insert  the information from the box below to the file:
 
    ```text
    # Kodo for Cloud Microsoft 365 backup solution repository
@@ -30,6 +30,7 @@ Before start the installation process you need to prepare your server platform a
      * Choose a Distro \(e.g. `CentOS` \)
      * Choose a Release \(e.g. `CentOS 8 (x86_64)` \)
      *  ****Choose a Version \(e.g.. `10.4 [Old Stable]`\)
+   * create file `/etc/yum.repos.d/MariaDB.repo`  \(e.g.`touch /etc/yum.repos.d/MariaDB.repo)`
    * copy and paste generated repo file into `/etc/yum.repos.d/MariaDB.repo`, so it may  look similar to this one below \(this one for CentOS/RHEL 8\):
 
      ```text
@@ -43,7 +44,8 @@ Before start the installation process you need to prepare your server platform a
      gpgcheck = 1
      ```
 4. Install Microsoft repository:
-   * create repo configuration file `/etc/yum.repos.d/Microsoft.repo`, with the content as follow:
+   * create file`/etc/yum.repos.d/Microsoft.repo (e.g. touch /etc/yum.repos.d/Microsoft.repo)`
+   * open created file \(using e.g. vi editor \) and insert  the information from the box below:
 
      ```text
      # Microsoft repository
@@ -56,9 +58,9 @@ Before start the installation process you need to prepare your server platform a
 
 ## KODO for Cloud server
 
-KODO for Cloud consists of server \(central management point with WebUI\) and agent \(CloudAgent\), which should be installed on the same server. The first step is always to install the server.
+KODO for Cloud consists of  server \(central management point with WebUI\) and agent \(CloudAgent\), which should be installed on the same server. The first step is always to install the server.
 
-1. Install **kodo-cloud-server** using YUM:
+1. Install **kodo-cloud-server** using YUM command:
 
    ```text
    # yum -y install kodo-cloud-server
@@ -110,15 +112,13 @@ KODO for Cloud consists of server \(central management point with WebUI\) and ag
    #firewall-cmd --complete-reload
    ```
 
-8. Now you should be able to log into the web console using URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST` is the hostname or IP address of your Kodo Cloud Server. By default KODO for Cloud has one global admin account \(the administrator to manage organizations\) and  another admin account in the default organization:
-   * Kodo admin \(global admin\): `kodoadmin` with password `Kodo@dm1n`
-   * default organization admin: `admin` with password `Kodo@dm1n` 
+8. Now you should be able to log into the web console using URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST` is the hostname or IP address of your Kodo Cloud Server. 
 
 ## Kodo Cloud Agent
 
 Kodo Cloud Agent is the component that performs backup/restore tasks. Install it on the same host as the server.
 
-1. Install kodo-cloud-agent using YUM:
+1. Install **kodo-cloud-agent** using YUM command:
 
    ```text
    #yum -y install kodo-cloud-agent
@@ -139,7 +139,7 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    #/opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager
    ```
 
-4. Start and enable Kodo Cloud Agent service \(notice its name contains agent name\).
+4. Start and enable Kodo Cloud Agent service using agent name at the end of service name \).
 
    * syntax:
 

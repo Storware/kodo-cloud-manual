@@ -1,32 +1,32 @@
 # Virtual Appliance \(VMware\)
 
-```text
-$ passwd
-```
+## How to access the Virtual Appliance
 
-d to change password for **kodo** user:
-
-## How to access a Virtual Appliance
-
-You can download the virtual appliance from the following link:
+You can download the KODO for virtual appliance from the following link:
 
 [ftp://kodo4cloud@ftp.storware.eu/](ftp://kodo4cloud@ftp.storware.eu/)
 
 **Login:** kodo4cloud  
 **Password:** sEkQsrdsr98Q
 
-## Logging to the virtual appliances
-
-
+## Logging into the virtual appliance
 
 Use credentials listed below to log in to the system:
 
 > **Login:** kodo  
 > **Password:** Zt3edWny
 
-### NOTE: FOR SECURITY REASONS PLEASE CHANGE PASSWORD AFTER THE FIRST LOGIN TO THE SYSTEM to cha!
 
-Use `passwd` command to change the password.
+
+{% hint style="warning" %}
+### NOTE: FOR SECURITY REASONS PLEASE CHANGE PASSWORD AFTER THE FIRST LOGIN TO THE SYSTEM.
+{% endhint %}
+
+Use `passwd` command to change the password for **kodo** user
+
+```text
+$ passwd
+```
 
 Type the old password and the new password two times:
 
@@ -105,13 +105,13 @@ Save the file pressing the `CTRL+o` and then `Enter` key.
 
 After the file is saved you can exit the editor by pressing `CTRL+x` key combination.
 
-The final step is to restart the network configuration. To do this use the following command:
+The final step is to restart the network configuration.  Use the following command:
 
 ```text
 # systemctl restart NetworkManager.service
 ```
 
-Now you should be able to login to your KODO for Cloud server using a web browser and IP address that you've configured in previous steps. Open a web browser and enter:
+Now you should be able to login to your KODO for Cloud server using a web browser and IP address that you've configured in previous steps. Open a web browser and enter the IP\_address:
 
 ```text
 https://ip_address

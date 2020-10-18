@@ -8,7 +8,7 @@ Full backup is done automatically by default when user\(s\) in defined job are p
 
 ### Incremental backup
 
-Incremental backup is the default backup type on KODO for Cloud server. Only one initial full backup is done, every next backup in chain is the incremental one.
+Incremental backup is the default backup type on KODO for Cloud server. Only one initial full backup is done, every subsequent backup is the incremental one.
 
 
 

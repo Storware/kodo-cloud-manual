@@ -6,18 +6,18 @@ KODO for Cloud server has the following features implemented:
 
 * Full & Incremental forever Microsoft 365 backup 
 * Flexible restore: to the cloud or directly via web UI to local PC
-* Individual object-level recovery \(files, e-mails, contacts, calendars\)
+* Individual object-level recovery \(OneDrive files, Excahnge e-mails, contacts, calendars, SharePoints \)
 * Multi-agent support for better scalability or geographically dispersed environments
 * The ability to process concurrent Microsoft 365 accounts 
 * Intelligent handling Microsoft 365 throttling & resource limits outage control
 * Data owner e-mail notifications during restore by downloading data
 * Auto-assign accounts to jobs for robust backups
 * Option to create multiple policies with custom retentions 
-* Option to add multiple Microsoft 365 tenants into single KODO organization 
+* Option to add multiple Microsoft 365 tenants into a single KODO organization 
 * Multi-tenancy mode \(multiple KODO organizations\) with a billing feature for large enterprises or Manage Service Providers \(backup as a service offering\)
 * File-based backup repository
 * Built-in data deduplication with Virtual Data Optimizer \(VDO\)
-* NFS support backup repository
+* NFS support for backup repository
 * Data Domain BoostFS plugin integration support
 * Easy to use and modern management \(HTML5 web UI and CLI\)
 * Open API for 3rd party software integration \(REST API\)
