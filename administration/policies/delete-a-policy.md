@@ -7,5 +7,9 @@ If you want to delete a data policy, do the following:
 3. Choose **Delete** to remove the policy.
 4. Confirm if you accept the operation.
 
+{% hint style="warning" %}
+The default policy cannot be deleted from KODO for Cloud server.
+{% endhint %}
+
 
 

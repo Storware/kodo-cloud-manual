@@ -13,7 +13,7 @@ Log into server as `kodoadmin` user and go to the **Agents** view. In the **Opti
 * **Details** - information about tasks that were handled by the agent  
 * **Stop** - you can \(or start\) the agent's instance
 * **Assign** - you can assign the agent to the defined organization
-* **Unassign** - unassign agent from the organization
+* **Unassign** - unassign the agent from the organization
 * **Logs path** - set the path for cloud agent logs
 * **Delete** - choose the option to delete the agent
 
