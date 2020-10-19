@@ -25,5 +25,7 @@ To add your Microsoft 365 organization to KODO for Cloud server, do as follow:
 
 
 
-
+{% hint style="danger" %}
+The Auto option to add your Microsoft 365 organization is not available in this version of KODO for Cloud server. It will be in the future releases. 
+{% endhint %}
 
