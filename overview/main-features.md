@@ -18,7 +18,6 @@ KODO for Cloud server has the following features implemented:
 * File-based backup repository
 * Built-in data deduplication with Virtual Data Optimizer \(VDO\)
 * NFS support for backup repository
-* Data Domain BoostFS plugin integration support
 * Easy to use and modern management \(HTML5 web UI and CLI\)
 * Open API for 3rd party software integration \(REST API\)
 

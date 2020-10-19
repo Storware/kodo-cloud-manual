@@ -32,8 +32,6 @@ In this tab you can add, edit, set password or delete the administrator. Newly a
 
 ![](../../.gitbook/assets/kodo-cloud-administration-backup-11.png)
 
-
-
 To add new organization administrator do the following:
 
 1. Click **Add administrator** menu.
@@ -42,4 +40,8 @@ To add new organization administrator do the following:
 4. Enter **Last name**.
 5. Enter **Email** address.
 6. Enter **Phone number**.  
+
+In thnext step you have to set password for defined organization administrator:
+
+![](../../.gitbook/assets/kodo-cloud-administration-backup-14.png)
 

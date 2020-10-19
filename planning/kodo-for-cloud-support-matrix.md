@@ -52,7 +52,6 @@ KODO for Cloud supports backups and restores of Microsoft 365 services.
     <tr>
       <td style="text-align:left">Sharepoint</td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>Sites</li>
           <li>Subsites</li>
