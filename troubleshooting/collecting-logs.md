@@ -25,7 +25,7 @@ You can find two kinds of logs under that path:
 * **Server logs** - \(`server.log.x`\)
 * **Application logs** - \(kodo.log and `kodo_log.TIMESTAMP.log.zip`\) 
 
-You can download logs from KODO for Cloud server by logging into WEB GUI as  [**kodoadmin** ](../administration/settings/kodo-admin.md)user.
+You can download logs from KODO for Cloud server by logging into WEB GUI as  [**kodoadmin** ](../administration/organizations-kodoadmin-dashboard-only/settings/kodo-admin.md)user.
 
 To get the logs do the following:
 

@@ -10,7 +10,7 @@ When the system platform is ready for KODO deployment do as follow:
    * ​[Installation using Ansible playbook​](installation-using-ansible-playbook.md)
    * [​Installation with RPMs​](installation-with-rpms.md)
    * [Virtual Appliance \(VMware\)](virtual-appliance-vmware.md)
-3. Setup settings in [KODO Admin](../administration/settings/kodo-admin.md) panel:
+3. Setup settings in [KODO Admin](../administration/organizations-kodoadmin-dashboard-only/settings/kodo-admin.md) panel:
    * Email information
    * License information 
 4. Add and verify [Microsoft 365 organization](microsoft-365-organization-management/):
