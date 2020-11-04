@@ -13,7 +13,7 @@ Before start the installation process you need to prepare your server platform a
 2. Install Kodo for Cloud repository:
 
    * create file `/etc/yum.repos.d/kodo.repo`  \(e.g.`touch /etc/yum.repos.d/kodo.repo` \)
-   * open created file \(using e.g. vi editor \) and insert  the information from the box below to the file:
+   * open the created file \(using e.g. vi editor \) and insert  the information from the box below to the file:
 
    ```text
    # Kodo for Cloud Microsoft 365 backup solution repository
@@ -45,7 +45,7 @@ Before start the installation process you need to prepare your server platform a
      ```
 4. Install Microsoft repository:
    * create file`/etc/yum.repos.d/Microsoft.repo (e.g. touch /etc/yum.repos.d/Microsoft.repo)`
-   * open created file \(using e.g. vi editor \) and insert  the information from the box below:
+   * open the created file \(using e.g. vi editor \) and insert  the information from the box below:
 
      ```text
      # Microsoft repository
@@ -58,22 +58,22 @@ Before start the installation process you need to prepare your server platform a
 
 ## KODO for Cloud server
 
-KODO for Cloud consists of  server \(central management point with WebUI\) and agent \(CloudAgent\), which should be installed on the same server. The first step is always to install the server.
+KODO for Cloud consists of the server \(central management point with web UI\) and agent \(CloudAgent\), which can be installed on the same server. The first step is always to install the server.
 
-1. Install **kodo-cloud-server** using YUM command:
+1. Install  the server using YUM command:
 
    ```text
    # yum -y install kodo-cloud-server
    ```
 
-2. Start and enable **MariaDB** service:
+2. When the installation process is finished,  start and enable **MariaDB** service using the command below:
 
    ```text
    # systemctl start mariadb
    # systemctl enable mariadb
    ```
 
-3. Run **MariaDB** script for secure installation \(choose the options as below\):
+3. Run **MariaDB** script for secure installation \(choose the options as shown\):
 
    ```text
    # mysql_secure_installation
@@ -91,41 +91,41 @@ KODO for Cloud consists of  server \(central management point with WebUI\) and a
    #/opt/kodo-cloud/server/bin/kodo-cloud-server-init.sh --dbrootpassword YOUR_DB_ROOT_PASSWORD
    ```
 
-5.  Start and enable KODO for Cloud server service \(it can take around a minute for server to be started\):
+5.  Start and enable KODO for Cloud server service \(it can take around a minute for the server to be started\):
 
    ```text
    #systemctl start kodo-cloud-server
    #systemctl enable kodo-cloud-server
    ```
 
-6. If you don't have firewall running yet - start and enable its service:
+6. If you don't have a firewall running yet - start and enable its service:
 
    ```text
    #systemctl start firewalld
    #systemctl enable firewalld
    ```
 
-7. Open 8181 port on your firewall. Here is example:
+7. Open 8181 port on your firewall. Here is an example:
 
    ```text
    #firewall-cmd --add-port=8181/tcp --permanent
    #firewall-cmd --complete-reload
    ```
 
-8. Now you should be able to log into the web console using URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST` is the hostname or IP address of your Kodo Cloud Server. 
+8. Now you should be able to log into the web console using the URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST` is the hostname or IP address of your Kodo for Cloud server. 
 
 ## Kodo Cloud Agent
 
 Kodo Cloud Agent is the component that performs backup/restore tasks. Install it on the same host as the server.
 
-1. Install **kodo-cloud-agent** using YUM command:
+1. Install Cloud Agent using YUM command:
 
    ```text
    #yum -y install kodo-cloud-agent
    ```
 
 2. Configure a storage destination. Follow the instructions in [Backup and staging space configuration](staging-space-and-backup-destination-configuration.md) chapter.
-3. Register agent to the server with `AGENT_NAME` of your choice, to the server `ADMIN_USER` user name which you would like to use and URL to Kodo for Cloud API and provide password when prompted.
+3. Register agent to the server with `AGENT_NAME` of your choice, to the server `ADMIN_USER` user name which you would like to use and URL to Kodo for Cloud API and provide a password when prompted.
 
    * syntax:
 
@@ -133,7 +133,7 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    #/opt/kodo-cloud/agent/bin/cloudagent.sh -s SERVER_HOST:SERVER_PORT -n AGENT_NAME
    ```
 
-   * currently only local installation is supported, so you should use localhost and 8181 as the target:
+   * currently, only local installation is supported, so you should use localhost and 8181 as the target:
 
    ```text
    #/opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager
