@@ -1,8 +1,8 @@
 # Installation using Ansible playbook
 
-Before start the installation process you need to prepare your server platform accordingly to the size of Microsoft 365 organization you are going to protect \(see the chapter [Sizing](../planning/sizing/)\).
+Before starting the installation process you need to prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the chapter [Sizing](../planning/sizing/)\).
 
-You can install complete Kodo for Cloud solution using the following 2 roles, available on Ansible Galaxy:
+You can install a complete Kodo for Cloud solution using the following 2 roles, available on Ansible Galaxy:
 
 * Kodo Cloud Server: [https://galaxy.ansible.com/xe0nic/ansible\_kodo\_cloud\_server](https://galaxy.ansible.com/xe0nic/ansible_kodo_cloud_server)
 * Kodo Cloud Agent: [https://galaxy.ansible.com/xe0nic/ansible\_kodo\_cloud\_agent](https://galaxy.ansible.com/xe0nic/ansible_kodo_cloud_agent)
@@ -16,13 +16,13 @@ This example assumes that you have `root` access to this host and you have confi
 generate a key:
 
 ```yaml
-ssh-keygen -f ~/.ssh/id_rsa -P ""
+# ssh-keygen -f ~/.ssh/id_rsa -P ""
 ```
 
 and copy it to your CentOS/RHEL box:
 
 ```yaml
-ssh-copy-id -i ~/.ssh/id_rsa.pub root@YOUR_HOST
+# ssh-copy-id -i ~/.ssh/id_rsa.pub root@YOUR_HOST
 ```
 
   
@@ -39,8 +39,8 @@ Run these on the system from which you run Ansible playbooks:
   `ansible-galaxy install xe0nic.ansible_kodo_cloud_server  
   ansible-galaxy install xe0nic.ansible_kodo_cloud_agent`
 
-* Create playbook directory and change it working directory, i.e: `mkdir kodo && cd kodo`
-* Create inventory file - i.e. `hosts`:
+* Create a playbook directory and change its working directory, i.e: `mkdir kodo && cd kodo`
+* Create an inventory file - i.e. `hosts`:
 
 {% code title="hosts" %}
 ```text
@@ -55,7 +55,7 @@ ansible_user = root
 ```
 {% endcode %}
 
-* Create playbook file - `site.yml`:
+* Create a playbook file - `site.yml`:
 
 {% code title="site.yml" %}
 ```yaml
@@ -72,7 +72,7 @@ ansible_user = root
 {% endcode %}
 
 * Run playbook: `ansible-playbook -i hosts site.yml`
-* After installation you should be able to login to your Kodo Cloud Server: `https://kodo_cloud_server_address` and your nodes should be registered and running. 
+* After installation you should be able to log into your Kodo for Cloud server: `https://kodo_cloud_server_address` and your nodes should be registered and running. 
 
 {% hint style="info" %}
 By default Kodo for Cloud has one global admin account \(for organizations management\) and one account in the default organization:
@@ -83,9 +83,9 @@ By default Kodo for Cloud has one global admin account \(for organizations manag
 
 ## Variables
 
-These two roles use just a few variables. Both plays use `server_fqdn` variable. If not defined, server play sets variable `server_fqdn` to the hostname reported by the OS on which it is installed. Server play will generate SSL certificate for this FQDN, and node play automatically will use this value if defined. You can also provide this variable manually \(either in `hosts` file or with extra vars switch in `ansible-playbook` command, i.e. `-e "server_fqdn=kodo.server.local"`
+These two roles use just a few variables. Both plays use  `server_fqdn` variable. If not defined, server play sets variable `server_fqdn` to the hostname reported by the OS on which it is installed. Server play will generate SSL certificate for this FQDN, and node play automatically will use this value if defined. You can also provide this variable manually \(either in `hosts` file or with extra vars switch in `ansible-playbook` command, i.e. `-e "server_fqdn=kodo.server.local"`
 
-Node play needs `agent_name` for registration process. If not provided it will just use hostname reported by OS, however keep in mind that it needs to be **unique** for each node. We recommend that you set them in the host inventory file.
+Node play needs `agent_name` for the registration process. If not provided it will just use the hostname reported by OS, however, keep in mind that it needs to be **unique** for each node. We recommend that you set them in the host inventory file.
 
 By default KODO for Cloud uses MariaDB 10.4 for CentOS - you can control source, distribution and version of your MariaDB with the following variables \(with their respective default values\):
 

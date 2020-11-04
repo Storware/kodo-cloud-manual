@@ -17,10 +17,10 @@ KODO for Cloud supports backups and restores of Microsoft 365 services.
       <td style="text-align:left">Exchange Online</td>
       <td style="text-align:left">
         <ul>
-          <li>mailboxes</li>
-          <li>contacts</li>
-          <li>calendars</li>
-          <li>shared mailboxes</li>
+          <li>Mailboxes</li>
+          <li>Contacts</li>
+          <li>Calendars</li>
+          <li>Shared mailboxes</li>
         </ul>
       </td>
       <td style="text-align:left">
@@ -29,6 +29,7 @@ KODO for Cloud supports backups and restores of Microsoft 365 services.
           <li>individual object-level recovery</li>
           <li>to the same account and different path/folder</li>
           <li>to another account and different path/folder</li>
+          <li>overwrite option</li>
         </ul>
       </td>
     </tr>
@@ -37,7 +38,7 @@ KODO for Cloud supports backups and restores of Microsoft 365 services.
       <td style="text-align:left">
         <p></p>
         <ul>
-          <li>files and folders</li>
+          <li>Files and folders</li>
         </ul>
       </td>
       <td style="text-align:left">
@@ -46,6 +47,7 @@ KODO for Cloud supports backups and restores of Microsoft 365 services.
           <li>individual object-level recovery</li>
           <li>to the same account and different path/folder</li>
           <li>to another account and different path/folder</li>
+          <li>overwrite option</li>
         </ul>
       </td>
     </tr>
@@ -65,8 +67,9 @@ KODO for Cloud supports backups and restores of Microsoft 365 services.
           <li>to the cloud or direct restore via web UI</li>
           <li>individual object-level recovery</li>
           <li>to the same account and different path/folder</li>
-          <li>to another account and different path/folder</li>
+          <li>overwrite option</li>
         </ul>
+        <p></p>
       </td>
     </tr>
   </tbody>

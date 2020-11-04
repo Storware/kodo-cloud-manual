@@ -1,6 +1,6 @@
 # Backup and staging space configuration
 
-KODO for Cloud needs staging and backup destination  in `/kodo_data` directory by default. We suggest to  attach just empty drive and then configure it.
+KODO for Cloud needs staging and backup destination in `/kodo_data` directory by default. We suggest attaching just en empty drive and then configure it.
 
 You can configure a storage space as VDO device or a block device on the OS filesystem layer.
 
@@ -11,7 +11,7 @@ You can configure a storage space as VDO device or a block device on the OS file
 If you plan to use VDO deduplication for storing you backups, do as follow: 
 
 * Add a disk device to your OS platform. 
-* Run `lsblk` command to check the system name for the disk you will use as storage destination.  
+* Run `lsblk` command to check the system name for the disk you will use as the storage destination.  
 
 ```text
 [root@localhost ~]# lsblk
@@ -32,7 +32,7 @@ sr0                11:0    1  6.7G  0 rom
 #yum -y install vdo
 ```
 
-* Reboot your OS platform to load VDO into system kernel. Run `lsmod |grep vdo` command to make sure the vdo is loaded. 
+* Reboot your OS platform to load VDO into the system kernel. Run `lsmod |grep vdo` command to make sure the VDO is loaded. 
 
 ```text
 [root@localhost ~]# lsmod |grep vdo
@@ -48,7 +48,7 @@ dm_mod                151552  13 kvdo,dm_log,dm_mirror,dm_bufio
 #systemctl enable vdo
 ```
 
-* Create VDO device on top of your physical block device:
+* Create a VDO device on top of your physical block device:
   * let's assume it is `/dev/sdb`
   * we estimate by default the logical size of the VDO device to be 3 times the size of your physical device, so in this example, for 1 TB physical size, we can try with 3 TB logical size
   * if the block device is larger than 16 TB, add the `--vdoSlabSize=32G` parameter at the end to increase the slab size on the volume to 32 GB.
@@ -59,7 +59,7 @@ dm_mod                151552  13 kvdo,dm_log,dm_mirror,dm_bufio
 
 * Now proceed with steps described in **Preparing file system** section below - use block device name `/dev/sdb`  or  `/dev/mapper/kodo` if VDO is used.
 
-## Preparing file system
+## Preparing a file system
 
 You also can use a plain file system for staging space \(and optionally for backup destination\). Here are steps assuming you have a local \(physical or virtual\) disk.
 
@@ -85,7 +85,7 @@ You also can use a plain file system for staging space \(and optionally for back
 
 * Add a line to `/etc/fstab` file to automatically mount new  disk after server reboot
 
-  * if plain block device is used:
+  * if the plain block device is used:
 
   ```text
   #/dev/sdb    /kodo_data    xfs    defaults 0 0
@@ -100,21 +100,21 @@ You also can use a plain file system for staging space \(and optionally for back
 * Mount the disk device \(all filesystems mentioned in `/etc/fstab` file to be mounted as indicated\): 
 
   ```text
-  #mount -a
+  # mount -a
   ```
 
 * Confirm with `df` command that your directory `/kodo_data` is mounted
 * Create staging space and backup destination directories
 
   ```text
-  #mkdir -p /kodo_data/staging
-  #mkdir -p /kodo_data/backup
+  # mkdir -p /kodo_data/staging
+  # mkdir -p /kodo_data/backup
   ```
 
 * Set ownership to `kodo` user on directory `/kodo_data`:
 
   ```text
-  #chown kodo:kodo -R /kodo_data
+  # chown kodo:kodo -R /kodo_data
   ```
 
 

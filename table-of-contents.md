@@ -20,7 +20,7 @@
   * [Installation with RPMs](deployment/installation-with-rpms.md)
   * [Virtual Appliance \(VMware\)](deployment/virtual-appliance-vmware.md)
   * [Microsoft 365 Organization Management](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/deployment/microsoft-365-organization-management/README.md)
-    * [Adding Microsoft 365 Organization](deployment/microsoft-365-organization-management/microsoft-365-organization-management.md)
+    * [Adding Microsoft 365 Organization](first-steps-after-deployment/microsoft-365-organization-management/microsoft-365-organization-management.md)
     * [Synchronizing users](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/deployment/adding-microsoft-office365-tenant/synchronizing-users.md)
 * [Administration](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/administration/README.md)
   * [Data Backup](administration/data-backup/)
