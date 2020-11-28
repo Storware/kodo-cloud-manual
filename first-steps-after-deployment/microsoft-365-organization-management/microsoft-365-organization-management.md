@@ -34,19 +34,19 @@ The instruction is as follow:
     | :--- | :--- | :--- |
     | Azure Active Directory Graph | User.Read.All | Delegated |
     | Azure Active Directory Graph | Directory.Read.All | Application |
-    | Exchange | full\_access\_as\_app | Application |
+    | Office 365 Exchange Online | full\_access\_as\_app | Application |
     | Microsoft Graph | Calendars.ReadWrite | Application |
     | Microsoft Graph | Contacts.ReadWrite | Application |
     | Microsoft Graph | Files.ReadWrite.All | Application |
     | Microsoft Graph | Mail.ReadWrite | Application |
     | Microsoft Graph | Mail.Read | Application |
-    | Microsoft Graph | Sites.Read.All | Application |
+    | Microsoft Graph | Sites.ReadWrite.All | Application |
     | Microsoft Graph | User.ReadDelegated | Delegated |
     | Microsoft Graph | User.Read.all | Application |
     | SharePoint | AllSites.FullControl | Delegated |
     | SharePoint | Sites.FullControl.All | Application |
     | SharePoint | User.Read.All | Application |
-    | SharePoint | User.ReadWrite.All | Delegated |
+    | SharePoint | User.ReadWrite.All | Application |
 
 13. To save the selected permissions, click **Grant admin consent for &lt;your organization name**&gt;.
 14. Go to the next chapter to add organization to KODO for Cloud server. 
