@@ -15,7 +15,7 @@ Here you can edit the following settings:
 
 ## Email tab
 
-You have to add the email settings for KODO server to be able to sent notification. You have to add the following settings:
+You have to add the email settings for KODO server to be able to send notification. You have to add the following settings:
 
 * **E-mail address** - the email address of the sender
 * **Login** - usually it's the same as the email address 
@@ -45,19 +45,19 @@ Here you can edit the following settings:
 * Log level
 * Max file size
 
-You can also download Server logs or Application Logs for troubleshhoting or to send this information to KODO support.
+You can also download Server logs or Application Logs for troubleshooting or to send this information to KODO support.
 
 ![](../../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin04-%20%282%29.png)
 
 ## License tab
 
-Here you can preview current license or update a new one.
+Here you can preview the current license or update a new one.
 
 ![](../../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin05-.png)
 
 ## Billing tab
 
-Here you can edit your billing settings.
+Here you can edit your billing settings. This information is used by kodoadmin to charge all defined organizations in Kodo for Cloud server.
 
 ![](../../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin06-.png)
 
