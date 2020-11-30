@@ -20,7 +20,7 @@ You have to add the email settings for KODO server to be able to sent notificati
 * **E-mail address** - the email address of the sender
 * **Login** - usually it's the same as the email address 
 * **Server address -** SMTP server IP name or address \(for Microsoft 365 service the server name is smtp.office365.com\), but you can use any other SMTP server.
-* **Port** -usuaully it's 25 or 587
+* **Port** -usually it's 25 or 587
 * **use SSL** - mark it if you want to use SSL protocol
 * **Password -** the password for the user provided in the  "Login" form 
 
@@ -33,7 +33,7 @@ Here you can edit the following settings:
 * Backup storage path
 * Staging path
 * Backup storage free space warning threshold
-* Staging storage free space warning threshhold
+* Staging storage free space warning threshold
 
 ![](../../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin03-.png)
 

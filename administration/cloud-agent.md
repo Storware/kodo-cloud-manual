@@ -1,6 +1,6 @@
 # Agents \(kodoadmin level\)
 
-In this view, you can verify currently configured cloud agent instances on the KODO for Cloud server.
+In this view you can verify currently configured cloud agent instances on the KODO for Cloud server.
 
 {% hint style="info" %}
 Only one cloud agent instance is installed by default on The KODO for Cloud
@@ -8,7 +8,7 @@ Only one cloud agent instance is installed by default on The KODO for Cloud
 
 ## Management 
 
-Log into the server as `kodoadmin` user and go to the **Agents** view. In the **Options**  menu you can select one of the following options:
+Log into server as `kodoadmin` user and go to the **Agents** view. In the **Options**  menu you can select one of the following options:
 
 * **Details** - information about tasks that were handled by the agent  
 * **Stop** - you can \(or start\) the agent's instance
@@ -21,9 +21,9 @@ Log into the server as `kodoadmin` user and go to the **Agents** view. In the **
 
 ## Settings
 
-If you need you can tweak some settings of the cloud agent. You have to log in to the server using SSH protocol and go to the directory `/opt/kodo-cloud/agent/instances/voyager/` 
+If you need you can tweak some settings of the cloud agent. You have to log in to server using SSH protocol and go the directory `/opt/kodo-cloud/agent/instances/voyager/` 
 
-You can edit some parameters in the `AgentConfig.json` file, however its not recommended if you are not asked about it by KODO support.     
+You can edit some parameters in the `AgentConfig.json` file, whowever its not recommended if you are not asked about it by KODO support.     
 
 ```text
   "agent": {
