@@ -6,7 +6,7 @@ If you need to change the default log level \(INFO\) and other settings for logg
 2. Go to the **Settings** menu.
 3. At the **Settings** menu go to **Logs** tab.
 4. Update logging settings by choosing a log level.
-5. Click the **Save** button on finish.
+5. Click the **Save** button on the finish.
 
 ![](../.gitbook/assets/kodo-cloud-administration-settings-kodoadmin01.png)
 
