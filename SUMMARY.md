@@ -43,7 +43,6 @@
     * [On-Demand Backup](administration/data-backup/on-demand-backup.md)
     * [Scheduled Backup](administration/data-backup/creating-new-backup-job.md)
   * [Restore](administration/data-restore/README.md)
-    * [Untitled](administration/data-restore/untitled.md)
     * [Restore data to Microsoft 365 service](administration/data-restore/restore-data-to-microsoft-365.md)
     * [Restore data to local PC](administration/data-restore/restoring-data-to-local-pc.md)
   * [Tasks](administration/tasks.md)
