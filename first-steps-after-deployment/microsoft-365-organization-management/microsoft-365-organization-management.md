@@ -41,7 +41,7 @@ The instruction is as follow:
     | Microsoft Graph | Mail.ReadWrite | Application |
     | Microsoft Graph | Mail.Read | Application |
     | Microsoft Graph | Sites.ReadWrite.All | Application |
-    | Microsoft Graph | User.Read | Delegated |
+    | Microsoft Graph | User.ReadDelegated | Delegated |
     | Microsoft Graph | User.Read.all | Application |
     | SharePoint | AllSites.FullControl | Delegated |
     | SharePoint | Sites.FullControl.All | Application |

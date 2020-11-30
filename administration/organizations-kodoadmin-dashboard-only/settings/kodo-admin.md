@@ -18,9 +18,9 @@ Here you can edit the following settings:
 You have to add the email settings for KODO server to be able to sent notification. You have to add the following settings:
 
 * **E-mail address** - the email address of the sender
-* **Login** - usually it's the same as the email adress 
-* **Server address -** SMTP server IP name or adress \(for Microsoft 365 service the server name is smtp.office365.com\), but you can use any other SMTP server.
-* **Port** -usaully it's 25 or 587
+* **Login** - usually it's the same as the email address 
+* **Server address -** SMTP server IP name or address \(for Microsoft 365 service the server name is smtp.office365.com\), but you can use any other SMTP server.
+* **Port** -usuaully it's 25 or 587
 * **use SSL** - mark it if you want to use SSL protocol
 * **Password -** the password for the user provided in the  "Login" form 
 

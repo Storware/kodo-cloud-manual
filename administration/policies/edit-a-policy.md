@@ -7,7 +7,7 @@ If you need to edit a data policy, do the following:
 3. Choose **Edit** to configure the policy.
 
 {% hint style="info" %}
-You can also double-click on the policy name to start edit the policy
+You can also double-click on the policy name to start to edit the policy
 {% endhint %}
 
  Click the **Save** button to confirm amendments.  
