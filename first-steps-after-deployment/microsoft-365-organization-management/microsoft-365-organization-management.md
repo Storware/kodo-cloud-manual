@@ -24,11 +24,8 @@ The instruction is as follow:
 8. To create a client secret for this application ID, click **Certificates & secrets** &gt; **New client secret**.
 9. On the "**Add a client secret**" pane, enter any user name in the **Description** field, and click **Add**. A client secret is generated, and the value is then displayed in the Client secrets pane.
 10. Copy the client secret to the clipboard by using the copy icon next to the Client secret value field. This character string is also used for registration with KODO for Cloud server.
-11. To add permissions for this application ID, click **API permissions** &gt; **Add permission**.
+11. To add permissions for this application ID, click **API permissions** &gt; **Add a permission**.
 12. Specify permissions for each API in the following table by taking the following actions. Select the API name, for example, Azure Active Directory Graph.
-
-    1. For permission name User.Read.All, select the **Delegated Permissions** type.
-    2. For the remaining permissions, select the **Application Permissions** type for each permission name for the API in the table.
 
     | API | Permission name | Permission type |
     | :--- | :--- | :--- |
@@ -41,15 +38,33 @@ The instruction is as follow:
     | Microsoft Graph | Mail.ReadWrite | Application |
     | Microsoft Graph | Mail.Read | Application |
     | Microsoft Graph | Sites.ReadWrite.All | Application |
-    | Microsoft Graph | User.ReadDelegated | Delegated |
+    | Microsoft Graph | User.Read | Delegated |
     | Microsoft Graph | User.Read.all | Application |
     | SharePoint | AllSites.FullControl | Delegated |
     | SharePoint | Sites.FullControl.All | Application |
     | SharePoint | User.Read.All | Application |
     | SharePoint | User.ReadWrite.All | Application |
 
-13. To save the selected permissions, click **Grant admin consent for &lt;your organization name**&gt;.
-14. Go to the next chapter to add organization to KODO for Cloud server. 
+13. To set the permission "**full\_access\_as\_app**" in the Office 365 Exchange Online API, click "**Add a permission**" option and in the "**Request API permissions**" window go to "**APIs my organization uses**" and search for "**Office 365 Exchange Online**", then select "**Application permissions**" and check "**full\_access\_as\_app**" from "**Other permissions**" .
+14. To save the selected permissions, click **Grant admin consent for &lt;your organization name**&gt;.
+15. Since you're granting tenant scoped permissions this granting can only be done via the appinv.aspx page on the tenant administration site. You can reach this site via  **https://tenantName- admin.sharepoint.com/\_layouts/15/appinv.aspx**. Once the page is loaded add your client id and look up the created principal. When it is found, do as follow:
+    1. Enter you App Id \(client ID\) and click the **Lookup** button.
+    2. Enter the App Domain name. 
+    3. In the "**App's Permission Request** **XML"** window enter the following lines: 
+
+```text
+<AppPermissionRequests AllowAppOnlyPolicy="true">
+    <AppPermissionRequest Scope="http://sharepoint/content/tenant" 
+     Right="FullControl" />
+ </AppPermissionRequests>
+
+```
+
+16. When you click on "**Create**" button you'll be presented with a permission consent dialog. Press "**Trust It**" button to grant the permissions.
+
+17.Go to the next chapter to add organization to KODO for Cloud server. 
+
+
 
 
 
