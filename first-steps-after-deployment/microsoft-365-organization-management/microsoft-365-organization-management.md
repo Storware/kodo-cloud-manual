@@ -47,7 +47,7 @@ The instruction is as follow:
 
 13. To set the permission "**full\_access\_as\_app**" in the Office 365 Exchange Online API, click "**Add a permission**" option and in the "**Request API permissions**" window go to "**APIs my organization uses**" and search for "**Office 365 Exchange Online**", then select "**Application permissions**" and check "**full\_access\_as\_app**" from "**Other permissions**" .
 14. To save the selected permissions, click **Grant admin consent for &lt;your organization name**&gt;.
-15. Since you're granting tenant scoped permissions this granting can only be done via the appinv.aspx page on the tenant administration site. You can reach this site via  **https://tenantName- admin.sharepoint.com/\_layouts/15/appinv.aspx**. Once the page is loaded add your client id and look up the created principal. When it is found, do as follow:
+15. Since you're granting tenant scoped permissions this granting can only be done via the appinv.aspx page on the tenant administration site. You can reach this site via  **https://tenantName- admin.sharepoint.com/\_layouts/15/appinv.aspx**. Once the page is loaded, do as follow:
     1. Enter you App Id \(client ID\) and click the **Lookup** button.
     2. Enter the App Domain name. 
     3. In the "**App's Permission Request** **XML"** window enter the following lines: 
