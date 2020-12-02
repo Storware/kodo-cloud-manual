@@ -1,7 +1,5 @@
 # Table of Contents
 
-* [About KODO for CLOUD](./)
-* [Table of Contents](table-of-contents.md)
 * [Overview](overview/)
   * [Architecture](overview/architecture.md)
   * [Licensing](overview/licensing.md)
@@ -9,10 +7,12 @@
 * [Planning](planning/)
   * [KODO for Cloud Support Matrix](planning/kodo-for-cloud-support-matrix.md)
   * [Platform Requirements](planning/system-requirements.md)
+  * [Backup storage](planning/backup-storage.md)
+  * [Multi-tenancy](planning/multitenancy-mode.md)
   * [Sizing](planning/sizing/)
-    * [Small](planning/sizing/small.md)
-    * [Medium](planning/sizing/medium.md)
-    * [Large](planning/sizing/large.md)
+    * [Small Microsoft 365 organization](planning/sizing/small.md)
+    * [Medium Microsoft 365 organization](planning/sizing/medium.md)
+    * [Large Microsoft 365 organization](planning/sizing/large.md)
 * [Deployment](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/deployment/README.md)
   * [Installation Overview](deployment/installation-overview.md)
   * [Quick Install \(All-In-One\)](deployment/quick-install-all-in-one.md)

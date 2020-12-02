@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/kodo-for-cloud-microsoft-365-backup-and-recovery-gitbook-cover-image.jpg)
 
-This is the official documentation for KODO for Cloud software. Here you will find all the information needed to set up, configure and manage backup for your cloud infrastructure.
+This is the official documentation for KODO for Cloud software. Here you will find all the information needed to set up, configure, and manage backup for your cloud infrastructure.
 
 ## About KODO for Cloud
 

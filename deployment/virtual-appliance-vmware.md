@@ -47,7 +47,7 @@ Use `sudo` command to run a shell with root privileges:
 $ sudo -s
 ```
 
-When ask for password use password for kodo user.
+When asking for password use password for kodo user.
 
 Edit network configuration file:
 
@@ -55,7 +55,7 @@ Edit network configuration file:
 # nano /etc/sysconfig/network-scripts/ifcfg-ens192
 ```
 
-To set up static IP address change the BOOTPROTO parameter:
+To set up a static IP address change the BOOTPROTO parameter:
 
 ```text
 BOOTPROTO=dhcp
@@ -67,7 +67,7 @@ to
 BOOTPROTO=static
 ```
 
-Next add to the file  following options:
+Next,add to the file the following options:
 
 * IPADDR=YOUR\_IP\_ADDRESS
 * NETMASK=YOUR\_NETMASK
@@ -101,7 +101,7 @@ DEVICE=ens192
 ONBOOT=yes
 ```
 
-Save the file pressing the `CTRL+o` and then `Enter` key.
+Save the file by pressing the `CTRL+o` and then `Enter` key.
 
 After the file is saved you can exit the editor by pressing `CTRL+x` key combination.
 
@@ -111,9 +111,9 @@ The final step is to restart the network configuration.  Use the following comma
 # systemctl restart NetworkManager.service
 ```
 
-Now you should be able to login to your KODO for Cloud server using a web browser and IP address that you've configured in previous steps. Open a web browser and enter the IP\_address:
+Now you should be able to log into the web console using the URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST`is the hostname or IP address of your Kodo for Cloud server. 
 
 ```text
-https://ip_address
+https://KODO_SERVER_HOST:8181
 ```
 
