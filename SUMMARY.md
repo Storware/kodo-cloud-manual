@@ -67,7 +67,7 @@
   * [Common problems](administration/common-problems.md)
 * [Logging information](logging-information.md)
 * [Troubleshooting](troubleshooting/README.md)
-  * [How to change a log level in KODO for Cloud](troubleshooting/how-to-enable-kodo-for-cloud-debug-mode.md)
+  * [Changing the logging level in KODO for Cloud](troubleshooting/how-to-enable-kodo-for-cloud-debug-mode.md)
   * [Collecting logs](troubleshooting/collecting-logs.md)
 * [Integration](integration.md)
 * [Known software issues and limitations](known-software-issues-and-limitations.md)

@@ -2,7 +2,7 @@
 
 #### Getting access to the CloudAgent logs
 
-CloudAgent logs contain information about backup and restore operation for Microsoft365. The default name for cloud agent instance is "**voyager**". You can add another instance of a cloud agent if your environment needs to be backed up in a more efficient way.    
+CloudAgent logs contain information about backup and restore operation for Microsoft365. The default name for the cloud agent instance is **voyager**. You can add another instance of a cloud agent if your environment needs to be backed up in a more efficient way.    
 
 To get logs for troubleshooting do the following:
 
@@ -23,11 +23,11 @@ Server logs are located at the following path:
 You can find two kinds of logs under that path:
 
 * **Server logs** - \(`server.log.x`\)
-* **Application logs** - \(kodo.log and `kodo_log.TIMESTAMP.log.zip`\) 
+* **Application logs** - \(`kodo.log` and `kodo_log.TIMESTAMP.log.zip`\) 
 
 You can download logs from KODO for Cloud server by logging into WEB GUI as [**kodoadmin** ](../administration/organizations-kodoadmin-dashboard-only/settings/kodo-admin.md)user.
 
-To get the logs do the following:
+To get the logs do as follow:
 
 1. Log in to the KODO for Cloud server as **kodoadmin** user.
 2. Go to the **Settings** menu.
