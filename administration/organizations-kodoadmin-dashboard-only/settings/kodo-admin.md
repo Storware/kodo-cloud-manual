@@ -7,22 +7,22 @@ The **kodoadmin** user is a predefined administrative user on KODO for Cloud ser
 Here you can edit the following settings:
 
 * **General settings**- allowed IP addresses to login with KodoAdmin role
-* **Support website URL** -the address of KODO support website.
+* **Support website URL** -the address of the KODO support website.
 * **Product website URL**- the address of Storware support website.
-* **Documentation website URL** - the address of KODO documentation website.
+* **Documentation website URL** - the address of the KODO documentation website.
 
 ![](../../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin01-%20%281%29.png)
 
 ## Email tab
 
-You have to add the email settings for KODO server to be able to send notification. You have to add the following settings:
+You have to add the email settings for KODO server to be able to send notifications. You have to add the following settings:
 
 * **E-mail address** - the email address of the sender
 * **Login** - usually it's the same as the email address 
 * **Server address -** SMTP server IP name or address \(for Microsoft 365 service the server name is smtp.office365.com\), but you can use any other SMTP server.
-* **Port** -usually it's 25 or 587
-* **use SSL** - mark it if you want to use SSL protocol
-* **Password -** the password for the user provided in the  "Login" form 
+* **Port** -usually it's 25 or 587.
+* **use SSL** - mark it if you want to use SSL protocol.
+* **Password -** the password for the user provided in the  "Login" form.
 
 ![](../../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin02-%20%282%29.png)
 
@@ -57,7 +57,7 @@ Here you can preview the current license or update a new one.
 
 ## Billing tab
 
-Here you can edit your billing settings. This information is used by kodoadmin to charge all defined organizations in Kodo for Cloud server.
+Here you can edit your billing settings. This information is used by kodoadmin to charge all defined organizations in Kodo for Cloud server separately.
 
 ![](../../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin06-.png)
 

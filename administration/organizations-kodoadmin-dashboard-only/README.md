@@ -4,7 +4,7 @@ There is only one default organization \(My Organization\) after KODO for Cloud 
 
 ![](../../.gitbook/assets/kodo-cloud-administration-organizations01%20%283%29.png)
 
-You can add another organization\(s\) by clicking the **Add organization** button. You have to provide required information about the organization you are adding. Enter the following information:
+You can add another organization\(s\) by clicking the **Add organization** button. You have to provide the required information about the organization you are adding. Enter the following information:
 
 * Organization name
 * Licensed Users
