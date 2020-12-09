@@ -1,14 +1,14 @@
 # Troubleshooting
 
-To verify if services are running you can use:
+To verify if services are running you can use the following commands:
 
-* `systemctl status kodo-cloud-server` for verifying KOOD for Cloud service status
-* `systemctl status cloud-agent-voyager`for verifying CloudAgent service status
+* `systemctl status kodo-cloud-server` for verifying KOOD for Cloud service status.
+* `systemctl status cloud-agent-voyagere`for verifying CloudAgent service status \(for the agent **voyager**\).
 
-If you need to restart, stop or start KODO for Cloud server service, do as follow:
+If you need to restart, stop, or start KODO for Cloud server service, do as follow:
 
 * `systemctl restart kodo-cloud-server` for KODO for Cloud server restart
-* `systemctl restart cloud-agent-voyager`for CloudAgent agent restart
+* `systemctl restart cloud-agent-voyager`for CloudAgent agent **voyager**  restart
 
 and use the **start** and **stop** parameters respectively to trigger the action.  
 
