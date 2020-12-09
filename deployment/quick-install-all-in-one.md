@@ -1,6 +1,6 @@
 # Quick Install \(All-In-One\)
 
-KODO for Cloud can be easily installed on a single box. It can be a physical or virtual machine. In both cases, the steps you need to follow are basically the same. Before you start the installation process you need to prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the chapter [Sizing](../planning/sizing/)\).
+KODO for Cloud can be easily installed on a single box. It can be a physical or virtual machine. In both cases, the steps you need to follow are basically the same. Before you start the installation process you need to prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the [Sizing](../planning/sizing/) chapter\).
 
 {% hint style="warning" %}
 Installation on the **RHEL** platform requires an active Red Hat subscription.

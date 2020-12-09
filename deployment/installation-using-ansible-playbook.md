@@ -96,9 +96,9 @@ mariadb_repo_url: "http://yum.mariadb.org/{{ mariadb_version }}/{{ mariadb_distr
 mariadb_repo_gpg_key: "https://yum.mariadb.org/RPM-GPG-KEY-MariaDB"
 ```
 
-Installer assumes **staging** space to be mounted in `/kodo_data/staging` and **backup destination** mounted in `/kodo_data/backup` - we recommend to leave these defaults and just mount appropriate storage underneath `/kodo_data`
+The installer assumes **staging** space to be mounted in `/kodo_data/staging` and **backup destination** mounted in `/kodo_data/backup` - we recommend to leave these defaults and just mount appropriate storage underneath `/kodo_data`
 
-Ansible playbook is also able to automatically prepare **deduplication** \(by default storage used for staging and backup destination it is not initialized and just assumed to be present under above-mentioned paths\). To enable deduplication - you just need to provide a block device which will be used for VDO \(by default it is empty string, which means that VDO is not going to be initialized\). VDO will be mounted in `/kodo_data` by default which means that both staging space and backup destination will use the same storage.
+Ansible playbook is also able to automatically prepare **deduplication** \(by default storage used for staging and backup destination it is not initialized and just assumed to be present under the above-mentioned paths\). To enable deduplication - you just need to provide a block device that will be used for VDO \(by default it is an empty string, which means that VDO is not going to be initialized\). VDO will be mounted in `/kodo_data` by default which means that both staging space and backup destination will use the same storage.
 
 ```yaml
 vdo_physical_device: "/dev/sdb"

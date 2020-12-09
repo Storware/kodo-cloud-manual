@@ -1,14 +1,14 @@
 # Backup and staging space configuration
 
-KODO for Cloud needs staging and backup destination in `/kodo_data` directory by default. We suggest attaching just en empty drive and then configure it.
+KODO for Cloud needs staging and backup destination in `/kodo_data` directory by default. We suggest attaching just an empty drive and then configure it.
 
-You can configure a storage space as VDO device or a block device on the OS filesystem layer.
+You can configure a storage space as a VDO device or a block device on the OS filesystem layer.
 
 ## Deduplication \(VDO- Virtual Data Optimizer\) setup
 
  VDO is the software that provides inline block-level **deduplication**, compression, and thin provisioning capabilities for primary storage.
 
-If you plan to use VDO deduplication for storing you backups, do as follow: 
+If you plan to use VDO deduplication for storing your backups, do as follow: 
 
 * Add a disk device to your OS platform. 
 * Run `lsblk` command to check the system name for the disk you will use as the storage destination.  
@@ -57,7 +57,7 @@ dm_mod                151552  13 kvdo,dm_log,dm_mirror,dm_bufio
 #vdo create --name=kodo --device=/dev/sdb --vdoLogicalSize=3T
 ```
 
-* Now proceed with steps described in **Preparing file system** section below - use block device name `/dev/sdb`  or  `/dev/mapper/kodo` if VDO is used.
+* Now proceed with steps described in the **Preparing file system** section below - use block device name `/dev/sdb`  or  `/dev/mapper/kodo` if VDO is used.
 
 ## Preparing a file system
 
