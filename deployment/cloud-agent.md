@@ -45,5 +45,5 @@ Job concurrency size: 25
 #systemctl enable cloud-agent-voyager2
 ```
 
-3. Now you should be able to see new entry in `Agents` section of web UI \([kodoadmin ](../administration/dashboard.md)dashboard\)
+3. Now you should be able to see the new entry in `Agents` section of web UI \([kodoadmin ](../administration/dashboard.md)dashboard\)
 

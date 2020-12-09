@@ -25,12 +25,13 @@ Password: **Kodo@dm1n**
 
 ## KODO organization administrator level
 
-The administrator can create multiple organizations at one KODO for Cloud server. Every configured organization is a separate entity with separated data, users, jobs, policies etc.  
-By logging into KODO organization portal as the organization administrator you are allowed to configure following aspects of the system:
+The administrator can create multiple organizations at one KODO for Cloud server. Every configured organization is a separate entity with separated data, users, jobs, policies, etc.  
+By logging into KODO organization portal as the organization administrator you are allowed to configure the following aspects of the system:
 
 * Add an organization \(Microsoft 365 service\)
 * Add organization administrators
-* Sychchronize users
+* Synchronize users
+* Synchronize sites
 * Set up data policies
 * Set up jobs
 
@@ -41,5 +42,5 @@ Here you have the default login and password for **admin** user:
 Login: **admin**  
 Password: **Kodo@dm1n**
 
-The basic organization unit is named **My organization** and was created during  KODO for Cloud server installation.
+The default organization is named **My organization** and it is created during  KODO for Cloud server installation.
 

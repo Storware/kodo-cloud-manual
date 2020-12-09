@@ -37,7 +37,7 @@ New Password:
 Retype New Password:
 ```
 
-## Setting up network configuration
+## Setting up the network configuration
 
 The next step is to configure the network connection. To do this you will need to edit the network configuration file. The default configuration will try to assign IP address from DHCP server.
 
@@ -47,7 +47,7 @@ Use `sudo` command to run a shell with root privileges:
 $ sudo -s
 ```
 
-When asking for password use password for kodo user.
+When asking for password use the one for **`kodo`** user.
 
 Edit network configuration file:
 
@@ -67,7 +67,7 @@ to
 BOOTPROTO=static
 ```
 
-Next,add to the file the following options:
+Next, add to the file the following options:
 
 * IPADDR=YOUR\_IP\_ADDRESS
 * NETMASK=YOUR\_NETMASK
