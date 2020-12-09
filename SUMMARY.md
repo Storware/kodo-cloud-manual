@@ -26,7 +26,7 @@
   * [Cloud Agent](deployment/cloud-agent.md)
   * [Administration levels](deployment/users.md)
   * [Common tasks](deployment/common-tasks/README.md)
-    * [Creating the account for shared mailboxes protection](deployment/common-tasks/creating-the-account-for-shared-mailboxes-protection.md)
+    * [Creating the account for shared mailboxes backup](deployment/common-tasks/creating-the-account-for-shared-mailboxes-protection.md)
     * [Increase the EWS throttling policy limits in Exchange Online \(Microsoft 365\)](deployment/common-tasks/increase-the-ews-throttling-policy-limits-in-exchange-online-microsoft-365.md)
 * [First steps after deployment](first-steps-after-deployment/README.md)
   * [Adding KODO license](first-steps-after-deployment/adding-license.md)
