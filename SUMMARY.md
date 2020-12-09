@@ -30,6 +30,7 @@
     * [Increase the EWS throttling policy limits in Exchange Online \(Microsoft 365\)](deployment/common-tasks/increase-the-ews-throttling-policy-limits-in-exchange-online-microsoft-365.md)
 * [First steps after deployment](first-steps-after-deployment/README.md)
   * [Adding KODO license](first-steps-after-deployment/adding-license.md)
+  * [Launching cloud agent](first-steps-after-deployment/launching-cloud-agent.md)
   * [Mail server configuration](first-steps-after-deployment/mail-server-configuration.md)
   * [Organization configuration](first-steps-after-deployment/organization-configuration.md)
   * [Microsoft 365 Organization Management](first-steps-after-deployment/microsoft-365-organization-management/README.md)

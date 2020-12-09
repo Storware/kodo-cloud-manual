@@ -1,4 +1,4 @@
 # Organization configuration
 
-Before you add the organization configuration, you have to configure permissions for  your application in the Microsoft 365 service. Go to next chapter to  get to know  hot to configure it.
+Before adding Microsoft 365 organization to KODO for Cloud server, you have to configure required permissions for your application in the Microsoft 365 service. Go to the next chapter to get to know to configure it.
 

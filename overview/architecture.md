@@ -10,7 +10,7 @@ Use KODO for Cloud to back up and restore your data from your Microsoft 365. You
 
 ![](../.gitbook/assets/kodo-for-cloud-detailed-architecture.png)
 
-### KODO Cloud agent \(Backup Agent\)
+### KODO Cloud agent \(backup agent\)
 
 This server component does the following:
 
@@ -35,7 +35,7 @@ KODO Cloud agent can be multiplied for better backup/restore performance
 
 ## Component placement
 
-* KODO for Cloud server and agent are installed in the same system by default. 
+* KODO for Cloud server and agent isinstalled in the same system by default. 
 * Server can be installed on a physical or a virtual machine.
 * Agent may be installed during KODO for Cloud server installation \(see the chapter  [Quick Install \(All-In-One\)](../deployment/quick-install-all-in-one.md)\) .
 * Both components are installed on the CentOS/RHEL 8 minimal.
