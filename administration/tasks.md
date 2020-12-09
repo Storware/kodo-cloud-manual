@@ -8,7 +8,7 @@ The tasks are divided into the following categories:
 * Queued
 * Completed
 * Failed
-* Cancelled
+* Canceled
 
 There are several task types:
 

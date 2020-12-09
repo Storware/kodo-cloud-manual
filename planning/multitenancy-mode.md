@@ -1,6 +1,6 @@
 # Multi-tenancy
 
-KODO for Cloud server was designed to support multi-tenancy feature, what means that you can protect more than one Microsoft 365 organization. 
+KODO for Cloud server was designed to support multi-tenancy feature, which means that you can protect more than one Microsoft 365 organization. 
 
 You can configure several organizations on the server. The number of organizations is limited only by your license \(maximum number of users\).  
 

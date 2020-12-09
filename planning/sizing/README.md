@@ -24,5 +24,5 @@ When installing KODO for Cloud on RHEL 8 it is recommended to have an active Red
 
 ![](../../.gitbook/assets/kodo-cloud-planning-sizing01.jpg)
 
-Based on the above, we prepared four configurations which are typical for most use cases.
+Based on the above, we prepared four configurations that are typical for most use cases.
 

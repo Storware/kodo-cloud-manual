@@ -15,8 +15,9 @@ When the system platform is ready for KODO deployment do as follow:
    * License information 
 4. Add and verify [Microsoft 365 organization](../first-steps-after-deployment/microsoft-365-organization-management/):
    * synchronize users
-   * create a data policy and assign users 
-   * create a job  and select users
+   * synchronize sites
+   * create a data policy and assign users and/or sites
+   * create a job  and select users nad/or sites
 5. Test basic backup & recovery operations to verify that the installation is completed:
 
    * [Backup](../administration/data-backup/on-demand-backup.md)​ 

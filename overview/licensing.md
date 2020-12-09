@@ -24,7 +24,7 @@ Of course, there is an option to buy additional months of support and subscripti
 
 **Perpetual license**
 
-The second choice is to purchase a perpetual license \(1 Year Subscription and Support\) and add more years of S&S. It helps to allocate your budget and keep the license forever. For more details, you may always contact us on: [globalsales@storware.eu](mailto:globalsales@storware.eu)
+The second choice is to purchase a perpetual license \(1 Year Subscription and Support\) and add more years of S&S. It helps to allocate your budget and keep the license forever. For more details, you may always contact us on [globalsales@storware.eu](mailto:globalsales@storware.eu)
 
 **SLA customization:**
 
@@ -34,7 +34,7 @@ Currently, there's only one support level with the following SLA:
 
              - 7 days per week x 24 hours 
 
-For more information please go to: [https://storware.eu/faq/](https://storware.eu/faq/)
+For more information please go to [https://storware.eu/faq/](https://storware.eu/faq/)
 
 
 

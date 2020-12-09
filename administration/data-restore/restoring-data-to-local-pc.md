@@ -15,5 +15,5 @@ Click the **Download** button in the right-top window corner. Confirm if you wan
 Data owner \(user\) will be notified by an e-mail about the downloaded item\(s\) or file\(s\).  Selected data will be downloaded in a compressed format \(zip\).
 {% endhint %}
 
-In a few seconds the download of selected data will begin.
+In a few seconds, the download of selected data will begin.
 
