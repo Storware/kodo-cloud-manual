@@ -33,6 +33,7 @@ The instruction is as follow:
     | API | Permission name | Permission type |
     | :--- | :--- | :--- |
     | **Azure Active Directory Graph** | Directory.ReadWrite.All | Delegated |
+    | **Azure Active Directory Graph** | User.ReadWrite.All | Application |
     | **Azure Active Directory Graph** | Directory.Read.All | Application |
     | **Azure Active Directory Graph** | User.Read.All | Delegated |
     | **Microsoft Graph** | Calendars.ReadWrite | Application |
@@ -64,7 +65,6 @@ The instruction is as follow:
     | **SharePoint** | User.Read.All | Application |
     | **SharePoint** | User.ReadWrite.All | Delegated |
     | **SharePoint** | User.ReadWrite.All | Application |
-    |  |  |  |
 
 13. To set the permission "**full\_access\_as\_app**" in the Office 365 Exchange Online API, click "**Add a permission**" option and in the "**Request API permissions**" window go to "**APIs my organization uses**" and search for "**Office 365 Exchange Online**", then select "**Application permissions**" and check "**full\_access\_as\_app**" from "**Other permissions**".
 14. To save the selected permissions, click **Grant admin consent for &lt;your organization name**&gt;.
@@ -83,7 +83,18 @@ The instruction is as follow:
 
 16. When you click on the **Create** button you'll be presented with a permission consent dialog. Press the **Trust It** button to grant the permissions.
 
-17.Go to the next chapter to add organization to KODO for Cloud server. 
+17. Open Powershell command prompt and execute the command: 
+
+```text
+Connect-SPOService https://tenantName-admin.sharepoint.com
+Set-SPOTenant -LegacyAuthProtocolsEnabled $True
+```
+
+It enables the LegacyAuthProtocolsEnabled setting. 
+
+18. Go to the next chapter to add organization to KODO for Cloud server.
+
+
 
 
 
