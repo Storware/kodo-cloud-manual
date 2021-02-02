@@ -5,7 +5,7 @@
 KODO for Cloud server is supported on the CentOS 8.x or RHEL 8.x operating system. The operating system can be installed on a physical or a virtual server. The server configuration will depend on the size of your organization in the Microsoft 365 service. Check the [Sizing ](sizing/)section for the requirements for your KODO for Cloud server.  
 
 {% hint style="danger" %}
-If KODO for Cloud is to be installed on virtual machine in VMware vSphere hypervisor in version 6.7 and above, make sure that **Secure Boot** is disabled in virtual machine's **Boot Options**.
+If KODO for Cloud is to be installed on a virtual machine in VMware vSphere hypervisor in version 6.7 and above, make sure that **Secure Boot** is disabled in the virtual machine's **Boot Options**.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -23,13 +23,13 @@ Keep your Red Hat subscription credentials handy for registering your RHEL 8 sys
 {% endhint %}
 
 {% hint style="warning" %}
-It is recommended to configure separate filesystems for KODO for Cloud server data \(binaries and logs, /`opt` mount point \) and MariaDB database files \(`/var/lib` mount pont\).  
+It is recommended to configure separate filesystems for KODO for Cloud server data \(binaries and logs, /`opt` mount point \) and MariaDB database files \(`/var/lib` mount point\).  
 
-Use LVM device mapper as filesystem, that allows user to expand disk space if necessary. 
+Use LVM device mapper as a filesystem, that allows user to expand disk space if necessary. 
 {% endhint %}
 
 {% hint style="info" %}
- TCP **port 443** is the standard TCP port ****that is used for website which use SSL. TCP port 443 is used to communicate with the KODO for Cloud server UI.
+ TCP **port 443** is the standard TCP port ****that is used for website which uses SSL. TCP port 443 is used to communicate with the KODO for Cloud server UI.
 {% endhint %}
 
 
