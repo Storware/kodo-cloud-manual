@@ -32,41 +32,38 @@ The instruction is as follow:
 
     | API | Permission name | Permission type |
     | :--- | :--- | :--- |
-    | Azure Active Directory Graph | Directory.Read.All | Application |
-    | Azure Active Directory Graph | Directory.ReadWrite.All | Delegated |
-    | Azure Active Directory Graph | Directory.Read.All | Application |
-    | Azure Active Directory Graph | User.Read.All | Delegated |
-    | Microsoft Graph | Calendars.ReadWrite | Application |
-    | Microsoft Graph | Contacts.ReadWrite | Application |
-    | Microsoft Graph | Directory.Read.All | Delegated |
-    | Microsoft Graph | Directory.ReadWrite.All | Application |
-    | Microsoft Graph | Files.ReadWrite.All | Application |
-    | Microsoft Graph | Mail.ReadWrite | Application |
-    | Microsoft Graph | Mail.Read | Application |
-    | Microsoft Graph | Mail.ReadWrite | Application |
-    | Microsoft Graph | Sites.FullControl.All | Application |
-    | Microsoft Graph | Sites.ReadWrite.All | Delegated |
-    | Microsoft Graph | Sites.ReadWrite.All | Application |
-    | Microsoft Graph | User.Read | Delegated |
-    | Microsoft Graph | User.Read.All | Delegated |
-    | Microsoft Graph | User.Read.All | Application |
-    | Microsoft Graph | User.ReadWrite.All | Application |
-    | Office 365 Exchange Online | full\_access\_as\_app | Application |
-    | Office 365 Exchange Online | Exchange.ManageAsApp | Application |
-    | SharePoint | AllSites.FullControl | Delegated |
-    | SharePoint | AllSites.Manage | Delegated |
-    | SharePoint | AllSites.Read | Delegated |
-    | SharePoint | AllSites.Write | Delegated |
-    | SharePoint | MyFiles.Read | Delegated |
-    | SharePoint | MyFiles.Write | Delegated |
-    | SharePoint | Sites.FullControl.All | Application |
-    | SharePoint | Sites.Manage.All | Application |
-    | SharePoint | Sites.Read.All | Application |
-    | SharePoint | Sites.ReadWrite.All | Delegated |
-    | SharePoint | User.Read.All | Application |
-    | SharePoint | User.Read.All | Application |
-    | SharePoint | User.ReadWrite.All | Delegated |
-    | SharePoint | User.ReadWrite.All | Application |
+    | **Azure Active Directory Graph** | Directory.ReadWrite.All | Delegated |
+    | **Azure Active Directory Graph** | Directory.Read.All | Application |
+    | **Azure Active Directory Graph** | User.Read.All | Delegated |
+    | **Microsoft Graph** | Calendars.ReadWrite | Application |
+    | **Microsoft Graph** | Contacts.ReadWrite | Application |
+    | **Microsoft Graph** | Directory.Read.All | Delegated |
+    | **Microsoft Graph** | Directory.ReadWrite.All | Application |
+    | **Microsoft Graph** | Files.ReadWrite.All | Application |
+    | **Microsoft Graph** | Mail.ReadWrite | Application |
+    | **Microsoft Graph** | Mail.Read | Application |
+    | **Microsoft Graph** | Sites.FullControl.All | Application |
+    | **Microsoft Graph** | Sites.ReadWrite.All | Delegated |
+    | **Microsoft Graph** | Sites.ReadWrite.All | Application |
+    | **Microsoft Graph** | User.Read | Delegated |
+    | **Microsoft Graph** | User.Read.All | Delegated |
+    | **Microsoft Graph** | User.Read.All | Application |
+    | **Microsoft Graph** | User.ReadWrite.All | Application |
+    | **Office 365 Exchange Online** | full\_access\_as\_app | Application |
+    | **Office 365 Exchange Online** | Exchange.ManageAsApp | Application |
+    | **SharePoint** | AllSites.FullControl | Delegated |
+    | **SharePoint** | AllSites.Manage | Delegated |
+    | **SharePoint** | AllSites.Read | Delegated |
+    | **SharePoint** | AllSites.Write | Delegated |
+    | **SharePoint** | MyFiles.Read | Delegated |
+    | **SharePoint** | MyFiles.Write | Delegated |
+    | **SharePoint** | Sites.FullControl.All | Application |
+    | **SharePoint** | Sites.Manage.All | Application |
+    | **SharePoint** | Sites.Read.All | Application |
+    | **SharePoint** | Sites.ReadWrite.All | Delegated |
+    | **SharePoint** | User.Read.All | Application |
+    | **SharePoint** | User.ReadWrite.All | Delegated |
+    | **SharePoint** | User.ReadWrite.All | Application |
     |  |  |  |
 
 13. To set the permission "**full\_access\_as\_app**" in the Office 365 Exchange Online API, click "**Add a permission**" option and in the "**Request API permissions**" window go to "**APIs my organization uses**" and search for "**Office 365 Exchange Online**", then select "**Application permissions**" and check "**full\_access\_as\_app**" from "**Other permissions**".
