@@ -6,7 +6,7 @@ KODO for Cloud server has the following features implemented:
 
 * Full & Incremental forever Microsoft 365 backup 
 * Flexible restore: to the cloud or directly via web UI to local PC
-* Individual object-level recovery \(OneDrive files, Exchange Online e-mails, contacts, calendars, SharePoint items \)
+* Individual object-level recovery \(OneDrive files, Exchange Online mailboxes, contacts, calendars, archive mailboxes, SharePoint items \)
 * Multi-agent support for better scalability or geographically dispersed environments
 * The ability to process concurrent Microsoft 365 accounts 
 * Intelligent handling Microsoft 365 throttling & resource limits outage control
@@ -22,6 +22,6 @@ KODO for Cloud server has the following features implemented:
 * Open API for 3rd party software integration \(REST API\)
 
 {% hint style="info" %}
-_SharePoint support is planned for November 2020_
+_MS Teams support is planned for June 2021_
 {% endhint %}
 
