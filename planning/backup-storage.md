@@ -4,6 +4,7 @@ Before you start the installation process you have to configure a data storage d
 
 * block devices \(hard drives, SSD drives\)
 * NFS share \(configured on a NAS device \(e.g. NetApp or DELL EMC DataDomain\)\)
+* Azure Blog storage
 
 ## Backup Storage overview
 

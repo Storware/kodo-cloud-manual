@@ -9,7 +9,7 @@ If KODO for Cloud is to be installed on a virtual machine in VMware vSphere hype
 {% endhint %}
 
 {% hint style="warning" %}
-Before KODO for Cloud installation, please make sure your OS is up-to-date. Use **dnf update** \(or **yum update**\) command if needed. Reboot your OS afterward. 
+Before KODO for Cloud installation, please make sure your OS is up-to-date. Use **dnf update** \(or **yum update**\) command if needed. It's recommended to reboot your OS afterward. 
 {% endhint %}
 
 {% hint style="warning" %}
@@ -23,7 +23,7 @@ Keep your Red Hat subscription credentials handy for registering your RHEL 8 sys
 {% endhint %}
 
 {% hint style="warning" %}
-It is recommended to configure separate filesystems for KODO for Cloud server data \(binaries and logs, /`opt` mount point \) and MariaDB database files \(`/var/lib` mount point\).  
+It's recommended to configure separate filesystems for KODO for Cloud server data \(binaries and logs, /`opt` mount point \) and MariaDB database files \(`/var/lib` mount point\).  
 
 Use LVM device-mapper as a filesystem, that allows users to expand disk space if necessary. 
 {% endhint %}
