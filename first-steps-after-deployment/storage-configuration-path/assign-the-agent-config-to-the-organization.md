@@ -1,6 +1,6 @@
 # Assign the agent config to the organization
 
-To assign the agent config to KODO organization do as follow:
+To assign the agent config to the KODO organization do as follow:
 
 1. Go to the "**Organizations**" menu.
 2. Select "**Edit**" from the "**Options**" menu.
