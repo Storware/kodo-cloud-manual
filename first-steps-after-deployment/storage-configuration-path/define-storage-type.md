@@ -1,4 +1,4 @@
-# Define storage type
+# Define storage type for backup
 
 Log into the Kodoadmin dashboard as `kodadmin`  and go to the Storage menu. 
 
