@@ -4,7 +4,7 @@ By defining the agent configuration \(Agent config asset\) administrator can ass
 
  
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2811%29.png)
 
 You can assign all defined storage types to the one agent configuration.
 
