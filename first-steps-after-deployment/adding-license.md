@@ -1,4 +1,4 @@
-# Adding KODO license
+# Adding the KODO license
 
 To start to use KODO for Cloud server you have to enter a license to enable the server's full functionality.  If you obtained a license file, do as follow:
 
