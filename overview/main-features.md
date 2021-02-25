@@ -1,6 +1,6 @@
 # Main Features
 
-KODO for Cloud server is capable to protect users data from the Microsoft 365 service in very efficient way. 
+KODO for Cloud server is capable to protect users's data from the Microsoft 365 service in very efficient way. 
 
 KODO for Cloud server has the following features implemented: 
 
