@@ -41,7 +41,7 @@ uds                   253952  1 kvdo
 dm_mod                151552  13 kvdo,dm_log,dm_mirror,dm_bufio
 ```
 
-* Start and enable VDO device mapper
+* Start and enable VDO device-mapper
 
 ```text
 #systemctl start vdo
@@ -57,7 +57,7 @@ dm_mod                151552  13 kvdo,dm_log,dm_mirror,dm_bufio
 #vdo create --name=kodo --device=/dev/sdb --vdoLogicalSize=3T
 ```
 
-* Now proceed with steps described in the **Preparing file system** section below - use block device name `/dev/sdb`  or  `/dev/mapper/kodo` if VDO is used.
+* Now proceed with steps described in the **Preparing file system** section below - use the block device name `/dev/sdb`  or  `/dev/mapper/kodo` if VDO is used.
 
 ## Preparing a file system
 
@@ -80,7 +80,7 @@ You also can use a plain file system for staging space \(and optionally for back
 * Format the disk \(use `/dev/sdb` or `/dev/mapper/kodo` if VDO is used\)
 
   ```text
-  #mkfs.xfs -K /dev/sdb
+  # mkfs.xfs -K /dev/sdb
   ```
 
 * Add a line to `/etc/fstab` file to automatically mount new  disk after server reboot
@@ -91,7 +91,7 @@ You also can use a plain file system for staging space \(and optionally for back
   #/dev/sdb    /kodo_data    xfs    defaults 0 0
   ```
 
-  * if VDO is used:
+  * if VDO is used add the following line:
 
   ```text
   #/dev/mapper/kodo    /kodo_data    xfs    defaults,discard,x-systemd.requires=vdo.service 0 0
