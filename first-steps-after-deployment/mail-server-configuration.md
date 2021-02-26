@@ -9,7 +9,7 @@ To add the mail server to the configuration, do as follow:
 3. Enter the **Email Settings** required information.
 4. If you check the **Use SSL** box, you have to provide the password for the login user.
 5. Save the settings by pressing the **Save** button.
-6. Sent a test email by pressing the **Send Test Email** button.
+6. Sent a test email by pressing the **Sent Test Email** button.
 
 
 
