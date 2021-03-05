@@ -1,8 +1,5 @@
 # Configure Microsoft 365 access
 
-1. |  |  |  |
-   | :--- | :--- | :--- |
-
 Before you start to configure backup policies and jobs, KODO for Cloud has to get access to your Microsoft 365 organization configuration first.
 
 Access to data is performed via an application installed in your organization.
@@ -13,7 +10,7 @@ KODO does not store your Microsoft 365 administrative id and password.
 
 ## Manually registering an application with Azure Active Directory
 
-A new Microsoft 365 application have to be registered and configured in Azure Active Directory. When it's done, in the next step you can add the application \(organization\) to KODO for Cloud server.
+A new Microsoft 365 application e registered and configured in Azure Active Directory. When it's done, in the next step you can add the application \(organization\) to KODO for Cloud server.
 
 The instruction is as follow:
 
