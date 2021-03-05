@@ -16,23 +16,25 @@ The differences between both user types are described in the [Administration lev
 
 The administrator can log into the console as `admin` user and then KODO for Cloud dashboard view appears as shown on the screenshot below. Using this dashboard administrator is able to manage his own organization and set up jobs to protect users data.
 
-![](../.gitbook/assets/kodo-administrator-dashboard-02.jpg)
+![](../.gitbook/assets/kodo-administrator-dashboard-04.jpg)
 
 At the dashboard view the following information is displayed:
 
 * Failed Tasks
 * User Protected
 * Tasks Running
-* Users Count
+* Protected Users
+* Protectetd Sites
 * Dedicated/Shared agents
 * License status 
-* Running Task
+* Running Tasks
 * User Protection
+* Site Protection
 * Data Transfer
 
 ## The kodoadmin user dashboard
 
-If the administrator logs into the  webUI console as `kodoadmin` user then a different **KODO for Cloud** dashboard view appears as shown on the screenshot below.  Using this dashboard  administrator can add, delete, edit and manage server key components such as organizations, agents and also change server settings. At this view, all server key parameters are visible for KODO administrator. 
+If the administrator logs into the  webUI console as `kodoadmin` user then a different **KODO for Cloud** dashboard appears as shown on the screenshot below.  Using this dashboard  administrator can add, delete, edit and manage server key components such as organizations, agents, storage, agent config and also change server settings. At this view, all server key parameters are visible for the KODO administrator. 
 
-![](../.gitbook/assets/kodo-cloud-administrator-dashboard03.jpg)
+![](../.gitbook/assets/kodoadmin-dashboard-01.png)
 

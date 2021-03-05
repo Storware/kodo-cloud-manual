@@ -6,9 +6,9 @@ This is the official documentation for KODO for Cloud software. Here you will fi
 
 ## About KODO for Cloud
 
-KODO for Cloud \(Microsoft 365\) is a comprehensive solution that allows you to back up and restore data of your Microsoft 365 services like Exchange Online and  OneDrive for Business. It protects your business by performing daily backups to ensure business continuity and to meet compliance demands. KODO for Cloud protects your critical data from loss due to ransomware, malware, other threats, or just simple user errors.
+KODO for Cloud \(Microsoft 365\) is a comprehensive solution that allows you to back up and restore data of your Microsoft 365 services like Exchange Online and  OneDrive for Business. It protects your business by performing daily backups to ensure business continuity and to meet compliance demands. KODO for Cloud protects your critical data from loss due to ransomware, malware, other threats, or just simple user mistakes.
 
-Protecting your organization with KODO for Cloud is simple and effective. It provides granular data restoration and enables administrators to get the restore jobs done, reducing costs and meeting their SLA like RPOs and RTOs.
+Protecting your organization with KODO for Cloud is easy and effective. It provides granular data recovery and enables administrators to get the restore jobs done, reducing costs and meeting their SLA like RPOs and RTOs.
 
 ## Intended Audience
 
