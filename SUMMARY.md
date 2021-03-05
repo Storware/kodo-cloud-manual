@@ -44,7 +44,7 @@
     * [Account auto-synchronization](first-steps-after-deployment/microsoft-365-organization-management/auto-mode-global-admin-authentication.md)
 * [Administration](administration/README.md)
   * [Dashboard](administration/dashboard.md)
-  * [Users](administration/users.md)
+  * [Protection](administration/users.md)
   * [Jobs](administration/jobs/README.md)
     * [Create a job](administration/jobs/create-a-job.md)
     * [Edit a job](administration/jobs/edit-a-job.md)

@@ -1,23 +1,21 @@
-# Users
+# Protection
 
-In this view, you can see all users synchronized \(imported\) from a defined organization \(Microsoft 365\)
+In this view, you can see all users and Sharepoint sites synchronized \(imported\) from the defined organization \(Microsoft 365\)
 
-Click **Synchronize** button to import users from Microsoft 365 organization.
+Click **Synchronize** button to import users or sites from Microsoft 365 organization. Switch to the **Users** view to synchronize users only or switch to the **Sites** view to execute the same action to the Sharepoint sites. 
 
-![](../.gitbook/assets/kodo-cloud-administration-users01%20%281%29.png)
+![](../.gitbook/assets/kodo-cloud-protection-01.jpg)
 
-You can do the following activities on the user\(s\):
+You can do the following activities on the protected entities:
 
-* Assign [Policy](policies/)- change a data policy  for assigned user\(s\)  
-* [Backup](data-backup/on-demand-backup.md)- start a backup process for selected user\(s\)
-* Lock/Unlock -lock/unlock user\(s\)
-* Delete -delete selected user\(s\)
-* [Restore](data-restore/restore-data-to-microsoft-365.md)-restore users\(s\) data
-
-![](../.gitbook/assets/kodo-cloud-administration-users02.png)
+* Assign [Policy](policies/)- change a data policy  for the assigned entities
+* [Backup](data-backup/on-demand-backup.md)- start a backup process for the selected entities
+* Lock/Unlock -lock/unlock entities
+* Delete -delete selected entities
+* [Restore](data-restore/restore-data-to-microsoft-365.md)-restore entities data
 
 {% hint style="warning" %}
-If a user was deleted from the server, his status is automatically changed to "Locked". The deletion process is running in the background on the server and the backups are removed from the backup storage. When the process is finished, the user is also removed from the users list but not from the Microsoft 365 service. If the user is preserved in the Microsoft 365 service,  organization admin can synchronize his account with KODO for Cloud server and add it to any defined policy.  
+If a user was deleted from the server, his status is automatically changed to "Locked". The deletion process is running in the background on the server and the backups are removed from the backup storage. When the process is finished, the user is also removed from the users list but not from the Microsoft 365 service. If the user is preserved in the Microsoft 365 service, the organization admin can synchronize his account with KODO for Cloud server and add it to any defined policy.  
 {% endhint %}
 
 
