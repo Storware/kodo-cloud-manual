@@ -14,7 +14,7 @@ If you select "**AZURE BLOB**" as the storage type, you have to assign a name to
 
 ![](../../.gitbook/assets/kodoadmin-storage-01.png)
 
-There's no limit on the number of definitions created for the storage.
+There's no limit on the number of created storage definitions.
 
 Now you can go to the next step and configure the **Agent config.**
 

@@ -4,15 +4,15 @@ After KODO for Cloud server was successfully installed, you can proceed with sto
 
 In the first step it's required to configure the following system assets:
 
-* Storage \(FILE SYSTEM or AZURE BLOB\)
+* Storage \(**FILE SYSTEM** or **AZURE BLOB**\)
 * Agent Config 
 
-and in the next steps also the following actions:
+and in the next steps do the following actions:
 
 * Assign defined agent config to the agent
 * Assign agent config\(s\) to defined KODO organization
 
- Now you can go to the next step and configure the storage type for backup. 
+ Now you can go to the next step and define the storage type for backup. 
 
 
 

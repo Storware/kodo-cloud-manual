@@ -1,8 +1,6 @@
 # Define agent configuration
 
-By defining the agent configuration \(Agent config asset\) administrator can assign a defined storage type to the cloud agent. 
-
- 
+By defining the agent configuration \(Agent config asset\) administrator can assign a defined storage type directly to the cloud agent instance. 
 
 ![](../../.gitbook/assets/image%20%2811%29.png)
 
