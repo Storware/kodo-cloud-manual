@@ -10,15 +10,15 @@ KODO does not store your Microsoft 365 administrative id and password.
 
 ## Manually registering an application with Azure Active Directory
 
-A new Microsoft 365 application e registered and configured in Azure Active Directory. When it's done, in the next step you can add the application \(organization\) to KODO for Cloud server.
+A new Microsoft 365 application has to be registered and configured in Azure Active Directory. When it's done, in the next step you can add the application \(organization\) to KODO for Cloud server.
 
 The instruction is as follow:
 
 1. Go to the Azure portal \([https://portal.azure.com/](https://portal.azure.com/)\) page and sign in to your Microsoft account by using your Microsoft 365 administrative user ID and password.
-2. In the home view, go to **Manage Azure Active Directory** \(click the "View" button\).
+2. In the home view, go to **Manage Azure Active Directory** \(click the **View** button\).
 3. To open the Azure Active Directory admin center, in the left pane, click the ellipsis to expand the Show all menu, and then click **Admin centers** &gt; **Azure Active Directory**.
 4. In the tenant dashboard menu, click **App registrations** and then click **New registration**.
-5. Specify a user-facing name for the Microsoft 365 application, on the "**Register an application**" page by entering a name in the **Name** field.
+5. Specify a user-facing name for the Microsoft 365 application, on the **Register an application** page by entering a name in the **Name** field.
 6. Use the default options for the remaining fields, and click **Register**. The app registration is set up with the user-facing name that you entered.
 7. To obtain the application \(**client**\) ID, and directory \(**tenant**\) ID string, go to **Azure Active Directory &gt; tenant - App registrations &gt; Owned applications**. Click the application name, copy the application ID string and directory ID. These strings will be required later when you register the Microsoft 365 service on KODO for Cloud server.
 8. To create a client secret for this application ID, click **Certificates & secrets** &gt; **New client secret**.
@@ -65,7 +65,7 @@ The instruction is as follow:
 
 13. To set the permission "**full\_access\_as\_app**" in the Office 365 Exchange Online API, click "**Add a permission**" option and in the "**Request API permissions**" window go to "**APIs my organization uses**" and search for "**Office 365 Exchange Online**", then select "**Application permissions**" and check "**full\_access\_as\_app**" from "**Other permissions**".
 14. To save the selected permissions, click **Grant admin consent for &lt;your organization name**&gt;.
-15. Since you're granting tenant scoped permissions this granting can only be done via the **appinv.aspx** page on the tenant administration site. You can reach this site via  **https://tenantName- admin.sharepoint.com/\_layouts/15/appinv.aspx**. Once the page is loaded, do as follow:
+15. Since you're granting tenant scoped permissions this granting can only be done via the **appinv.aspx** page on the tenant administration site. You can reach this site by typing the address: **https://tenantName-admin.sharepoint.com/\_layouts/15/appinv.aspx**. \(replace the **tenantName** with the name of your tenant\). Once the page is loaded, do as follow:
     1. Enter your App Id \(client ID\) and click the **Lookup** button.
     2. Enter the App Domain name. 
     3. In the "**App's Permission Request** **XML"** window enter the following lines: 
@@ -87,13 +87,7 @@ Connect-SPOService https://tenantName-admin.sharepoint.com
 Set-SPOTenant -LegacyAuthProtocolsEnabled $True
 ```
 
-It enables the LegacyAuthProtocolsEnabled setting. 
+It enables the **LegacyAuthProtocolsEnabled** setting. 
 
 18. Go to the next chapter to add organization to KODO for Cloud server.
-
-
-
-
-
-
 
