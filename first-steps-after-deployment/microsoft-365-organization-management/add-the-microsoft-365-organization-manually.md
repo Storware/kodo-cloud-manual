@@ -4,7 +4,7 @@ To add your Microsoft 365 organization to KODO for Cloud server, do as follow:
 
 1. Log into Kodo for Cloud server as the organization admin.
 2. Go to the **Settings** menu.
-3. Select the **Organizations** tab.
+3. Select the **Microsoft 365** **Organizations** tab.
 4. Click the **Add Organization** button and select the **Manually** option.
 5. In the **Microsoft 365 Configuration** window you have to enter information as follow:
    1. Tenant ID
