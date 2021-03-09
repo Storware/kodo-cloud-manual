@@ -24,7 +24,7 @@ At the dashboard view the following information is displayed:
 * User Protected
 * Tasks Running
 * Protected Users
-* Protectetd Sites
+* Protected Sites
 * Dedicated/Shared agents
 * License status 
 * Running Tasks
@@ -34,7 +34,7 @@ At the dashboard view the following information is displayed:
 
 ## The kodoadmin user dashboard
 
-If the administrator logs into the  webUI console as `kodoadmin` user then a different **KODO for Cloud** dashboard appears as shown on the screenshot below.  Using this dashboard  administrator can add, delete, edit and manage server key components such as organizations, agents, storage, agent config, and also change server settings. At this view, all server key parameters are visible for the KODO administrator. 
+If the administrator logs into the  webUI console as `kodoadmin` user then a different **KODO for Cloud** dashboard appears as shown on the screenshot below.  Using this dashboard administrator can add, delete, edit and manage server key components such as organizations, agents, storage, agent config, and also change server settings. At this view, all server key parameters are visible for the KODO administrator. 
 
 ![](../.gitbook/assets/kodoadmin-dashboard-01.png)
 

@@ -15,7 +15,7 @@ You can do the following activities on the protected entities \(users or sites\)
 * [Restore](data-restore/restore-data-to-microsoft-365.md)- to store entities data
 
 {% hint style="warning" %}
-If an entity is deleted from the server, his status is automatically changed to "Locked". The deletion process is running in the background on the server and the backups are removed from the backup storage. When the process is finished, the entity is also removed from the list but not from the Microsoft 365 service. If the entity is preserved in the Microsoft 365 service, the organization admin can synchronize his account with KODO for Cloud server and add it to any defined policy.  
+If an entity is deleted from the server, his status is automatically changed to "**Locked**". The deletion process is running in the background on the server and the backups are removed from the backup storage. When the process is finished, the entity is also removed from the list but not from the Microsoft 365 service. If the entity is preserved in the Microsoft 365 service, the organization admin can synchronize his account with KODO for Cloud server and add it to any defined policy.  
 {% endhint %}
 
 
