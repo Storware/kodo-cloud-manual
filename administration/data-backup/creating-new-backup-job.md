@@ -8,13 +8,17 @@ Follow the instruction to create a new backup job:
 
 ![](../../.gitbook/assets/kodo-cloud-administration-backup05.png)
 
-### Step 1: General
+Enter a job name and select the following options:
 
-Enter a job name and schedule description. Click **Next** button to continue.
+* **Force full backup** - the backup will be executed with level "full"
+* **According to policy** - Microsoft 365 features assigned to the policy will be included will in the backup tasks.
+* **Select feature** - Microsoft 365 can be selected manually 
 
-![](../../.gitbook/assets/kodo-cloud-administration-backup06%20%282%29.png)
+![](../../.gitbook/assets/kodo-cloud-job-01.png)
 
-Click **Next** button to continue.
+Click the **Selected entities** to include users and sites in the job. 
+
+![](../../.gitbook/assets/image%20%2815%29.png)
 
 ### Step 2: Users
 
