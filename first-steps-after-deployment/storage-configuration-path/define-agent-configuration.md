@@ -6,5 +6,5 @@ By defining the agent configuration \(Agent config asset\) administrator can ass
 
 You can assign all defined storage types to the one agent configuration.
 
-Go to the next chapter to see how to assign defined agent config go the cloud agent \(Agent\)
+Go to the next chapter to see how to assign the defined agent config to the cloud agent \(Agent\)
 
