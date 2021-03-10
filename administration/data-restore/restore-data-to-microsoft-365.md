@@ -5,9 +5,7 @@
 If you want to restore Microsoft 365 all user data do as follow:
 
 1. Go to the **Protection** view.
-2. Select a user whose data you want to restore by marking the radio button. Press the **Restore** button at the right-top window corner.
-
-![](../../.gitbook/assets/kodo-cloud-administration-restore01.png)
+2. Select a user whose data you want to restore by marking the radio button. Press the **Restore** button at the right-top window corner. 
 
 Confirm you want to recover data for the selected user. All user's Microsoft 365 data will be recovered.
 
@@ -25,13 +23,9 @@ If you  want to restore selected item\(s\) from the user's backup do the followi
 2. Choose a user whose data you want to browse and restore.
 3. Select Microsoft 365 service \(e.g. OneDrive\) or browse it to recover selected item\(s\) or file\(s\).  
 
-![](../../.gitbook/assets/kodo-cloud-administration-restore02.png)
-
 ### Restore options
 
 If you've selected a whole Microsoft 365 element press **Restore** button to select recovery options: 
-
-![](../../.gitbook/assets/kodo-cloud-administration-restore03.png)
 
 ### Restore deleted files
 
