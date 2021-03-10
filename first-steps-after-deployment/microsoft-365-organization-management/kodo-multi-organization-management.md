@@ -10,5 +10,5 @@ On KODO for Cloud server, the administrator can define more than one Microsoft 3
 
 You can add a Microsoft 365 organization manually or using the Setup assistant. To add an organization go to the Settings menu and click **Add Organization**. Now you can choose the options.
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
