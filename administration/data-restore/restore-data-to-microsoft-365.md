@@ -2,10 +2,10 @@
 
 ## Restore all user's data
 
-if you want to restore Microsoft 365 all user data do as follow:
+If you want to restore Microsoft 365 all user data do as follow:
 
-1. Go to the **Users** view.
-2. Select a  user whose data you want to restore by marking the radio button. Press the **Restore** button at the right-top window corner.
+1. Go to the **Protection** view.
+2. Select a user whose data you want to restore by marking the radio button. Press the **Restore** button at the right-top window corner.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-restore01.png)
 
