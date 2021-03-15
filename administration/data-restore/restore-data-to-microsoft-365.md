@@ -9,9 +9,17 @@ If you want to restore Microsoft 365 user's data do as follow:
 3. Select the feature you want to recover and click the **Save** button.
 4. Confirm you want to recover data for the selected. All user's Microsoft 365 data will be recovered.
 
+![](../../.gitbook/assets/image%20%2823%29.png)
+
 {% hint style="warning" %}
-The user account must be active in Microsoft 365 service. If it's not, data cannot be recovered to the original destination and the restore process will fail.
+The user account must be active and licensed  in Microsoft 365 service. If it's not, data cannot be recovered to the original destination and the restore process will fail.
+
+User's data , that exists in Microsoft 365 service, will not be overwritten. 
 {% endhint %}
+
+
+
+
 
 ### Restore selected user's data \(granular recovery\)
 
@@ -19,7 +27,14 @@ If you  want to restore a selected item\(s\) from the user's backup do the follo
 
 1. Go to the **Protection** view.
 2. Choose a user or a site whose data you want to browse and restore.
-3. Select Microsoft 365 service \(e.g. OneDrive\) or browse it to recover the selected item\(s\) or file\(s\).  
+3. Click the **Restore** button
+4. Select Microsoft 365 service \(e.g. OneDrive\) or browse it to recover the selected item\(s\) or file\(s\).  
+
+![](../../.gitbook/assets/image%20%2825%29.png)
+
+Click the **Save** button to recover all selected feature data.
+
+
 
 ### Restore options
 
