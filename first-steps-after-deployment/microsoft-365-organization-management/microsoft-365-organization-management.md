@@ -89,5 +89,5 @@ Set-SPOTenant -LegacyAuthProtocolsEnabled $True
 
 It enables the **LegacyAuthProtocolsEnabled** setting. 
 
-18. Go to the next chapter to add organization to KODO for Cloud server.
+18. Go to the next chapter to add Microsoft 365 organization to KODO for Cloud server.
 

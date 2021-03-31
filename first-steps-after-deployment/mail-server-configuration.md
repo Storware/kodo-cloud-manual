@@ -11,5 +11,7 @@ To add the mail server to the configuration, do as follow:
 5. Save the settings by pressing the **Save** button.
 6. Sent a test email by pressing the **Send Test Email** button.
 
-
+{% hint style="warning" %}
+Make sure the **Deployment server name** at Global settings tab at Settings menu at Kodoadmin dashboard has been set. It's required for the KODO portal access link from the e-mail sent from the server to be active.  
+{% endhint %}
 

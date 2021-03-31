@@ -5,13 +5,41 @@ To add your Microsoft 365 organization to KODO for Cloud server using Setup Assi
 1. Log into Kodo for Cloud server as the organization admin.
 2. Go to the **Settings** menu.
 3. Select the **Microsoft 365** **Organizations** tab.
-4. Click the **Add Organization** button and select the **Manually** option.
-5. In the **Microsoft 365 Configuration** window you have to enter information as follow:
-   1. Tenant ID
-   2. Client ID
-   3. Client secret
-6. Select **Import users** and **Import sites** if you want to perform the import tasks after the organization is created.
-7. You can optionally provide a user name and password for the defined user. The user should have set permissions to read information about **Exchange shared mailboxes** if you are going to back up this asset. 
-8. Save your settings by clicking the **Save** button.
-9. Now you can go to the **Users** menu. Click the **Synchronize** button to synchronize users from your organization with KODO for Cloud server. 
+4. Click the **Add Organization** button and select the **Setup Assistant** option.
+5. In the **Wizard** window read the information and click **Next** button to go to the next step.
+6. Click the link **https://microsoft.com/devicelogin.** 
+7. Copy the authorization code and enter it, and next sign in to your Microsoft 365 organization as a user with administrator's rights. Close the window when finished.
+8. The application tenant is created. Click **Next** button to go to the next step.
+9. Grant permissions to "**KODO for Cloud**" application by logging into Microsoft 365 organization. Click the "**Log in to Microsoft 365**" button.
+10. [ ](https://microsoft.com/devicelogin)Log in as the administrator and click **Accept** button to grant permissions for the created application.
+11. You will be redirected to KODO admin dashboard. Enter the name for the config. 
+12. Check the "**Import users**" and "**Import sites**" options to import these assets.  
+13. You can optionally provide a user name and password for the defined user to backup up shared mailboxes. The user account should have set "**Global reader**" permission to read information about **Exchange shared mailboxes.**
+14. Save your settings by clicking the **Save** button.
+15. You will be asked about import users and sites. If everything was properly set, the validation status should be "**COMPLETED**".
+16. Since you're granting tenant scoped permissions this granting can only be done via the **appinv.aspx** page on the tenant administration site. You can reach this site by typing the address: **https://tenantName-admin.sharepoint.com/\_layouts/15/appinv.aspx**. \(replace the **tenantName** with your tenant name\). Once the page is loaded, do as follow:
+17. Enter your App Id \(client ID\) and click the **Lookup** button.
+18. Enter the App Domain name. 
+19. In the "**App's Permission Request** **XML"** window enter the following lines: 
+
+```text
+<AppPermissionRequests AllowAppOnlyPolicy="true">
+    <AppPermissionRequest Scope="http://sharepoint/content/tenant" 
+     Right="FullControl" />
+ </AppPermissionRequests>
+
+```
+
+20. When you click on the **Create** button you'll be presented with a permission consent dialog. Press the **Trust It** button to grant the permissions.
+
+21. Open Powershell command prompt and execute the command: 
+
+```text
+Connect-SPOService https://tenantName-admin.sharepoint.com
+Set-SPOTenant -LegacyAuthProtocolsEnabled $True
+```
+
+It enables the **LegacyAuthProtocolsEnabled** setting. 
+
+
 
