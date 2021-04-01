@@ -29,7 +29,7 @@ You have to add the email settings for KODO server to be able to send notificati
 * **Server address -** SMTP server IP name or address \(for Microsoft 365 service the server name is smtp.office365.com\), but you can use any other SMTP server.
 * **Port** -usually it's port 25 or 587.
 * **use SSL** - check it if you want to use SSL protocol.
-* **Password -** the password for the user provided in the  "Login" form.
+* **Password -** the password for the user provided in the  "**Login**" form.
 
 ## Stage tab
 
