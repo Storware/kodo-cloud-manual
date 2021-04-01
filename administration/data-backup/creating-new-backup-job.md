@@ -11,16 +11,16 @@ Follow the instruction to create a new backup job:
 Enter a job name and select the following options:
 
 * **Force full backup** - the backup will be executed with level "full"
-* **According to policy** - Microsoft 365 features assigned to the policy will be included will in the backup tasks.
-* **Select feature** - Microsoft 365 can be selected manually 
+* **According to policy** - Microsoft 365 features assigned to the policy will be included in the backup job.
+* **Select feature** - Microsoft 365 fatures can be selected manually bythe administrator
 
 ![](../../.gitbook/assets/kodo-cloud-job-01.png)
 
-Click the **Selected entities** to include users and/or sites in the job. You can also use the search form to find a user or a site. Select entities and click the **Back** button to go to the prevoius window.
+Click the **Selected entities** button ****to include users and/or sites in the job. You can also use the search form to find a user or a site. Select entities and click the **Back** button to go to the prevoius window.
 
 ![](../../.gitbook/assets/image%20%2815%29.png)
 
-Go to the **Schedule**  and set the time the
+Click the **Schedulee**  button and set a frequency the job will  executed.
 
 Set the following informations:
 
@@ -30,7 +30,7 @@ Set the following informations:
 
 ![](../../.gitbook/assets/image%20%2818%29.png)
 
-Click **Back** button to go to the prevous window. Click **Save** button to finish. Click **Next** button to continue.
+Click the **Back** button to go to the prevous window. Click **Save** button to finish.[NextRestore](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/~/drafts/-MXDhStDcII-iB-lmNNK/administration/data-restore)
 
 ## What will happen next?
 
