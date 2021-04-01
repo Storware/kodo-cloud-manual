@@ -1,4 +1,4 @@
-# Add the Microsoft 365 organization using the Setup Assistant
+# Add Microsoft 365 organization using the Setup Assistant
 
 To add your Microsoft 365 organization to KODO for Cloud server using Setup Assistant, do as follow:
 

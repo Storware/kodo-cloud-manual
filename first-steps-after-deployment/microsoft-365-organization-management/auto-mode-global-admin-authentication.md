@@ -15,8 +15,12 @@ From now on all new users added to Microsoft 365 service are also available on t
 If you want all new users created at Microsoft 365 service to be automatically added to a job, do as follow:
 
 1. Select a job and choose  **Edit** from the **Options** menu.
-2. In the **Users** section \(step 2\) mark the **Auto-select users** option.
-3. Go to step 4 \(Summary\) and click the **Save** button.
+2. Click **Selected entities** button. 
+3. Click **Users** or **Sites** tab .
+4.  Switch the **Auto-select users** or **Auto-select sites**  option.
+5. Click the **Back** button and click **Save** button at the end.
+
+
 
  
 
