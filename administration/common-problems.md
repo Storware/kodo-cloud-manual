@@ -24,7 +24,7 @@ The default cloud agent name is voyager, so the command would be:
 
 `systemctl status cloud-agent-voyager`
 
-## Contact support when something went wrong
+## Contact our support when something went wrong
 
 In case of any installation problems please contact with [Storware Support Team](mailto:support@storware.eu) or one of our local [partners](https://storware.eu/en/partners/).
 
