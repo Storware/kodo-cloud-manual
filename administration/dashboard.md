@@ -16,7 +16,7 @@ The differences between both user types are described in the [Administration lev
 
 The administrator can log into the console as `admin` user and then KODO for Cloud dashboard view appears as shown on the screenshot below. Using this dashboard administrator is able to manage his own organization and set up jobs to protect users data.
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 At the dashboard view the following information is displayed:
 

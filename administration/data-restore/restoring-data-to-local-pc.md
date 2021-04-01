@@ -1,8 +1,8 @@
 # Restore data to local PC
 
-To browse and restore backup data to your PC do the following:
+To browse and restore backup data to your PC do as follow:
 
-1. Go to the **Users** view.
+1. Go to the **Protection** view.
 2. Click a user whose data you want to browse and restore.
 3. Select item\(s\) or files\(s\) you want to download.
 4. Change the **Point in time** parameter if you want to recover the previous version of item\(s\) or file\(s\).  
