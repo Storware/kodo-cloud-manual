@@ -44,8 +44,5 @@ To add a new organization, do as follow:
 4. Enter the **Last name**.
 5. Enter the **Email** address.
 6. Enter the **Phone number**.  
-
-In the next step you have to set a password for the defined organization administrator:
-
-![](../../../.gitbook/assets/kodo-cloud-administration-backup-14.png)
+7. Set and confirm administrator's password.
 
