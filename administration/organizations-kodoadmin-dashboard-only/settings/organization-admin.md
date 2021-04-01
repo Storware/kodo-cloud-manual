@@ -2,35 +2,39 @@
 
 The **admin** user is a predefined administrative organization user on KODO for Cloud server.  If you are logging in to the server as `admin` then you can edit the organization settings in the tabs.
 
-## General tab
+## Global tab
 
 In this tab, you can verify your server/agent version and available service options. 
 
-![](../../../.gitbook/assets/kodo-cloud-administration-settings-kodo-admin08-.png)
+![](../../../.gitbook/assets/image%20%2832%29.png)
 
-In the Setting window you can also set the following KODO server parameters:
+In the Globaltab you can also set the following KODO server parameters:
 
 **Cleaning** - set time period for tasks and audit log retentions \(in days\).
 
-**Synchronization settings** - mark the option **Automatically synchronize accounts** and set time. All newly created accounts will be added to the KODO for Cloud server. You can also set your timezone.
+**Synchronization settings** - mark the option **Automatically synchronize accounts** and set time. All newly created accounts will be added to the KODO for Cloud server. You can also set your time zone accordingly.
 
 **Usage & activity report** - enter parameters to send usage and activity report.
 
-![](../../../.gitbook/assets/kodo-cloud-administration-backup-13.png)
+![](../../../.gitbook/assets/image%20%2830%29.png)
 
-## Organizations tab
+## Reports tab
 
-In this tab, you can add, edit, or delete the organization. 
+In this tab, you can set frequency of sending \(in days\) and reciepients of the usage and activity report.      
 
+![](../../../.gitbook/assets/image%20%2831%29.png)
 
+## Microsoft 365 Organizations tab
 
-![](../../../.gitbook/assets/kodo-cloud-administration-backup-12.png)
+In this tab, you can add, edit, or delete Microsoft 365 oraganizations. 
+
+![](../../../.gitbook/assets/image%20%2829%29.png)
 
 ## Administrators tab
 
-In this tab, you can add, edit, set a password, or delete the administrator. The newly added administrator will have the right to administer all defined organizations under the **Organization** tab.
+In this tab, you can add, edit, or delete organizatation administrators. The newly added administrator will have the right to administer all defined organizations under the **Organization** tab.
 
-![](../../../.gitbook/assets/kodo-cloud-administration-backup-11.png)
+![](../../../.gitbook/assets/image%20%2826%29.png)
 
 To add a new organization, do as follow:
 
