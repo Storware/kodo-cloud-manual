@@ -6,7 +6,7 @@ The **admin** user is a predefined administrative organization user on KODO for 
 
 In this tab, you can verify your server/agent version and available service options. 
 
-![](../../../.gitbook/assets/image%20%2838%29.png)
+![](../../../.gitbook/assets/image%20%2840%29.png)
 
 In the Globaltab you can also set the following KODO server parameters:
 
@@ -22,19 +22,19 @@ In the Globaltab you can also set the following KODO server parameters:
 
 In this tab, you can set frequency of sending \(in days\) and reciepients of the usage and activity report.      
 
-![](../../../.gitbook/assets/image%20%2836%29.png)
+![](../../../.gitbook/assets/image%20%2838%29.png)
 
 ## Microsoft 365 Organizations tab
 
 In this tab, you can add, edit, or delete Microsoft 365 oraganizations. 
 
-![](../../../.gitbook/assets/image%20%2832%29.png)
+![](../../../.gitbook/assets/image%20%2833%29.png)
 
 ## Administrators tab
 
 In this tab, you can add, edit, or delete organizatation administrators. The newly added administrator will have the right to administer all defined organizations under the **Organization** tab.
 
-![](../../../.gitbook/assets/image%20%2830%29.png)
+![](../../../.gitbook/assets/image%20%2832%29.png)
 
 To add a new organization, do as follow:
 
