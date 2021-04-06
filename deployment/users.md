@@ -2,8 +2,8 @@
 
 KODO system has two administration levels implemented by default: 
 
-* KODO administration level - accessed through KODO Admin Portal
-* KODO organization administration level - accessed through KODO organization portal
+* **KODO administration level** - accessed through KODO Admin Portal
+* **KODO organization administration level** - accessed through KODO organization portal
 
 ## KODO administrator level
 

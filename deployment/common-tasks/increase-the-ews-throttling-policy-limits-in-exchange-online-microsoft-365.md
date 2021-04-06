@@ -9,7 +9,7 @@ The option to change EWS throttling settings through the automated help pages ha
 Perform the steps below to temporarily increase EWS throttling policy in Exchange Online by yourself:
 
 1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com/?source=applauncher).
-2. Click the **?** \(**Help**\) icon in the upper-right corner of the page. If the switch at the upper part of the Help pane is pointing to **Support Assistant**, change it to **Search**.
+2. Click the "**?"** \(**Help**\) icon in the upper-right corner of the page. If the switch at the upper part of the Help pane is pointing to **Support Assistant**, change it to **Search**.
 3. In the search field, enter **ews** and select **Increase EWS Throttling Policy** from the lists of query suggestions.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-ews-01.png)
@@ -18,7 +18,7 @@ Perform the steps below to temporarily increase EWS throttling policy in Exchang
 
 ![](../../.gitbook/assets/kodo-cloud-administration-ews-02.png)
 
-5.  If the Exchange Web Service are throttled, you will have the option to ease the throttling policy settings for **30**, **60** or **90** days. Select the value that meets your needs from the **Duration \(Days\)** drop-down menu and click **Update Settings.**
+5.  If the Exchange Web Service is throttled, you will have the option to ease the throttling policy settings for **30**, **60** or **90** days. Select the value that meets your needs from the **Duration \(Days\)** drop-down menu and click **Update Settings.**
 
 ![](../../.gitbook/assets/kodo-cloud-administration-ews-03.png)
 

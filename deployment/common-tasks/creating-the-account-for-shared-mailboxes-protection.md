@@ -9,7 +9,7 @@ If you are going to protect shared mailboxes in your Microsoft 365 service, you 
 3. Go to the **Users** and select **Active users**.
 4. Click **Add a user** and create a new user.
 5. Click **Show all** and select **Exchange** from **Admin centers.** A new tab in your web browser should be opened.
-6. Under **Exchange admin center** go to the **Permissions** menu. In **Admin roles** view double-click **View-Only Organization Management**.
+6. Under the **Exchange admin center** go to the **Permissions** menu. In **Admin roles** view double-click **View-Only Organization Management**.
 7. Add the created user to the **Members** of that role and click **Save** to continue.
 8. Log into KODO for Cloud UI as the organization admin and go to the **Settings** menu.
 9. Select the **Organizations** tab and edit the selected organization.
