@@ -27,7 +27,7 @@ If you  want to restore a selected item\(s\) from the user's backup do the follo
 4. Browse and select entity or entities to recover and click the **Restore** button.
 5. In the **Restore job assistant** window select options on your own.
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](../../.gitbook/assets/image%20%2844%29.png)
 
 ### Restore to another account
 
