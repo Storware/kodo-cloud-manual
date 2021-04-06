@@ -16,7 +16,7 @@ Log in to the server as `kodoadmin` user and go to the **Agents** view. In the *
 * **Logs path** - set the path for cloud agent logs.
 * **Delete** - choose the option to delete the agent.
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
 ## Cloud agent settings
 

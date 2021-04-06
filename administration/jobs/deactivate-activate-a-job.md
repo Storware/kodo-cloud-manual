@@ -11,7 +11,7 @@ If you want to deactivate a job, do the following:
 
 ![](../../.gitbook/assets/kodo-cloud-administration-job02%20%282%29.png)
 
-If you want to activate the job, go to the **Options** menu and choose  **Activate** option.      ****
+If you want to activate the job, go to the **Options** menu and choose the **Activate** option.      ****
 
 
 

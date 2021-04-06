@@ -18,7 +18,7 @@ Here you can edit the following settings:
 
 Set the time and day when obsolete information about backed up files will be removed from the server.
 
-![](../../../.gitbook/assets/image%20%2844%29.png)
+![](../../../.gitbook/assets/image%20%2846%29.png)
 
 ## Email tab
 

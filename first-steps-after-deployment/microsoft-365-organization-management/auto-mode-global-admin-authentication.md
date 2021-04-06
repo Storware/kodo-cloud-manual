@@ -16,9 +16,9 @@ If you want all new users created at Microsoft 365 service to be automatically a
 
 1. Select a job and choose  **Edit** from the **Options** menu.
 2. Click **Selected entities** button. 
-3. Click **Users** or **Sites** tab .
-4.  Switch the **Auto-select users** or **Auto-select sites**  option.
-5. Click the **Back** button and click **Save** button at the end.
+3. Click **Users** or **Sites** tab.
+4.  Switch the **Auto-select users** or **Auto-select sites** option.
+5. Click the **Back** button and click the **Save** button at the end.
 
 
 

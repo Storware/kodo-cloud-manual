@@ -7,7 +7,7 @@ If you want to edit a job, do the following:
 3. Choose **Edit** to preview or configure the job.
 4. The job configuration window will be opened. 
 5. Now you can reconfigure the job.
-6. Click **Save** button to confirm amendments.      ****
+6. Click the **Save** button to confirm amendments.      ****
 
 ![](../../.gitbook/assets/kodo-cloud-administration-job02-edit.png)
 
