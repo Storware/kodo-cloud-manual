@@ -6,7 +6,7 @@ To create a data policy do the following:
 2. Click on the **Add Policy** button
 3. Configure the data policy due to your company backup regulations and confirm settings by pressing the **Save** button. 
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](../../.gitbook/assets/image%20%2843%29.png)
 
 {% hint style="info" %}
 Data Policy configuration will apply to all users. 

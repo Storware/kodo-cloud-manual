@@ -6,7 +6,7 @@ The **admin** user is a predefined administrative organization user on KODO for 
 
 In this tab, you can verify your server/agent version and available service options. 
 
-![](../../../.gitbook/assets/image%20%2847%29.png)
+![](../../../.gitbook/assets/image%20%2849%29.png)
 
 In the **Global** tab you can also set the following KODO server parameters:
 
@@ -22,7 +22,7 @@ In the **Global** tab you can also set the following KODO server parameters:
 
 In this tab, you can set the frequency of sending \(in days\) and recipients of the usage and activity report.      
 
-![](../../../.gitbook/assets/image%20%2843%29.png)
+![](../../../.gitbook/assets/image%20%2844%29.png)
 
 ## Microsoft 365 Organizations tab
 
