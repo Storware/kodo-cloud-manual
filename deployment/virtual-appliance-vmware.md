@@ -11,7 +11,7 @@ You can download the KODO for virtual appliance from the following link:
 
 ## Logging into the virtual appliance
 
-Use credentials listed below to log in to the system:
+Use the credentials listed below to log in to the system:
 
 > **Login:** kodo  
 > **Password:** Zt3edWny
@@ -47,7 +47,7 @@ Use `sudo` command to run a shell with root privileges:
 $ sudo -s
 ```
 
-When asking for password use the one for **`kodo`** user.
+When asking for a password use the one for **`kodo`** user.
 
 Edit network configuration file:
 

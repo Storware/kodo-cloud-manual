@@ -1,8 +1,8 @@
 # Backup and staging space configuration
 
-KODO for Cloud needs staging and backup destination in `/kodo_data` directory by default. We suggest attaching just an empty drive and then configure it.
+KODO for Cloud requires separate staging and backup destinations.  During installation process  `/kodo_data`directory is created by default. 
 
-You can configure a storage space as a VDO device or a block device on the OS filesystem layer.
+You can configure a storage space as a VDO device, NFS share or a block device on the OS filesystem layer.
 
 ## Deduplication \(VDO- Virtual Data Optimizer\) setup
 
@@ -29,7 +29,7 @@ sr0                11:0    1  6.7G  0 rom
 * Install VDO device-mapper driver
 
 ```text
-#yum -y install vdo
+# yum -y install vdo
 ```
 
 * Reboot your OS platform to load VDO into the system kernel. Run `lsmod |grep vdo` command to make sure the VDO is loaded. 
@@ -44,8 +44,8 @@ dm_mod                151552  13 kvdo,dm_log,dm_mirror,dm_bufio
 * Start and enable VDO device-mapper
 
 ```text
-#systemctl start vdo
-#systemctl enable vdo
+# systemctl start vdo
+# systemctl enable vdo
 ```
 
 * Create a VDO device on top of your physical block device:

@@ -60,7 +60,7 @@ Before start the installation process you need to prepare your server platform a
 
 KODO for Cloud consists of the server \(central management point with web UI\) and agent \(CloudAgent\), which can be installed on the same server. The first step is always to install the server.
 
-1. Install  the server using YUM command:
+1. Install  the server using `yum` command:
 
    ```text
    # yum -y install kodo-cloud-server
@@ -105,7 +105,7 @@ KODO for Cloud consists of the server \(central management point with web UI\) a
    #systemctl enable firewalld
    ```
 
-7. Open 8181 port on your firewall. Here is an example:
+7. Open the 8181 port on your firewall. Here is an example:
 
    ```text
    #firewall-cmd --add-port=8181/tcp --permanent
