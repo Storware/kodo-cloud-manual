@@ -9,7 +9,7 @@ If you want to restore Microsoft 365 user's data do as follow:
 3. Select the feature you want to recover and click the **Save** button.
 4. Confirm you want to recover data for the selected. All user's Microsoft 365 data will be recovered.
 
-![](../../.gitbook/assets/image%20%2835%29.png)
+![](../../.gitbook/assets/image%20%2836%29.png)
 
 {% hint style="warning" %}
 The user account must be active and licensed in Microsoft 365 service. If it's not, data cannot be recovered to the original destination and the restore process will fail.
@@ -27,7 +27,7 @@ If you  want to restore a selected item\(s\) from the user's backup do the follo
 4. Browse and select entity or entities to recover and click the **Restore** button.
 5. In the **Restore job assistant** window select options on your own.
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](../../.gitbook/assets/image%20%2847%29.png)
 
 ### Restore to another account
 

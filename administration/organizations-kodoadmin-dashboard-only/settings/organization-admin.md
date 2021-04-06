@@ -6,9 +6,9 @@ The **admin** user is a predefined administrative organization user on KODO for 
 
 In this tab, you can verify your server/agent version and available service options. 
 
-![](../../../.gitbook/assets/image%20%2843%29.png)
+![](../../../.gitbook/assets/image%20%2845%29.png)
 
-In the Globaltab you can also set the following KODO server parameters:
+In the **Global** tab you can also set the following KODO server parameters:
 
 **Cleaning** - set time period for tasks and audit log retentions \(in days\).
 
@@ -20,21 +20,21 @@ In the Globaltab you can also set the following KODO server parameters:
 
 ## Reports tab
 
-In this tab, you can set frequency of sending \(in days\) and reciepients of the usage and activity report.      
+In this tab, you can set the frequency of sending \(in days\) and recipients of the usage and activity report.      
 
-![](../../../.gitbook/assets/image%20%2839%29.png)
+![](../../../.gitbook/assets/image%20%2841%29.png)
 
 ## Microsoft 365 Organizations tab
 
-In this tab, you can add, edit, or delete Microsoft 365 oraganizations. 
+In this tab, you can add, edit, or delete Microsoft 365 organizations. 
 
-![](../../../.gitbook/assets/image%20%2833%29.png)
+![](../../../.gitbook/assets/image%20%2834%29.png)
 
 ## Administrators tab
 
-In this tab, you can add, edit, or delete organizatation administrators. The newly added administrator will have the right to administer all defined organizations under the **Organization** tab.
+In this tab, you can add, edit, or delete organization administrators. The newly added administrator will have the right to administer all defined organizations under the **Organization** tab.
 
-![](../../../.gitbook/assets/image%20%2832%29.png)
+![](../../../.gitbook/assets/image%20%2833%29.png)
 
 To add a new organization, do as follow:
 
@@ -44,5 +44,5 @@ To add a new organization, do as follow:
 4. Enter the **Last name**.
 5. Enter the **Email** address.
 6. Enter the **Phone number**.  
-7. Set and confirm administrator's password.
+7. Set and confirm the administrator's password.
 

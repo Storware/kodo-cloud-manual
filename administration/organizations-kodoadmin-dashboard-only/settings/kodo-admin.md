@@ -7,7 +7,7 @@ The **kodoadmin** user is a predefined administrative user on KODO for Cloud ser
 Here you can edit the following settings:
 
 * **Deployment server name** - ****the hostname of KODO for Cloud server
-* **Allowed IP adresses for KodoAdmin** - allowed IP addresses to login with KodoAdmin role
+* **Allowed IP addresses for KodoAdmin** - allowed IP addresses to login with KodoAdmin role
 * **Support website URL** -the address of the KODO support website.
 * **Product website URL**- the address of Storware support website.
 * **Documentation website URL** - the address of the KODO documentation website.
@@ -16,13 +16,13 @@ Here you can edit the following settings:
 
 ## **Purge Expired Backups Settings**
 
-Set the time and day when obsolite information about backed up files will be removed from the server.
+Set the time and day when obsolete information about backed up files will be removed from the server.
 
-![](../../../.gitbook/assets/image%20%2842%29.png)
+![](../../../.gitbook/assets/image%20%2844%29.png)
 
 ## Email tab
 
-You have to add the email settings for KODO server to be able to send notifications. You have to add the following settings:
+You have to add the email settings for KODO for Cloud server to be able to send notifications. You have to add the following settings:
 
 * **E-mail address** - the email address of the sender
 * **Login** - usually it's the same as the email address 
