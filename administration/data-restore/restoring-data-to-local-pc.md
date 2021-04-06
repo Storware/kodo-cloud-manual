@@ -11,7 +11,5 @@ To browse and restore backup data to your PC do as follow:
 
 Go to the **Downloads** menu and select the **Download** option from the **Options** menu or **Delete** if you want to delete the file.
 
-![](../../.gitbook/assets/image%20%2840%29.png)
-
-Click the **Download** button in the right-top window corner. Confirm if you want to download user data.
+![](../../.gitbook/assets/image%20%2841%29.png)
 

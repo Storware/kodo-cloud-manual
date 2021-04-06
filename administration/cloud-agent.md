@@ -3,23 +3,22 @@
 In this view, you can verify currently configured cloud agent instances on the KODO for Cloud server.
 
 {% hint style="info" %}
-Only one cloud agent instance is installed by default on The KODO for Cloud
+One cloud agent instance is installed by default on KODO for Cloud server
 {% endhint %}
 
 ## Management 
 
 Log in to the server as `kodoadmin` user and go to the **Agents** view. In the **Options**  menu you can select one of the following options:
 
-* **Details** - information about tasks that were handled by the agent  
-* **Stop** - you can \(or start\) the agent's instance
-* **Assign** - you can assign the agent to the defined organization
-* **Unassign** - unassign the agent from the organization
-* **Logs path** - set the path for cloud agent logs
-* **Delete** - choose the option to delete the agent
+* **Details** - information about tasks that were handled by the agent.  
+* **Stop** - you can \(or start\) the agent's instance.
+* **Agent config** - you can assign the agent config to the agent.
+* **Logs path** - set the path for cloud agent logs.
+* **Delete** - choose the option to delete the agent.
 
-![](../.gitbook/assets/kodo-cloud-administration-agents01.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
-## Settings
+## Cloud agent settings
 
 If you need you can tweak some settings of the cloud agent. You have to log in to the server using SSH protocol and go to the directory `/opt/kodo-cloud/agent/instances/voyager/` 
 

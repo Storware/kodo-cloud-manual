@@ -6,7 +6,7 @@ The **admin** user is a predefined administrative organization user on KODO for 
 
 In this tab, you can verify your server/agent version and available service options. 
 
-![](../../../.gitbook/assets/image%20%2842%29.png)
+![](../../../.gitbook/assets/image%20%2843%29.png)
 
 In the Globaltab you can also set the following KODO server parameters:
 

@@ -16,10 +16,12 @@ There are several task types:
 * Restore
 * Import
 * Verification
+* Download
+* Retention
 
 ![](../.gitbook/assets/kodo-cloud-administration-tasks01.png)
 
-You can search tasks by a task type \(e.g. OneDrive Backup\), over a period of time \(by calendar\) or by user name. To do this, click the filter icon at the right-top window corner.
+You can search tasks by task type \(e.g. OneDrive Backup\), over a period of time \(by calendar\), or by user name. To do this, click the filter icon at the right-top window corner.
 
 ![](../.gitbook/assets/kodo-cloud-administration-tasks02.png)
 
