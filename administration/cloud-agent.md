@@ -11,7 +11,7 @@ One cloud agent instance is installed by default on KODO for Cloud server
 Log in to the server as `kodoadmin` user and go to the **Agents** view. In the **Options**  menu you can select one of the following options:
 
 * **Details** - information about tasks that were handled by the agent.  
-* **Stop** - you can \(or start\) the agent's instance.
+* **Start/Stop** - you can start \(or stop\) the agent's instance.
 * **Agent config** - you can assign the agent config to the agent.
 * **Logs path** - set the path for cloud agent logs.
 * **Delete** - choose the option to delete the agent.
