@@ -1,6 +1,6 @@
 # KODO Admin
 
-The **kodoadmin** user is a predefined administrative user on KODO for Cloud server.  If you are logging in to the  server as `kodoadmin` then you can edit the server settings in the tabs.
+[NextOrganization Admin](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/administration/organizations-kodoadmin-dashboard-only/settings/organization-admin)The **kodoadmin** user is a predefined administrative user on KODO for Cloud server.  If you are logging in to the  server as `kodoadmin` then you can edit the server settings in the tabs.
 
 ## General Settings
 
@@ -54,5 +54,5 @@ Here you can preview the current license or update a new one.
 
 ## Billing tab
 
-Here you can edit your billing settings. This information is used by kodoadmin to charge all defined organizations in Kodo for Cloud server separately.
+Here you can edit your billing settings. This information is used by kodoadmin to charge all defined organizations due in Kodo for Cloud server separately.
 
