@@ -8,9 +8,7 @@ To assign the agent config to the agent do as follow:
 
 ![](../../.gitbook/assets/image%20%2813%29.png)
 
-Go to the next chapter to see how to assign defined agent configuration\(s\) to the KODO organization.
-
-4. Select the **Options** menu and click **Play** to change the agent status to active. 
+    4. Select the **Options** menu and click **Play** to change the agent status to active. 
 
 Go to the next chapter to see how to assign defined agent configuration\(s\) to the KODO organization.
 

@@ -48,6 +48,7 @@ The instruction is as follow:
     | **Microsoft Graph** | User.Read.All | Application |
     | **Microsoft Graph** | User.Read.All | Application |
     | **Microsoft Graph** | User.ReadWrite.All | Application |
+    | **Microsoft Graph** | MailboxSettings.ReadWrite | Application |
     | **Office 365 Exchange Online** | full\_access\_as\_app | Application |
     | **SharePoint** | Sites.FullControl.All | Application |
     | **SharePoint** | Sites.Manage.All | Application |
