@@ -2,7 +2,8 @@
 
 Before starting the installation process you need to prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the [Sizing](../planning/sizing/) chapter\).
 
-1. Make sure your OS is up to date by the following command:
+1. Configure a storage destination. Follow the instructions in [Backup and staging space configuration](staging-space-and-backup-destination-configuration.md) chapter.
+2. Make sure your OS is up to date by the following command:
 
    ```text
    # yum -y update
@@ -10,7 +11,7 @@ Before starting the installation process you need to prepare your server platfor
 
    After the kernel is updated, then you need to reboot the operating system.
 
-2. Install Kodo for Cloud repository:
+3. Install Kodo for Cloud repository:
 
    * create file `/etc/yum.repos.d/kodo.repo`  \(e.g.`touch /etc/yum.repos.d/kodo.repo` \)
    * open the created file \(using e.g. vi editor \) and insert  the information from the box below to the file:
@@ -25,11 +26,11 @@ Before starting the installation process you need to prepare your server platfor
 
    * optionally  `current` can also be pointed to the specific version, e.g. `4.0` \(not the one that is always up to date\), e.g.`http://repo.storware.eu/kodo-cloud/4.0/el8`
 
-3. Install MariaDB repository:
+4. Install MariaDB repository:
    * generate.repo file at [MariaDB download](https://downloads.mariadb.org/mariadb/repositories) site:
      * Choose a Distro \(e.g. `CentOS` \)
      * Choose a Release \(e.g. `CentOS 8 (x86_64)` \)
-     *  ****Choose a Version \(e.g.. `10.4 [Old Stable]`\)
+     *  ****Choose a Version \(e.g.`10.4 [Old Stable]`\)
    * create file `/etc/yum.repos.d/MariaDB.repo`  \(e.g.`touch /etc/yum.repos.d/MariaDB.repo)`
    * copy and paste generated repo file into `/etc/yum.repos.d/MariaDB.repo`, so it may  look similar to this one below \(this one for CentOS/RHEL 8\):
 
@@ -43,7 +44,7 @@ Before starting the installation process you need to prepare your server platfor
      gpgkey = https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
      gpgcheck = 1
      ```
-4. Install Microsoft repository:
+5. Install Microsoft repository:
    * create file`/etc/yum.repos.d/Microsoft.repo (e.g. touch /etc/yum.repos.d/Microsoft.repo)`
    * open the created file \(using e.g. vi editor \) and insert  the information from the box below:
 

@@ -54,7 +54,7 @@ dm_mod                151552  13 kvdo,dm_log,dm_mirror,dm_bufio
   * if the block device is larger than 16 TB, add the `--vdoSlabSize=32G` parameter at the end to increase the slab size on the volume to 32 GB.
 
 ```text
-# vdo create --name=kodo --device=/dev/sdb --vdoLogicalSize=3T
+#vdo create --name=kodo --device=/dev/sdb --vdoLogicalSize=3T
 ```
 
 * Now proceed with steps described in the **Preparing file system** section below - use the block device name `/dev/sdb`  or  `/dev/mapper/kodo` if VDO is used.
@@ -88,13 +88,13 @@ You also can use a plain file system for staging space \(and optionally for back
   * if the plain block device is used:
 
   ```text
-  /dev/sdb    /kodo_data    xfs    defaults 0 0
+  #/dev/sdb    /kodo_data    xfs    defaults 0 0
   ```
 
   * if VDO is used add the following line:
 
   ```text
-  /dev/mapper/kodo    /kodo_data   xfs   defaults,discard,x-systemd.requires=vdo.service 0 0
+  #/dev/mapper/kodo    /kodo_data    xfs    defaults,discard,x-systemd.requires=vdo.service 0 0
   ```
 
 * Mount the disk device \(all filesystems mentioned in `/etc/fstab` file to be mounted as indicated\): 
@@ -109,6 +109,12 @@ You also can use a plain file system for staging space \(and optionally for back
   ```text
   # mkdir -p /kodo_data/staging
   # mkdir -p /kodo_data/backup
+  ```
+
+* Set ownership to `kodo` user on directory `/kodo_data`:
+
+  ```text
+  # chown kodo:kodo -R /kodo_data
   ```
 
 
