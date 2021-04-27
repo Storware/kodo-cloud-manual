@@ -125,8 +125,7 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    #yum -y install kodo-cloud-agent
    ```
 
-2. Configure a storage destination. Follow the instructions in [Backup and staging space configuration](staging-space-and-backup-destination-configuration.md) chapter.
-3. Register agent to the server with `AGENT_NAME` of your choice, to the server `ADMIN_USER` user name which you would like to use and URL to Kodo for Cloud API and provide a password when prompted.
+2. Register agent to the server with `AGENT_NAME` of your choice, to the server `ADMIN_USER` user name which you would like to use and URL to Kodo for Cloud API and provide a password when prompted.
 
    * syntax:
 
@@ -140,7 +139,7 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    #/opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager
    ```
 
-4. Start and enable Kodo Cloud Agent service using agent name at the end of service name \).
+3. Start and enable Kodo Cloud Agent service using agent name at the end of service name \).
 
    * syntax:
 
@@ -156,7 +155,7 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    #systemctl enable cloud-agent-voyager
    ```
 
-5. Now you should be able to log in to KODO for Cloud using `https://IP_OF_YOUR_MACHINE`
+4. Now you should be able to log in to KODO for Cloud using `https://IP_OF_YOUR_MACHINE`
 
 
 
