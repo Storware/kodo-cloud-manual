@@ -1,8 +1,8 @@
 # Installation with RPMs
 
-Before start the installation process you need to prepare your server platform accordingly to the size of Microsoft 365 organization you are going to protect \(see the [Sizing](../planning/sizing/) chapter\).
+Before starting the installation process you need to prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the [Sizing](../planning/sizing/) chapter\).
 
-1. Make sure your OS is up to date by following command:
+1. Make sure your OS is up to date by the following command:
 
    ```text
    # yum -y update
