@@ -24,6 +24,7 @@ KODO for Cloud consists of 2 main components:
 
 * KODO for Cloud server and agent can be installed on the same system. 
 * The server can be installed on a physical or a virtual machine.
+* The agent can be installed on a separate system too.
 * The agent may be installed during KODO for Cloud server installation \(see the chapter  [Quick Install \(All-In-One\)](../deployment/quick-install-all-in-one.md)\).
 * Both components are installed on the CentOS/RHEL 8 minimal.
 
