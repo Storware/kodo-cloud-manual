@@ -10,7 +10,7 @@ The license price does not depend on the number of organizations or tenants you 
  There is an option to buy additional years of support and subscription by contacting our sales team on: [globalsales@storware.eu](mailto:globalsales@storware.eu).
 {% endhint %}
 
-## **Models- choose the model you want to pay for to achieve the best ROI:**
+## **Models- choose the model you want to pay for to achieve best ROI:**
 
  **Monthly subscription**  
   

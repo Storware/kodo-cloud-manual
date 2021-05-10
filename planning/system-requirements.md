@@ -2,17 +2,7 @@
 
 ## Platform Requirements
 
-## Software Requirements
-
-### Operating Systems
-
-#### RedHat Enterprise Linux / CentOS
-
-Minimum version:
-
-* **8.x**
-
- The operating system can be installed either on a physical or a virtual server. The server configuration will depend on the size of your organization in the Microsoft 365 service. Check the [Sizing ](sizing/)section for the requirements for your KODO for Cloud server.  
+KODO for Cloud server is supported on the CentOS 8.x or RHEL 8.x operating system. The operating system can be installed on a physical or a virtual server. The server configuration will depend on the size of your organization in the Microsoft 365 service. Check the [Sizing ](sizing/)section for the requirements for your KODO for Cloud server.  
 
 {% hint style="danger" %}
 If KODO for Cloud is to be installed on a virtual machine in VMware vSphere hypervisor in version 6.7 and above, make sure that **Secure Boot** is disabled in the virtual machine's **Boot Options**.
@@ -39,7 +29,7 @@ Use LVM device-mapper as a filesystem, that allows users to expand disk space if
 {% endhint %}
 
 {% hint style="info" %}
- TCP **port** 8181 is the standard TCP port ****that is used for website which uses SSL. TCP port 8181 is used to communicate with the KODO for Cloud server UI.
+ TCP **port 443** is the standard TCP port ****that is used for website which uses SSL. TCP port 443 is used to communicate with the KODO for Cloud server UI.
 {% endhint %}
 
 

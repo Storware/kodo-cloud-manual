@@ -27,7 +27,7 @@ KODO Cloud agent can be multiplied for better backup/restore performance
 
 ### KODO DB \(MariaDB\) 
 
-* Internal KODO database \(backup catalog\) for keeping all metadata for protected users. 
+* Internal KODO database \(backup catalog\) for keeping all metadata for protected users data. 
 
 ### Backup Storage
 

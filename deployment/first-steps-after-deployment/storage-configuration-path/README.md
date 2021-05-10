@@ -1,6 +1,6 @@
 # Storage configuration path
 
-After KODO for Cloud server was successfully installed, you can proceed with storage configuration to define a backup storage destination.
+After KODO for Cloud server was successfully installed, you can proceed with storage configuration.  to define a backup storage destination and n
 
 In the first step it's required to configure the following system assets:
 

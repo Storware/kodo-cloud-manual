@@ -1,22 +1,22 @@
 # Main Features
 
-KODO for Cloud server is capable to protect users' data from the Microsoft 365 service in a very efficient way. 
+KODO for Cloud server is capable to protect users's data from the Microsoft 365 service in a very efficient way. 
 
 KODO for Cloud server has the following features implemented: 
 
-* Full and incremental forever backup for Microsoft 365 service 
-* Flexible restore: back to Microsoft 365 service or via web UI to a local PC/laptop
-* Individual object-level recovery \(OneDrive files, Exchange Online mailboxes, Contacts, Calendars, Exchange Archive mailboxes, and SharePoint items\)
-* Multi cloud agent support for better scalability or geographically dispersed environments
+* Full & Incremental forever Microsoft 365 backup 
+* Flexible restore: to the cloud or directly via web UI to local PC
+* Individual object-level recovery \(OneDrive files, Exchange Online mailboxes, Contacts, Calendars, Exchange Archive mailboxes, and SharePoint items \)
+* Multi-agent support for better scalability or geographically dispersed environments
 * The ability to process concurrent Microsoft 365 accounts 
 * Intelligent handling Microsoft 365 throttling & resource limits outage control
 * Data owner e-mail notifications during restore by downloading data
 * Auto-assign accounts to the backup policy for full  backups
 * Option to create multiple policies with custom retentions 
 * Option to add multiple Microsoft 365 tenants into a single KODO organization 
-* Multi-tenancy mode \(multiple KODO organizations\) with a billing feature for large enterprises or Manage Service Providers \(backup as a service offer\) 
+* Multi-tenancy mode \(multiple KODO organizations\) with a billing feature for large enterprises or Manage Service Providers \(backup as a service offering\)
 * File-based backup repository
-* Built-in data deduplication option  with Virtual Data Optimizer \(VDO\)
+* Built-in data deduplication with Virtual Data Optimizer \(VDO\)
 * NFS support for the backup repository
 * Easy to use and modern management \(HTML5 web UI and CLI\)
 * Open API for 3rd party software integration \(REST API\)
