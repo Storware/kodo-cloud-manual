@@ -71,6 +71,7 @@
     * [Settings](administration/organizations-kodoadmin-dashboard-only/settings/README.md)
       * [KODO Admin](administration/organizations-kodoadmin-dashboard-only/settings/kodo-admin.md)
       * [Organization Admin](administration/organizations-kodoadmin-dashboard-only/settings/organization-admin.md)
+  * [Upgrade](administration/upgrade.md)
   * [Common problems](administration/common-problems.md)
 * [Troubleshooting](troubleshooting/README.md)
   * [Changing the logging level in KODO for Cloud](troubleshooting/how-to-enable-kodo-for-cloud-debug-mode.md)
