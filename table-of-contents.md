@@ -27,7 +27,7 @@
     * [Creating the account for shared mailboxes protection](deployment/common-tasks/)
     * [Increase the EWS throttling policy limits in Exchange Online \(Microsoft 365\)](deployment/common-tasks/increase-the-ews-throttling-policy-limits-in-exchange-online-microsoft-365.md)
   * [Microsoft 365 Organization Management](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/deployment/microsoft-365-organization-management/README.md)
-    * [Adding Microsoft 365 Organization](first-steps-after-deployment/microsoft-365-organization-management/microsoft-365-organization-management.md)
+    * [Adding Microsoft 365 Organization](deployment/first-steps-after-deployment/microsoft-365-organization-management/microsoft-365-organization-management.md)
     * [Synchronizing users](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/deployment/adding-microsoft-office365-tenant/synchronizing-users.md)
 * [Administration](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/administration/README.md)
   * [Dashboard](administration/dashboard.md)

@@ -13,7 +13,7 @@ When the system platform is ready for KODO deployment do as follow:
 3. Setup settings in [KODO Admin](../administration/organizations-kodoadmin-dashboard-only/settings/kodo-admin.md) panel:
    * Email information
    * License information 
-4. Add and verify [Microsoft 365 organization](../first-steps-after-deployment/microsoft-365-organization-management/):
+4. Add and verify [Microsoft 365 organization](first-steps-after-deployment/microsoft-365-organization-management/):
    * synchronize users
    * synchronize sites
    * create a data policy and assign users and/or sites

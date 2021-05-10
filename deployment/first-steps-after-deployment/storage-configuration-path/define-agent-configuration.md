@@ -6,7 +6,7 @@ Go to the **Agent Config** menu and click **Add Agent Config** button.
 
 Enter the Agent Configuration name and select the storage type.
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../../.gitbook/assets/image%20%2811%29.png)
 
 You can assign all defined storage types to the one agent configuration. Click the **Save** button to finish.
 

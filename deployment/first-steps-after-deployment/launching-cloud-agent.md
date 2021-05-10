@@ -4,7 +4,7 @@ After the license is added, you have to go to the Agents menu and launch the clo
 
 To launch the agent go to the **Options** menu and click the **Play** button.
 
-![](../.gitbook/assets/agent-01.png)
+![](../../.gitbook/assets/agent-01.png)
 
 Now the activity status in the **Active** column should be changed from **No** to **Yes**. 
 
