@@ -1,4 +1,4 @@
-# KODO for Cloud supported features matrix
+# KODO for Cloud Support Matrix
 
 KODO for Cloud supports backups and restores of Microsoft 365 services. 
 
@@ -26,11 +26,11 @@ KODO for Cloud supports backups and restores of Microsoft 365 services.
       </td>
       <td style="text-align:left">
         <ul>
-          <li>to the cloud or direct restore via web UI</li>
+          <li>restore back to Microsoft 365 service or via web UI to a local PC/laptop</li>
           <li>individual object-level recovery</li>
           <li>to the same account and a different path/folder</li>
           <li>to another account and a different path/folder</li>
-          <li>overwrite option</li>
+          <li>the overwrite option</li>
         </ul>
       </td>
     </tr>
@@ -44,16 +44,16 @@ KODO for Cloud supports backups and restores of Microsoft 365 services.
       </td>
       <td style="text-align:left">
         <ul>
-          <li>to the cloud or direct restore via web UI</li>
+          <li>restore back to Microsoft 365 service or via web UI to a local PC/laptop</li>
           <li>individual object-level recovery</li>
           <li>to the same account and a different path/folder</li>
           <li>to another account and a different path/folder</li>
-          <li>overwrite option</li>
+          <li>the overwrite option</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Sharepoint</td>
+      <td style="text-align:left">Sharepoint Online</td>
       <td style="text-align:left">
         <ul>
           <li>Sites</li>
@@ -65,13 +65,19 @@ KODO for Cloud supports backups and restores of Microsoft 365 services.
       </td>
       <td style="text-align:left">
         <ul>
+          <li>restore back to Microsoft 365 service or via web UI to a local PC/laptop</li>
           <li>to the cloud or direct restore via web UI</li>
           <li>individual object-level recovery</li>
           <li>to the same account and different path/folder</li>
-          <li>overwrite option</li>
+          <li>the overwrite option</li>
         </ul>
         <p></p>
       </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>
