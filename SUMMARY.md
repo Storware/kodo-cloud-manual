@@ -7,7 +7,7 @@
   * [Licensing](overview/licensing.md)
   * [Main Features](overview/main-features.md)
 * [Planning](planning/README.md)
-  * [KODO for Cloud supported features matrix](planning/kodo-for-cloud-support-matrix.md)
+  * [KODO for Cloud Support Matrix](planning/kodo-for-cloud-support-matrix.md)
   * [Platform Requirements](planning/system-requirements.md)
   * [Backup Storage](planning/backup-storage.md)
   * [Multi-tenancy](planning/multitenancy-mode.md)
