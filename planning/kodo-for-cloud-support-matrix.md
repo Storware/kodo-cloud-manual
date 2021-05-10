@@ -26,7 +26,7 @@ KODO for Cloud supports backups and restores of Microsoft 365 services.
       </td>
       <td style="text-align:left">
         <ul>
-          <li>back to Microsoft 365 service or restore via web UI to a local PC/laptop</li>
+          <li>restore back to Microsoft 365 service or via web UI to a local PC/laptop</li>
           <li>individual object-level recovery</li>
           <li>to the same account and a different path/folder</li>
           <li>to another account and a different path/folder</li>
