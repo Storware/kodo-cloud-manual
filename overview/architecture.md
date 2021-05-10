@@ -10,6 +10,15 @@ Use KODO for Cloud to back up and restore your data from your Microsoft 365. You
 
 ![](../.gitbook/assets/kodo-for-cloud-detailed-architecture.png)
 
+
+
+KODO for Cloud consists of 2 main components:
+
+* **KODO server** - central point of management, provides administrative Web UI, APIs and is a central repository of metadata.
+* **KODO cloud agent** - data mover that performs backups and restores :
+  * you can have multiple nodes,
+  * all nodes are managed by the server and need to be registered to the server.
+
 ### KODO Cloud agent \(backup agent\)
 
 This server component does the following:
