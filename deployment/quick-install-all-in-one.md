@@ -8,9 +8,9 @@ Installation on the **RHEL** platform requires an active Red Hat subscription.
 
 Before you start the installation process please do the following tasks:
 
-* Add a disk device \(to store backup data\) to your OS platform. 
+* Add a disk device \(for storing backup data\) to your OS platform. 
 * Log in as **root** user over **SSH** to the machine you want to install KODO for Cloud server.
-* Run `lsblk` command to check the system name for the disk you will use as the storage destination.  
+* Run `lsblk` command to check the system name for the disk you will use as a storage destination.  
 
 ```text
 [root@localhost ~]# lsblk
@@ -35,7 +35,7 @@ Now the OS platform is ready to deploy KODO for Cloud server.  If you plan to us
 Installation on the **RHEL** platform requires an active Red Hat subscription.
 {% endhint %}
 
-To start the deployment copy-and-paste this command and press ENTER:
+To start KODO for Cloud server deployment, copy-and-paste this command and press ENTER:
 
 ```text
 # bash < <(curl -s http://repo.storware.eu/kodo-cloud/kodo-cloud-local-install.sh)
@@ -67,7 +67,17 @@ You can also use the command below to check KODO for Cloud server version:
 
 ```text
 # curl -k https://localhost:8181/api/version
+# {"value":"4.2.0-17.el8"}
 ```
 
-If the KODO service is up and running you should be able to log in to KODO for Cloud using your browser and the address `https://IP_OF_YOUR_MACHINE:8181`
+If the KODO server is up and running, you should be able to log in to KODO for Cloud using your browser, and the address `https://IP_OF_YOUR_MACHINE:8181`
+
+{% hint style="info" %}
+Kodo for Cloud has one global admin account \(for organizations management\) and one account in the default organization:
+
+* Kodo admin \(global admin\): `kodoadmin` with password `Kodo@dm1n`
+* Default organization admin: `admin` with password `Kodo@dm1n`
+{% endhint %}
+
+
 

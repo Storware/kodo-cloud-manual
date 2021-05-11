@@ -1,15 +1,21 @@
 # Virtual Appliance \(VMware\)
 
-## How to access the Virtual Appliance
+## Access to the virtual appliance
 
-You can download the KODO for virtual appliance from the following link:
+A preconfigured virtual machine appliance in the OVA format is ready to deploy on any VMware virtual environment in version 6.5 or above. 
 
-[ftp://kodo4cloud@ftp.storware.eu/](ftp://kodo4cloud@ftp.storware.eu/)
+You can download KODO for Cloud virtual appliance from the following link:
+
+[ftp://ftp.storware.eu/](ftp://kodo4cloud@ftp.storware.eu/)
 
 **Login:** kodo4cloud  
 **Password:** sEkQsrdsr98Q
 
+If you successfully downloaded the OVA file, please deploy it in your virtual environment. The IP address is assigned automatically by DHCP protocol. 
+
 ## Logging into the virtual appliance
+
+
 
 Use the credentials listed below to log in to the system:
 
@@ -19,7 +25,7 @@ Use the credentials listed below to log in to the system:
 
 
 {% hint style="warning" %}
-### NOTE: FOR SECURITY REASONS PLEASE CHANGE PASSWORD AFTER THE FIRST LOGIN TO THE SYSTEM.
+### NOTE: FOR SECURITY REASONS PLEASE CHANGE THE PASSWORD AFTER THE FIRST LOGIN TO THE SYSTEM.
 {% endhint %}
 
 Use `passwd` command to change the password for **kodo** user
@@ -39,7 +45,7 @@ Retype New Password:
 
 ## Setting up the network configuration
 
-The next step is to configure the network connection. To do this you will need to edit the network configuration file. The default configuration will try to assign IP address from DHCP server.
+The next step is to configure the network connection. To do this you will need to edit the network configuration file. The default configuration will assign an IP address from DHCP server.
 
 Use `sudo` command to run a shell with root privileges:
 
@@ -114,6 +120,13 @@ The final step is to restart the network configuration.  Use the following comma
 Now you should be able to log into the web console using the URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST`is the hostname or IP address of your Kodo for Cloud server. 
 
 ```text
-https://KODO_SERVER_HOST:8181
+https://KODO_SERVER_HOST_IP:8181
 ```
+
+{% hint style="info" %}
+Kodo for Cloud has one global admin account \(for organizations management\) and one account in the default organization:
+
+* Kodo admin \(global admin\): `kodoadmin` with password `Kodo@dm1n`
+* Default organization admin: `admin` with password `Kodo@dm1n`
+{% endhint %}
 

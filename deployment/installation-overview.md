@@ -19,7 +19,6 @@ When the system platform is ready for KODO deployment do as follow:
    * create a data policy and assign users and/or sites
    * create a job  and select users and/or sites
 5. Test basic backup & recovery operations to verify that the installation is completed:
-
    * [Backup](../administration/data-backup/on-demand-backup.md)​ 
    * [Restore](../administration/data-restore/) 
 
