@@ -16,7 +16,7 @@
     * [Very large Microsoft 365 organization](planning/sizing/very-large.md)
 * [Deployment](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/deployment/README.md)
   * [Installation Overview](deployment/installation-overview.md)
-  * [Backup and staging space configuration](deployment/staging-space-and-backup-destination-configuration.md)
+  * [Backup and staging space configuration](deployment/staging-space-and-backup-destination-configuration/)
   * [Quick Install \(All-In-One\)](deployment/quick-install-all-in-one.md)
   * [Installation using Ansible playbook](deployment/installation-using-ansible-playbook.md)
   * [Installation with RPMs](deployment/installation-with-rpms.md)
@@ -57,6 +57,6 @@
 * [Troubleshooting](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/troubleshooting/README.md)
   * [Changing the logging level in KODO for Cloud](troubleshooting/how-to-enable-kodo-for-cloud-debug-mode.md)
   * [Collecting logs](troubleshooting/collecting-logs.md)
-* [Integration](integration.md)
+* [Integration]()
 * [Known software issues and limitations](known-software-issues-and-limitations.md)
 

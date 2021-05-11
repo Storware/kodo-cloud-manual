@@ -37,7 +37,7 @@ Use LVM device-mapper as a filesystem, that allows users to expand disk space if
 {% endhint %}
 
 {% hint style="info" %}
- TCP **port** 8181 is the standard TCP port ****that is used for website which uses SSL. TCP port 8181 is used to communicate with the KODO for Cloud server UI.
+TCP **port** 8181 is the standard TCP port ****that is used for website which uses SSL. TCP port 8181 is used to communicate with the KODO for Cloud server UI.
 {% endhint %}
 
 

@@ -4,23 +4,21 @@ KODO for Cloud server is licensed per number of protected user accounts in the M
 
 {% hint style="info" %}
 The license price does not depend on the number of organizations or tenants you want to configure in KODO for Cloud server. 
+
+There is an option to buy additional years of support and subscription by contacting our sales team at: [globalsales@storware.eu](mailto:globalsales@storware.eu).
 {% endhint %}
 
-{% hint style="info" %}
- There is an option to buy additional years of support and subscription by contacting our sales team at: [globalsales@storware.eu](mailto:globalsales@storware.eu).
-{% endhint %}
-
-## **Models- choose the model you want to pay for to achieve the best ROI:**
+## **Licensing models- choose the one you want to pay for to achieve the best ROI:**
 
  **Monthly subscription**  
   
-What fits Microsoft 365 licensing model best is the monthly payment model. You may decide to choose the number of months or Pay as You Grow. 
+What fits Microsoft 365 licensing model best is the monthly payment model. You may decide to choose the number of months or "Pay as You Grow". 
 
 {% hint style="info" %}
- The minimum number of months you buying a license for is **12**
+ The minimum number of subscription months you have to purchase in the license is **12**
 {% endhint %}
 
-Of course, there is an option to buy additional months of support and subscription by contacting our sales team at: [globalsales@storware.eu](mailto:globalsales@storware.eu) or visiting our website: [https://storware.eu/products](https://storware.eu/products) and use proper product and forms.
+There is an option to buy additional months of support and subscription by contacting our sales team at: [globalsales@storware.eu](mailto:globalsales@storware.eu) or visiting our website at: [https://storware.eu/products](https://storware.eu/products) and use proper product and forms.
 
 **Perpetual license**
 
@@ -30,9 +28,7 @@ The second choice is to purchase a perpetual license \(1 Year Subscription and S
 
 Currently, there's only one support level with the following SLA: 
 
-**TITANIUM**
-
-             - 7 days per week x 24 hours 
+            - 7 days per week x 24 hours 
 
 For more information please go to [https://storware.eu/faq/](https://storware.eu/faq/)
 
