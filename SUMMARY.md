@@ -20,6 +20,7 @@
   * [Installation Overview](deployment/installation-overview.md)
   * [Backup destinations](deployment/staging-space-and-backup-destination-configuration/README.md)
     * [Filesytem](deployment/staging-space-and-backup-destination-configuration/untitled/README.md)
+      * [Virtual Data Optimizer \(VDO\)](deployment/staging-space-and-backup-destination-configuration/untitled/virtual-data-optimizer-vdo.md)
       * [Regular filesystem](deployment/staging-space-and-backup-destination-configuration/untitled/regular-filesystem.md)
     * [Microsoft Azure Blob Storage](deployment/staging-space-and-backup-destination-configuration/microsoft-azure-blob-storage.md)
   * [Quick Install \(All-In-One\)](deployment/quick-install-all-in-one.md)

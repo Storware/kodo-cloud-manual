@@ -15,62 +15,9 @@ VDO operates at the Linux block layer. This allows delivering benefits to local 
 
 The amount of data reduction you will see with VDO will vary depending on the type of data being stored and the workflow that creates and stores the data. Already compressed data types such as video or audio files will not benefit from this technology, but online backups, virtual machines, and container deployments will see substantial benefits. It is not uncommon for users to report 6:1 data reduction rates in the mixed container and VM environments using deduplication and compression technologies such as those provided by VDO.
 
-KODO for Cloud requires staging destination configured on a local filesystem. During installation process  `/kodo_data/staging`directory is created by default. 
+KODO for Cloud requires staging destination configured on a local filesystem. The `/kodo_data/staging`directory is created during the installation process by default. 
 
-## Deduplication \(VDO- Virtual Data Optimizer\) setup
-
- VDO is the software that provides inline block-level **deduplication**, compression, and thin provisioning capabilities for primary storage.
-
-If you plan to use VDO deduplication for storing your backups, do as follow: 
-
-* Add a disk device to your OS platform. 
-* Run `lsblk` command to check the system name for the disk you will use as the storage destination.  
-
-```text
-[root@localhost ~]# lsblk
-NAME              MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
-sda                 8:0    0   50G  0 disk
-├─sda1              8:1    0  600M  0 part /boot/efi
-├─sda2              8:2    0    1G  0 part /boot
-└─sda3              8:3    0 18.4G  0 part
-  ├─vg_os-lv_root 253:0    0 16.4G  0 lvm  /
-  └─vg_os-lv_swap 253:1    0    2G  0 lvm  [SWAP]
-sdb                 8:16   0  500G  0 disk
-sr0                11:0    1  6.7G  0 rom
-```
-
-* Install VDO device-mapper driver
-
-```text
-# yum -y install vdo
-```
-
-* Reboot your OS platform to load VDO into the system kernel. Run `lsmod |grep vdo` command to make sure the VDO is loaded. 
-
-```text
-[root@localhost ~]# lsmod |grep vdo
-kvdo                  581632  1
-uds                   253952  1 kvdo
-dm_mod                151552  13 kvdo,dm_log,dm_mirror,dm_bufio
-```
-
-* Start and enable VDO device-mapper
-
-```text
-# systemctl start vdo
-# systemctl enable vdo
-```
-
-* Create a VDO device on top of your physical block device:
-  * let's assume it is `/dev/sdb`
-  * we estimate by default the logical size of the VDO device to be 3 times the size of your physical device, so in this example, for 1 TB physical size, we can try with 3 TB logical size
-  * if the block device is larger than 16 TB, add the `--vdoSlabSize=32G` parameter at the end to increase the slab size on the volume to 32 GB.
-
-```text
-# vdo create --name=kodo --device=/dev/sdb --vdoLogicalSize=3T
-```
-
-* Now proceed with steps described in the **Preparing file system** section below - use the block device name `/dev/sdb`  or  `/dev/mapper/kodo` if VDO is used.
+## 
 
 ## Preparing a file system
 
