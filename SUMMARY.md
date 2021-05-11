@@ -32,7 +32,7 @@
     * [Adding the KODO license](deployment/first-steps-after-deployment/adding-license.md)
     * [Launching the cloud agent](deployment/first-steps-after-deployment/launching-cloud-agent.md)
     * [Storage configuration path](deployment/first-steps-after-deployment/storage-configuration-path/README.md)
-      * [Define storage type for backup destination](deployment/first-steps-after-deployment/storage-configuration-path/define-storage-type.md)
+      * [Define storage type for a backup destination](deployment/first-steps-after-deployment/storage-configuration-path/define-storage-type.md)
       * [Define agent configuration](deployment/first-steps-after-deployment/storage-configuration-path/define-agent-configuration.md)
       * [Assign the agent config to the agent](deployment/first-steps-after-deployment/storage-configuration-path/assign-a-storage-config-to-the-agent.md)
       * [Assign the agent config to the organization](deployment/first-steps-after-deployment/storage-configuration-path/assign-the-agent-config-to-the-organization.md)

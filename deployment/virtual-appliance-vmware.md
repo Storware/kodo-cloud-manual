@@ -2,7 +2,7 @@
 
 ## Access to the virtual appliance
 
-A preconfigured virtual machine appliance in the OVA format is ready to deploy on  theVMware virtual environment in version 6.5 or above. 
+A preconfigured virtual machine appliance in the OVA format is ready to deploy in VMware virtual environment in version 6.5 or above. 
 
 You can download KODO for Cloud virtual appliance from the following link:
 
@@ -11,18 +11,20 @@ You can download KODO for Cloud virtual appliance from the following link:
 **Login:** kodo4cloud  
 **Password:** sEkQsrdsr98Q
 
-If you successfully downloaded the OVA file, please deploy it in your virtual environment. The IP address is assigned automatically by DHCP protocol. 
+If you successfully downloaded the OVA file, please deploy it in your virtual environment. The network card IP address is assigned automatically by DHCP protocol.
+
+The virtual machine was configured with the following settings:
+
+* 4 vCPUs
+* 16 GB RAM
+* 1 TB backup storage space \(logically it is 3 TB of storage space with the VDO option\)
 
 ## Logging into the virtual appliance
 
-
-
-Use the credentials listed below to log in to the system:
+Once the virtual machine is up and running the credentials listed below to log into the system:
 
 > **Login:** kodo  
 > **Password:** Zt3edWny
-
-
 
 {% hint style="warning" %}
 ### NOTE: FOR SECURITY REASONS PLEASE CHANGE THE PASSWORD AFTER THE FIRST LOGIN TO THE SYSTEM.
