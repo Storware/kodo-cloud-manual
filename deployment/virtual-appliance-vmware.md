@@ -2,7 +2,7 @@
 
 ## Access to the virtual appliance
 
-A preconfigured virtual machine appliance in the OVA format is ready to deploy on any VMware virtual environment in version 6.5 or above. 
+A preconfigured virtual machine appliance in the OVA format is ready to deploy on  theVMware virtual environment in version 6.5 or above. 
 
 You can download KODO for Cloud virtual appliance from the following link:
 

@@ -4,7 +4,7 @@ Log into the Kodoadmin dashboard as `kodadmin`  and go to the Storage menu.
 
 Click the **Add Storage** button to configure a destination location for backup. You can define storage from two available types: FILE SYSTEM or AZURE BLOB.
 
-If you select **FILE SYSTEM** as the storage type, you have to assign a name to and enter a valid storage path.
+If you select **FILE SYSTEM** as the storage type, you have to assign a name to and enter a valid storage path \( it can be a regular filesystem or a VDO device\).
 
 ![](../../../.gitbook/assets/kodoadmin-storage-02%20%281%29.png)
 
