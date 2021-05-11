@@ -8,9 +8,9 @@ In[ Support Matrix](kodo-for-cloud-support-matrix.md) section you can check supp
 
 [Platform Requirements](system-requirements.md) section presents what are hardware and software requirements needed to run KODO for Cloud components.
 
-[Backup Storage](backup-storage.md)
+[Backup Storage]()
 
 In [Sizing]() section we present key information that you need to collect before installing vProtect.
 
-This section contains information related to KODO for Cloud Support Matrix, [Platform Requirements](system-requirements.md), [Backup Storage](backup-storage.md), [Multitenancy Mode](multitenancy-mode.md), and [Sizing](sizing/). 
+This section contains information related to KODO for Cloud Support Matrix, [Platform Requirements](system-requirements.md), [Backup Storage](), [Multitenancy Mode](multitenancy-mode.md), and [Sizing](sizing/). 
 

@@ -7,7 +7,7 @@
 * [Planning](planning/)
   * [KODO for Cloud Support Matrix](planning/kodo-for-cloud-support-matrix.md)
   * [Platform Requirements](planning/system-requirements.md)
-  * [Backup storage](planning/backup-storage.md)
+  * [Backup storage]()
   * [Multi-tenancy](planning/multitenancy-mode.md)
   * [Sizing](planning/sizing/)
     * [Small Microsoft 365 organization](planning/sizing/small.md)
