@@ -159,7 +159,7 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    #systemctl enable cloud-agent-voyager
    ```
 
-4. Now you should be able to log in to KODO for Cloud using `https://IP_OF_YOUR_MACHINE`
+4. Now you should be able to log in to KODO for Cloud using `https://IP_OF_YOUR_MACHINE:8181`
 
 
 
