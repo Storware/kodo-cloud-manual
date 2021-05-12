@@ -24,7 +24,7 @@ Before starting the installation process you need to prepare your server platfor
    gpgcheck=0
    ```
 
-   * optionally  `current` can also be pointed to the specific version, e.g. `4.0` \(not the one that is always up to date\), e.g.`http://repo.storware.eu/kodo-cloud/4.0/el8`
+   * optionally  `current` can also be pointed to the specific version, e.g. `4.2` \(not the one that is always up to date\), e.g.`http://repo.storware.eu/kodo-cloud/4.2/el8`
 
 4. Install MariaDB repository:
    * generate.repo file at [MariaDB download](https://downloads.mariadb.org/mariadb/repositories) site:
