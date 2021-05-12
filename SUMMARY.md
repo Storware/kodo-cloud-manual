@@ -17,7 +17,7 @@
     * [Very large Microsoft 365 organization](planning/sizing/very-large.md)
 * [Deployment](deployment/README.md)
   * [Installation Overview](deployment/installation-overview.md)
-  * [Administration access levels](deployment/administration-levels.md)
+  * [Administration access levels](deployment/administration-access-levels.md)
   * [Quick Install \(All-In-One\)](deployment/quick-install-all-in-one.md)
   * [Installation using Ansible playbook](deployment/installation-using-ansible-playbook.md)
   * [Installation with RPMs](deployment/installation-with-rpms.md)

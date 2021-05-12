@@ -21,7 +21,7 @@
   * [Installation with RPMs](deployment/installation-with-rpms.md)
   * [Virtual Appliance \(VMware\)](deployment/virtual-appliance-vmware.md)
   * [Cloud Agent](deployment/cloud-agent.md)
-  * [Administration levels](deployment/administration-levels.md)
+  * [Administration levels](deployment/administration-access-levels.md)
   * [Common tasks](deployment/common-tasks/)
     * [Creating the account for shared mailboxes protection](deployment/common-tasks/)
     * [Increase the EWS throttling policy limits in Exchange Online \(Microsoft 365\)](deployment/common-tasks/increase-the-ews-throttling-policy-limits-in-exchange-online-microsoft-365.md)
