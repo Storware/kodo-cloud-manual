@@ -106,5 +106,5 @@ dm_mod                151552  13 kvdo,dm_log,dm_mirror,dm_bufio
   # mkdir -p /kodo_data/backup
   ```
 
-The directories are prepared to store backup data. After KODO for Cloud server is installed, the owner and permissions to that folders should be set, which is described in the chapter.... 
+The directories are prepared to store backup data. After KODO for Cloud server is installed, the owner and permissions to that folders should be set, which is described in the chapter [Storage configuration path](../../first-steps-after-deployment/storage-configuration-path/).
 
