@@ -1,6 +1,6 @@
-# Administration levels
+# Administration access levels
 
-KODO system has two administration levels implemented by default: 
+KODO system has two administration access levels implemented by default: 
 
 * **KODO administration level** - accessed through KODO Admin Portal
 * **KODO organization administration level** - accessed through KODO organization portal
@@ -34,7 +34,7 @@ By logging into KODO organization portal as the organization administrator you a
 * Policies
 * Settings
 
-### 
-
 The default organization is named **My organization** and it is created during  KODO for Cloud server installation.
+
+The credentials will be needed later on to log in to KODO for Cloud server.
 

@@ -35,7 +35,7 @@ For the small Microsoft 365 organization \(up to 50 users\) the following system
 </table>
 
 {% hint style="danger" %}
-
+You can check the current storage usage of your Microsoft 365 organization by log in to the following URL as the administrator user of your organization:
 
 [https://admin.microsoft.com/Adminportal/Home/\#/reportsUsage](https://admin.microsoft.com/Adminportal/Home/#/reportsUsage)
 {% endhint %}
