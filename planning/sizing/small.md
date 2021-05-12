@@ -34,6 +34,10 @@ For the small Microsoft 365 organization \(up to 50 users\) the following system
   </tbody>
 </table>
 
+{% hint style="danger" %}
+[https://admin.microsoft.com/Adminportal/Home/\#/reportsUsage](https://admin.microsoft.com/Adminportal/Home/#/reportsUsage)
+{% endhint %}
+
 It's recommended to configure all disks as LVM devices just to be able to extend their capacity if needed.  
 
 Now you can to the [Deployment](../../deployment/) chapter to choose KODO for Cloud server installation type or go to the next chapter [Medium Microsoft 365 organization](medium.md).
