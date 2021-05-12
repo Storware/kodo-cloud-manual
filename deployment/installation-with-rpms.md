@@ -119,13 +119,22 @@ KODO for Cloud consists of the server \(central management point with web UI\) a
 
 Kodo Cloud Agent is the component that performs backup/restore tasks. Install it on the same host as the server.
 
-1. Install Cloud Agent using YUM command:
+1. Install the libunwind packe
+2. Install Cloud Agent using YUM command:
 
    ```text
    #yum -y install kodo-cloud-agent
    ```
 
-2. Register agent to the server with `AGENT_NAME` of your choice, to the server `ADMIN_USER` user name which you would like to use and URL to Kodo for Cloud API and provide a password when prompted.
+   1. 
+
+3. Install Cloud Agent using YUM command:
+
+   ```text
+   #yum -y install kodo-cloud-agent
+   ```
+
+4. Register agent to the server with `AGENT_NAME` of your choice, to the server `ADMIN_USER` user name which you would like to use and URL to Kodo for Cloud API and provide a password when prompted.
 
    * syntax:
 
@@ -139,7 +148,7 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    #/opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager
    ```
 
-3. Start and enable Kodo Cloud Agent service using agent name at the end of service name \).
+5. Start and enable Kodo Cloud Agent service using agent name at the end of service name \).
 
    * syntax:
 
@@ -155,7 +164,7 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    #systemctl enable cloud-agent-voyager
    ```
 
-4. Now you should be able to log in to KODO for Cloud using `https://IP_OF_YOUR_MACHINE:8181`
+6. Now you should be able to log in to KODO for Cloud using `https://IP_OF_YOUR_MACHINE:8181`
 
 {% hint style="info" %}
 KODO for Cloud server credentials are described in the chapter [Administration access levels](administration-access-levels.md)

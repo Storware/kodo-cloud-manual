@@ -1,6 +1,6 @@
 # Virtual Appliance \(VMware\)
 
-## Access to the virtual appliance
+## The access to the virtual appliance
 
 A preconfigured virtual machine appliance in the OVA format is ready to deploy in VMware virtual environment in version 6.5 or above. 
 
@@ -47,7 +47,7 @@ Retype New Password:
 
 ## Setting up the network configuration
 
-The next step is to configure the network connection. To do this you will need to edit the network configuration file. The default configuration will assign an IP address from DHCP server.
+The next step is to configure the network connection. To do this you will need to edit the network configuration file. The default configuration will assign an IP address from the DHCP server.
 
 Use `sudo` command to run a shell with root privileges:
 
@@ -126,9 +126,6 @@ https://KODO_SERVER_HOST_IP:8181
 ```
 
 {% hint style="info" %}
-Kodo for Cloud has one global admin account \(for organizations management\) and one account in the default organization:
-
-* Kodo admin \(global admin\): `kodoadmin` with password `Kodo@dm1n`
-* Default organization admin: `admin` with password `Kodo@dm1n`
+KODO for Cloud server credentials are described in the chapter [Administration access levels](administration-access-levels.md)
 {% endhint %}
 
