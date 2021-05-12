@@ -28,7 +28,7 @@
       * [Virtual Data Optimizer \(VDO\)](deployment/backup-destination-configuration/filesystem/virtual-data-optimizer-vdo.md)
     * [Microsoft Azure Blob Storage](deployment/backup-destination-configuration/microsoft-azure-blob-storage.md)
   * [Cloud Agent](deployment/cloud-agent.md)
-  * [First steps after deployment](deployment/first-steps-after-deployment/README.md)
+  * [First steps after the deployment](deployment/first-steps-after-deployment/README.md)
     * [Adding the KODO license](deployment/first-steps-after-deployment/adding-license.md)
     * [Launching the cloud agent](deployment/first-steps-after-deployment/launching-cloud-agent.md)
     * [Storage configuration path](deployment/first-steps-after-deployment/storage-configuration-path/README.md)
