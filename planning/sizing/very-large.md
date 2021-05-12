@@ -1,4 +1,4 @@
-# Very large Microsoft  365 organization
+# Very large Microsoft 365 organization
 
 For a very large Microsoft 365 organization \(1000+ users\) the following system configuration is recommended:
 

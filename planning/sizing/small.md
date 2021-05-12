@@ -1,4 +1,4 @@
-# Small Microsoft  365 organization
+# Small Microsoft 365 organization
 
 For the small Microsoft 365 organization \(up to 50 users\) the following system configuration is recommended:
 
@@ -20,7 +20,8 @@ For the small Microsoft 365 organization \(up to 50 users\) the following system
           <li>at least 30 GB disk for operating system binaries system</li>
           <li>at least 30 GB disk for database (/var/lib/mysql directory)</li>
           <li>at least 100 GB disk for KODO software (/opt/kodo-cloud directory)</li>
-          <li>storage space for backup (for a regular filesystem or the VDO device)</li>
+          <li>storage space for backup (to configure as a regular filesystem or the
+            VDO device)</li>
         </ul>
       </td>
       <td style="text-align:left">
