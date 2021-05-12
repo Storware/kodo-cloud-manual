@@ -4,7 +4,7 @@ KODO for Cloud server can be easily installed on a single box. It can be a physi
 
 When the system platform is ready for KODO deployment do as follow:
 
-1. Configure [backup and stage space.](./)
+1. Configure [backup and stage space.](staging-space-and-backup-destination-configuration/)
 2. Choose your installation path. You can choose one of the following options:
    * [​All-in-one quick installation​](quick-install-all-in-one.md)
    * ​[Installation using Ansible playbook​](installation-using-ansible-playbook.md)

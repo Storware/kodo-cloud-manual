@@ -32,5 +32,5 @@ For a medium Microsoft 365 organization \(from 51 to 250 users\) the following s
   </tbody>
 </table>
 
-
+Go to the [Deployment](../../deployment/) chapter to choose KODO for Cloud server installation type go to the next chapter [Large Microsoft 365 organization](large.md).
 
