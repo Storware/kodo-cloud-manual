@@ -35,6 +35,8 @@ For the small Microsoft 365 organization \(up to 50 users\) the following system
 </table>
 
 {% hint style="danger" %}
+
+
 [https://admin.microsoft.com/Adminportal/Home/\#/reportsUsage](https://admin.microsoft.com/Adminportal/Home/#/reportsUsage)
 {% endhint %}
 
