@@ -33,7 +33,7 @@ For a large Microsoft 365 organization \(from 251 to 1000 users\) the following 
   </tbody>
 </table>
 
-It's recommended to configure all disks as LVM disks just to be able to extend their capacity if needed.
+It's recommended to configure all disks as LVM devices just to be able to extend their capacity if needed. 
 
 Go to the [Deployment](../../deployment/) chapter to choose KODO for Cloud server installation type or go to the next chapter [Very large Microsoft 365 organization](very-large.md).
 
