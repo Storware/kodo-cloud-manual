@@ -122,10 +122,10 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
 1. Install the **libunwind** rpm package \(the package can be downloaded from the URL: [http://repo.storware.eu/kodo-cloud/current/el8.2/libunwind-1.3.1-3.el8.x86\_64.rpm](http://10.40.0.253/kodo-cloud/current/el8.2/libunwind-1.3.1-3.el8.x86_64.rpm)\). Upload the package to KOD server to a upload\_path of your choice.  
 
    ```text
-   #rpm -ivh  /upload_path/libunwind-1.3.1-3.el8.x86_64.rpm)
+   #rpm -ivh  /upload_path/libunwind-1.3.1-3.el8.x86_64.rpm
    ```
 
-2. Install Cloud Agent using YUM command:
+2. Install Cloud Agent using **yum**command:
 
    ```text
    #yum -y install kodo-cloud-agent
@@ -145,7 +145,7 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    #/opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager
    ```
 
-4. Start and enable Kodo Cloud Agent service using agent name at the end of service name \).
+4. Start and enable Kodo Cloud Agent service using agent name at the end of service name.
 
    * syntax:
 
