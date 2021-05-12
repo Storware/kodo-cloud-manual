@@ -2,7 +2,7 @@
 
 Before starting the installation process you need to prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the [Sizing](../planning/sizing/) chapter\).
 
-1. Configure a storage destination. Follow the instructions in [Backup and staging space configuration](staging-space-and-backup-destination-configuration/) chapter.
+1. Configure a storage destination. Follow the instructions in [Backup and staging space configuration](backup-destination-configuration/) chapter.
 2. Make sure your OS is up to date by the following command:
 
    ```text

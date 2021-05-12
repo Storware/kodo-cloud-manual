@@ -17,8 +17,9 @@ For a large Microsoft 365 organization \(from 251 to 1000 users\) the following 
         <ul>
           <li>at least 4 cores</li>
           <li>at least 24 GB RAM</li>
-          <li>at least 500 GB for database</li>
-          <li>at least 100 GB for /opt/kodo-cloud</li>
+          <li>at least 30 GB disk for operating system binaries</li>
+          <li>at least 500 GB for database (/var/lib/mysql directory)</li>
+          <li>at least 100 GB for KODO software (/opt/kodo-cloud directory)</li>
           <li>storage space for backup</li>
         </ul>
       </td>
@@ -31,6 +32,8 @@ For a large Microsoft 365 organization \(from 251 to 1000 users\) the following 
     </tr>
   </tbody>
 </table>
+
+It's recommended to configure all disks as LVM disks just to be able to extend their capacity if needed.
 
 Go to the [Deployment](../../deployment/) chapter to choose KODO for Cloud server installation type or go to the next chapter [Very large Microsoft 365 organization](very-large.md).
 

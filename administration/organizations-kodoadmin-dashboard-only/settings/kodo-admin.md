@@ -27,7 +27,7 @@ You have to add the email settings for KODO for Cloud server to be able to send 
 * **E-mail address** - the email address of the sender
 * **Login** - usually it's the same as the email address 
 * **Server address -** SMTP server IP name or address \(for Microsoft 365 service the server name is smtp.office365.com\), but you can use any other SMTP server.
-* **Port** -usually it's port 25 or 587.
+* **Port** - usually it's port 25 or 587.
 * **use SSL** - check it if you want to use SSL protocol.
 * **Password -** the password for the user provided in the  "**Login**" form.
 

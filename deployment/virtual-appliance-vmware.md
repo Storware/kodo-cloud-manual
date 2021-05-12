@@ -13,7 +13,7 @@ You can download KODO for Cloud virtual appliance from the following link:
 
 If you successfully downloaded the OVA file, please deploy it in your virtual environment. The network card IP address is assigned automatically by DHCP protocol.
 
-The virtual machine was configured with the following settings:
+The virtual machine was configured with the following parameters:
 
 * 4 vCPUs
 * 16 GB RAM
