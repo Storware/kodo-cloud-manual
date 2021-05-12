@@ -1,4 +1,4 @@
-# Microsoft 365 Organization Management
+# Microsoft 365 organization Management
 
 KODO for Cloud allows you to protect multiple Microsoft 365 organizations within a single server instance.
 

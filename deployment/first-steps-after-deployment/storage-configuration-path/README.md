@@ -12,7 +12,7 @@ and in the next steps do the following actions:
 * Assign defined agent config to the agent
 * Assign agent config\(s\) to defined KODO organization
 
- Now you can go to the next step and define the storage type for backup. 
+ Now you can go to the next chapter and define a storage type for a backup destination. 
 
 
 

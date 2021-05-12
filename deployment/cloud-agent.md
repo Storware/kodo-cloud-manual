@@ -51,3 +51,5 @@ You don't have to provide the SERVER\_HOST option if the cloud agent is installe
 
 3. Now you should be able to see the new entry in `Agents` section of web UI \([kodoadmin ](../administration/dashboard.md)dashboard\)
 
+
+

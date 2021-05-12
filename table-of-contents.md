@@ -8,26 +8,42 @@
   * [KODO for Cloud Support Matrix](planning/kodo-for-cloud-support-matrix.md)
   * [Platform Requirements](planning/system-requirements.md)
   * [Multi-tenancy](planning/multitenancy-mode.md)
-  * [Sizing](planning/sizing/)
+  * [Sizing Guide](planning/sizing/)
     * [Small Microsoft 365 organization](planning/sizing/small.md)
     * [Medium Microsoft 365 organization](planning/sizing/medium.md)
     * [Large Microsoft 365 organization](planning/sizing/large.md)
     * [Very large Microsoft 365 organization](planning/sizing/very-large.md)
 * [Deployment](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/deployment/README.md)
   * [Installation Overview](deployment/installation-overview.md)
-  * [Backup and staging space configuration](deployment/backup-destination-configuration/)
+  * [Administration access levels](deployment/administration-access-levels.md)
   * [Quick Install \(All-In-One\)](deployment/quick-install-all-in-one.md)
-  * [Installation using Ansible playbook](deployment/installation-using-ansible-playbook.md)
-  * [Installation with RPMs](deployment/installation-with-rpms.md)
+  * [Installation using the Ansible playbook](deployment/installation-using-ansible-playbook.md)
+  * [Installation with the RPMs](deployment/installation-with-rpms.md)
   * [Virtual Appliance \(VMware\)](deployment/virtual-appliance-vmware.md)
+  * Backup destinations
+    * Filesystem
+      * Regular filesystem
+      * Virtual Data Optimizer \(VDO\)
+    * MS Azure Blob Storage
   * [Cloud Agent](deployment/cloud-agent.md)
-  * [Administration levels](deployment/administration-access-levels.md)
-  * [Common tasks](deployment/common-tasks/)
-    * [Creating the account for shared mailboxes protection](deployment/common-tasks/)
-    * [Increase the EWS throttling policy limits in Exchange Online \(Microsoft 365\)](deployment/common-tasks/increase-the-ews-throttling-policy-limits-in-exchange-online-microsoft-365.md)
-  * [Microsoft 365 Organization Management](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/deployment/microsoft-365-organization-management/README.md)
-    * [Adding Microsoft 365 Organization](deployment/first-steps-after-deployment/microsoft-365-organization-management/microsoft-365-organization-management.md)
-    * [Synchronizing users](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/deployment/adding-microsoft-office365-tenant/synchronizing-users.md)
+  * First steps after the deployment
+    * Adding the KODO license
+    * Launching the cloud agent
+    * Storage configuration path
+      * Define a storage type for a backup destination
+      * Define agent configuration
+      * Assign the agent config to the agent
+      * Assign the agent config to the organization
+    * Mail server configuration
+    * Organization configuration
+    * Microsoft 365 organization Management
+    * * 
+* [Common tasks](glossary/common-tasks/)
+  * [Creating the account for shared mailboxes protection](glossary/common-tasks/)
+  * [Increase the EWS throttling policy limits in Exchange Online \(Microsoft 365\)](glossary/common-tasks/increase-the-ews-throttling-policy-limits-in-exchange-online-microsoft-365.md)
+* [Microsoft 365 Organization Management](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/deployment/microsoft-365-organization-management/README.md)
+  * [Adding Microsoft 365 Organization](deployment/first-steps-after-deployment/microsoft-365-organization-management/microsoft-365-organization-management.md)
+  * [Synchronizing users](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/deployment/adding-microsoft-office365-tenant/synchronizing-users.md)
 * [Administration](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/administration/README.md)
   * [Dashboard](administration/dashboard.md)
   * [Users](administration/users.md)

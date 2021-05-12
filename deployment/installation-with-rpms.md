@@ -1,4 +1,4 @@
-# Installation with RPMs
+# Installation with the RPMs
 
 Before starting the installation process you need to prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the [Sizing](../planning/sizing/) chapter\).
 
@@ -119,7 +119,7 @@ KODO for Cloud consists of the server \(central management point with web UI\) a
 
 Kodo Cloud Agent is the component that performs backup/restore tasks. Install it on the same host as the server.                                                                                                                               
 
-1. Install the **libunwind** rpm package  \(the package can be downloaded from the URL: [http://repo.storware.eu/kodo-cloud/current/el8.2/libunwind-1.3.1-3.el8.x86\_64.rpm](http://10.40.0.253/kodo-cloud/current/el8.2/libunwind-1.3.1-3.el8.x86_64.rpm)\). Upload the package to KOD server to a upload\_path of your choice.  
+1. Install the **libunwind** rpm package \(the package can be downloaded from the URL: [http://repo.storware.eu/kodo-cloud/current/el8.2/libunwind-1.3.1-3.el8.x86\_64.rpm](http://10.40.0.253/kodo-cloud/current/el8.2/libunwind-1.3.1-3.el8.x86_64.rpm)\). Upload the package to KOD server to a upload\_path of your choice.  
 
    ```text
    #rpm -ivh  /upload_path/libunwind-1.3.1-3.el8.x86_64.rpm)
