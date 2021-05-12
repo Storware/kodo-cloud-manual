@@ -2,7 +2,7 @@
 
 ## High-level architecture
 
-Use KODO for Cloud to back up and restore your data from your Microsoft 365. You can back up data to and recover data from the local filesystem, Virtual Data Optimizer \(VDO\), Azure Blog Storage, Gluster FS, CephFS, NFS/CIFS share, and Data Domain deduplicator.
+Use KODO for Cloud to back up and restore your data from your Microsoft 365. You can back up data to and recover data from the local filesystem, Virtual Data Optimizer \(VDO\), Azure Blog Storage, Gluster FS, CephFS, NFS/SMB share, and Data Domain deduplicator.
 
 ![](../.gitbook/assets/kfc_architecture_2021_transparent.png)
 
