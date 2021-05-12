@@ -7,8 +7,12 @@ KODO system has two administration levels implemented by default:
 
 ### Default login credentials
 
-Here you have the default password for **admin** and **kodoadmin** user:  
-Password: **Kodo@dm1n**
+{% hint style="info" %}
+KODO for Cloud has by default one global admin account \(admin that manages organizations\) and one account in the default organization :
+
+* Kodo admin \(global admin\): `kodoadmin`with password`Kodo@dm1n` 
+* default organization admin: `admin`with password`Kodo@dm1n`
+{% endhint %}
 
 ## KODO administration level
 

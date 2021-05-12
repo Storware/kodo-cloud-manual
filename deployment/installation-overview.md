@@ -3,10 +3,7 @@
 KODO for Cloud server can be easily installed on a single box. It can be a physical or virtual server. In both cases, the steps you need to follow are basically the same. Before installation prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the [Sizing](../planning/sizing/) chapter\).
 
 {% hint style="info" %}
-KODO for Cloud has by default one global admin account \(admin that manages organizations\) and one account in the default organization :
 
-* Kodo admin \(global admin\): `kodoadmin`with password`Kodo@dm1n` 
-* default organization admin: `admin`with password`Kodo@dm1n`
 {% endhint %}
 
 If the system platform is ready to KODO for Cloud server deployment do as follow:
