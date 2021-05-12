@@ -10,7 +10,7 @@ One instance of cloud agent is capable to run 25 tasks in parallel by default. I
 
 If you need to install the Cloud Agent instance do as follow:
 
-1. Register agent to the server with `AGENT_NAME` of your choice to the server `SERVER_HOST`
+1. Register agent to the server with `AGENT_NAME` of your choice to the server `SERVER_HOST` 
    * syntax:
 
 ```text
@@ -28,6 +28,10 @@ Agent name: voyager2
 Kodo Cloud Serer address: localhost:8181
 Job concurrency size: 25
 ```
+
+{% hint style="info" %}
+You don't have to provide the SERVER\_HOST option if the cloud agent is installed on the KODO for Cloud server.
+{% endhint %}
 
 2. Start and enable Kodo Cloud Agent service \(provide the agent name\).
 

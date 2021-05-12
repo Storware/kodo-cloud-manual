@@ -1,8 +1,8 @@
-# Installation using Ansible playbook
+# Installation using the Ansible playbook
 
 Before starting the installation process you need to prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the chapter [Sizing](../planning/sizing/)\).
 
-You can install a complete Kodo for Cloud solution using the following 2 roles, available on Ansible Galaxy:
+You can install a complete Kodo for Cloud solution using the following 2 roles, available on the Ansible Galaxy:
 
 * Kodo Cloud Server: [https://galaxy.ansible.com/xe0nic/ansible\_kodo\_cloud\_server](https://galaxy.ansible.com/xe0nic/ansible_kodo_cloud_server)
 * Kodo Cloud Agent: [https://galaxy.ansible.com/xe0nic/ansible\_kodo\_cloud\_agent](https://galaxy.ansible.com/xe0nic/ansible_kodo_cloud_agent)
@@ -75,7 +75,7 @@ ansible_user = root
 * After installation you should be able to log into your Kodo for Cloud server: `https://kodo_cloud_server_address:8181` and your nodes should be registered and running. 
 
 {% hint style="info" %}
-KODO for CLoud server credentials are described in the chapter [Administration access levels](administration-access-levels.md)
+KODO for Cloud server credentials are described in the chapter [Administration access levels](administration-access-levels.md)
 {% endhint %}
 
 ## Variables
@@ -84,7 +84,7 @@ These two roles use just a few variables. Both plays use  `server_fqdn` variable
 
 Node play needs `agent_name` for the registration process. If not provided it will just use the hostname reported by OS, however, keep in mind that it needs to be **unique** for each node. We recommend that you set them in the host inventory file.
 
-By default KODO for Cloud uses MariaDB 10.4 for CentOS - you can control source, distribution and version of your MariaDB with the following variables \(with their respective default values\):
+By default KODO for Cloud uses MariaDB 10.4 for CentOS - you can control the source, distribution, and version of your MariaDB with the following variables \(with their respective default values\):
 
 ```yaml
 mariadb_version: "10.4"

@@ -7,7 +7,7 @@ If the system platform is ready to KODO for Cloud server deployment do as follow
 1. Configure [backup destinations ](backup-destination-configuration/) \(skip this step if you're going to use the Virtual Appliance\).
 2. Choose your installation path. You can choose one of the following options:
    * [​All-in-one quick installation​](quick-install-all-in-one.md)
-   * ​[Installation using Ansible playbook​](installation-using-ansible-playbook.md)
+   * ​[Installation using the Ansible playbook​](installation-using-ansible-playbook.md)
    * [​Installation with RPMs​](installation-with-rpms.md)
    * [Virtual Appliance \(VMware\)](virtual-appliance-vmware.md)
 3. Setup settings in the [KODO Admin](../administration/organizations-kodoadmin-dashboard-only/settings/kodo-admin.md) panel:

@@ -19,7 +19,7 @@
   * [Installation Overview](deployment/installation-overview.md)
   * [Administration access levels](deployment/administration-access-levels.md)
   * [Quick Install \(All-In-One\)](deployment/quick-install-all-in-one.md)
-  * [Installation using Ansible playbook](deployment/installation-using-ansible-playbook.md)
+  * [Installation using the Ansible playbook](deployment/installation-using-ansible-playbook.md)
   * [Installation with RPMs](deployment/installation-with-rpms.md)
   * [Virtual Appliance \(VMware\)](deployment/virtual-appliance-vmware.md)
   * [Backup destinations](deployment/backup-destination-configuration/README.md)
