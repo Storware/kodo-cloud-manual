@@ -170,3 +170,5 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
 KODO for Cloud server credentials are described in the chapter [Administration access levels](administration-access-levels.md)
 {% endhint %}
 
+To begin to configure KODO for Cloud server, go to the [First steps after deployment](first-steps-after-deployment/) chapter.
+
