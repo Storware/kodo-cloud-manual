@@ -17,8 +17,8 @@ For the small Microsoft 365 organization \(up to 50 users\) the following system
         <ul>
           <li>at least 4 cores</li>
           <li>at least 16 GB RAM</li>
-          <li>at least 30 GB disk for operating system binaries</li>
-          <li>system at least 30 GB disk for database (/var/lib/mysql directory)</li>
+          <li>at least 30 GB disk for operating system binaries system</li>
+          <li>at least 30 GB disk for database (/var/lib/mysql directory)</li>
           <li>at least 50 GB disk for KODO software (/opt/kodo-cloud directory)</li>
           <li>storage space for backup</li>
         </ul>
