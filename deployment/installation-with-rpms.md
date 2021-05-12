@@ -113,11 +113,7 @@ KODO for Cloud consists of the server \(central management point with web UI\) a
    #firewall-cmd --complete-reload
    ```
 
-8. Now you should be able to log into the web console using the URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST` is the hostname or IP address of your Kodo for Cloud server. 
-
-{% hint style="info" %}
-KODO for CLoud server credentials are described in the chapter [Administration access levels](administration-access-levels.md)
-{% endhint %}
+8. Now you should be able to log into the web console using the URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST` is the hostname or IP address of your Kodo for Cloud server. To be able to perform backup tasks you have to install the KODO cloud agent.  Go to the **Kodo Cloud agent** paragraph to proceed.  
 
 ## Kodo Cloud Agent
 
@@ -161,5 +157,7 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
 
 4. Now you should be able to log in to KODO for Cloud using `https://IP_OF_YOUR_MACHINE:8181`
 
-
+{% hint style="info" %}
+KODO for Cloud server credentials are described in the chapter [Administration access levels](administration-access-levels.md)
+{% endhint %}
 

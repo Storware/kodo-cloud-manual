@@ -72,11 +72,10 @@ You can also use the command below to check KODO for Cloud server version:
 
 If the KODO server is up and running, you should be able to log in to KODO for Cloud using your browser, and the address `https://IP_OF_YOUR_MACHINE:8181`
 
-{% hint style="info" %}
-Kodo for Cloud has one global admin account \(for organizations management\) and one account in the default organization:
+\`\`
 
-* Kodo admin \(global admin\): `kodoadmin` with password `Kodo@dm1n`
-* Default organization admin: `admin` with password `Kodo@dm1n`
+{% hint style="info" %}
+KODO for Cloud server credentials are described in the chapter [Administration access levels](administration-access-levels.md)
 {% endhint %}
 
 
