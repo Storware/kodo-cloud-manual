@@ -33,6 +33,12 @@ For a large Microsoft 365 organization \(from 251 to 1000 users\) the following 
   </tbody>
 </table>
 
+{% hint style="danger" %}
+You can check the current storage usage of your Microsoft 365 organization by log in to the following URL as the administrator user of your organization:
+
+[https://admin.microsoft.com/Adminportal/Home/\#/reportsUsage](https://admin.microsoft.com/Adminportal/Home/#/reportsUsage)
+{% endhint %}
+
 It's recommended to configure all disks as LVM devices just to be able to extend their capacity if needed. 
 
 Go to the [Deployment](../../deployment/) chapter to choose KODO for Cloud server installation type or go to the next chapter [Very large Microsoft 365 organization](very-large.md).

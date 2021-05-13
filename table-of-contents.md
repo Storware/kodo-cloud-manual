@@ -20,33 +20,32 @@
   * [Installation using the Ansible playbook](deployment/installation-using-ansible-playbook.md)
   * [Installation with the RPMs](deployment/installation-with-rpms.md)
   * [Virtual Appliance \(VMware\)](deployment/virtual-appliance-vmware.md)
-  * Backup destinations
-    * Filesystem
-      * Regular filesystem
-      * Virtual Data Optimizer \(VDO\)
-    * MS Azure Blob Storage
+  * [Backup destinations](deployment/backup-destination-configuration/)
+    * [Filesystem](deployment/backup-destination-configuration/filesystem/)
+      * [Regular filesystem](deployment/backup-destination-configuration/filesystem/regular-filesystem.md)
+      * [Virtual Data Optimizer \(VDO\)](deployment/backup-destination-configuration/filesystem/virtual-data-optimizer-vdo.md)
+    * [MS Azure Blob Storage](deployment/backup-destination-configuration/microsoft-azure-blob-storage.md)
   * [Cloud Agent](deployment/cloud-agent.md)
-  * First steps after the deployment
-    * Adding the KODO license
-    * Launching the cloud agent
-    * Storage configuration path
-      * Define a storage type for a backup destination
-      * Define agent configuration
-      * Assign the agent config to the agent
-      * Assign the agent config to the organization
-    * Mail server configuration
-    * Organization configuration
-    * Microsoft 365 organization Management
-    * * 
-* [Common tasks](glossary/common-tasks/)
-  * [Creating the account for shared mailboxes protection](glossary/common-tasks/)
-  * [Increase the EWS throttling policy limits in Exchange Online \(Microsoft 365\)](glossary/common-tasks/increase-the-ews-throttling-policy-limits-in-exchange-online-microsoft-365.md)
-* [Microsoft 365 Organization Management](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/deployment/microsoft-365-organization-management/README.md)
-  * [Adding Microsoft 365 Organization](deployment/first-steps-after-deployment/microsoft-365-organization-management/microsoft-365-organization-management.md)
-  * [Synchronizing users](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/deployment/adding-microsoft-office365-tenant/synchronizing-users.md)
+  * [First steps after the deployment](deployment/first-steps-after-deployment/)
+    * [Adding the KODO license](deployment/first-steps-after-deployment/adding-license.md)
+    * [Launching the cloud agent](deployment/first-steps-after-deployment/launching-cloud-agent.md)
+    * [Storage configuration path](deployment/first-steps-after-deployment/storage-configuration-path/)
+      * [Define a storage type for a backup destination](deployment/first-steps-after-deployment/storage-configuration-path/define-storage-type.md)
+      * [Define agent configuration](deployment/first-steps-after-deployment/storage-configuration-path/define-agent-configuration.md)
+      * [Assign the agent config to the agent](deployment/first-steps-after-deployment/storage-configuration-path/assign-a-storage-config-to-the-agent.md)
+      * [Assign the agent config to the organization](deployment/first-steps-after-deployment/storage-configuration-path/assign-the-agent-config-to-the-organization.md)
+    * [Mail server configuration](deployment/first-steps-after-deployment/mail-server-configuration.md)
+    * [Organization configuration](deployment/first-steps-after-deployment/organization-configuration.md)
+    * [Microsoft 365 organization Management](deployment/first-steps-after-deployment/microsoft-365-organization-management/)
+      * [Configure Microsoft 365 access](deployment/first-steps-after-deployment/microsoft-365-organization-management/microsoft-365-organization-management.md)
+      * [KODO Multi-Organization Management](deployment/first-steps-after-deployment/microsoft-365-organization-management/kodo-multi-organization-management.md)
+      * [Add Microsoft 365 organization manually](deployment/first-steps-after-deployment/microsoft-365-organization-management/add-the-microsoft-365-organization-manually.md)
+      * [Add Microsoft 365 organization using the Setup Assistant](deployment/first-steps-after-deployment/microsoft-365-organization-management/add-the-microsoft-365-organization-using-the-setup-assistant.md)
+      * [Account auto-synchronization](deployment/first-steps-after-deployment/microsoft-365-organization-management/auto-mode-global-admin-authentication.md)
 * [Administration](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/administration/README.md)
+
   * [Dashboard](administration/dashboard.md)
-  * [Users](administration/users.md)
+  * [Protection](administration/users.md)
   * [Jobs](administration/jobs/)
     * [Create a job](administration/jobs/create-a-job.md)
     * [Edit a job](administration/jobs/edit-a-job.md)
@@ -57,21 +56,24 @@
     * [Create a policy](administration/policies/create-a-policy.md)
     * [Edit a policy](administration/policies/edit-a-policy.md)
     * [Delete a policy](administration/policies/delete-a-policy.md)
-    * [Manage users\(s\) at policy](administration/policies/manage-user-s-at-policy.md)
+    * [Manage users\(s\) or site\(s\) at policy](administration/policies/manage-user-s-at-policy.md)
   * [Backup](administration/data-backup/)
     * [On-Demand Backup](administration/data-backup/on-demand-backup.md)
     * [Scheduled Backup \(Job\)](administration/data-backup/creating-new-backup-job.md)
   * [Restore](administration/data-restore/)
     * [Restore data to Microsoft 365 service](administration/data-restore/restore-data-to-microsoft-365.md)
-    * [Restore data to local PC](administration/data-restore/restoring-data-to-local-pc.md)
+    * [Restore data to a local PC](administration/data-restore/restoring-data-to-local-pc.md)
   * [Tasks](administration/tasks.md)
   * [Audit log](administration/audit-log.md)
   * [Agents \(kodoadmin level\)](administration/cloud-agent.md)
   * [Organizations \(kodoadmin level\)](administration/organizations-kodoadmin-dashboard-only/)
-  * 
+
+*  * [Common tasks](known-software-issues-and-limitations/common-tasks/)
+    * [Creating the account for shared mailboxes protection](known-software-issues-and-limitations/common-tasks/)
+    * [Increase the EWS throttling policy limits in Exchange Online \(Microsoft 365\)](known-software-issues-and-limitations/common-tasks/increase-the-ews-throttling-policy-limits-in-exchange-online-microsoft-365.md)
 * [Troubleshooting](https://github.com/Storware/kodo-cloud-manual/tree/1cbd9fb32f658fe575da7fe248a7dcbcf570e948/troubleshooting/README.md)
   * [Changing the logging level in KODO for Cloud](troubleshooting/how-to-enable-kodo-for-cloud-debug-mode.md)
   * [Collecting logs](troubleshooting/collecting-logs.md)
 * [Integration]()
-* [Known software issues and limitations](known-software-issues-and-limitations.md)
+* [Known software issues and limitations](known-software-issues-and-limitations/)
 
