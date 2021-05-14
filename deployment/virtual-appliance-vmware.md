@@ -23,7 +23,7 @@ If you successfully downloaded the OVA file, please deploy it in your virtual en
 
 ## Logging into the virtual appliance
 
-Once the virtual machine is up and running the credentials listed below to log into the system:
+Once the virtual machine is deployed in the VMware environment, use the credentials listed below to log into the virtual machine:
 
 > **Login:** kodo  
 > **Password:** Zt3edWny
