@@ -10,5 +10,5 @@ A full backup is done automatically by default when user\(s\) or site\(s\) in a 
 
 Incremental backup is the default backup type on KODO for Cloud server. Only one initial full backup is done, every subsequent backup is the incremental one.
 
-
+Go to the [On-demand Backup](on-demand-backup.md) chapter to learn how to exectue it.
 

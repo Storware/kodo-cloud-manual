@@ -18,5 +18,5 @@ You can add another organization\(s\) by clicking the **Add organization** butto
 
 Once the organization is created, the information with account access is sent to the provided email address recipient.
 
-
+Go to the [Settings](settings/) chapter to learn about KODO for Cloud server settings.
 

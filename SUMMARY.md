@@ -57,7 +57,7 @@
     * [Create a policy](administration/policies/create-a-policy.md)
     * [Edit a policy](administration/policies/edit-a-policy.md)
     * [Delete a policy](administration/policies/delete-a-policy.md)
-    * [Manage user\(s\) os site\(s\) at policy](administration/policies/manage-user-s-at-policy.md)
+    * [Manage user\(s\) or site\(s\) at policy](administration/policies/manage-user-s-at-policy.md)
   * [Audit Log](administration/audit-log.md)
   * [Backup types](administration/data-backup/README.md)
     * [On-Demand Backup](administration/data-backup/on-demand-backup.md)

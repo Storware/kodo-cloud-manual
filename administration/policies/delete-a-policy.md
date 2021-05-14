@@ -11,5 +11,5 @@ If you want to delete a data policy, do the following:
 The default policy cannot be deleted from KODO for Cloud server.
 {% endhint %}
 
-
+Go to the [Manage user\(s\) or site\(s\) at policy](manage-user-s-at-policy.md) chapter to learn how to create it.
 

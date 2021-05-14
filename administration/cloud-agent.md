@@ -114,9 +114,11 @@ Do the following steps:
 
 7. Paste the activation key in the **activationCode** entry \(here with an example key value\).
 
+8. Save the file.
+
 ```text
 "activationCode": "KEJvxGx6BMs8Mz5ZK6^ewuamdK%C$Ix-J=GgWQ!e"
 ```
 
-
+Go to the [Organizations \(kodoadmin level\)](organizations-kodoadmin-dashboard-only/) chapter to learn about  KODO orgarnizations.
 

@@ -12,5 +12,5 @@ You can search audit logs over a period of time using the calendar.
 
 ![](../.gitbook/assets/kodo-cloud-administration-audit01.png)
 
-
+Go to the [Backup types](data-backup/) chapter to learn about backup types supported by KODO for Cloud server.
 

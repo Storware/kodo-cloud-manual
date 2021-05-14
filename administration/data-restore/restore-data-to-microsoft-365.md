@@ -47,5 +47,5 @@ Select this option if you want to overwrite existing items with a version from b
 
  Click the **Save** button. The restore process will begin.
 
-     
+ Go to the [Restore data to a local PC](restoring-data-to-local-pc.md) chapter to learn how to restore date locally.
 

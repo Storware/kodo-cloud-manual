@@ -13,3 +13,5 @@ Go to the **Downloads** menu and select the **Download** option from the **Optio
 
 ![](../../.gitbook/assets/image%20%2846%29.png)
 
+Go to the [Agents \(kodoadmin level\)](../cloud-agent.md) chapter to learn about the cloud agent configuration options.
+

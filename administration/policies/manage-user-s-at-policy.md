@@ -1,4 +1,4 @@
-# Manage user\(s\) os site\(s\) at policy
+# Manage user\(s\) or site\(s\) at policy
 
 If you need to add to or remove the user\(s\) from a data policy, do the following steps:
 
@@ -10,4 +10,6 @@ If you need to add to or remove the user\(s\) from a data policy, do the followi
 6. Click the **Save** button to confirm amendments.
 
 ![](../../.gitbook/assets/image%20%2840%29.png)
+
+Go to the [**A**](manage-user-s-at-policy.md)**udit log** chapter to learn about the server audit log.
 

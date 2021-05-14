@@ -1,6 +1,6 @@
 # KODO Admin
 
-[NextOrganization Admin](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/administration/organizations-kodoadmin-dashboard-only/settings/organization-admin)The **kodoadmin** user is a predefined administrative user on KODO for Cloud server.  If you are logging in to the  server as `kodoadmin` then you can edit the server settings in the tabs.
+The **kodoadmin** user is a predefined administrative user on KODO for Cloud server.  If you are logging in to the  server as `kodoadmin` then you can edit the server settings in the tabs.
 
 ## General Settings
 
