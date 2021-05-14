@@ -20,7 +20,8 @@ For a large Microsoft 365 organization \(from 251 to 1000 users\) the following 
           <li>at least 30 GB disk for operating system binaries</li>
           <li>at least 500 GB for database (/var/lib/mysql directory)</li>
           <li>at least 100 GB for KODO software (/opt/kodo-cloud directory)</li>
-          <li>storage space for backup</li>
+          <li>storage space for backup (ready to be configured as a regular filesystem
+            or the VDO device)</li>
         </ul>
       </td>
       <td style="text-align:left">
@@ -34,6 +35,8 @@ For a large Microsoft 365 organization \(from 251 to 1000 users\) the following 
 </table>
 
 {% hint style="danger" %}
+The storage space required to store backup data depends on the amount of data your organization is currently utilizing plus some overhead for the future data increase.
+
 You can check the current storage usage of your Microsoft 365 organization by log in to the following URL as the administrator user of your organization:
 
 [https://admin.microsoft.com/Adminportal/Home/\#/reportsUsage](https://admin.microsoft.com/Adminportal/Home/#/reportsUsage)
@@ -41,5 +44,5 @@ You can check the current storage usage of your Microsoft 365 organization by lo
 
 It's recommended to configure all disks as LVM devices just to be able to extend their capacity if needed. 
 
-Go to the [Deployment](../../deployment/) chapter to choose KODO for Cloud server installation type or go to the next chapter [Very large Microsoft 365 organization](very-large.md).
+Go to the [Deployment](../../deployment/) chapter to choose KODO for Cloud server installation type or go to the [Very large Microsoft 365 organization](very-large.md) chapter.
 

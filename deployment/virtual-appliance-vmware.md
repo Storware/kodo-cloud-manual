@@ -1,8 +1,16 @@
-# Virtual Appliance \(VMware\)
+# Virtual Appliance deployment
 
-## The access to the virtual appliance
+A virtual appliance \(VA\) is a virtual machine image file consisting of a pre-configured operating system environment and a single application. KODO for Cloud VA is the CentOS-based virtual machine with KODO for Cloud server, already installed and ready to configure. 
 
-A preconfigured virtual machine appliance in the OVA format is ready to deploy in VMware virtual environment in version 6.5 or above. 
+The virtual machine has the following configuration:
+
+* 4 vCPUs
+* 16 GB RAM
+* 1 TB backup storage space \(logically it is 3 TB of storage space with the VDO option\)
+
+## Accessing virtual machine
+
+A preconfigured virtual machine appliance in the OVA format is ready to deploy in the VMware virtual environment in version 6.5 or above.
 
 You can download KODO for Cloud virtual appliance from the following link:
 
@@ -12,12 +20,6 @@ You can download KODO for Cloud virtual appliance from the following link:
 **Password:** sEkQsrdsr98Q
 
 If you successfully downloaded the OVA file, please deploy it in your virtual environment. The network card IP address is assigned automatically by DHCP protocol.
-
-The virtual machine was configured with the following parameters:
-
-* 4 vCPUs
-* 16 GB RAM
-* 1 TB backup storage space \(logically it is 3 TB of storage space with the VDO option\)
 
 ## Logging into the virtual appliance
 
@@ -126,6 +128,10 @@ https://KODO_SERVER_HOST_IP:8181
 ```
 
 {% hint style="info" %}
-KODO for Cloud server credentials are described in the chapter [Administration access levels](administration-access-levels.md)
+KODO for Cloud server credentials are described in the chapter [Administration access levels](first-steps-after-deployment/administration-access-levels.md)
 {% endhint %}
+
+Go to the [First steps after the deployment](first-steps-after-deployment/) chapter to configure KODO for Cloud server.
+
+Go to the [Virtual Appliance deployment](virtual-appliance-vmware.md) chapter to install the Virtual Appliance with preconfigured KODO for Cloud server.
 

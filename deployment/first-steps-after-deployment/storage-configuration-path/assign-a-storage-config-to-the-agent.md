@@ -12,5 +12,5 @@ To assign the agent config to the agent do as follow:
 
 
 
-Go to the next chapter to see how to assign defined agent configuration\(s\) to the KODO organization.
+Go to the [Assign the agent config to the organization](assign-the-agent-config-to-the-organization.md) chapter to learn how to assign defined agent configuration\(s\) to the KODO organization.
 

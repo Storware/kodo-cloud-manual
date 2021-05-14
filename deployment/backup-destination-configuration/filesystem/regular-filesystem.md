@@ -1,6 +1,6 @@
-# Regular filesystem
+# Disk filesystem
 
-In this section, we'll show you how to set up a file system \(it can be a local or remote file system, but this example assumes that you have a dedicated disk that you're going to use as a backup destination with a local XFS file system\).
+In this section, we'll show you how to set up a disk filesystem \(it can be a local or remote file system, but this example assumes that you have a dedicated disk that you're going to use as a backup destination with a local XFS file system\).
 
 **Note:**
 

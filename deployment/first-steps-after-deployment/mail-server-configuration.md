@@ -15,3 +15,5 @@ To add the mail server to the configuration, do as follow:
 Make sure the **Deployment server name** at the Global settings tab at the Settings menu at the Kodoadmin dashboard has been set. It's required for the KODO portal access link from the e-mail sent to a user from the server to be active.  
 {% endhint %}
 
+Go to the [Microsoft 365 organization management](microsoft-365-organization-management/) chapter to learn how to configure Microsoft 365 organization on KODO for Cloud server.
+

@@ -35,14 +35,14 @@ For the small Microsoft 365 organization \(up to 50 users\) the following system
 </table>
 
 {% hint style="danger" %}
-The storage space required to store backup data will be depending on amount of data your organization is utilizing now, plus some overhead for the future data increase.
+The storage space required to store backup data will be depending on the amount of data your organization is utilizing now, plus some overhead for the future data increase.
 
-You can check current storage usage of your Microsoft 365 organization by log in to the following URL as the administrator user of your organization:
+You can check the current storage usage of your Microsoft 365 organization by log in to the following URL as the administrator user of your organization:
 
 [https://admin.microsoft.com/Adminportal/Home/\#/reportsUsage](https://admin.microsoft.com/Adminportal/Home/#/reportsUsage)
 {% endhint %}
 
 It's recommended to configure all disks as LVM devices just to be able to extend their capacity if needed.  
 
-Now you can to the [Deployment](../../deployment/) chapter to choose KODO for Cloud server installation type or go to the next chapter [Medium Microsoft 365 organization](medium.md).
+Now you can to the [Deployment](../../deployment/) chapter to choose KODO for Cloud server installation type or go to the [Medium Microsoft 365 organization](medium.md) chapter.
 

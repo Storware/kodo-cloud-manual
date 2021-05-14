@@ -7,7 +7,7 @@ After successful installation of **KODO for Cloud** server the administrator can
 {% hint style="info" %}
 The administrator can use the admin or the kodoadmin account to log into the application. 
 
-The differences between both user types are described in the [Administration levels](../deployment/administration-access-levels.md) section. 
+The differences between both user types are described in the [Administration levels](../deployment/first-steps-after-deployment/administration-access-levels.md) section. 
 {% endhint %}
 
 ![](../.gitbook/assets/kodo-administrator-dashboard%20%281%29.jpg)
@@ -36,4 +36,6 @@ At the dashboard view the following information is displayed:
 If the administrator logs into the  web UI console as `kodoadmin` user then a different **KODO for Cloud** dashboard appears as shown on the screenshot below.  Using this dashboard administrator can add, delete, edit and manage server key components such as organizations, agents, storage, agent config, and also change server settings. At this view, all server key parameters are visible for the KODO administrator. 
 
 ![](../.gitbook/assets/kodoadmin-dashboard-01.png)
+
+Go to the [Protection](users.md) chapter to learn about the Protection menu.
 

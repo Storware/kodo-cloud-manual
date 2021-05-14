@@ -8,3 +8,5 @@ To launch the agent go to the **Options** menu and click the **Play** button.
 
 Now the activity status in the **Active** column should be changed from **No** to **Yes**. 
 
+Go to the [Storage configuration path](storage-configuration-path/) chapter to learn about storage configuration.
+

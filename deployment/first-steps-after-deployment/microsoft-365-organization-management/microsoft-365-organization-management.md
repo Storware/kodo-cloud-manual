@@ -1,8 +1,12 @@
 # Configure Microsoft 365 access
 
-Before you start to configure backup policies and jobs, KODO for Cloud has to get access to your Microsoft 365 organization configuration first.
+Before you start to configure backup policies and jobs, KODO for Cloud server has to get access to your Microsoft 365 organization configuration first.
 
-Access to data is performed via an application installed in your organization.
+Access to data is performed via an application configured in your Microsoft 365 organization.
+
+{% hint style="warning" %}
+You can skip this step if you want to add your Microsoft 365 organization to KODO for Cloud server using Setup Assistant. If not, please proceed with the next steps.
+{% endhint %}
 
 {% hint style="info" %}
 KODO does not store your Microsoft 365 administrative id and password.
@@ -82,5 +86,5 @@ Set-SPOTenant -LegacyAuthProtocolsEnabled $True
 
 It enables the **LegacyAuthProtocolsEnabled** setting. 
 
-18. Go to the next chapter to add Microsoft 365 organization to KODO for Cloud server.
+Go to the [KODO Multi-Organization Management](kodo-multi-organization-management.md) chapter to learn how to configure the KODO organization.
 

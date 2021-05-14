@@ -25,24 +25,24 @@ Before KODO for Cloud installation, please make sure your OS is up-to-date. Use 
 
  Use **yum repolist** command to check your subscription status
 
-The [active Red Hat subscription](https://access.redhat.com/management/products) is required for registering the [RHEL 8](https://www.itzgeek.com/tag/rhel-8) systems or you can [sign up for 30 days trial](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) which will allow you to download Red Hat Enterprise Linux 8 as well as register your RHEL 8 system with Red Hat for receiving packages and updates. 
+The [active Red Hat subscription](https://access.redhat.com/management/products) is required for registering the [RHEL 8](https://www.itzgeek.com/tag/rhel-8) systems. You can also [sign up for 30 days trial](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) which will allow you to download Red Hat Enterprise Linux 8 as well as register your RHEL 8 system with Red Hat for receiving packages and updates. 
+{% endhint %}
 
+{% hint style="warning" %}
 Keep your Red Hat subscription credentials handy for registering your RHEL 8 system to Red Hat.
 {% endhint %}
 
 {% hint style="warning" %}
-It's recommended to configure separate filesystems for KODO for Cloud server data \(binaries and logs, /`opt` mount point \) and MariaDB database files \(`/var/lib` mount point\).  
+It's recommended to configure separate filesystems for KODO for Cloud server data \(binaries and logs at  /`opt` mount point \) and MariaDB database files \(at /`var/lib` mount point\).  
 
-Use LVM device-mapper as a filesystem, that allows users to expand disk space if necessary. 
+Use LVM device-mapper as a filesystem, that allows users to expand disk space if necessary.
 {% endhint %}
 
 {% hint style="info" %}
 TCP **port** 8181 is the standard TCP port ****that is used for website which uses SSL. TCP port 8181 is used to communicate with the KODO for Cloud server UI.
 {% endhint %}
 
-
-
-
+Go to the [Multi-tenancy architecture](multitenancy-mode.md) chapter to learn about the assumptions of KODO for Cloud server multi-tenancy architecture.
 
 
 

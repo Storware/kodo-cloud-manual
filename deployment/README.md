@@ -1,12 +1,10 @@
 # Deployment
 
-In this section, you will find information about installing and configuring Kodo for Cloud. 
+In this section, you will find detailed information about the deployment and configuration of KODO for Cloud server. 
 
-We recommend you start with the [Installation Overview](installation-overview.md) to see what general steps are needed to install Kodo for Cloud.
+It's recommended to begin from the [Installation Overview](installation-overview.md) chapter to see what general steps are needed to install our software.
 
-There are various options to install Kodo for Cloud available, including [Quick Install \(All-In-One\)](quick-install-all-in-one.md), [Installation using Ansible playbook](installation-using-ansible-playbook.md), [Installation with RPMs](installation-with-rpms.md), or [Virtual Appliance \(VMware\)](virtual-appliance-vmware.md). 
+There are available various options to install KODO for Cloud, including [Quick Install \(All-In-One\)](quick-install-all-in-one.md), [Installation using the Ansible playbook](installation-using-ansible-playbook.md), [Installation with the RPMs](installation-with-rpms.md), or [Virtual Appliance \(VMware\)](virtual-appliance-vmware.md). 
 
-
-
-Take a look and get the way that is best for your needs and/or experience.
+Go to the [Installation Overview](installation-overview.md) chapter to choose KODO for Cloud server installation path.
 

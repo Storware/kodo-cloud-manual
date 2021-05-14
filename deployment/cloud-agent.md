@@ -1,4 +1,4 @@
-# Cloud Agent
+# Cloud Agent-additional instance \(optional\)
 
 Cloud agent is a part of KODO for Cloud server that is responsible for backup and recovery of users data.
 
@@ -30,7 +30,7 @@ Job concurrency size: 25
 ```
 
 {% hint style="info" %}
-You don't have to provide the SERVER\_HOST option if the cloud agent is installed on the KODO for Cloud server.
+You don't need to provide the SERVER\_HOST option if the cloud agent is installed on the KODO for Cloud server.
 {% endhint %}
 
 2. Start and enable Kodo Cloud Agent service \(provide the agent name\).
@@ -50,6 +50,8 @@ You don't have to provide the SERVER\_HOST option if the cloud agent is installe
 ```
 
 3. Now you should be able to see the new entry in `Agents` section of web UI \([kodoadmin ](../administration/dashboard.md)dashboard\)
+
+
 
 
 

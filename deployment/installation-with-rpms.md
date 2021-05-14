@@ -1,15 +1,17 @@
 # Installation with the RPMs
 
-Before starting the installation process you need to prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the [Sizing](../planning/sizing/) chapter\).
+Before starting the installation process you have to prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the [Sizing](../planning/sizing/) chapter\).
 
-1. Configure a storage destination. Follow the instructions in [Backup and staging space configuration](backup-destination-configuration/) chapter.
-2. Make sure your OS is up to date by the following command:
+Follow the steps to prepare your system platform prior to deployment:
+
+1. Configure a backup storage destination. Follow the instructions in the [Backup destinations](backup-destination-configuration/) chapter.
+2. Make sure your operating system is up-to-date by the following command:
 
    ```text
    # yum -y update
    ```
 
-   After the kernel is updated, then you need to reboot the operating system.
+   After the kernel is updated, reboot the operating system.
 
 3. Install Kodo for Cloud repository:
 
@@ -59,7 +61,9 @@ Before starting the installation process you need to prepare your server platfor
 
 ## KODO for Cloud server
 
-KODO for Cloud consists of the server \(central management point with web UI\) and agent \(CloudAgent\), which can be installed on the same server. The first step is always to install the server.
+KODO for Cloud consists of the server \(central management point with web UI\) and the agent \(cloud agent\), which can be installed on the same server or on any dedicated server if needed. The first step is always the server installation.
+
+Follow the steps to install KODO for Cloud server using rpm packages:
 
 1. Install  the server using `yum` command:
 
@@ -117,7 +121,9 @@ KODO for Cloud consists of the server \(central management point with web UI\) a
 
 ## Kodo Cloud Agent
 
-Kodo Cloud Agent is the component that performs backup/restore tasks. Install it on the same host as the server.                                                                                                                               
+Kodo Cloud Agent is the component that performs backup and restore tasks. You can install it on the same host as the KODO for Cloud server was installed or you can install it on another dedicated server.         
+
+Follow the steps to install KODO Cloud agent using rpm packages:                                                                                     
 
 1. Install the **libunwind** rpm package \(the package can be downloaded from the URL: [http://repo.storware.eu/kodo-cloud/current/el8.2/libunwind-1.3.1-3.el8.x86\_64.rpm](http://10.40.0.253/kodo-cloud/current/el8.2/libunwind-1.3.1-3.el8.x86_64.rpm)\). Upload the package to KOD server to a upload\_path of your choice.  
 
@@ -145,7 +151,7 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
    #/opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager
    ```
 
-4. Start and enable Kodo Cloud Agent service using agent name at the end of service name.
+4. Start and enable Kodo Cloud Agent service using agent name at the end of the service name.
 
    * syntax:
 
@@ -164,8 +170,8 @@ Kodo Cloud Agent is the component that performs backup/restore tasks. Install it
 5. Now you should be able to log in to KODO for Cloud using `https://IP_OF_YOUR_MACHINE:8181`
 
 {% hint style="info" %}
-KODO for Cloud server credentials are described in the chapter [Administration access levels](administration-access-levels.md)
+KODO for Cloud server credentials are described in the chapter [Administration access levels](first-steps-after-deployment/administration-access-levels.md)
 {% endhint %}
 
-To begin to configure KODO for Cloud server, go to the [First steps after the deployment](first-steps-after-deployment/) chapter.
+Go to the [First steps after the deployment](first-steps-after-deployment/) chapter to configure KODO for Cloud server or go to the [Virtual Appliance deployment](virtual-appliance-vmware.md) chapter if you want to install the Virtual Appliance with preconfigured KODO for Cloud server.
 

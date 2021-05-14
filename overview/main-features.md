@@ -15,11 +15,13 @@ KODO for Cloud server has the following features implemented:
 * Option to add multiple Microsoft 365 tenants into a single KODO organization 
 * Multi-tenancy mode \(multiple KODO organizations\) with a billing feature for large enterprises or Manage Service Providers \(backup as a service offer\) 
 * Backup repository support for local filesystems, NFS, SMB, Azure Blob Storage and Virtual Data Optimizer \(VDO\)
-* Deduplication option with Virtual Data Optimizer \(VDO\)
+* Deduplication capability with Virtual Data Optimizer \(VDO\)
 * Easy to use and clean management interface \(HTML5 web UI and CLI\)
 * Open API for 3rd party software integration \(REST API\)
 
 {% hint style="info" %}
 _MS Teams support is planned for June 2021_
 {% endhint %}
+
+Go to the [Planning ](../planning/)chapter to learn about how to plan your KODO for Cloud server deployment.
 

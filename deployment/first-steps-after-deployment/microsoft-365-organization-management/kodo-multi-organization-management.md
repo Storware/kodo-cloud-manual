@@ -1,6 +1,6 @@
 # KODO Multi-Organization Management
 
-On KODO for Cloud server, the administrator can define more than one Microsoft 365 organization to protect. In a purchased license the following limitations are included:
+The administrator can define more than one Microsoft 365 organization to protect on KODO for Cloud server. In a purchased license the following limitations are included:
 
 * **MAX\_ORGANIZATIONS** - the maximum number of organizations to define.
 * **MAX\_TENANTS\_PER\_ORG** - the maximum number of tenants to define per organization
@@ -12,5 +12,7 @@ You can add a Microsoft 365 organization manually or using the Setup assistant. 
 
 ![](../../../.gitbook/assets/image%20%2820%29.png)
 
-Go to the next chapter to see how to add an organization manually.
+Go to the [Add Microsoft 365 organization manually](add-the-microsoft-365-organization-manually.md) chapter to learn how to add Microsoft 365 organization using the manual setup option.
+
+
 

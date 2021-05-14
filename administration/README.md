@@ -2,6 +2,10 @@
 
 This section provides information about administrative tasks in this application. It describes in detail how to perform [backup](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/~/drafts/-MAWwMuu2uq6CjweVK0b/administration/data-backup) and [restore](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/~/drafts/-MAWwMuu2uq6CjweVK0b/administration/data-restore) operations and how to manage key elements using WebUI, including [policies](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/~/drafts/-MAWwMuu2uq6CjweVK0b/administration/policies), [tasks](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/~/drafts/-MAWwMuu2uq6CjweVK0b/administration/tasks), [jobs](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/~/drafts/-MAWwMuu2uq6CjweVK0b/administration/jobs), [users](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/~/drafts/-MAWwMuu2uq6CjweVK0b/administration/users), [agents, ](cloud-agent.md)and more.
 
+Go to the [Dashboard](dashboard.md) chapter to learn about KODO for Cloud dashboard types.
+
+
+
 
 
 

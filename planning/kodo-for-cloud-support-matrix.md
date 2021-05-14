@@ -2,7 +2,7 @@
 
 KODO for Cloud supports backups and restores of Microsoft 365 services. 
 
- Here you can find detailed information about backup and restore features:
+Below you will find detailed information about what Microsoft 365 services can be protected by KODO for Cloud server and what restore capabilities it holds:
 
 <table>
   <thead>
@@ -82,5 +82,5 @@ KODO for Cloud supports backups and restores of Microsoft 365 services.
   </tbody>
 </table>
 
-
+Go to the [Platform Requirements](system-requirements.md) chapter to learn about the operating system requirements.
 

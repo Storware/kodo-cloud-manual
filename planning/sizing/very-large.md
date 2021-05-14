@@ -20,7 +20,8 @@ For a very large Microsoft 365 organization \(1000+ users\) the following system
           <li>at least 30 GB disk for operating system binaries</li>
           <li>at least 1 TB for database (/var/lib/mysql directory)</li>
           <li>at least 100 GB for KODO software (/opt/kodo-cloud directory)</li>
-          <li>storage space for backup</li>
+          <li>storage space for backup (ready to be configured as a regular filesystem
+            or the VDO device)</li>
         </ul>
       </td>
       <td style="text-align:left">
@@ -34,6 +35,8 @@ For a very large Microsoft 365 organization \(1000+ users\) the following system
 </table>
 
 {% hint style="danger" %}
+The storage space required to store backup data depends on the amount of data your organization is currently utilizing plus some overhead for the future data increase.
+
 You can check the current storage usage of your Microsoft 365 organization by log in to the following URL as the administrator user of your organization:
 
 [https://admin.microsoft.com/Adminportal/Home/\#/reportsUsage](https://admin.microsoft.com/Adminportal/Home/#/reportsUsage)

@@ -16,7 +16,5 @@ If you select the **AZURE BLOB** as the storage type, you have to assign a name 
 
 There's no limit on the number of created storage configurations.
 
-Now you can go to the next step and configure the **Agent config.**
-
-\*\*\*\*
+Go to the [Define agent configuration](define-agent-configuration.md) chapter to learn about how to define the cloud agent configuration.
 

@@ -10,5 +10,5 @@ Enter the Agent Configuration name and select the storage type.
 
 You can assign all defined storage types to the one agent configuration. Click the **Save** button to finish.
 
-Go to the next chapter to see how to assign the defined agent config to the cloud agent \(Agent\)
+Go to the [Assign the agent config to the agent](assign-a-storage-config-to-the-agent.md) chapter to learn how to assign the defined agent config to the cloud agent \(Agent\).
 

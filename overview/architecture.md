@@ -38,3 +38,5 @@ On KODO for Cloud server the following components are also configured:
 
 * It's a storage destination where KODO for Cloud server stores backup data.
 
+Go to the [Licensing ](licensing.md)chapter to learn about KODO for Cloud server licensing.
+

@@ -22,7 +22,7 @@ generate a key:
 and copy it to your CentOS/RHEL box:
 
 ```yaml
-# ssh-copy-id -i ~/.ssh/id_rsa.pub root@YOUR_HOST
+# sopy-id -i ~/.ssh/id_rsa.pub root@YOUR_HOST
 ```
 
   
@@ -75,7 +75,7 @@ ansible_user = root
 * After installation you should be able to log into your Kodo for Cloud server: `https://kodo_cloud_server_address:8181` and your nodes should be registered and running. 
 
 {% hint style="info" %}
-KODO for Cloud server credentials are described in the chapter [Administration access levels](administration-access-levels.md)
+KODO for Cloud server credentials are described in the chapter [Administration access levels](first-steps-after-deployment/administration-access-levels.md)
 {% endhint %}
 
 ## Variables
@@ -104,6 +104,8 @@ vdo_physical_device: "/dev/sdb"
 Now you should be able to log into the web console using the URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST` is the hostname or IP address of your Kodo for Cloud server. 
 
 {% hint style="info" %}
-KODO for Cloud server credentials are described in the chapter [Administration access levels](administration-access-levels.md)
+KODO for Cloud server credentials are described in the chapter [Administration access levels](first-steps-after-deployment/administration-access-levels.md)
 {% endhint %}
+
+Go to the [First steps after the deployment](first-steps-after-deployment/) chapter to configure KODO for Cloud server or go to the [Installation with the RPMs](installation-with-rpms.md) chapter if you want to install KODO for Cloud server using the RPM packages.
 

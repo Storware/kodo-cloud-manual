@@ -1,6 +1,6 @@
 # Licensing
 
-KODO for Cloud server is licensed per number of protected user accounts in the Microsoft 365 service. Buy a perpetual license \(e.g. 1 Year Subscription and Support \) or choose the monthly subscription. 
+KODO for Cloud server is licensed per number of protected user accounts in the Microsoft 365 service. You can buy a perpetual license \(e.g. 1 Year Subscription and Support \) or choose the monthly subscription. 
 
 {% hint style="info" %}
 The license price does not depend on the number of organizations or tenants you want to configure in KODO for Cloud server. 
@@ -31,6 +31,8 @@ Currently, there's only one support level with the following SLA:
             - 7 days per week x 24 hours 
 
 For more information please go to [https://storware.eu/faq/](https://storware.eu/faq/)
+
+Go to the [Main Features ](main-features.md)chapter to learn about KODO for Cloud server main features.
 
 
 

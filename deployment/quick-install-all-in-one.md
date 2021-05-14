@@ -72,11 +72,9 @@ You can also use the command below to check KODO for Cloud server version:
 
 If the KODO server is up and running, you should be able to log in to KODO for Cloud using your browser, and the address `https://IP_OF_YOUR_MACHINE:8181`
 
-\`\`
-
 {% hint style="info" %}
-KODO for Cloud server credentials are described in the chapter [Administration access levels](administration-access-levels.md)
+KODO for Cloud server credentials are described in the chapter [Administration access levels](first-steps-after-deployment/administration-access-levels.md)
 {% endhint %}
 
-
+Go to the [Installation using the Ansible playbook](installation-using-ansible-playbook.md) chapter to install KODO for Cloud server using the Ansible playbook path.
 

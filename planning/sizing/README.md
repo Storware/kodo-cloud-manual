@@ -12,15 +12,9 @@ Many factors may affect your final deployment, but it's a good practice to answe
 3. **When?**
    * What is the best time to take backups? The most standard approach is to have a backup window during the night \(for example 12 hours between 6:00 p.m. and 6:00 a.m.\). Depending on the volume of your data, you might consider adjusting it to suit your needs.
 
-When you take the above questions into consideration you should have at least a good starting point to plan your backup strategy.
-
-{% hint style="warning" %}
-When installing KODO for Cloud on RHEL 8 it is recommended to have an active Red Hat subscription. Use **yum repolist** command to check it.
-{% endhint %}
-
-![](../../.gitbook/assets/kodo-cloud-planning-sizing01.jpg)
-
 Based on the above, we prepared four configurations that are typical for most use cases.
+
+Browse the next chapters and find the proper system configuration that fits your Microsoft 365 organization size.
 
 
 

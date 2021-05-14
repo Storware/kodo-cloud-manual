@@ -2,7 +2,7 @@
 
 Note that Microsoft 365 service accounts can be automatically synchronized with KODO for Cloud server. 
 
-To set this function on the server do as follow:
+To configure this feature on the server do as follow:
 
 1. Log onto KODO for Cloud server as the organization user \(e.g. admin\).
 2. Go to the **Settings** menu.
@@ -10,15 +10,17 @@ To set this function on the server do as follow:
 4. Set the **Daily synchronization time** and **Timezone**.
 5. Click the **Save** button.
 
-From now on all new users added to Microsoft 365 service are also available on the users' list on KODO for Cloud server. 
+From now on all new users or SharePoint sites added to Microsoft 365 service are also available in the Protection menu on KODO for Cloud server. 
 
-If you want all new users created at Microsoft 365 service to be automatically added to the defined job, do as follow:
+If you want all new entities created at Microsoft 365 service to be automatically added to the defined job, do as follow:
 
 1. Select a job and choose  **Edit** from the **Options** menu.
 2. Click the **Selected entities** button. 
 3. Click the **Users** or **Sites** tab.
 4.  Switch the **Auto-select users** or **Auto-select sites** option.
 5. Click the **Back** button and click the **Save** button at the end.
+
+Go to the [Administration](../../../administration/) chapter to learn how to administer KODO for Cloud server.
 
 
 

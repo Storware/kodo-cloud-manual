@@ -6,8 +6,6 @@ VDO is the software that provides inline block-level **deduplication**, compress
 
 The amount of data reduction you will see with VDO will vary depending on the type of data being stored and the workflow that creates and stores the data. Already compressed data types such as video or audio files will not benefit from this technology, but online backups, virtual machines, and container deployments will see substantial benefits. It is not uncommon for users to report 6:1 data reduction rates in the mixed container and VM environments using deduplication and compression technologies such as those provided by VDO.
 
-.
-
 In this section, you can find information, how to enable deduplication using basically any block storage available. We assume that you have prepared your storage provider and have exposed the block device to the operating system.
 
 ## VDO configuration
@@ -107,4 +105,6 @@ dm_mod                151552  13 kvdo,dm_log,dm_mirror,dm_bufio
   ```
 
 The directories are prepared to store backup data. After KODO for Cloud server is installed, the owner and permissions to that folders should be set, which is described in the chapter [Storage configuration path](../../first-steps-after-deployment/storage-configuration-path/).
+
+Go to the [Microsoft Azure Blob Storage](../microsoft-azure-blob-storage.md) chapter to learn about how to configure that type of data storage.
 
