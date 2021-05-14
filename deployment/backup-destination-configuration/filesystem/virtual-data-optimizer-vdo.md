@@ -106,5 +106,5 @@ dm_mod                151552  13 kvdo,dm_log,dm_mirror,dm_bufio
 
 The directories are prepared to store backup data. After KODO for Cloud server is installed, the owner and permissions to that folders should be set, which is described in the chapter [Storage configuration path](../../first-steps-after-deployment/storage-configuration-path/).
 
-Go to the [Microsoft Azure Blob Storage](../microsoft-azure-blob-storage.md) chapter to learn about how to configure that type of data storage.
+Go to the [Microsoft Azure Blob Storage](../microsoft-azure-blob-storage.md) chapter to learn how to configure that type of data storage.
 

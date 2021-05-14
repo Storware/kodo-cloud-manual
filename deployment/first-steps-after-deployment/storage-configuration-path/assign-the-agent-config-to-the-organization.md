@@ -8,5 +8,5 @@ To assign the agent config to the KODO organization do as follow:
 
 ![](../../../.gitbook/assets/image%20%2812%29.png)
 
-Go to the [Mail server configuration](../mail-server-configuration.md) chapter to learn how to configure the mail server settings .
+Go to the [Mail server configuration](../mail-server-configuration.md) chapter to learn how to configure the mail server settings.
 

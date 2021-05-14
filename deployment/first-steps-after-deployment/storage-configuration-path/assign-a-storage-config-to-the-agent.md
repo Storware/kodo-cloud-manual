@@ -1,6 +1,6 @@
-# Assign the agent config to the agent
+# Assign the agent config to the agent instance
 
-To assign the agent config to the agent do as follow:
+To assign the agent config to the agent instance do as follow:
 
 1. Go to the **Agent** menu.
 2. Select the **Options** menu and choose **Agent Config**.

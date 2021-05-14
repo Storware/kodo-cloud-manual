@@ -34,7 +34,7 @@
     * [Storage configuration path](deployment/first-steps-after-deployment/storage-configuration-path/README.md)
       * [Define a storage type for a backup destination](deployment/first-steps-after-deployment/storage-configuration-path/define-storage-type.md)
       * [Define agent configuration](deployment/first-steps-after-deployment/storage-configuration-path/define-agent-configuration.md)
-      * [Assign the agent config to the agent](deployment/first-steps-after-deployment/storage-configuration-path/assign-a-storage-config-to-the-agent.md)
+      * [Assign the agent config to the agent instance](deployment/first-steps-after-deployment/storage-configuration-path/assign-a-storage-config-to-the-agent.md)
       * [Assign the agent config to the organization](deployment/first-steps-after-deployment/storage-configuration-path/assign-the-agent-config-to-the-organization.md)
     * [Mail server configuration](deployment/first-steps-after-deployment/mail-server-configuration.md)
     * [Microsoft 365 organization management](deployment/first-steps-after-deployment/microsoft-365-organization-management/README.md)

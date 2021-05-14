@@ -7,13 +7,11 @@ Before you start the KODO for Cloud installation process you have to configure a
 * Microsoft Azure Blob Storage
 * Virtual Data Optimizer \(VDO\)
 
-## Backup destinations overview
-
 If you are going to use a local disk or VDO option to store your data, you have to configure a block device on a server in both cases.
 
 KODO for Cloud requires staging destination configured on a local filesystem. The `/kodo_data/staging`directory is created during the installation process by default. 
 
-Virtua
+Go to the[ Filesystems](filesystem/) chapter to learn what filesystems the administrator is able to configure on KODO for Cloud server.
 
 
 

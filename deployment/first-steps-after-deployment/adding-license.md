@@ -17,7 +17,7 @@ If you obtained a license file, do as follow:
 
 KODO for Cloud server is now fully licensed. You can proceed with further server configuration.
 
-Go to the [Lanching the cloud agent](launching-cloud-agent.md) chapter to learn about how to start the cloud agent instance in the KODO for Cloud server.
+Go to the [Lanching the cloud agent](launching-cloud-agent.md) chapter to learn about how to start the cloud agent instance on the KODO for Cloud server.
 
 
 

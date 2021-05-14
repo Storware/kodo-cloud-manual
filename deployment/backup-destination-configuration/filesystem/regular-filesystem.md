@@ -70,3 +70,5 @@ Disk /dev/mapper/kodo: 1.5 TiB, 1610612736000 bytes, 393216000 sectors
 
 The directories are prepared to store backup data. After KODO for Cloud server is installed, the owner and permissions to that folders should be set, which is described in the chapter [Storage configuration path](../../first-steps-after-deployment/storage-configuration-path/).
 
+Go to the [Virtual Data Optimizer \(VDO\)](virtual-data-optimizer-vdo.md) chapter to learn how to configure the VDO device on KODO for Cloud server.
+

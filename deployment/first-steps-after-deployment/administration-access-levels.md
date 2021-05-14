@@ -36,7 +36,7 @@ By logging into the KODO organization portal as the organization administrator y
 
 The default organization name is  **My organization** and it is created during  KODO for Cloud server installation.
 
-Go to the [Adding the KODO license](adding-license.md) chapter to learn about how to license KODO for Cloud server.
+Go to the [Adding the KODO license](adding-license.md) chapter to learn about how to add the license to KODO for Cloud server.
 
 
 

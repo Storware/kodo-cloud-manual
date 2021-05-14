@@ -33,7 +33,7 @@ Job concurrency size: 25
 You don't need to provide the SERVER\_HOST option if the cloud agent is installed on the KODO for Cloud server.
 {% endhint %}
 
-2. Start and enable Kodo Cloud Agent service \(provide the agent name\).
+2. Start and enable Kodo Cloud Agent service \(provide the defined agent name\).
 
 * syntax:
 
@@ -50,6 +50,8 @@ You don't need to provide the SERVER\_HOST option if the cloud agent is installe
 ```
 
 3. Now you should be able to see the new entry in `Agents` section of web UI \([kodoadmin ](../administration/dashboard.md)dashboard\)
+
+Go to the [First steps after the deployment](first-steps-after-deployment/) chapter to learn how to begin the configuration of KODO for Cloud server
 
 
 
