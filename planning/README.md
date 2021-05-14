@@ -4,7 +4,7 @@ In this chapter,  you will find key information needed to size and deploy KODO f
 
 In the [KODO for Cloud Support Matrix](kodo-for-cloud-support-matrix.md) chapter, you can check supported Microsoft 365 features.
 
-The [Platform Requirements](system-requirements.md) chapter describes hardware and software requirements for KODO for Cloud server components.
+The [Platform Requirements](platform-requirements.md) chapter describes hardware and software requirements for KODO for Cloud server components.
 
 The [Multi-tenancy architecture](multitenancy-mode.md) chapter presents the assumptions of KODO for Cloud server multi-tenancy architecture.
 

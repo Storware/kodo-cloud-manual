@@ -8,7 +8,7 @@
   * [Main Features](overview/main-features.md)
 * [Planning](planning/README.md)
   * [KODO for Cloud Support Matrix](planning/kodo-for-cloud-support-matrix.md)
-  * [Platform Requirements](planning/system-requirements.md)
+  * [Platform Requirements](planning/platform-requirements.md)
   * [Multi-tenancy architecture](planning/multitenancy-mode.md)
   * [Sizing Guide](planning/sizing/README.md)
     * [Small Microsoft 365 organization](planning/sizing/small.md)

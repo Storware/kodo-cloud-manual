@@ -1,8 +1,8 @@
 # Platform Requirements
 
-## Software Requirements
-
 ### Operating Systems
+
+KODO for Cloud server supports the following operating system platforms:
 
 #### RedHat Enterprise Linux / CentOS
 

@@ -82,5 +82,5 @@ Below you will find detailed information about what Microsoft 365 services can b
   </tbody>
 </table>
 
-Go to the [Platform Requirements](system-requirements.md) chapter to learn about the operating system requirements.
+Go to the [Platform Requirements](platform-requirements.md) chapter to learn about the operating system requirements.
 

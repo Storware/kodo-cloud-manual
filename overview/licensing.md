@@ -12,7 +12,7 @@ There is an option to buy additional years of support and subscription by contac
 
  **Monthly subscription**  
   
-What fits Microsoft 365 licensing model best is the monthly payment model. You may decide to choose the number of months or "Pay as You Grow". 
+What fits Microsoft 365 licensing model best is the monthly payment model. You may decide to choose the number of months or "**Pay as You Grow**" payment model. 
 
 {% hint style="info" %}
  The minimum number of subscription months you have to purchase in the license is **12**
@@ -30,7 +30,7 @@ Currently, there's only one support level with the following SLA:
 
             - 7 days per week x 24 hours 
 
-For more information please go to [https://storware.eu/faq/](https://storware.eu/faq/)
+For more information please go to [https://storware.eu/faq/](https://storware.eu/faq/) web site.
 
 Go to the [Main Features ](main-features.md)chapter to learn about KODO for Cloud server main features.
 
