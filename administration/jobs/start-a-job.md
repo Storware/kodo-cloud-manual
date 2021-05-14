@@ -10,7 +10,7 @@ If you want to start a job manually, do the following:
 
 ![](../../.gitbook/assets/kodo-cloud-administration-job0.-start.png)
 
-
+Go to the [Polices](../policies/) chapter to learn how to change the job configuration.
 
 
 

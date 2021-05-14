@@ -36,7 +36,21 @@ The number of versions that the server keeps is also affected by the time retent
 
 ### Storage
 
-Select a storage you want to store your data.
+Select storage you want to store your data on.
+
+### Features
+
+Select Microsoft 365 features you want to protect.
+
+### Features settings
+
+Select it if you want to backup the "**Deleted items**" folder.
+
+Go to the [Edit a policy](edit-a-policy.md) ****chapter to learn how to edit it.
+
+
+
+
 
 
 

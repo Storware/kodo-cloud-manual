@@ -7,7 +7,7 @@ After successful installation of **KODO for Cloud** server the administrator can
 {% hint style="info" %}
 The administrator can use the admin or the kodoadmin account to log into the application. 
 
-The differences between both user types are described in the [Administration levels](../deployment/first-steps-after-deployment/administration-access-levels.md) section. 
+The differences between both user types are described in the [Administration access levels ](../deployment/first-steps-after-deployment/administration-access-levels.md)section. 
 {% endhint %}
 
 ![](../.gitbook/assets/kodo-administrator-dashboard%20%281%29.jpg)
@@ -37,5 +37,5 @@ If the administrator logs into the  web UI console as `kodoadmin` user then a di
 
 ![](../.gitbook/assets/kodoadmin-dashboard-01.png)
 
-Go to the [Protection](users.md) chapter to learn about the Protection menu.
+Go to the [Protection](users.md) chapter to learn about what Microsoft 365 entities can be protected.
 

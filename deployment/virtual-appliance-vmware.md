@@ -10,7 +10,7 @@ The virtual machine has the following configuration:
 
 ## Accessing virtual machine
 
-A preconfigured virtual machine appliance in the OVA format is ready to deploy in the VMware virtual environment in version 6.5 or above. You can download KODO for Cloud virtual appliance from the following link:
+A preconfigured virtual machine appliance in the OVA format is ready to deploy in the VMware virtual environment in version 6.5 or above. You can download KODO for Cloud VA from the following link:
 
 [ftp://ftp.storware.eu/](ftp://kodo4cloud@ftp.storware.eu/)
 

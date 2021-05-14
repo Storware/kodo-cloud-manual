@@ -2,8 +2,6 @@
 
 KODO for Cloud server can be easily installed on a single box \(it can be a physical or virtual server\). In both cases, the steps you need to follow are basically the same. Before installation prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the [Sizing](../planning/sizing/) chapter\).
 
-
-
 If the system platform is configured and deployment-ready do as follow:
 
 1. Configure a system platform tailored to the size of your Microsoft 365 organization.
@@ -24,8 +22,6 @@ If the system platform is configured and deployment-ready do as follow:
 6. Test basic backup & recovery operations to verify that the installation is completed:
    * [Backup](../administration/data-backup/on-demand-backup.md)​ 
    * [Restore](../administration/data-restore/) 
-
-
 
 Go to the [Quick Install \(All-In-One\)](quick-install-all-in-one.md) chapter to install KODO for Cloud server using installation script.
 

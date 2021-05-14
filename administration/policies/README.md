@@ -19,8 +19,8 @@ You can also select feature settings for Exchange Online Mailbox : **Backup Dele
 If you need to add organization user\(s\) or site\(s\)to the policy to [Edit a policy](edit-a-policy.md) chapter.    
 
 {% hint style="info" %}
-NOTE: There must always be one default policy on KODO for Cloud server. Policy named "**Default Policy**" is predefined default policy and cannot be deleted, unless administrator will create a new policy and set it as the default one.
+NOTE: There must always be one default policy on KODO for Cloud server. The policy named "**Default Policy**" is a predefined default policy and cannot be deleted, unless the administrator will create a new policy and set it as the default one.
 {% endhint %}
 
-
+Go to the [Create a policy](../jobs/create-a-job.md) chapter to learn how to create it.
 

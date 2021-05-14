@@ -12,6 +12,8 @@ You can also double-click on the policy name to start to edit the policy
 
  Click the **Save** button to confirm amendments.  
 
+Go to the [Delete a policy](delete-a-policy.md) chapter to learn how to delete it.
+
 
 
 

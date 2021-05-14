@@ -7,7 +7,7 @@ To configure the Azure Blob Storage as a backup destination for KODO for Cloud s
 * Storage account name  
 * One of the account keys
 
-The information will be required later on when  KODO for Cloud server is installed add will be ready for BLOB storage configuration.
+The information will be required later on when  KODO for Cloud server is installed add will be ready for BLOB storage configuration \(see the [Define a storage type for a backup destination](../first-steps-after-deployment/storage-configuration-path/define-storage-type.md) chapter\).
 
 Go to the [Cloud Agent-additional instance \(optional\)](../cloud-agent.md) chapter to learn how to configure the cloud agent instance.
 

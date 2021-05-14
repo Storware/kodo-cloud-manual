@@ -14,7 +14,7 @@ Many factors may affect your final deployment, but it's a good practice to answe
 
 Based on the above, we prepared four configurations that are typical for most use cases.
 
-Browse the next chapters and find the proper system configuration that fits your Microsoft 365 organization size.
+Browse the next chapters and find the right system configuration that fits your Microsoft 365 organization size.
 
 
 

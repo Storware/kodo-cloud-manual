@@ -30,7 +30,7 @@ Job concurrency size: 25
 ```
 
 {% hint style="info" %}
-You don't need to provide the SERVER\_HOST option if the cloud agent is installed on the KODO for Cloud server.
+You don't need to provide the SERVER\_HOST:SERVER\_PORT option if the cloud agent is installed on the KODO for Cloud server.
 {% endhint %}
 
 2. Start and enable Kodo Cloud Agent service \(provide the defined agent name\).

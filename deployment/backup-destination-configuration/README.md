@@ -9,8 +9,6 @@ Before you start the KODO for Cloud installation process you have to configure a
 
 If you are going to use a local disk or VDO option to store your data, you have to configure a block device on a server in both cases.
 
-KODO for Cloud requires staging destination configured on a local filesystem. The `/kodo_data/staging`directory is created during the installation process by default. 
-
 Go to the[ Filesystems](filesystem/) chapter to learn what filesystems the administrator is able to configure on KODO for Cloud server.
 
 

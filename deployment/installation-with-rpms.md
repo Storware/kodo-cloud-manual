@@ -5,7 +5,7 @@ Before starting the installation process you have to prepare your server platfor
 Follow the steps to prepare your system platform prior to deployment:
 
 1. Configure a backup storage destination. Follow the instructions in the [Backup destinations](backup-destination-configuration/) chapter.
-2. Make sure your operating system is up-to-date by the following command:
+2. LOgin to the Make sure your operating system is up-to-date by the following command:
 
    ```text
    # yum -y update

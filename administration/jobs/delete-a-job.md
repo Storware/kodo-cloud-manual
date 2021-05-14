@@ -9,5 +9,7 @@ If you want to delete a job, do the following steps
 
 ![](../../.gitbook/assets/kodo-cloud-administration-job02-delete.png)
 
+Go to the [Start a job \(manually\)](start-a-job.md) chapter to learn how to start the job manually.
+
 
 

@@ -6,11 +6,11 @@ The number of organizations is limited only by your license \(maximum number of 
 
 
 
-![](../.gitbook/assets/image%20%2852%29.png)
+![](../.gitbook/assets/image%20%2858%29.png)
 
-See the [KODO Multi-Organization Management](../deployment/first-steps-after-deployment/microsoft-365-organization-management/kodo-multi-organization-management.md) section to get to know how to add your organization to KODO for Cloud server.
+See the [KODO Multi-Organization Management](../deployment/first-steps-after-deployment/microsoft-365-organization-management/kodo-multi-organization-management.md) section to learn how to add your organization to KODO for Cloud server.
 
-Go to the [Sizing Guide ](sizing/)chapter to learn about how to size the system platform for KODO for Cloud server deployment.
+Go to the [Sizing Guide ](sizing/)chapter to learn how to size the system platform for KODO for Cloud server deployment.
 
 
 
