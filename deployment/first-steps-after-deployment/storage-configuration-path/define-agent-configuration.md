@@ -1,4 +1,4 @@
-# Define agent configuration
+# Define agent config
 
 By defining the agent configuration \(Agent config asset\) administrator can assign a defined storage type directly to the cloud agent instance. 
 

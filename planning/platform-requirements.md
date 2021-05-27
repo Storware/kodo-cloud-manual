@@ -8,7 +8,7 @@ KODO for Cloud server supports the following operating system platforms:
 
 Minimum version:
 
-* **8.x**
+* **8.x** 
 
 The operating system can be installed either on a physical or a virtual server. The server configuration will depend on the size of your organization in the Microsoft 365 service. Check the [Sizing ](sizing/)section for the requirements for your KODO for Cloud server.  
 

@@ -14,7 +14,7 @@ If you want to perform full on-demand backup of Exchange Mailboxes, Exchange Arc
 
 6. You can set the time the backup starts by clicking the **Schedule** button or click the **Save** button. If you click the **Save** button then the backup will be created once.  
 
-Go to the [Scheduled backup](creating-new-backup-job.md) chapter to learn how to exectue it.
+Go to the [Scheduled backup](creating-new-backup-job.md) chapter to learn how to execute it.
 
 
 

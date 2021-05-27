@@ -1,6 +1,6 @@
 # Known software issues and limitations
 
-There's a list of known software issues and limitations in KODO for Cloud server. 
+Here's a list of known software issues and limitations in KODO for Cloud server. 
 
 | Issue ID | Product feature | Description | Workaround |
 | :--- | :--- | :--- | :--- |

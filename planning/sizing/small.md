@@ -27,7 +27,7 @@ For the small Microsoft 365 organization \(up to 50 users\) the following system
       <td style="text-align:left">
         <ul>
           <li>RHEL 8.x</li>
-          <li>entOS 8.x</li>
+          <li>CentOS 8.x</li>
         </ul>
       </td>
     </tr>
