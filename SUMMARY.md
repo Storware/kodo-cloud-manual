@@ -188,5 +188,4 @@
   * [How to enable KODO DEBUG mode](kodo-for-cloud-documentation/troubleshooting/enable-kodo-debug-mode.md)
   * [Collecting Logs](kodo-for-cloud-documentation/troubleshooting/collecting-logs.md)
 * [Known software issues and limitations](kodo-for-cloud-documentation/known-software-issues-and-limitations.md)
-* [Glossary](kodo-for-cloud-documentation/glossary.md)
 
