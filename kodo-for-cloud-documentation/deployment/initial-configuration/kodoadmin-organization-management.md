@@ -1,4 +1,0 @@
-# KodoAdmin Organization management
-
-bo 
-

@@ -1,20 +1,12 @@
 # Administration
 
-This section provides information about administrative tasks in this application. It describes in detail how to perform [backup](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/~/drafts/-MAWwMuu2uq6CjweVK0b/administration/data-backup) and [restore](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/~/drafts/-MAWwMuu2uq6CjweVK0b/administration/data-restore) operations and how to manage key elements using WebUI, including [policies](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/~/drafts/-MAWwMuu2uq6CjweVK0b/administration/policies), [tasks](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/~/drafts/-MAWwMuu2uq6CjweVK0b/administration/tasks), [jobs](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/~/drafts/-MAWwMuu2uq6CjweVK0b/administration/jobs), [users](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/~/drafts/-MAWwMuu2uq6CjweVK0b/administration/users), [agents, ](cloud-agent.md)and more.
+As mentioned before \([Kodoadmin vs KODO organization Admin](https://storware.gitbook.io/kodo-for-cloud-office365/kodo-for-cloud-documentation/deployment/initial-configuration/kodoadmin-vs-organization-admin)\), KODO for Cloud server has two predefined administration access levels: 
 
-Go to the [Dashboard](dashboard.md) chapter to learn about KODO for Cloud dashboard types.
+![](../.gitbook/assets/obraz%20%2814%29.png)
 
+[Kodoadmin user guide](https://storware.gitbook.io/kodo-for-cloud-office365/kodo-for-cloud-documentation/administration/kodoadmin-user-guide)   
+The administrator's level to configure and manage KODO for Cloud server. It is accessed through UI as logging in as predefined `kodoadmin` user. The kodoamin user will be called "global admin" for the purpose of this documentation. 
 
-
-
-
-
-
-
-
-
-
-
-
-
+[KODO organization admin guide](https://storware.gitbook.io/kodo-for-cloud-office365/kodo-for-cloud-documentation/administration/kodo-microsoft-365-organization-admin)  
+The organization administrator's level to configure and manage defined KODO organization on KODO for Cloud server. It is accessed through UI by logging in as predefined`admin` ****user. The admin user will be called "organization admin" for the purpose of this documentation. 
 

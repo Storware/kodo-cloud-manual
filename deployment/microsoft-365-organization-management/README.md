@@ -1,10 +1,6 @@
-# Microsoft 365 Organization Management
+# Microsoft 365 organization management
 
-KODO for Cloud allows you to protect multiple Microsoft 365 organizations.
+KODO for Cloud server allows you to protect multiple Microsoft 365 organizations within a single server instance. Before you add the Microsoft 365 organization to KODO for Cloud server, you have to configure all required permissions of your application in the Microsoft 365 service. 
 
-The procedure how to configure your organization before you start to configurte it on KODO for Cloud server is described in the next chapter \([Configure Microsoft 365 access](microsoft-365-organization-management.md)\).
-
- 
-
-
+Go to the [Configure Microsoft 365 access]() chapter to learn how to configure Microsoft 365 organization permissions to be able to add it to KODO for Cloud server.
 

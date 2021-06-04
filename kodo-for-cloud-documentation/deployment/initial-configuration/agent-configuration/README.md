@@ -1,6 +1,0 @@
-# Agent configuration
-
-The cloud agent has to have defined its configuration, which assigns storage to the cloud agent instance.  Once the storage is assigned, in the next step administrator can the agent config,  which can be assigned to the KODO organization. 
-
-Go to the [Define agent configuration](define-agent-configuration.md) chapter to learn about how to define agent instance.
-
