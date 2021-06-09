@@ -15,11 +15,11 @@ Data policy allows you to configure the following settings:
 
 You can also select feature settings for Exchange Online Mailbox : **Backup Deleted Items Folder**
 
-If you need to add organization user\(s\) or site\(s\)to the policy go to [Edit a policy]() chapter.    
+If you need to add organization user\(s\) or site\(s\)to the policy go to [Edit a policy](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/policies/edit-a-policy) chapter.    
 
 {% hint style="info" %}
 NOTE: There must always be one default policy on KODO for Cloud server. The policy named "**Default Policy**" is a predefined default policy and cannot be deleted, unless the administrator will create a new policy and set it as the default one.
 {% endhint %}
 
-Go to the [Create a policy]() chapter to learn how to create it.
+Go to the [Create a policy](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/policies/create-a-policy) chapter to learn how to create it.
 

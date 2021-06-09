@@ -83,7 +83,7 @@ Below you will find detailed information about what Microsoft 365 services can b
   </tbody>
 </table>
 
-|  | Backup  | Item level restore | MS365 restore | Another account restore\* | Different path | Deleted elements\*\* | Overwrite | Download\*\*\* |
+|  | Backup  | Item level restore | MS365 restore | Restore to another account\* | Restore to different path | Restore deleted elements\*\* | Restore with overwrite | Download\*\*\* |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Mailbox | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Calendar | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -100,5 +100,5 @@ Below you will find detailed information about what Microsoft 365 services can b
   
 ****\*\*\*
 
-Go to the [Platform Requirements]() to learn about platform requirements for KODO for Cloud server.
+Go to the [Platform Requirements](https://storware.gitbook.io/kodo-for-cloud-office365/overview/platform-requirements) to learn about platform requirements for KODO for Cloud server.
 

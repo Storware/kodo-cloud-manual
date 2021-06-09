@@ -7,5 +7,5 @@
 
 ![](../../../../.gitbook/assets/image%20%2866%29.png)
 
-The backup for selected users is running and the backup job was created under the Jobs menu. Now you can monitor the backup progress in the Tasks menu. Once the backup job is finished, you can do the data recovery.
+The backup for selected users is running and the backup job was created under the Jobs menu. Now you can monitor the backup progress in the Tasks menu. Once the backup job is finished, you can do the data [recovery](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/protection/restore).
 

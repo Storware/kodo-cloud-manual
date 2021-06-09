@@ -1,6 +1,6 @@
 # Quick Install \(All-in-One\)
 
-Before you start the installation process you need to prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the [Sizing](https://storware.gitbook.io/kodo-for-cloud-office365/planning/sizing) chapter\).
+Before you start the installation process you need to prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the [Sizing guide](https://storware.gitbook.io/kodo-for-cloud-office365/overview/sizing-guide) chapter\).
 
 {% hint style="info" %}
 Installation on the **RHEL** platform requires an active Red Hat subscription.
@@ -56,8 +56,8 @@ You can also use the command below to check KODO for Cloud server version:
 If the KODO server is up and running, you should be able to log in to KODO for Cloud using your browser, and the address `https://IP_OF_YOUR_MACHINE:8181`
 
 {% hint style="info" %}
-KODO for Cloud server credentials are submitted in the [KodoAdmin vs Organization admin]() chapter.
+KODO for Cloud server credentials are submitted in the [KodoAdmin vs KODO Organization admin](https://storware.gitbook.io/kodo-for-cloud-office365/overview/sizing-guidehttps://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/kodoadmin-vs-kodo-organization-admin).
 {% endhint %}
 
- You can begin system configuration using information from the [Initial configuration]() chapter.
+ You can begin system configuration using information from the [Initial configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration) chapter.
 

@@ -5,5 +5,5 @@ A stage is a dedicated area on the file system that is used as a temporary locat
 * Staging path \(default path is /kodo\_data/staging\)
 * Staging storage free space warning threshold \(size in MB or GB\)
 
-Go to the [Logs]() chapter to learn how to configure logs settings.
+Go to the [Logs](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodoadmin-user-guide/settings/logs) to learn how to configure logs settings.
 

@@ -7,7 +7,7 @@ KODO for Cloud server can be easily installed on a single server. It can be a ph
 3. Set up your Microsoft 365 organization.
 4. Perform backup and recovery.
 
-Before you start the installation process, you have to configure your machine and add disk space to store your Microsoft 365 organization data. Go to the [Sizing Guide ]()chapter to prepare your server platform based on the size of the Microsoft 365 organization. After your system platform is configured you can proceed with KODO for Cloud installation.  
+Before you start the installation process, you have to configure your machine and add disk space to store your Microsoft 365 organization data. Go to the [Sizing Guide ](https://storware.gitbook.io/kodo-for-cloud-office365/overview/sizing-guide)chapter to prepare your server platform based on the size of the Microsoft 365 organization. After your system platform is configured you can proceed with KODO for Cloud installation.  
 
-Go to the ["All-in-One" installation](https://storware.gitbook.io/kodo-for-cloud-office365/kodo-for-cloud-documentation/quick-guide/all-in-one-install) chapter to learn about the swift installation of KODO for Cloud server.
+Go to the ["All-in-One" installation](https://storware.gitbook.io/kodo-for-cloud-office365/quick-guide/all-in-one-installation) chapter to learn about the swift installation of KODO for Cloud server.
 

@@ -11,5 +11,5 @@ If you want to edit a job, do the following:
 
 ![](../../../.gitbook/assets/kodo-cloud-administration-job02-edit.png)
 
-Go to the[ Deactivate/activate a job ]()chapter to learn how to change the job configuration.
+Go to the[ Deactivate/activate a job ](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/jobs/deactivate-activate-a-job)chapter to learn how to change the job configuration.
 

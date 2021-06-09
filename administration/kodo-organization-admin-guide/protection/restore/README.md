@@ -4,7 +4,9 @@ The item level recovery technology allows you to instantly recover specific file
 
 Restore options:
 
-* [To the same account](https://storware.gitbook.io/kodo-for-cloud-office365/kodo-for-cloud-documentation/administration/kodo-microsoft-365-organization-admin/protection/restore/to-the-same-account)
-* [To another path](https://storware.gitbook.io/kodo-for-cloud-office365/kodo-for-cloud-documentation/administration/kodo-microsoft-365-organization-admin/protection/restore/to-another-path)
-* [To another account](https://storware.gitbook.io/kodo-for-cloud-office365/kodo-for-cloud-documentation/administration/kodo-microsoft-365-organization-admin/protection/restore/to-another-account)
+* [To the same account](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/protection/restore/to-the-same-account)
+* [To another path](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/protection/restore/to-another-path)
+* [To another account](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/protection/restore/to-another-account)
+
+
 

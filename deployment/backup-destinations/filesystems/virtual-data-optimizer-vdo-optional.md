@@ -65,7 +65,7 @@ dm_mod                151552  13 kvdo,dm_log,dm_mirror,dm_bufio
 
 ## Preparation
 
-* Log into KODO for Cloud server as the `root` user
+* Log into KODO for Cloud server as the `root`user
 * List all existing disks in your server and find your dedicated disk - in this example -`/dev/mapper/kodo`
 
   ```text
@@ -80,7 +80,7 @@ dm_mod                151552  13 kvdo,dm_log,dm_mirror,dm_bufio
   Disk /dev/mapper/kodo: 1.5 TiB, 1610612736000 bytes, 393216000 sectors
   ```
 
-* Format the disk `/dev/mapper/kodo` 
+* Format the disk `/dev/mapper/kodo`
 
   ```text
   # mkfs.xfs -K /dev/mapper/kodo
@@ -107,7 +107,7 @@ dm_mod                151552  13 kvdo,dm_log,dm_mirror,dm_bufio
   # chown -R kodo:kodo /kodo_data/
   ```
 
-The directories are prepared to store backup data. Now your KODO for Cloud installation is ready for [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/kodo-for-cloud-documentation/deployment/initial-configuration) step.
+The directories are prepared to store backup data. Now your KODO for Cloud installation is ready for [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration) step.
 
-Go to the [MS Azure Blob Storage]() chapter to learn how to configure that type of data storage.
+Go to the [MS Azure Blob Storage](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/backup-destinations/microsoft-azure-blob-storage) chapter to learn how to configure that type of data storage.
 

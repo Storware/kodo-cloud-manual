@@ -62,7 +62,7 @@ You can also use the command below to check version of the installed KODO for Cl
 If the KODO server is up and running, you should be able to log in to KODO for Cloud using your browser, and the address `https://IP_OF_YOUR_MACHINE:8181`
 
 {% hint style="info" %}
-Kodo for Cloud server credentials are presented in the [KodoAdmin vs Organization admin]() chapter 
+Kodo for Cloud server credentials are presented in the [KodoAdmin vs Organization admin](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/kodoadmin-vs-kodo-organization-admin) chapter 
 {% endhint %}
 
 Go to the Add Microsoft 365 Organization chapter to learn how to add Microsoft 365 organization to KODO for Cloud server.

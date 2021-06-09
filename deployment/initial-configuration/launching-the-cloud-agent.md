@@ -8,5 +8,5 @@ To launch the agent, go to the **Options** menu and click the **Play** button.
 
 Now the activity status in the **Active** column should be changed from **No** to **Yes**. 
 
-Go to the [Storage configuration chapter](https://storware.gitbook.io/kodo-for-cloud-office365/kodo-for-cloud-documentation/deployment/initial-configuration/storage-configuration) to learn about storage configuration.
+Go to the [Storage configuration ](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/storage-configuration)to learn about storage configuration.
 

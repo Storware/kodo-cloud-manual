@@ -15,5 +15,5 @@ If you obtained a license file, do as follow:
 
 KODO for Cloud server is now fully licensed and enabled. You can proceed with further server configuration.
 
-Go to the [Lauching the cloud agent](https://storware.gitbook.io/kodo-for-cloud-office365/kodo-for-cloud-documentation/deployment/initial-configuration/launching-the-cloud-agent) chapter to learn about cloud agent initialization.
+Go to the [Lauching the cloud agent](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/launching-the-cloud-agent) to learn about cloud agent initialization.
 

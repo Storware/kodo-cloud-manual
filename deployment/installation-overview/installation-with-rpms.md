@@ -1,10 +1,10 @@
 # Installation with RPMs
 
-Before starting the installation process you have to prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the [Sizing]() chapter\).
+Before starting the installation process you have to prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the [Sizing Guide](https://storware.gitbook.io/kodo-for-cloud-office365/overview/sizing-guide)\).
 
 Follow the steps to prepare your system platform prior to deployment:
 
-1. Configure a backup storage destination. Follow the instructions in the [Backup destinations]() chapter.
+1. Configure a backup storage destination. Follow the instructions in the [Backup destinations](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/backup-destinations) chapter.
 2. Login to the Make sure your operating system is up-to-date by the following command:
 
    ```text
@@ -119,6 +119,10 @@ Follow the steps to install KODO for Cloud server using rpm packages:
 
 8. Now you should be able to log into the web console using the URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST` is the hostname or IP address of your Kodo for Cloud server. To be able to perform backup tasks you have to install the KODO cloud agent.  Go to the **KODO for Cloud agent** paragraph to proceed.  
 
+{% hint style="info" %}
+KODO for Cloud server credentials are described in the chapter [Kodoadmin vs KODO Organization admin](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/kodoadmin-vs-kodo-organization-admin)
+{% endhint %}
+
 ## KODO for Cloud Agent
 
 Kodo Cloud Agent is the component that performs backup and restore tasks. You can install it on the same host as the KODO for Cloud server was installed or you can install it on another dedicated server.         
@@ -167,11 +171,5 @@ Follow the steps below to install KODO for Cloud agent using rpm packages:
    #systemctl enable cloud-agent-voyager
    ```
 
-5. Now you should be able to log in to KODO for Cloud using `https://IP_OF_YOUR_MACHINE:8181`
-
-{% hint style="info" %}
-KODO for Cloud server credentials are described in the chapter [Kodoadmin vs Organization admin]()
-{% endhint %}
-
-Go to the [Backup destinations](https://storware.gitbook.io/kodo-for-cloud-office365/kodo-for-cloud-documentation/deployment/untitled) to configure storage for backups.
+Go to the [Backup destinations](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/backup-destinations) to configure storage for backups.
 

@@ -14,5 +14,5 @@ If you select the **AZURE BLOB** as the storage type, you have to assign a name 
 
 There's no limit on the number of created storage configurations.
 
-Go to the [Settings]() chapter to learn about how to define other settings of KODO for Cloud server.
+Go to the [Settings](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodoadmin-user-guide/settings) chapter to learn about how to define other settings of KODO for Cloud server.
 

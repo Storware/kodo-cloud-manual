@@ -34,5 +34,5 @@ KODO for Cloud Server has the following features implemented:
 _MS Teams support is planned for June 2021_
 {% endhint %}
 
-Go to the [Architecture]() chapter to learn about KODO for Cloud server architecture.
+Go to the [Architecture](https://storware.gitbook.io/kodo-for-cloud-office365/overview/architecture) chapter to learn about KODO for Cloud server architecture.
 

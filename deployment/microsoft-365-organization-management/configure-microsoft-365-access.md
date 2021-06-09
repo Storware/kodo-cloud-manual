@@ -72,7 +72,6 @@ The instruction is as follow:
     <AppPermissionRequest Scope="http://sharepoint/content/tenant" 
      Right="FullControl" />
  </AppPermissionRequests>
-
 ```
 
 16. When you click on the **Create** button you'll be presented with a permission consent dialog. Press the **Trust It** button to grant the permissions.
@@ -86,5 +85,5 @@ Set-SPOTenant -LegacyAuthProtocolsEnabled $True
 
 It enables the **LegacyAuthProtocolsEnabled** setting. 
 
-Go to the [KODO Multi-Organization Management]() chapter to learn how to configure the KODO organization.
+Go to the [KODO Multi-Organization Management](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/microsoft-365-organization-management/kodo-multi-organization-management) to learn how to configure the KODO organization.
 

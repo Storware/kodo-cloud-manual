@@ -15,7 +15,7 @@ If the host computer has an Internet connection, use the yum command, you'll als
 * Make sure you have Kodo for Cloud database backup.
 
 {% hint style="info" %}
-You can find how to backup database [here](https://storware.gitbook.io/kodo-for-cloud-office365/kodo-for-cloud-documentation/administration/kodo-microsoft-365-organization-admin/disaster-recovery)
+You can find how to backup database in [Disaster Recovery](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/settings/disaster-recovery)
 {% endhint %}
 
 * If Kodo for Cloud Server was installed on a virtual machine \(not a physical one\), it would be a good move to take a snapshot

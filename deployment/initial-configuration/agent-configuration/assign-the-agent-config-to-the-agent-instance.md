@@ -10,5 +10,5 @@ Enter the Agent Configuration name and select the storage type.
 
 You can assign all defined storage types to the one agent configuration. Click the **Save** button to finish.
 
-Go to the [Assign the agent config to the organization]() chapter to learn how to assign the defined agent config to the cloud agent \(Agent\).
+Go to the [Assign the agent config to the organization](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/agent-configuration/assign-the-agent-config-to-the-organization) chapter to learn how to assign the defined agent config to the cloud agent \(Agent\).
 

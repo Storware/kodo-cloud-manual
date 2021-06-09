@@ -25,5 +25,5 @@ You can search tasks by task type \(e.g. OneDrive Backup\), over a period of tim
 
 ![](../../.gitbook/assets/kodo-cloud-administration-tasks02.png)
 
-Go to the [Jobs]() chapter to learn about the Jobs menu.
+Go to the [Jobs](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/jobs) chapter to learn about the Jobs menu.
 

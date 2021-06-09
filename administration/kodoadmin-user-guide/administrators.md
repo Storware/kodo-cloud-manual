@@ -25,8 +25,5 @@ Save the settings by clicking the **Save** button. The new administrator is defi
 
 ![](../../.gitbook/assets/image%20%2871%29.png)
 
-
-
-  
-Go to the [Organizations]() chapter to learn about how to add, manage or delete KODO organizations.
+Go to the [Organizations](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodoadmin-user-guide/organizations) chapter to learn about how to add, manage or delete KODO organizations.
 

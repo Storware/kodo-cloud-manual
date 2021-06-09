@@ -10,5 +10,5 @@ If you select the **AZURE BLOB** as the storage type, you have to assign a name 
 
 There's no limit on the number of created storage configurations.
 
-Go to the [Agent configuration ]()chapter to learn how to configure the cloud agent instance.
+Go to the [Agent configuration ](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/agent-configuration)chapter to learn how to configure the cloud agent instance.
 

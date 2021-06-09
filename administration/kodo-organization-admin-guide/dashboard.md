@@ -1,7 +1,5 @@
 # Dashboard
 
-
-
 ## The admin user dashboard <a id="the-admin-user-dashboard"></a>
 
 The administrator can log into the console as `admin` user and then KODO for Cloud dashboard view appears. Using this dashboard administrator is able to manage his own organization and set up jobs to protect users' data.

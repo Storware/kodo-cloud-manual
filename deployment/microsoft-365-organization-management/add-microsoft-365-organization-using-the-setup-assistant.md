@@ -36,5 +36,5 @@ Set-SPOTenant -LegacyAuthProtocolsEnabled $True
 
 It enables the **LegacyAuthProtocolsEnabled** setting. 
 
-Go to the [Account auto-synchronization]() to learn how to synchronize Microsoft 365 accounts.
+Go to the [Account auto-synchronization](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/microsoft-365-organization-management/account-auto-synchronization) to learn how to synchronize Microsoft 365 accounts.
 

@@ -20,5 +20,5 @@ If you want all new entities created at Microsoft 365 service to be automaticall
 4.  Switch the **Auto-select users** or **Auto-select sites** option.
 5. Click the **Back** button and click the **Save** button at the end.
 
-Go to the [Administration]() chapter to learn how to administer KODO for Cloud server.
+Go to the [Administration](https://storware.gitbook.io/kodo-for-cloud-office365/administration) chapter to learn how to administer KODO for Cloud server.
 

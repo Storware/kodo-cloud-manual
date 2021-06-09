@@ -8,5 +8,5 @@ To assign the agent config to the KODO organization do as follow:
 
 ![](../../../.gitbook/assets/image%20%2812%29.png)
 
-Go to the [Microsoft 365 organization management]() chapter to learn how to configure Microsoft 365 organization.
+Go to the [Microsoft 365 organization management](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/microsoft-365-organization-management) chapter to learn how to configure Microsoft 365 organization.
 

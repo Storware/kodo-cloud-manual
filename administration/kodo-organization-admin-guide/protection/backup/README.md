@@ -4,6 +4,8 @@ Go through the next chapters to learn about how to configured available types of
 
 Backup types:
 
-* [Scheduled Backup](https://storware.gitbook.io/kodo-for-cloud-office365/kodo-for-cloud-documentation/administration/kodo-microsoft-365-organization-admin/protection/backup/scheduled-backup)
-* [Backup on-demand](https://storware.gitbook.io/kodo-for-cloud-office365/kodo-for-cloud-documentation/administration/kodo-microsoft-365-organization-admin/protection/backup/backup-on-demand)
+* [Scheduled Backup](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/protection/backup/scheduled-backup)
+* [Backup on-demand](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/protection/backup/backup-on-demand)
+
+
 

@@ -12,5 +12,5 @@ If you need to restart, stop, or start KODO for Cloud server service, do as foll
 
 and use the **start** and **stop** parameters respectively to trigger the action.  
 
-If you don't find here root cause of the problem you can switch KODO for Cloud server to [DEBUG mode](), and recreate tasks to generate logs in DEBUG mode.
+If you don't find here root cause of the problem you can switch KODO for Cloud server to [DEBUG mode](https://storware.gitbook.io/kodo-for-cloud-office365/troubleshooting/how-to-enable-kodo-debug-mode), and recreate tasks to generate logs in DEBUG mode.
 

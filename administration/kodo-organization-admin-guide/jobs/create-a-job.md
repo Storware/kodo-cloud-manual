@@ -32,5 +32,5 @@ Set the following information:
 
 Click the **Back** button to go to the previous window. Click the **Save** button to finish.
 
-Go to the [Edit a job]() chapter to learn how to change the job configuration
+Go to the [Edit a job](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/jobs/edit-a-job) chapter to learn how to change the job configuration
 

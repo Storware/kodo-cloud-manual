@@ -19,5 +19,5 @@ Click **Send Test Email** button and enter an email address. Click **Send** butt
 
 
 
-Go to the [Stage tab]() chapter to learn how to configure the staging area.
+Go to the [Stage](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodoadmin-user-guide/settings/stage) to learn how to configure the staging area.
 

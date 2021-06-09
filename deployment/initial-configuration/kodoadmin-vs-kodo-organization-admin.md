@@ -6,7 +6,7 @@ KODO for Cloud server was designed in a multi-tenancy architecture. It means tha
 
  KODO for Cloud server has two predefined administration access levels: 
 
-* **KODO administration level** - the administrator's level to configure and manage KODO for Cloud server. It is accessed through UI as logging in as predefined `kodoadmin` user. The kodoamin user will be called "global admin" for the purpose of this documentation. 
+* **KODO administration level** - the administrator's level to configure and manage KODO for Cloud server. It is accessed through UI as logging in as predefined`kodoadmin` user. The kodoamin user will be called "global admin" for the purpose of this documentation. 
 * **KODO organization administration level** - the organization administrator's level to configure and manage defined KODO organization on KODO for Cloud server. It is accessed through UI by logging in as predefined`admin` ****user. The admin user will be called "organization admin" for the purpose of this documentation. 
 
 ### Default login credentials
@@ -20,5 +20,5 @@ Here are credentials for two predefined administrator accounts:
 
 First, you have to log in to the server as `kodoadmin` user and add KODO license to enable full functionality of the server.
 
-Go to the[ License ]()chapter to learn how to add a license  KODO for Cloud server.
+Go to the[ License ](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/license)chapter to learn how to add a license  KODO for Cloud server.
 

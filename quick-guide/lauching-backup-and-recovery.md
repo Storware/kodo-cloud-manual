@@ -1,4 +1,4 @@
-# Lauching backup & recovery
+# Launch backup & recovery
 
 ## Backup "on-demand"
 
@@ -23,5 +23,5 @@ If you want to restore Microsoft 365 user's data to Microsoft 365 organization, 
 4. Press the **Restore** button at the right-top window corner. The **Restore job assistant** window will appear.
 5. Select recovery options and click the **Save & run** button to start the recovery process.
 
-Go to the [Overview]() chapter to learn more about KODO for Cloud server.
+Go to the [Overview](https://storware.gitbook.io/kodo-for-cloud-office365/overview) chapter to learn more about KODO for Cloud server.
 

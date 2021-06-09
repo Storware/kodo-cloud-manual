@@ -1,6 +1,6 @@
 # Installation using the Ansible playbook
 
-Before starting the installation process you need to prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the [Sizing](https://storware.gitbook.io/kodo-for-cloud-office365/planning/sizing) guide chapter\).
+Before starting the installation process you need to prepare your server platform accordingly to the size of the Microsoft 365 organization you are going to protect \(see the [Sizing guide](https://storware.gitbook.io/kodo-for-cloud-office365/overview/sizing-guide) guide chapter\).
 
 You can install a complete Kodo for Cloud solution using the following 2 roles, available on the Ansible Galaxy:
 
@@ -43,7 +43,6 @@ ansible-galaxy install xe0nic.ansible_kodo_cloud_server ansible-galaxy install x
 * Create an inventory file - i.e. `hosts`:
 
 ```text
-hosts
 [all:vars]
 ansible_user = root
 ​
@@ -57,7 +56,6 @@ ansible_user = root
 * Create a playbook file - `site.yml`:
 
 ```text
-site.yml
 ---
 ​
 - hosts: server
@@ -73,7 +71,7 @@ site.yml
 * After installation you should be able to log into your Kodo for Cloud server: `https://kodo_cloud_server_address:8181` and your nodes should be registered and running.
 
 {% hint style="info" %}
-KODO for Cloud server credentials are submitted in the [KodoAdmin vs Organization admin]() chapter 
+KODO for Cloud server credentials are submitted in the [KodoAdmin vs KODO Organization admin](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/kodoadmin-vs-kodo-organization-admin)
 {% endhint %}
 
 ## Variables <a id="variables"></a>
@@ -96,11 +94,5 @@ Ansible playbook is also able to automatically prepare **deduplication** \(by de
 vdo_physical_device: "/dev/sdb"
 ```
 
-Now you should be able to log into the web console using the URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST` is the hostname or IP address of your Kodo for Cloud server.​
-
-{% hint style="info" %}
-KODO for Cloud server credentials are submitted in the [KodoAdmin vs Organization admin]() chapter 
-{% endhint %}
-
-You can begin system configuration following information from the [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/kodo-for-cloud-documentation/deployment/initial-configuration)
+You can begin system configuration following information from the [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration)
 

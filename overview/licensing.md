@@ -26,5 +26,5 @@ Currently, there's only one support level with the following SLA:
 
 For more information please go to [https://storware.eu/faq/](https://storware.eu/faq/) web site.
 
-Go to the [Deployment](https://app.gitbook.com/@storware/s/kodo-for-cloud-office365/~/drafts/-MahYoYLxpzO-ow3RY1i/kodo-for-cloud-documentation/deployment/@drafts) chapter to learn how to deploy KODO for Cloud server.
+Go to the [Deployment](https://storware.gitbook.io/kodo-for-cloud-office365/deployment) chapter to learn how to deploy KODO for Cloud server.
 

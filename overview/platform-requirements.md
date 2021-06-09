@@ -13,7 +13,7 @@ Minimum version:
 
 It's recommended to install OS as a minimal install.
 
-The operating system can be installed either on a physical or a virtual server. The server configuration will depend on the size of your organization in the Microsoft 365 service. Check the [Sizing ]()section for the requirements for your KODO for Cloud server.  
+The operating system can be installed either on a physical or a virtual server. The server configuration will depend on the size of your organization in the Microsoft 365 service. Check the [Sizing Guide ](https://storware.gitbook.io/kodo-for-cloud-office365/overview/sizing-guide)section for the requirements for your KODO for Cloud server.  
 
 {% hint style="danger" %}
 If KODO for Cloud is to be installed on a virtual machine in VMware vSphere hypervisor in version 6.7 and above, make sure that **Secure Boot** is disabled in the virtual machine's **Boot Options**.
@@ -45,5 +45,5 @@ Use LVM device-mapper as a filesystem, that allows users to expand disk space if
 TCP port **8181** is used to communicate with the KODO for Cloud server UI.
 {% endhint %}
 
-Go to the [Sizing Guide]() to learn how to size up your system platform for KODO for Cloud server. 
+Go to the [Sizing Guide](https://storware.gitbook.io/kodo-for-cloud-office365/overview/sizing-guide) to learn how to size up your system platform for KODO for Cloud server. 
 

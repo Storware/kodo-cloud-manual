@@ -46,5 +46,5 @@ Select Microsoft 365 features you want to protect.
 
 Select it if you want to backup the "**Deleted items**" folder.
 
-Go to the [Edit a policy]() ****chapter to learn how to edit it.
+Go to the [Edit a policy](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/policies/edit-a-policy) ****chapter to learn how to edit it.
 

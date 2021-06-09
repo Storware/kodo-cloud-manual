@@ -13,5 +13,5 @@ Here's a list of new features and functions added in version 4.2 of KODO for Clo
 * New restore UI under „Protection” menu 
 * Added the „Create maintenance task” option to trigger it manually
 
-Go to the [Quick Guide]() chapter to learn about the swift installation of KODO for Cloud server.
+Go to the [Quick Guide](https://storware.gitbook.io/kodo-for-cloud-office365/quick-guide) chapter to learn about the swift installation of KODO for Cloud server.
 

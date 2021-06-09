@@ -12,5 +12,5 @@ You can search audit logs over a period of time using the calendar.
 
 ![](../../.gitbook/assets/kodo-cloud-administration-audit01.png)
 
-Go to the [Backup types]() chapter to learn about backup types supported by KODO for Cloud server.
+Go to the [Downloads](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/downloads) chapter to learn about download options supported by KODO for Cloud server.
 

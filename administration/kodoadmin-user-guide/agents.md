@@ -107,16 +107,15 @@ Do the following steps:
     "ignoreCertificate": true
   }
 }
-
 ```
 
-7. Paste the activation key in the **activationCode** entry \(here with an example key value\).
-
-8. Save the file.
+7. Paste the activation key in the **activationCode** entry under "server" section\(here with an example key value\).
 
 ```text
 "activationCode": "KEJvxGx6BMs8Mz5ZK6^ewuamdK%C$Ix-J=GgWQ!e"
 ```
 
-Go to the[ Tasks ](tasks.md)chapter to learn about how to monitor server tasks.
+8. Save the file.
+
+Go to the[ Tasks ](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodoadmin-user-guide/tasks)chapter to learn about how to monitor server tasks.
 
