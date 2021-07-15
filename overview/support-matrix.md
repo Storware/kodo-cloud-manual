@@ -90,7 +90,7 @@ Below you will find detailed information about what Microsoft 365 services can b
 | Contact | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Archive | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | OneDrive for Business | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Sites | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Sites | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | Pages | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | List items | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 | Document  Libraries | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |

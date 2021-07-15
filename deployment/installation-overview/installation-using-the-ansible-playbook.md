@@ -22,7 +22,7 @@ generate a key:
 and copy it to your CentOS/RHEL box:
 
 ```text
-# copy-id -i ~/.ssh/id_rsa.pub root@YOUR_HOST
+# ssh-copy-id -i ~/.ssh/id_rsa.pub root@YOUR_HOST
 ```
 
 Agents communicate with Kodo Cloud Server on port 8181, so they need to be able to access it using the server FQDN \(it needs to be resolvable\).
@@ -36,7 +36,8 @@ Run these on the system from which you run Ansible playbooks:
 * Install Ansible roles:
 
 ```text
-ansible-galaxy install xe0nic.ansible_kodo_cloud_server ansible-galaxy install xe0nic.ansible_kodo_cloud_agent
+ansible-galaxy install xe0nic.ansible_kodo_cloud_server 
+ansible-galaxy install xe0nic.ansible_kodo_cloud_agent
 ```
 
 * Create a playbook directory and change its working directory, i.e: `mkdir kodo && cd kodo`
