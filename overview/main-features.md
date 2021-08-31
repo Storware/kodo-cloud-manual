@@ -14,7 +14,8 @@ KODO for Cloud Server has the following features implemented:
   * Exchange Online Calendars,
   * Exchange Online Archive Mailboxes,
   * OneDrive Files & Folders,
-  * SharePoint Online Items
+  * SharePoint Online Items,
+  * Microsoft Teams.
 * Intelligent handling Microsoft 365 throttling & resource limits outage control
 * Multiple cloud agent support for better scalability or geographically dispersed environments
 * Auto-assign accounts to the default backup policy 
@@ -29,10 +30,6 @@ KODO for Cloud Server has the following features implemented:
   * Virtual Data Optimizer \(VDO\)
 * Deduplication with Virtual Data Optimizer \(VDO\)
 * Open API for 3rd party software integration \(REST API\)
-
-{% hint style="info" %}
-_MS Teams support is planned for June 2021_
-{% endhint %}
 
 Go to the [Architecture](https://storware.gitbook.io/kodo-for-cloud-office365/overview/architecture) chapter to learn about KODO for Cloud server architecture.
 

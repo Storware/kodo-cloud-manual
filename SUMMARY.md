@@ -1,7 +1,8 @@
 # Table of contents
 
 * [KODO for Cloud Documentation](README.md)
-* [What's new](whats-new.md)
+* [What's new in 4.3](whats-new/README.md)
+  * [What's new in 4.2](whats-new/whats-new-in-4.2.md)
 * [Quick guide](quick-guide/README.md)
   * ["All-in-One" Installation](quick-guide/all-in-one-installation.md)
   * [Add Microsoft 365 Organization](quick-guide/add-microsoft-365-organization.md)

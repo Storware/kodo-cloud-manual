@@ -12,6 +12,7 @@ Data policy allows you to configure the following settings:
   * Exchange Online Contacts
   * OneDrive for Business
   * Sharepoint Online
+  * Microsoft Teams
 
 You can also select feature settings for Exchange Online Mailbox : **Backup Deleted Items Folder**
 

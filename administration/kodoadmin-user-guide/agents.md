@@ -23,13 +23,15 @@ If you need you can tweak some settings of the cloud agent. You have to log in t
 You can edit some parameters in the `AgentConfig.json` file, however it's not recommended if you are not asked about it by KODO support.     
 
 ```text
-  {
+{
   "agent": {
-    "name": "voyager",
+    "name": "tomek",
     "concurrencySize": 5,
     "userAgent": "KODO/4.0",
+    "activationCode": "",
+    "ArchiveBatchSize": 20,
     "logs": {
-      "path": "../../logs/voyager",
+      "path": "../../logs/tomek",
       "level": "info",
       "console": true,
       "auditLog": false
@@ -44,15 +46,13 @@ You can edit some parameters in the `AgentConfig.json` file, however it's not re
       "overall": 660,
       "request": 100
     },
-    "heartbeatInterval": 180,
-    "activationCode": ""
+    "heartbeatInterval": 180
   },
   "server": {
     "address": "localhost:8181",
     "ignoreCertificate": true
   }
 }
-
 ```
 
 ### Activation key
@@ -80,11 +80,13 @@ Do the following steps:
 
 {
   "agent": {
-    "name": "voyager",
+    "name": "tomek",
     "concurrencySize": 5,
     "userAgent": "KODO/4.0",
+    "activationCode": "",
+    "ArchiveBatchSize": 20,
     "logs": {
-      "path": "../../logs/voyager",
+      "path": "../../logs/tomek",
       "level": "info",
       "console": true,
       "auditLog": false
@@ -99,8 +101,7 @@ Do the following steps:
       "overall": 660,
       "request": 100
     },
-    "heartbeatInterval": 180,
-    "activationCode": ""
+    "heartbeatInterval": 180
   },
   "server": {
     "address": "localhost:8181",

@@ -14,7 +14,7 @@ Use KODO for Cloud to back up and restore your data from your Microsoft 365. You
 
 ## Detailed architecture
 
-![](../.gitbook/assets/obraz%20%2815%29.png)
+![](../.gitbook/assets/kodo_for_cloud_01.png)
 
 KODO for Cloud consists of 2 main components:
 

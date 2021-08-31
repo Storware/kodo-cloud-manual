@@ -6,7 +6,7 @@
 4. Click on the **Schedule** button and schedule backup execution
 5. Click on the **Save** button.
 
-![](../../../../.gitbook/assets/image%20%2866%29.png)
+![](../../../../.gitbook/assets/screen1.png)
 
 ![](../../../../.gitbook/assets/obraz.png)
 

@@ -9,7 +9,7 @@ If you need to add to or remove the user\(s\) from a data policy, do the followi
 5. Select user\(s\) or site\(s\) you want to be assigned to the policy.
 6. Click the **Save** button to confirm amendments.
 
-![](../../../.gitbook/assets/image%20%2840%29.png)
+![](../../../.gitbook/assets/screen2.png)
 
 Go to the [Audit log](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/audit-log) ****to learn about the server audit log.
 

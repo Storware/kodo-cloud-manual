@@ -6,7 +6,7 @@ To create a data policy do the following:
 2. Click on the **Add Policy** button
 3. Configure the data policy due to your company backup regulations and confirm settings by pressing the **Save** button.
 
-![](https://gblobscdn.gitbook.com/assets%2F-MARp0PEmGx7WatFFC6-%2F-MXboVFGPjNHGdtVEMVk%2F-MXcLG_Z7iK-80lBk7em%2Fimage.png?alt=media&token=8e497eb4-2da5-47b3-8f7c-23ae608b14a7)
+![](../../../.gitbook/assets/screen2.png)
 
 {% hint style="info" %}
 Data Policy configuration will apply to all users.

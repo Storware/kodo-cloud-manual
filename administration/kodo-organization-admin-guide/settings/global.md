@@ -2,7 +2,7 @@
 
 In this tab, you can verify your server/agent version and available service options.
 
-![](https://gblobscdn.gitbook.com/assets%2F-MARp0PEmGx7WatFFC6-%2F-MXBovJpZ7pDvB63EH3s%2F-MXCSExQTkedKZETqxf3%2Fimage.png?alt=media&token=4eb80080-4e8f-459e-abdc-3a82173e8ad8)
+![](../../../.gitbook/assets/zrzut-ekranu-z-2021-08-31-10-10-34.png)
 
 In the **Global** tab you can also set the following KODO server parameters:
 

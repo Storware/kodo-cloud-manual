@@ -33,26 +33,46 @@ The instruction is as follow:
 
     | API | Permission name | Permission type |
     | :--- | :--- | :--- |
-    | **Azure Active Directory Graph** | Directory.Read.All | Application |
-    | **Microsoft Graph** | Application.Read.All | Application |
-    | **Microsoft Graph** | Calendars.ReadWrite | Application |
+    | **Azure Active Directory Graph** | Calendars.ReadWrite | Application |
+    | **Microsoft Graph** | Channel.Create | Application |
+    | **Microsoft Graph** | Channel.ReadBasic.All | Application |
+    | **Microsoft Graph** | ChannelMember.Read.All | Application |
+    | **Microsoft Graph** | ChannelMember.ReadWrite.All | Application |
+    | **Microsoft Graph** | ChannelMessage.Read.All | Application |
+    | **Microsoft Graph** | Chat.Read.All | Application |
+    | **Microsoft Graph** | Chat.ReadBasic.All | Application |
+    | **Microsoft Graph** | Chat.ReadWrite.All | Application |
+    | **Microsoft Graph** | ChatMember.Read.All | Application |
+    | **Microsoft Graph** | ChatMember.ReadWrite.All | Application |
     | **Microsoft Graph** | Contacts.ReadWrite | Application |
     | **Microsoft Graph** | Directory.ReadWrite.All | Application |
-    | **Microsoft Graph** | Files.Read.All | Application |
     | **Microsoft Graph** | Files.ReadWrite.All | Application |
     | **Microsoft Graph** | Group.Create | Application |
     | **Microsoft Graph** | Group.ReadWrite.All | Application |
+    | **Microsoft Graph** | GroupMember.Read.All | Application |
     | **Microsoft Graph** | GroupMember.ReadWrite.All | Application |
-    | **Microsoft Graph** | Mail.Read | Application |
-    | **Microsoft Graph** | Mail.ReadWrite.All | Application |
+    | **Microsoft Graph** | Mail.ReadWrite | Application |
+    | **Microsoft Graph** | MailboxSettings.Read | Application |
+    | **Microsoft Graph** | MailboxSettings.ReadWrite | Application |
+    | **Microsoft Graph** | Member.Read.Hidden | Application |
     | **Microsoft Graph** | Sites.FullControl.All | Application |
     | **Microsoft Graph** | Sites.Manage.All | Application |
+    | **Microsoft Graph** | Sites.Read.All | Application |
     | **Microsoft Graph** | Sites.ReadWrite.All | Application |
-    | **Microsoft Graph** | User.Read | Application |
-    | **Microsoft Graph** | User.Read.All | Application |
+    | **Microsoft Graph** | Team.Create | Application |
+    | **Microsoft Graph** | Team.ReadBasic.All | Application |
+    | **Microsoft Graph** | TeamMember.Read.All | Application |
+    | **Microsoft Graph** | TeamMember.ReadWrite.All | Application |
+    | **Microsoft Graph** | TeamMember.ReadWriteNonOwnerRole.All | Application |
+    | **Microsoft Graph** | TeamsApp.ReadWrite.All | Application |
+    | **Microsoft Graph** | TeamSettings.ReadWrite.All | Application |
+    | **Microsoft Graph** | TeamsTab.Create | Application |
+    | **Microsoft Graph** | TeamsTab.ReadWrite.All | Application |
+    | **Microsoft Graph** | TeamsTab.ReadWriteForChat.All | Application |
+    | **Microsoft Graph** | TeamsTab.ReadWriteForTeam.All   | Application |
+    | **Microsoft Graph** | TeamsTab.ReadWriteForUser.All | Application |
     | **Microsoft Graph** | User.Read.All | Application |
     | **Microsoft Graph** | User.ReadWrite.All | Application |
-    | **Microsoft Graph** | MailboxSettings.ReadWrite | Application |
     | **Office 365 Exchange Online** | full\_access\_as\_app | Application |
     | **SharePoint** | Sites.FullControl.All | Application |
     | **SharePoint** | Sites.Manage.All | Application |
