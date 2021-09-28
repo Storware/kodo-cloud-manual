@@ -6,7 +6,7 @@ To create a data policy do the following:
 2. Click on the **Add Policy** button
 3. Configure the data policy due to your company backup regulations and confirm settings by pressing the **Save** button.
 
-![](../../../.gitbook/assets/screen2.png)
+![](../../../.gitbook/assets/image%20%2878%29.png)
 
 {% hint style="info" %}
 Data Policy configuration will apply to all users.
@@ -27,7 +27,7 @@ The minimum value for **Versions to keep** is 1. The default value is 5.
 {% endhint %}
 
 {% hint style="info" %}
-Versioning is used e.g. for OneDrive files \(if the file is changed in time\), but also e-mail messages can have many version \(mail draft changed in time\)
+Versioning is used e.g. for OneDrive files \(if the file is changed in time\), but also e-mail messages can have many versions \(mail draft changed in time\)
 {% endhint %}
 
 {% hint style="info" %}
@@ -44,7 +44,7 @@ Select Microsoft 365 features you want to protect.
 
 ### Features settings
 
-Select it if you want to backup the "**Deleted items**" folder.
+Select it if you want to back up the "**Deleted Iitems**" folder.
 
-Go to the [Edit a policy](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/policies/edit-a-policy) ****chapter to learn how to edit it.
+Go to the [Edit a policy](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/policies/edit-a-policy) ****section to learn how to edit it.
 

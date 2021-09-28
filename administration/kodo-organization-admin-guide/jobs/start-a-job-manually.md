@@ -10,5 +10,5 @@ If you want to start a job manually, do the following:
 
 ![](../../../.gitbook/assets/kodo-cloud-administration-job0.-start.png)
 
-Go to the [Policies](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/policies) chapter to learn how to change the job configuration.
+Go to the [Policies](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/policies) section to learn how to change the job configuration.
 
