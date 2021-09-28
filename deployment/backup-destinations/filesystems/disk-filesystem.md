@@ -5,7 +5,7 @@ In this section, we'll show you how to set up a disk filesystem \(it can be a lo
 **Note:**
 
 * Any remote FS like **NFS, SMB, etc.** - needs to be mounted by the user and`kodo`user/group must own the directories within the backup destination. KODO for Cloud server expects already mounted file system and mount point in the backup destination.
-* you should add this file system to your `/etc/fstab` file, so it gets mounted automatically if OS is rebooted. 
+* you should add this file system to your `/etc/fstab`file, so it gets mounted automatically if OS is rebooted. 
 
 ## Preparation
 
@@ -69,5 +69,5 @@ Disk /dev/mapper/kodo: 1.5 TiB, 1610612736000 bytes, 393216000 sectors
 # chown -R kodo:kodo /kodo_data/
 ```
 
-The directories are prepared to store backup data. Now your KODO for Cloud installation is ready for [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration) step.
+The directories are prepared to store backup data. Now your KODO for Cloud installation is ready for the  [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration) step.
 

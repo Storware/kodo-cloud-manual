@@ -1,6 +1,6 @@
 # Deployment
 
-In this section, you will find detailed information about the deployment and configuration of KODO for Cloud. 
+n this section, you will find detailed information about the deployment and configuration of KODO for Cloud. 
 
 [Installation Overview](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/installation-overview)   
 General steps needed to install our software.  
@@ -19,7 +19,7 @@ Storage options:
 * [Microsoft Azure Blob storage](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/backup-destinations/microsoft-azure-blob-storage)
 
 [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration)  
-Steps after firs- time login
+Steps after first time login
 
 1. [KodoAdmin vs KODO Organization admin](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/kodoadmin-vs-kodo-organization-admin)
 2. [License](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/license)

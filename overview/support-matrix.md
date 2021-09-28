@@ -4,7 +4,7 @@ KODO for Cloud server supports backups and restores of Microsoft 365 services.
 
 Below you will find detailed information about what Microsoft 365 services can be protected by KODO for Cloud server and what restore capabilities it holds:
 
-|  | Backup  | Item level restore | MS365 restore | Restore to another account | Restore to a different path | Restore deleted elements | Restore with overwriting | Download\*\*\* |
+|  | Backup  | Item level restore | MS365 restore | Restore to another account | Restore to different path | Restore deleted elements | Restore with overwrite | Download\*\*\* |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Mailbox | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Calendar | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |

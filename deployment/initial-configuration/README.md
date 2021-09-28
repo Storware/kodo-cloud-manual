@@ -9,7 +9,7 @@ Learn about KODO for Cloud access level
 Add the KODO license
 
 [Launching the cloud agent](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/launching-the-cloud-agent)  
-Lanuch previously installed kodo cloud agents
+Launch previously installed kodo cloud agents
 
 [Storage configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/storage-configuration)  
 Define backup storage destination
