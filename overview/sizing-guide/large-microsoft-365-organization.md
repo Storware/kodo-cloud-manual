@@ -19,8 +19,8 @@ For a large Microsoft 365 organization \(from 251 to 1000 users\) the following 
           <li>at least 4 cores</li>
           <li>at least 24 GB RAM</li>
           <li>at least 30 GB free space for operating system binaries</li>
-          <li>at least 275 GB free space for database (/var/lib/mysql directory)</li>
-          <li>at least 25 GB free space for KODO software (/opt/kodo-cloud directory)</li>
+          <li>at least 275 GB free space for database (<b>/var/lib/mysql </b>directory)</li>
+          <li>at least 25 GB free space for KODO software (<b>/opt/kodo-cloud </b>directory)</li>
           <li>storage space for backup</li>
         </ul>
       </td>

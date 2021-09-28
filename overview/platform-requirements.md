@@ -6,7 +6,7 @@ KODO for Cloud server supports the following operating system platforms:
 
 #### RedHat Enterprise Linux / CentOS
 
-Minimum version:
+The minimum reversion:
 
 * **8.x**
 * **CentOS Stream**

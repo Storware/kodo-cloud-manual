@@ -52,7 +52,7 @@ Nov 02 15:23:18 localhost.localdomain systemd[1]: Started Kodo for Cloud server.
 
 ```
 
-You can also use the command below to check version of the installed KODO for Cloud server:
+You can also use the command below to check the version of the installed KODO for Cloud server:
 
 ```text
 # curl -k https://localhost:8181/api/version
