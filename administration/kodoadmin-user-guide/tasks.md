@@ -4,5 +4,5 @@ In this menu, kodoadmin can preview all tasks that are currently running on KODO
 
 ![](../../.gitbook/assets/image%20%2865%29.png)
 
-Go to the [Audit Log ](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodoadmin-user-guide/audit-log)chapter to learn about how to monitor server activities.
+Go to the [Audit Log ](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodoadmin-user-guide/audit-log)section to learn about how to monitor server activities.
 

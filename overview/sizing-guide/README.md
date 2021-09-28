@@ -9,7 +9,7 @@ Before you start KODO for Cloud installation, find the answers to the following 
    * How big is the volume of your data? 
    * How many user accounts are used in your Microsoft 365 organization?
 2. **Where?**
-   * Where will you store your backups? Are you going to use a standard filesystem \(like xfs or ext4\), NFS/SMB share or you prefer to leverage Microsoft Azure Blob Storage?  
+   * Where will you store your backups? Are you going to use a standard filesystem \(like xfs or ext4\), NFS/SMB share, or do you prefer to leverage Microsoft Azure Blob Storage?  
 3. **When?**
    * What is the best time to take backups?  It is almost certain that throttling may occur during the backup task. Throttling limits the number of concurrent calls to a service to prevent the overuse of resources. Microsoft Graph is designed to handle a high volume of requests. If an overwhelming number of requests occurs, throttling helps maintain optimal performance and reliability of the Microsoft Graph service. It's recommended to schedule your Microsoft organization backup after normal working hours to avoid throttling occurrences.
 
@@ -29,7 +29,7 @@ All KODO for Cloud components can be installed on one filesystem, but it's recom
 Configure all disks as LVM devices just to extend their capacity in the future if needed.
 {% endhint %}
 
-Based on the best practise, we prepared four configurations that are typical for most use cases. 
+Based on the best practice, we prepared four configurations that are typical for most use cases. 
 
 Browse the next chapters and find the right system configuration that fits your Microsoft 365 organization size.
 

@@ -20,5 +20,5 @@ Here are credentials for two predefined administrator accounts:
 
 First, you have to log in to the server as `kodoadmin` user and add KODO license to enable the full functionality of the server.
 
-Go to the[ License ](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/license)chapter to learn how to add a license  KODO for Cloud server.
+Go to the[ License ](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/license)section to learn how to add a license  KODO for Cloud server.
 

@@ -156,7 +156,7 @@ Follow the steps below to install KODO for Cloud agent using rpm packages:
    #/opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager
    ```
 
-4. Start and enable Kodo Cloud Agent service using agent name at the end of the service name.
+4. Start and enable Kodo Cloud Agent service using the agent name at the end of the service name.
 
    * syntax:
 

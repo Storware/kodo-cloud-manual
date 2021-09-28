@@ -12,5 +12,5 @@ and in the next steps do the following actions:
 * Assign defined agent config to the agent
 * Assign agent config\(s\) to defined KODO organization
 
-Go to the [Filesystem](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/storage-configuration/filesystem) chapter to learn about how to define the filesystem as the storage destination.
+Go to the [Filesystem](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/storage-configuration/filesystem) section to learn about how to define the filesystem as the storage destination.
 
