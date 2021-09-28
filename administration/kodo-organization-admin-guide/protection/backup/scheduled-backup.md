@@ -8,8 +8,6 @@
 
 ![](../../../../.gitbook/assets/image%20%2877%29.png)
 
-
-
 ![](../../../../.gitbook/assets/image%20%2875%29.png)
 
 The backup for selected entities will be executed accordingly to the set schedule and the backup job is now displayed on the list in the Jobs menu. Now you can monitor the backup progress in the Tasks menu. Once the backup job is finished, you can do the data [recovery](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/protection/restore).
