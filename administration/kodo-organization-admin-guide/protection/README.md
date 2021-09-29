@@ -15,8 +15,8 @@ You can do the following activities on the protected entities \(users or sites\)
 * ​[**Restore**](https://storware.gitbook.io/kodo-for-cloud-office365/administration/data-restore/restore-data-to-microsoft-365)**-** to store entities data
 
 {% hint style="warning" %}
-If an entity is removed from the server, its status is automatically changed to "Locked". The deletion process runs in the background on the server, and the backups are removed from the backup store. When the process is complete, the entity is also removed from the list, but not from Microsoft 365. If the entity is retained in Microsoft 365, the organization administrator can synchronize their account with the KODO for Cloud server and add it to any defined policy.
+If an entity is deleted from the server, his status is automatically changed to "**Locked**". The deletion process is running in the background on the server and the backups are removed from the backup storage. When the process is finished, the entity is also removed from the list but not from the Microsoft 365 service. If the entity is preserved in the Microsoft 365 service, the organization admin can synchronize his account with KODO for Cloud server and add it to any defined policy.  
 {% endhint %}
 
-Go to the [Backup](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/protection/backup) section to learn about how to configure a backup of your organization's data.
+Go to the [Backup](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/protection/backup) to learn about how to configure a backup of your organization data.
 

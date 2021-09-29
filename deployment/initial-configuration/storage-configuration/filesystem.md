@@ -8,5 +8,5 @@ If you select the **FILE SYSTEM** as the storage type, you have to assign a name
 
 ![](../../../.gitbook/assets/obraz%20%2812%29.png)
 
-Go to the [Microsoft Azure Blob Storage](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/storage-configuration/microsoft-azure-blob-storage) section to learn about how to define MS Azure Blob Storage as a storage destination.
+Go to the [Microsoft Azure Blob Storage](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/storage-configuration/microsoft-azure-blob-storage) chapter to learn about how to define MS Azure Blob Storage as a storage destination.
 

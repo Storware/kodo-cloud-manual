@@ -6,5 +6,5 @@ By defining the agent configuration \(Agent config asset\) administrator can ass
 
 You can assign all defined storage types to the one agent configuration if needed. Click the **Save** button to confirm.
 
-Go to the [Agents](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodoadmin-user-guide/agents) section to learn how to manage the cloud agents configuration.
+Go to the [Agents](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodoadmin-user-guide/agents) to learn how to manage the cloud agents configuration.
 

@@ -17,8 +17,8 @@ For a very large Microsoft 365 organization \(1000+ users\) the following system
           <li>at least 8 cores</li>
           <li>at least 32 GB RAM</li>
           <li>at least 30 GB free space for operating system binaries</li>
-          <li>at least 500 GB free space for database (<b>/var/lib/mysql</b> directory)</li>
-          <li>at least 30 GB free space for KODO software (<b>/opt/kodo-cloud</b> directory)</li>
+          <li>at least 500 GB free space for database (/var/lib/mysql directory)</li>
+          <li>at least 30 GB free space for KODO software (/opt/kodo-cloud directory)</li>
           <li>storage space for backup</li>
         </ul>
       </td>
@@ -36,5 +36,5 @@ You can check the current storage usage of your Microsoft 365 organization by lo
 It's recommended to configure all disks as LVM devices just to be able to extend their capacity if needed.
 {% endhint %}
 
-Go to the [Deployment](https://storware.gitbook.io/kodo-for-cloud-office365/deployment) chapter to choose KODO for Cloud server installation type or go to the [Licensing](../licensing.md) section to learn how KODO for Cloud is licensed.
+Go to the [Deployment](https://storware.gitbook.io/kodo-for-cloud-office365/deployment) chapter to choose KODO for Cloud server installation type or go to the Licensing chapter to learn how KODO for Cloud is licensed.
 

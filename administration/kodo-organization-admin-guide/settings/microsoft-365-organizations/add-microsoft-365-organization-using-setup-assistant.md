@@ -38,5 +38,5 @@ To add your Microsoft 365 organization to KODO for Cloud server using Setup Assi
 
 It enables the **LegacyAuthProtocolsEnabled** setting. 
 
-Go to the [Launch backup & recovery](https://storware.gitbook.io/kodo-for-cloud-office365/quick-guide/lauching-backup-and-recovery) section to learn how to backup and recover users' Microsoft 365 data.
+Go to the [Launch backup & recovery](https://storware.gitbook.io/kodo-for-cloud-office365/quick-guide/lauching-backup-and-recovery) chapter to learn how to backup and recover users' Microsoft 365 data.
 

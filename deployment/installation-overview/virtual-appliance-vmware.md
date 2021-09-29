@@ -138,5 +138,5 @@ https://KODO_SERVER_HOST_IP:8181
 KODO for Cloud server credentials are submitted in the [KodoAdmin vs KODO Organization admin](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/kodoadmin-vs-kodo-organization-admin) chapter 
 {% endhint %}
 
-Go to the [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration) section to configure KODO for Cloud server.
+Go to the [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration) chapter to configure KODO for Cloud server.
 

@@ -13,5 +13,5 @@ In this tab you can set the following logs settings:
 
 You can also download Server logs or Application Logs for troubleshooting or to send this information to KODO for Cloud support. Click the **Server Logs** or **Application Logs** tabs and selected files. Click the **Action** icon to download chosen files.
 
-Go to the [License](license.md) section to learn how to upload a license file
+Go to the [Logs]() chapter to learn how to configure log settings.
 

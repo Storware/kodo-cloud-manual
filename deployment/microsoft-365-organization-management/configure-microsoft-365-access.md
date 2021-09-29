@@ -105,5 +105,5 @@ Set-SPOTenant -LegacyAuthProtocolsEnabled $True
 
 It enables the **LegacyAuthProtocolsEnabled** setting. 
 
-Go to the [KODO Multi-Organization Management](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/microsoft-365-organization-management/kodo-multi-organization-management) section to learn how to configure the KODO organization.
+Go to the [KODO Multi-Organization Management](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/microsoft-365-organization-management/kodo-multi-organization-management) to learn how to configure the KODO organization.
 

@@ -31,5 +31,5 @@ KODO for Cloud Server has the following features implemented:
 * Deduplication with Virtual Data Optimizer \(VDO\)
 * Open API for 3rd party software integration \(REST API\)
 
-Go to the [Architecture](https://storware.gitbook.io/kodo-for-cloud-office365/overview/architecture) section to learn about KODO for Cloud server architecture.
+Go to the [Architecture](https://storware.gitbook.io/kodo-for-cloud-office365/overview/architecture) chapter to learn about KODO for Cloud server architecture.
 
