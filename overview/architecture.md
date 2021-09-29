@@ -26,7 +26,7 @@ KODO for Cloud consists of 2 main components:
 
 ## Component placement
 
-* KODO for Cloud server and cloud agents can be installed on the same system. 
+* KODO for Cloud server and cloud agent can be installed on the same system. 
 * The server can be installed on a physical or a virtual machine.
 * The agent can be installed on a separate system if needed.
 * The agent may be installed during KODO for Cloud server installation \(see the chapter [Quick Install \(All-In-One\)](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/installation-overview/quick-install-all-in-one)\).
@@ -42,5 +42,5 @@ On KODO for Cloud server the following components are also configured:
 
 * It's a storage destination where KODO for Cloud server stores backup data.
 
-Go to the [Support Matrix](https://storware.gitbook.io/kodo-for-cloud-office365/overview/support-matrix) serction to learn about what features and functions KODO for Cloud server supports.
+Go to the [Support Matrix](https://storware.gitbook.io/kodo-for-cloud-office365/overview/support-matrix) to learn about what features and functions KODO for Cloud server supports.
 

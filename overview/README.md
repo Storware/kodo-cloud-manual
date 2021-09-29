@@ -20,5 +20,5 @@ Server parameters for the size of your Microsoft 365 organization.
 [Licensing](https://storware.gitbook.io/kodo-for-cloud-office365/overview/licensing)   
 Options we provide to optimize your costs while keeping the functionality that fulfills your needs.
 
-Let's start. Go to the [Main Features](https://storware.gitbook.io/kodo-for-cloud-office365/overview/main-features) section to learn about KODO for Cloud main features.
+Let's start. Go to the [Main Features](https://storware.gitbook.io/kodo-for-cloud-office365/overview/main-features) chapter to learn about KODO for Cloud main features.
 

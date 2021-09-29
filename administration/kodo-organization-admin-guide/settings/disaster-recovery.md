@@ -2,7 +2,8 @@
 
 ## Internal Database Protection <a id="internal-database-protection"></a>
 
-Kodo for Cloud stores all of the metadata in the local database. It is **highly recommended** to setup periodic DB backup on Kodo for Cloud Server. To backup your database u can use **mysqldump** command**:**  
+Kodo for Cloud stores all of the metadata in the local database. It is **highly recommended** to setup periodic DB backup on Kodo for Cloud Server.   
+To backup your database u can use **mysqldump** command**:**  
 syntax:
 
 ```text

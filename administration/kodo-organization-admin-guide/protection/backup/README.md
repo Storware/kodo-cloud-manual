@@ -1,6 +1,6 @@
 # Backup
 
-Go through the next sections to learn about how to configured available types of backup on KODO for Cloud server.
+Go through the next chapters to learn about how to configured available types of backup on KODO for Cloud server.
 
 Backup types:
 

@@ -12,5 +12,5 @@ You can also double-click on the policy name to start to edit the policy
 
  Click the **Save** button to confirm amendments.  
 
-Go to the [Delete a policy](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/policies/delete-a-policy) section to learn how to delete it.
+Go to the [Delete a policy](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/policies/delete-a-policy) chapter to learn how to delete it.
 

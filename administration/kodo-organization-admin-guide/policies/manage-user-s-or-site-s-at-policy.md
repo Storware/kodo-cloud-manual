@@ -11,5 +11,5 @@ If you need to add to or remove the user\(s\) from a data policy, do the followi
 
 ![](../../../.gitbook/assets/screen2.png)
 
-Go to the [Audit log](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/audit-log) ****section ****to learn about the server audit log.
+Go to the [Audit log](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/audit-log) ****to learn about the server audit log.
 

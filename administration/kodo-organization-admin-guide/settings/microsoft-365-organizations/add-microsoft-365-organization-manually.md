@@ -15,5 +15,5 @@ To add your Microsoft 365 organization to KODO for Cloud server, do as follow:
 8. Save your settings by clicking the **Save** button.
 9. Now you can go to the **Users** menu. Click the **Synchronize** button to synchronize users from your organization with KODO for Cloud server. 
 
-Go to the [Add Microsoft 365 organization using the Setup Assistant ](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/settings/microsoft-365-organizations/add-microsoft-365-organization-using-setup-assistant)section to learn how to add Microsoft 365 organization using dedicated Setup Assistant.
+Go to the [Add Microsoft 365 organization using the Setup Assistant ](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/settings/microsoft-365-organizations/add-microsoft-365-organization-using-setup-assistant)chapter to learn how to add Microsoft 365 organization using dedicated Setup Assistant.
 

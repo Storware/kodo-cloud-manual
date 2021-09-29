@@ -110,7 +110,7 @@ Do the following steps:
 }
 ```
 
-7. Paste the activation key in the **activationCode** entry under the "server" section \(here with an example key value\).
+7. Paste the activation key in the **activationCode** entry under "server" section\(here with an example key value\).
 
 ```text
 "activationCode": "KEJvxGx6BMs8Mz5ZK6^ewuamdK%C$Ix-J=GgWQ!e"
@@ -118,5 +118,5 @@ Do the following steps:
 
 8. Save the file.
 
-Go to the[ Tasks ](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodoadmin-user-guide/tasks)section to learn about how to monitor server tasks.
+Go to the[ Tasks ](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodoadmin-user-guide/tasks)chapter to learn about how to monitor server tasks.
 

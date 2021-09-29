@@ -9,13 +9,13 @@ KODO for Cloud Server has the following features implemented:
 * Full and "incremental forever" backup strategy for Microsoft 365 service 
 * Flexible restore: back to Microsoft 365 service or via web UI to a local desktop/laptop
 * Individual object-level recovery:
-  * Exchange Online Mailboxes
-  * Exchange Online Contacts
-  * Exchange Online Calendars
-  * Exchange Online Archive Mailboxes
-  * OneDrive Files & Folders
-  * SharePoint Online Items
-  * Microsoft Teams
+  * Exchange Online Mailboxes,
+  * Exchange Online Contacts, 
+  * Exchange Online Calendars,
+  * Exchange Online Archive Mailboxes,
+  * OneDrive Files & Folders,
+  * SharePoint Online Items,
+  * Microsoft Teams.
 * Intelligent handling Microsoft 365 throttling & resource limits outage control
 * Multiple cloud agent support for better scalability or geographically dispersed environments
 * Auto-assign accounts to the default backup policy 
@@ -31,5 +31,5 @@ KODO for Cloud Server has the following features implemented:
 * Deduplication with Virtual Data Optimizer \(VDO\)
 * Open API for 3rd party software integration \(REST API\)
 
-Go to the [Architecture](https://storware.gitbook.io/kodo-for-cloud-office365/overview/architecture) section to learn about KODO for Cloud server architecture.
+Go to the [Architecture](https://storware.gitbook.io/kodo-for-cloud-office365/overview/architecture) chapter to learn about KODO for Cloud server architecture.
 

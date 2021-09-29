@@ -21,7 +21,7 @@ sr0                11:0    1  6.7G  0 rom
 In this example, the **sdb** disk was added to the system platform.
 
 {% hint style="warning" %}
-Prior to installation, make sure you've got access to [**https://repo.storware.eu** ](http://repo.storware.eu)site.
+Prior to installation, make sure you've got access to **repo.storware.eu** site.
 {% endhint %}
 
 Now the system platform is ready to deploy KODO for Cloud server. To start KODO for Cloud server installation, copy and paste this command to the system console and press ENTER:
@@ -52,7 +52,7 @@ Nov 02 15:23:18 localhost.localdomain systemd[1]: Started Kodo for Cloud server.
 
 ```
 
-You can also use the command below to check the version of the installed KODO for Cloud server:
+You can also use the command below to check version of the installed KODO for Cloud server:
 
 ```text
 # curl -k https://localhost:8181/api/version
@@ -65,5 +65,5 @@ If the KODO server is up and running, you should be able to log in to KODO for C
 Kodo for Cloud server credentials are presented in the [KodoAdmin vs Organization admin](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/kodoadmin-vs-kodo-organization-admin) chapter 
 {% endhint %}
 
-Go to the [Add Microsoft 365 Organization](add-microsoft-365-organization.md) section to learn how to add Microsoft 365 organization to KODO for Cloud server.
+Go to the Add Microsoft 365 Organization chapter to learn how to add Microsoft 365 organization to KODO for Cloud server.
 
