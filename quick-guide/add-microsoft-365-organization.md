@@ -3,14 +3,16 @@
 To add your Microsoft 365 organization to KODO for Cloud server using Setup Assistant, do as follow:
 
 1. Go to the **Settings** menu -&gt; select the **Microsoft 365** **Organizations** tab -&gt; click the **Add Organization** button -&gt; select the **Setup Assistant** option.
-2. In the **Wizard** window read the information and click the **Next** button to go to the next step.
-3. Copy the authorization code -&gt; click the link **https://microsoft.com/devicelogin** and enter it -&gt; sign in to your Microsoft 365 organization as a user with administrator's rights. 
-4. The application tenant is created. Click the **Next** button to go to the next step.
-5. Click the **Log in to Microsoft 365** button -&gt;[ ](https://microsoft.com/devicelogin)log in as the administrator and click **Accept** button to grant permissions for the created application.
-6. You will be redirected to the KODO admin dashboard. Enter the name for the config. 
-7. Check the **Import users** and **Import sites** options to import these assets.  
-8. Save your settings by clicking the **Save** button.
-9. You will be asked about import users and sites. If everything was set properly, the validation task status should be **COMPLETED**.
+2. In the **Wizard** window, read the information placed there, and click the **Next** button to go to the next step.
+3. Copy the authorization code -&gt; click the link **https://microsoft.com/devicelogin** and paste the code -&gt; sign in to your Microsoft 365 organization as a user with administrator's rights. 
+4. Confirm that you trying to log in to the **KODO for Cloud** application. Click the **Continue** button.
+5. The message: "**You have logged into the KODO for Cloud app on your device. You can now close this window."** should be displayed. You can close the window and switch to the **Wizard** window.
+6. The message "**Application has been sucessfully created**" should be displayed along with a detailed information window.  It means, that the application tenant is created. Click the **Next** button to go to the next step.
+7. Click the **Log in to Microsoft 365** button -&gt;[ ](https://microsoft.com/devicelogin)log in as the administrator and click the **Accept** button to grant permissions for the created application.
+8. You will be redirected to the KODO admin dashboard. Enter the name for the config. 
+9. Check the **Import users** and **Import sites** options to import these assets.  
+10. Save your settings by clicking the **Save** button.
+11. You will be asked about import users and sites. If everything was set properly, the validation task status should be **COMPLETED**.
 
 ## Required permissions
 
@@ -34,7 +36,7 @@ To add your Microsoft 365 organization to KODO for Cloud server using Setup Assi
    Set-SPOTenant -LegacyAuthProtocolsEnabled $True
    ```
 
-It enables the **LegacyAuthProtocolsEnabled** setting. 
+The command enables the **LegacyAuthProtocolsEnabled** setting. 
 
 Go to the [Launch backup & recovery](https://storware.gitbook.io/kodo-for-cloud-office365/quick-guide/lauching-backup-and-recovery) section to learn how to backup and recover Microsoft 365 data.
 

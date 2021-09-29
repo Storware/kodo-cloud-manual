@@ -11,7 +11,7 @@ You can install a complete Kodo for Cloud solution using the following 2 roles, 
 
 You need to prepare CentOS/RHEL 8 server minimal for Kodo for Cloud \(both roles can be installed on the same or different hosts\).
 
-This example assumes that you have `root` access to this host and you have configured your Ansible to connect with SSH public-keys to your host. For example:
+This example assumes that you have `root` access to this host and you have configured your Ansible to connect with SSH public keys to your host. For example:
 
 generate a key:
 

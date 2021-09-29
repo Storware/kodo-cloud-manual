@@ -107,7 +107,7 @@ dm_mod                151552  13 kvdo,dm_log,dm_mirror,dm_bufio
   # chown -R kodo:kodo /kodo_data/
   ```
 
-The directories are prepared to store backup data. Now your KODO for Cloud installation is ready for [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration) step.
+The directories are prepared to store backup data. Now your KODO for Cloud installation is ready for the [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration) step.
 
-Go to the [MS Azure Blob Storage](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/backup-destinations/microsoft-azure-blob-storage) chapter to learn how to configure that type of data storage.
+Go to the [MS Azure Blob Storage](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/backup-destinations/microsoft-azure-blob-storage) section to learn how to configure that type of data storage.
 

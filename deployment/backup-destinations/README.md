@@ -9,5 +9,5 @@ Before you start the KODO for Cloud installation process you have to configure a
 
 If you are going to use a local disk or VDO option to store your data, you have to configure a block device on a server in both cases.
 
-Go to the[ Filesystems](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/backup-destinations/filesystems) chapter to learn what filesystems the administrator is able to configure on KODO for Cloud server.
+Go to the[ Filesystems](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/backup-destinations/filesystems) section to learn what filesystems the administrator is able to configure on KODO for Cloud server.
 

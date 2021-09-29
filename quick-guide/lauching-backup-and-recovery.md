@@ -2,7 +2,7 @@
 
 ## Backup "on-demand"
 
-The first backup of Microsoft 365 organization data is always executed as a "**full**" one by default. It means, that all entities of selected Microsoft 365 features will be protected and stored. To perform full "**on-demand backup**" of Exchange Online Mailboxes, Exchange Online Archives, Calendars, Contacts, OneDrive for Business, SharePoint Online files and Teams, do the following:
+The first backup of Microsoft 365 organization data is always executed as a "**full**" one by default. It means, that all entities of selected Microsoft 365 features will be protected and stored. To perform full "**on-demand backup**" of Exchange Online Mailboxes, Exchange Online Archives, Calendars, Contacts, OneDrive for Business, SharePoint Online files, and Teams, do the following:
 
 1. Go to the **Protection** menu.
 2. Select entities you want to protect and click the **Backup** button.

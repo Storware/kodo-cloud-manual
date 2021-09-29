@@ -4,7 +4,6 @@ Before every update check installed packages version. Database version is partic
 
 ```text
 # yum info kodo-cloud-server kodo-cloud-agent mariadb-server
-# Or
 # rpm -qa | egrep -e "kodo|Maria"
 ```
 

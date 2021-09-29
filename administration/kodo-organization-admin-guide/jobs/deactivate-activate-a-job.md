@@ -15,5 +15,5 @@ If you want to activate the job, go to the **Options** menu and choose the **Act
 
 ![](../../../.gitbook/assets/kodo-cloud-administration-job02-edit.png)
 
-Go to the [Delete a job](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/jobs/delete-a-job) chapter to learn how to change the job configuration.
+Go to the [Delete a job](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/jobs/delete-a-job) section to learn how to change the job configuration.
 
