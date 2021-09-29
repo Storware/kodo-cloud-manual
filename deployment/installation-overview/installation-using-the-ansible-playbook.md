@@ -11,7 +11,7 @@ You can install a complete Kodo for Cloud solution using the following 2 roles, 
 
 You need to prepare CentOS/RHEL 8 server minimal for Kodo for Cloud \(both roles can be installed on the same or different hosts\).
 
-This example assumes that you have `root` access to this host and you have configured your Ansible to connect with SSH public-keys to your host. For example:
+This example assumes that you have `root` access to this host and you have configured your Ansible to connect with SSH public keys to your host. For example:
 
 generate a key:
 
@@ -25,7 +25,7 @@ and copy it to your CentOS/RHEL box:
 # ssh-copy-id -i ~/.ssh/id_rsa.pub root@YOUR_HOST
 ```
 
-Agents communicate with Kodo Cloud Server on port 8181, so they need to be able to access it using the server FQDN \(it needs to be resolvable\).
+Agents communicate with Kodo Cloud Server on port 8181, so they must be able to access it using the server's FQDN \(must be resolvable\).
 
 ## Installation <a id="installation"></a>
 
@@ -95,5 +95,5 @@ Ansible playbook is also able to automatically prepare **deduplication** \(by de
 vdo_physical_device: "/dev/sdb"
 ```
 
-You can begin system configuration following information from the [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration)
+You can begin system configuration following information from the [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration) section.
 

@@ -125,7 +125,7 @@ After the file is saved you can exit the editor by pressing `CTRL+x` key combina
 The final step is to restart the network configuration.  Use the following command:
 
 ```text
-# systemctl restart NetworkManager.service
+#systemctl restart NetworkManager.service
 ```
 
 Now you should be able to log into the web console using the URL: `https://KODO_SERVER_HOST:8181`, where `KODO_SERVER_HOST`is the hostname or IP address of your Kodo for Cloud server. 
@@ -138,5 +138,5 @@ https://KODO_SERVER_HOST_IP:8181
 KODO for Cloud server credentials are submitted in the [KodoAdmin vs KODO Organization admin](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/kodoadmin-vs-kodo-organization-admin) chapter 
 {% endhint %}
 
-Go to the [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration) chapter to configure KODO for Cloud server.
+Go to the [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration) section to configure KODO for Cloud server.
 

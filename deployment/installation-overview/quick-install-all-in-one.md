@@ -50,7 +50,8 @@ After the installation you can check the KODO server service status by using the
 You can also use the command below to check KODO for Cloud server version:
 
 ```text
-# curl -k https://localhost:8181/api/version# {"value":"4.2.0-17.el8"}
+# curl -k https://localhost:8181/api/version
+# {"value":"4.2.0-17.el8"}
 ```
 
 If the KODO server is up and running, you should be able to log in to KODO for Cloud using your browser, and the address `https://IP_OF_YOUR_MACHINE:8181`

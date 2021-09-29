@@ -82,7 +82,6 @@ Follow the steps to install KODO for Cloud server using rpm packages:
 
    ```text
    # mysql_secure_installation
-
    Switch to unix_socket authentication [Y/n] y
    Change the root password? [Y/n] n
    Remove anonymous users? [Y/n] y
@@ -156,7 +155,7 @@ Follow the steps below to install KODO for Cloud agent using rpm packages:
    #/opt/kodo-cloud/agent/bin/cloudagent.sh -s localhost:8181 -n voyager
    ```
 
-4. Start and enable Kodo Cloud Agent service using agent name at the end of the service name.
+4. Start and enable Kodo Cloud Agent service using the agent name at the end of the service name.
 
    * syntax:
 
@@ -172,5 +171,5 @@ Follow the steps below to install KODO for Cloud agent using rpm packages:
    #systemctl enable cloud-agent-voyager
    ```
 
-Go to the [Backup destinations](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/backup-destinations) to configure storage for backups.
+Go to the [Backup destinations](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/backup-destinations) section to configure storage for backups.
 
