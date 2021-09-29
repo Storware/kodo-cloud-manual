@@ -42,5 +42,5 @@ On KODO for Cloud server the following components are also configured:
 
 * It's a storage destination where KODO for Cloud server stores backup data.
 
-Go to the [Support Matrix](https://storware.gitbook.io/kodo-for-cloud-office365/overview/support-matrix) to learn about what features and functions KODO for Cloud server supports.
+Go to the [Support Matrix](https://storware.gitbook.io/kodo-for-cloud-office365/overview/support-matrix) serction to learn about what features and functions KODO for Cloud server supports.
 

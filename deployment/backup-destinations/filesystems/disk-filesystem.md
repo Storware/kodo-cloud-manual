@@ -69,5 +69,5 @@ Disk /dev/mapper/kodo: 1.5 TiB, 1610612736000 bytes, 393216000 sectors
 # chown -R kodo:kodo /kodo_data/
 ```
 
-The directories are prepared to store backup data. Now your KODO for Cloud installation is ready for the  [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration) step.
+The directories are prepared to store backup data. Now your KODO for Cloud installation is ready for the  [Initial Configuration](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration) section.
 

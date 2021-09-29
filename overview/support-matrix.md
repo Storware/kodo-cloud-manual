@@ -19,5 +19,5 @@ Below you will find detailed information about what Microsoft 365 services can b
 | Teams 1on1 | ✅ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ |
 | Teams Files | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
 
-Go to the [Platform Requirements](https://storware.gitbook.io/kodo-for-cloud-office365/overview/platform-requirements) to learn about platform requirements for KODO for Cloud server.
+Go to the [Platform Requirements](https://storware.gitbook.io/kodo-for-cloud-office365/overview/platform-requirements) section to learn about platform requirements for KODO for Cloud server.
 

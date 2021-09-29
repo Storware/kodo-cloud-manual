@@ -65,5 +65,5 @@ If the KODO server is up and running, you should be able to log in to KODO for C
 Kodo for Cloud server credentials are presented in the [KodoAdmin vs Organization admin](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/kodoadmin-vs-kodo-organization-admin) chapter 
 {% endhint %}
 
-Go to the Add Microsoft 365 Organization chapter to learn how to add Microsoft 365 organization to KODO for Cloud server.
+Go to the [Add Microsoft 365 Organization](add-microsoft-365-organization.md) section to learn how to add Microsoft 365 organization to KODO for Cloud server.
 

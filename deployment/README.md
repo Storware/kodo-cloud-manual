@@ -36,5 +36,5 @@ Communication between KODO and Microsoft 365
 * [Add Microsoft 365 organization using the Setup Assistant](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/microsoft-365-organization-management/add-microsoft-365-organization-using-the-setup-assistant)
 * [Account auto-synchronization](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/microsoft-365-organization-management/account-auto-synchronization)
 
-Go to the [Installation Overview](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/installation-overview) chapter to choose KODO for Cloud server installation path.
+Go to the [Installation Overview](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/installation-overview) section to choose KODO for Cloud server installation path.
 

@@ -36,5 +36,5 @@ You can check the current storage usage of your Microsoft 365 organization by lo
 It's recommended to configure all disks as LVM devices just to be able to extend their capacity if needed.
 {% endhint %}
 
-Go to the [Deployment](https://storware.gitbook.io/kodo-for-cloud-office365/deployment) chapter to choose KODO for Cloud server installation type or go to the Licensing chapter to learn how KODO for Cloud is licensed.
+Go to the [Deployment](https://storware.gitbook.io/kodo-for-cloud-office365/deployment) chapter to choose KODO for Cloud server installation type or go to the [Licensing](../licensing.md) section to learn how KODO for Cloud is licensed.
 

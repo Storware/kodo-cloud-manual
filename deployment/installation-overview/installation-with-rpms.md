@@ -172,5 +172,5 @@ Follow the steps below to install KODO for Cloud agent using rpm packages:
    #systemctl enable cloud-agent-voyager
    ```
 
-Go to the [Backup destinations](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/backup-destinations) to configure storage for backups.
+Go to the [Backup destinations](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/backup-destinations) section to configure storage for backups.
 

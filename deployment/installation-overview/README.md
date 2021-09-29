@@ -24,5 +24,5 @@ If the system platform is configured and deployment-ready do as follow:
    * Test [Backup](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/protection/backup)
    * Test [Restore](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/protection/restore)
 
-Go to the [Quick Install \(All-In-One\)](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/installation-overview/quick-install-all-in-one) chapter to deploy KODO for Cloud server using installation script.
+Go to the [Quick Install \(All-In-One\)](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/installation-overview/quick-install-all-in-one) section to deploy KODO for Cloud server using installation script.
 

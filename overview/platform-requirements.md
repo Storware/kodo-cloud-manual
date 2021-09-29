@@ -45,5 +45,5 @@ Use LVM device-mapper as a filesystem, that allows users to expand disk space if
 TCP port **8181** is used to communicate with the KODO for Cloud server UI.
 {% endhint %}
 
-Go to the [Sizing Guide](https://storware.gitbook.io/kodo-for-cloud-office365/overview/sizing-guide) to learn how to size up your system platform for KODO for Cloud server. 
+Go to the [Sizing Guide](https://storware.gitbook.io/kodo-for-cloud-office365/overview/sizing-guide) section to learn how to size up your system platform for KODO for Cloud server. 
 

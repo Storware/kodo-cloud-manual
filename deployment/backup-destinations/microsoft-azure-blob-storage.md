@@ -9,5 +9,5 @@ To configure the Azure Blob Storage as a backup destination for KODO for Cloud s
 
 The information will be required later on when  KODO for Cloud server is installed add will be ready for BLOB storage configuration.
 
-Go to the [Initial configuration ](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration)chapter to begin KODO for Cloud server configuration.
+Go to the [Initial configuration ](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration)section to begin KODO for Cloud server configuration.
 

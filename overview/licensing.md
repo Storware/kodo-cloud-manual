@@ -10,7 +10,7 @@ There is an option to buy additional years of support and subscription by contac
 
 ## **Licensing models - choose the one you want to pay for to achieve the best ROI:** <a id="licensing-models-choose-the-one-you-want-to-pay-for-to-achieve-the-best-roi"></a>
 
-**Monthly subscription** What fits Microsoft 365 licensing model best is the monthly payment model. You may decide to choose the number of months or the "**Pay as You Grow**" payment model.
+**Monthly subscription** What fits Microsoft 365 licensing model best is the monthly payment model. You may decide to choose the number of months or the **Pay as You Grow** payment model.
 
  The minimum number of subscription months you have to purchase in the license is **12**
 

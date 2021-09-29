@@ -26,5 +26,5 @@ For a medium Microsoft 365 organization \(from 51 to 250 users\) the following s
   </tbody>
 </table>
 
-Go to the [Deployment](https://storware.gitbook.io/kodo-for-cloud-office365/deployment) chapter to choose KODO for Cloud server installation type go to the [Large Microsoft 365 organization](https://storware.gitbook.io/kodo-for-cloud-office365/overview/sizing-guide/large-microsoft-365-organization) chapter.
+Go to the [Deployment](https://storware.gitbook.io/kodo-for-cloud-office365/deployment) chapter to choose KODO for Cloud server installation type go to the [Large Microsoft 365 organization](https://storware.gitbook.io/kodo-for-cloud-office365/overview/sizing-guide/large-microsoft-365-organization) section.
 

@@ -9,5 +9,5 @@ Here's a list of new features and functions added in version 4.3 of KODO for Clo
   * Team messages from the Posts channel
   * Team metadata: team settings, team members, channels, tabs, applications
 
-Go to the [What's new in 4.2](https://storware.gitbook.io/kodo-for-cloud-office365/whats-new/whats-new-in-4.2) chapter to learn about the changes in KODO for Cloud server.
+Go to the [What's new in 4.2](https://storware.gitbook.io/kodo-for-cloud-office365/whats-new/whats-new-in-4.2) section to learn about the changes in KODO for Cloud server.
 

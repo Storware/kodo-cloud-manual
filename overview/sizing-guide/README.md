@@ -31,5 +31,5 @@ Configure all disks as LVM devices just to extend their capacity in the future i
 
 Based on the best practice, we prepared four configurations that are typical for most use cases. 
 
-Browse the next chapters and find the right system configuration that fits your Microsoft 365 organization size.
+Browse the next sections and find the right system configuration that fits your Microsoft 365 organization size.
 
