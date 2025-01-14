@@ -4,9 +4,8 @@ After KODO for Cloud server is deployed, the cloud agent is in an inactive state
 
 To launch the agent, go to the **Options** menu and click the **Play** button.
 
-![](../../.gitbook/assets/agent-01.png)
+![](<../../.gitbook/assets/Agent 01.PNG>)
 
-Now the activity status in the **Active** column should be changed from **No** to **Yes**. 
+Now the activity status in the **Active** column should be changed from **No** to **Yes**.&#x20;
 
-Go to the [Storage configuration ](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/storage-configuration)to learn about storage configuration.
-
+Go to the [Storage configuration ](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration/storage-configuration)section to learn about storage configuration.

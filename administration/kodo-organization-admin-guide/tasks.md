@@ -1,6 +1,6 @@
 # Tasks
 
-All system tasks that have been, will be or are being performed on the **KODO for Cloud** server are collected in the **Tasks** view. 
+All system tasks that have been, will be or are being performed on the **KODO for Cloud** server are collected in the **Tasks** view.&#x20;
 
 The tasks are divided into the following categories:
 
@@ -19,11 +19,10 @@ There are several task types:
 * Download
 * Retention
 
-![](../../.gitbook/assets/kodo-cloud-administration-tasks01.png)
+![](../../.gitbook/assets/Kodo-Cloud-Administration-Tasks01.PNG)
 
-You can search tasks by task type \(e.g. OneDrive Backup\), over a period of time \(by calendar\), or by user name. To do this, click the filter icon at the right-top window corner.
+You can search tasks by task type (e.g. OneDrive Backup), over a period of time (by calendar), or by user name. To do this, click the filter icon at the right-top window corner.
 
-![](../../.gitbook/assets/kodo-cloud-administration-tasks02.png)
+![](../../.gitbook/assets/Kodo-Cloud-Administration-Tasks02.PNG)
 
 Go to the [Jobs](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodo-organization-admin-guide/jobs) chapter to learn about the Jobs menu.
-

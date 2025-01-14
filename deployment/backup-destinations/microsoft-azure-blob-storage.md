@@ -4,10 +4,9 @@ KODO for Cloud supports integration with MS Azure Blob Storage. An Azure storage
 
 To configure the Azure Blob Storage as a backup destination for KODO for Cloud server you need the following information:
 
-* Storage account name  
+* Storage account name &#x20;
 * One of the account keys
 
 The information will be required later on when  KODO for Cloud server is installed add will be ready for BLOB storage configuration.
 
-Go to the [Initial configuration ](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration)chapter to begin KODO for Cloud server configuration.
-
+Go to the [Initial configuration ](https://storware.gitbook.io/kodo-for-cloud-office365/deployment/initial-configuration)section to begin KODO for Cloud server configuration.

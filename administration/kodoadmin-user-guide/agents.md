@@ -8,21 +8,21 @@ One cloud agent instance is installed by default on KODO for Cloud server
 
 In the **Options**  menu you can select one of the following options:
 
-* **Details** - information about tasks that were handled by the agent.  
-* **Start/Stop** - you can start \(or stop\) the agent's instance.
+* **Details** - information about tasks that were handled by the agent. &#x20;
+* **Start/Stop** - you can start (or stop) the agent's instance.
 * **Agent config** - you can assign the agent config to the agent.
 * **Logs path** - set the path for cloud agent logs.
 * **Delete** - choose the option to delete the agent.
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](<../../.gitbook/assets/image (6).png>)
 
 ## Cloud agent settings
 
-If you need you can tweak some settings of the cloud agent. You have to log in to the server using SSH protocol and go to the directory `/opt/kodo-cloud/agent/instances/voyager/` 
+If you need you can tweak some settings of the cloud agent. You have to log in to the server using SSH protocol and go to the directory `/opt/kodo-cloud/agent/instances/voyager/`&#x20;
 
-You can edit some parameters in the `AgentConfig.json` file, however it's not recommended if you are not asked about it by KODO support.     
+You can edit some parameters in the `AgentConfig.json` file, however it's not recommended if you are not asked about it by KODO support.    &#x20;
 
-```text
+```
 {
   "agent": {
     "name": "tomek",
@@ -63,18 +63,18 @@ If you want to use this option, you have to configure the cloud agent JSON file 
 
 Do the following steps:
 
-1. Log in as `kodoadmin` user 
+1. Log in as `kodoadmin` user&#x20;
 2. Go to the **Agents** menu
 3. Click the **Activation secret** button
 4. Select and copy the **Cloud Agent activation secret**
 
-![](../../.gitbook/assets/image%20%2856%29.png)
+![](<../../.gitbook/assets/image (37).png>)
 
-5.  Log in as `root` ****user over **SSH** to the KODO for Cloud server.
+5\.  Log in as `root` user over **SSH** to the KODO for Cloud server.
 
-6. Go to the folder `/opt/kodo-cloud/agent/instances/agent_name` and edit `AgentConfig.json` file
+6\. Go to the folder `/opt/kodo-cloud/agent/instances/agent_name` and edit `AgentConfig.json` file
 
-```text
+```
 #cd /opt/kodo-cloud/agent/instances/agent_name
 #vi AgentConfig.json
 
@@ -110,13 +110,12 @@ Do the following steps:
 }
 ```
 
-7. Paste the activation key in the **activationCode** entry under "server" section\(here with an example key value\).
+7\. Paste the activation key in the **activationCode** entry under the "server" section (here with an example key value).
 
-```text
+```
 "activationCode": "KEJvxGx6BMs8Mz5ZK6^ewuamdK%C$Ix-J=GgWQ!e"
 ```
 
-8. Save the file.
+8\. Save the file.
 
-Go to the[ Tasks ](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodoadmin-user-guide/tasks)chapter to learn about how to monitor server tasks.
-
+Go to the[ Tasks ](https://storware.gitbook.io/kodo-for-cloud-office365/administration/kodoadmin-user-guide/tasks)section to learn about how to monitor server tasks.
